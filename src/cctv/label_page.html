@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CCTV Hand Counts</title>
+<style>
+  :root { --bg:#f6f6f4; --panel:#fff; --ink:#1d1d1b; --muted:#6b6b66; --line:#deddd8; --accent:#1f6feb; --ok:#1a7f37; --warn:#b35900; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#151514; --panel:#1f1f1d; --ink:#ecebe6; --muted:#9b9a94; --line:#33332f; --accent:#58a6ff; --ok:#3fb950; --warn:#f0883e; } }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:14px/1.45 system-ui, sans-serif; }
+  main { max-width:1180px; margin:0 auto; padding:16px; display:grid; grid-template-columns:minmax(0,1fr) 300px; gap:16px; }
+  @media (max-width:820px) { main { grid-template-columns:1fr; } }
+  header { grid-column:1/-1; display:flex; align-items:center; gap:12px; flex-wrap:wrap; }
+  h1 { font-size:18px; margin:0; }
+  .bar { flex:1; min-width:160px; height:8px; background:var(--line); border-radius:4px; overflow:hidden; }
+  .bar > div { height:100%; background:var(--ok); width:0; transition:width .2s; }
+  .frame { background:#000; border-radius:8px; overflow:hidden; cursor:zoom-in; }
+  .frame img { display:block; width:100%; height:auto; }
+  .frame.zoom { cursor:zoom-out; overflow:auto; max-height:80vh; }
+  .frame.zoom img { width:200%; max-width:none; }
+  .meta { color:var(--muted); font-size:12px; margin-top:6px; word-break:break-all; }
+  aside { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:14px; align-self:start; }
+  .row { display:grid; grid-template-columns:1fr 36px 44px 36px; align-items:center; gap:6px; margin-bottom:8px; }
+  .row label { font-weight:600; }
+  .row kbd { font-weight:400; }
+  .row button { height:34px; font-size:18px; }
+  .row output { text-align:center; font-size:20px; font-variant-numeric:tabular-nums; }
+  button { background:var(--bg); color:var(--ink); border:1px solid var(--line); border-radius:6px; cursor:pointer; }
+  button:hover { border-color:var(--accent); }
+  .primary { width:100%; height:42px; background:var(--accent); color:#fff; border:0; font-size:15px; font-weight:600; margin-top:6px; }
+  .nav { display:flex; gap:6px; margin-top:8px; } .nav button { flex:1; height:34px; }
+  kbd { font:11px ui-monospace, monospace; border:1px solid var(--line); border-bottom-width:2px; border-radius:4px; padding:0 4px; color:var(--muted); }
+  textarea { width:100%; height:48px; margin-top:6px; background:var(--bg); color:var(--ink); border:1px solid var(--line); border-radius:6px; padding:6px; font:inherit; }
+  .status { min-height:20px; margin-top:8px; font-size:13px; }
+  details { margin-top:12px; color:var(--muted); font-size:13px; } details ul { padding-left:18px; margin:6px 0; }
+  .saved { color:var(--ok); } .err { color:var(--warn); }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>CCTV Hand Counts</h1>
+    <div class="bar"><div id="bar"></div></div>
+    <span id="progress">–</span>
+  </header>
+  <section>
+    <div class="frame" id="frame" title="Click to zoom"><img id="img" alt="CCTV frame"></div>
+    <div class="meta" id="meta"></div>
+  </section>
+  <aside>
+    <div id="counters"></div>
+    <label><input type="checkbox" id="unusable"> Unusable frame <kbd>U</kbd></label>
+    <textarea id="note" placeholder="Note (optional)"></textarea>
+    <button class="primary" id="save">Save &amp; next <kbd style="color:#fff">Enter</kbd></button>
+    <div class="nav">
+      <button id="prev">← Prev</button>
+      <button id="todo">Next unlabelled</button>
+      <button id="next">Next →</button>
+    </div>
+    <div class="status" id="status"></div>
+    <details open>
+      <summary>Counting rules</summary>
+      <ul>
+        <li>Count every vehicle you can identify, even if partly hidden or cut off at the edge.</li>
+        <li><b>Car</b>: sedans, pickups, vans, taxis, SUVs, tuk-tuks, songthaews.</li>
+        <li><b>Truck</b>: large goods vehicles only (6+ wheels).</li>
+        <li><b>Motorcycle</b>: one per bike, not per rider.</li>
+        <li>At night, count a pair of lights only if you are sure it is one vehicle.</li>
+        <li>Mark <b>unusable</b> if the picture is blank, frozen or too foggy to count.</li>
+      </ul>
+      Keys: letter adds 1, <kbd>Shift</kbd>+letter removes 1, <kbd>←</kbd>/<kbd>→</kbd> move.
+    </details>
+  </aside>
+</main>
+<script>
+const KEYS = { car:"c", motorcycle:"m", bus:"b", truck:"t", bicycle:"i" };
+let classes = [], items = [], labels = {}, idx = 0, counts = {};
+const $ = (id) => document.getElementById(id);
+
+function render() {
+  const path = items[idx], saved = labels[path];
+  $("img").src = "/img/" + encodeURIComponent(path);
+  $("meta").textContent = `#${idx + 1} · ${path}`;
+  counts = Object.fromEntries(classes.map((c) => [c, saved ? Number(saved[c]) : 0]));
+  $("unusable").checked = saved ? saved.unusable == 1 : false;
+  $("note").value = saved ? saved.note || "" : "";
+  classes.forEach((c) => ($("n_" + c).value = counts[c]));
+  const done = Object.keys(labels).length;
+  $("progress").textContent = `${done} / ${items.length}`;
+  $("bar").style.width = (100 * done) / items.length + "%";
+  $("status").innerHTML = saved ? '<span class="saved">Labelled (saving again overwrites)</span>' : "";
+}
+
+function bump(c, d) { counts[c] = Math.max(0, counts[c] + d); $("n_" + c).value = counts[c]; }
+function go(i) { idx = (i + items.length) % items.length; $("frame").classList.remove("zoom"); render(); }
+function nextTodo() {
+  for (let k = 1; k <= items.length; k++) { const j = (idx + k) % items.length; if (!labels[items[j]]) return go(j); }
+  $("status").innerHTML = '<span class="saved">All frames labelled. You can stop the server.</span>';
+}
+
+let saving = false;  // a second Enter while a save is in flight would save the same frame twice
+async function save() {
+  if (saving) return;
+  saving = true;
+  const row = { path: items[idx], ...counts, unusable: $("unusable").checked ? 1 : 0, note: $("note").value };
+  try {
+    const r = await fetch("/api/label", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(row) });
+    if (!r.ok) throw new Error(await r.text());
+    labels[row.path] = row;
+    nextTodo();
+  } catch (e) {
+    $("status").innerHTML = `<span class="err">Not saved: ${e.message}. Is the server running?</span>`;
+  } finally {
+    saving = false;
+  }
+}
+
+document.addEventListener("keydown", (e) => {
+  if (e.target === $("note")) { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); save(); } return; }
+  const c = classes.find((k) => KEYS[k] === e.key.toLowerCase());
+  if (c) { bump(c, e.shiftKey ? -1 : 1); e.preventDefault(); }
+  else if (e.key === "Enter") { e.preventDefault(); save(); }
+  else if (e.key === "ArrowRight") go(idx + 1);
+  else if (e.key === "ArrowLeft") go(idx - 1);
+  else if (e.key.toLowerCase() === "u") $("unusable").checked = !$("unusable").checked;
+});
+$("frame").onclick = () => $("frame").classList.toggle("zoom");
+$("save").onclick = save; $("prev").onclick = () => go(idx - 1); $("next").onclick = () => go(idx + 1); $("todo").onclick = nextTodo;
+
+fetch("/api/items").then((r) => r.json()).then((d) => {
+  ({ classes, items, labels } = d);
+  $("counters").innerHTML = classes.map((c) => `
+    <div class="row"><label>${c[0].toUpperCase() + c.slice(1)} <kbd>${KEYS[c].toUpperCase()}</kbd></label>
+    <button data-c="${c}" data-d="-1">−</button><output id="n_${c}">0</output><button data-c="${c}" data-d="1">+</button></div>`).join("");
+  $("counters").onclick = (e) => { const b = e.target.closest("button"); if (b) bump(b.dataset.c, Number(b.dataset.d)); };
+  const first = items.findIndex((p) => !labels[p]);
+  go(first < 0 ? 0 : first);
+});
+</script>
+</body>
+</html>

@@ -3,7 +3,9 @@ __pycache__/
 *.pyc
 .pytest_cache/
 
-# raw images and pipeline outputs stay out of git
-data/
+# raw images and pipeline outputs stay out of git...
+data/*
+# ...except the hand-label set: small, and slow to redo
+!data/labels/
 # model weights
 *.pt
