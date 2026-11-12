@@ -40,7 +40,7 @@
 <body>
 <main>
   <header>
-    <h1>CCTV Hand Counts</h1>
+    <h1 id="title">CCTV Hand Counts</h1>
     <div class="bar"><div id="bar"></div></div>
     <span id="progress">–</span>
   </header>
@@ -77,11 +77,14 @@
 const KEYS = { car:"c", motorcycle:"m", bus:"b", truck:"t", bicycle:"i" };
 let classes = [], items = [], labels = {}, idx = 0, counts = {};
 const $ = (id) => document.getElementById(id);
+const params = new URLSearchParams(location.search);
+const WHO = params.get("who") || "", KEY = params.get("key") || "";
+const auth = `who=${encodeURIComponent(WHO)}&key=${encodeURIComponent(KEY)}`;
 
 function render() {
   const path = items[idx], saved = labels[path];
-  $("img").src = "/img/" + encodeURIComponent(path);
-  $("meta").textContent = `#${idx + 1} · ${path}`;
+  $("img").src = "/img/" + encodeURIComponent(path) + "?" + auth;
+  $("meta").textContent = `Frame ${idx + 1} of ${items.length}`;
   counts = Object.fromEntries(classes.map((c) => [c, saved ? Number(saved[c]) : 0]));
   $("unusable").checked = saved ? saved.unusable == 1 : false;
   $("note").value = saved ? saved.note || "" : "";
@@ -103,14 +106,15 @@ let saving = false;  // a second Enter while a save is in flight would save the 
 async function save() {
   if (saving) return;
   saving = true;
-  const row = { path: items[idx], ...counts, unusable: $("unusable").checked ? 1 : 0, note: $("note").value };
+  const row = { who: WHO, key: KEY, path: items[idx], ...counts, unusable: $("unusable").checked ? 1 : 0, note: $("note").value };
   try {
     const r = await fetch("/api/label", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(row) });
     if (!r.ok) throw new Error(await r.text());
-    labels[row.path] = row;
+    const { who, key, ...stored } = row;
+    labels[row.path] = stored;
     nextTodo();
   } catch (e) {
-    $("status").innerHTML = `<span class="err">Not saved: ${e.message}. Is the server running?</span>`;
+    $("status").innerHTML = `<span class="err">Not saved: ${e.message}. Check your connection and press Enter again.</span>`;
   } finally {
     saving = false;
   }
@@ -128,14 +132,21 @@ document.addEventListener("keydown", (e) => {
 $("frame").onclick = () => $("frame").classList.toggle("zoom");
 $("save").onclick = save; $("prev").onclick = () => go(idx - 1); $("next").onclick = () => go(idx + 1); $("todo").onclick = nextTodo;
 
-fetch("/api/items").then((r) => r.json()).then((d) => {
+fetch("/api/items?" + auth).then(async (r) => {
+  if (!r.ok) throw new Error(await r.text());
+  return r.json();
+}).then((d) => {
   ({ classes, items, labels } = d);
+  $("title").textContent = `CCTV Hand Counts · ${d.who}`;
+  document.title = `Hand Counts · ${d.who}`;
   $("counters").innerHTML = classes.map((c) => `
     <div class="row"><label>${c[0].toUpperCase() + c.slice(1)} <kbd>${KEYS[c].toUpperCase()}</kbd></label>
     <button data-c="${c}" data-d="-1">−</button><output id="n_${c}">0</output><button data-c="${c}" data-d="1">+</button></div>`).join("");
   $("counters").onclick = (e) => { const b = e.target.closest("button"); if (b) bump(b.dataset.c, Number(b.dataset.d)); };
   const first = items.findIndex((p) => !labels[p]);
   go(first < 0 ? 0 : first);
+}).catch((e) => {
+  document.querySelector("main").innerHTML = `<p style="grid-column:1/-1;font-size:16px">${e.message}</p>`;
 });
 </script>
 </body>

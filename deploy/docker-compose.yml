@@ -1,0 +1,32 @@
+# Labelling server for the team, published to the internet with Tailscale Funnel.
+# Friends open https://cctv-label.<your-tailnet>.ts.net/?who=...&key=... and need nothing installed.
+#
+# Expects the bundle from `python -m cctv.assign` copied to /opt/cctv-label on the Docker host.
+# In Portainer: Stacks -> Add stack -> Web editor, paste this file, and set TS_AUTHKEY under
+# "Environment variables". See README "Team labelling on the homelab".
+services:
+  tailscale:
+    image: tailscale/tailscale:stable
+    hostname: cctv-label            # becomes https://cctv-label.<your-tailnet>.ts.net
+    environment:
+      - TS_AUTHKEY=${TS_AUTHKEY}
+      - TS_STATE_DIR=/var/lib/tailscale
+      - TS_SERVE_CONFIG=/config/serve.json
+      - TS_USERSPACE=true           # no /dev/net/tun needed, works inside Proxmox LXC
+    volumes:
+      - cctv-label-ts:/var/lib/tailscale
+      - /opt/cctv-label/tailscale:/config:ro
+    restart: unless-stopped
+
+  label:
+    image: python:3.13-alpine
+    network_mode: service:tailscale  # shares the sidecar's network; Funnel proxies to 127.0.0.1:8765
+    depends_on: [tailscale]
+    command: ["python", "-u", "/app/label_server.py", "--data", "/data", "--host", "127.0.0.1", "--port", "8765"]
+    volumes:
+      - /opt/cctv-label/app:/app:ro
+      - /opt/cctv-label/data:/data   # labels are written to /opt/cctv-label/data/labels/
+    restart: unless-stopped
+
+volumes:
+  cctv-label-ts:

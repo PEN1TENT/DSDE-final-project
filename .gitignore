@@ -7,5 +7,8 @@ __pycache__/
 data/*
 # ...except the hand-label set: small, and slow to redo
 !data/labels/
+# secret per-person keys and the homelab bundle (holds keys + images) never go in git
+data/labels/tokens.csv
+deploy/build/
 # model weights
 *.pt
