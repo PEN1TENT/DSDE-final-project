@@ -21,7 +21,13 @@ services:
   label:
     image: python:3.13-alpine
     network_mode: service:tailscale  # shares the sidecar's network; Funnel proxies to 127.0.0.1:8765
-    depends_on: [tailscale]
+    # If the sidecar restarts it gets a new network and this container is left on the old one
+    # (502, "connection refused" in the tailscale logs). restart: true re-attaches it when the
+    # stack restarts the sidecar. In Portainer, restart the whole stack, not one container.
+    depends_on:
+      tailscale:
+        condition: service_started
+        restart: true
     command: ["python", "-u", "/app/label_server.py", "--data", "/data", "--host", "127.0.0.1", "--port", "8765"]
     volumes:
       - /opt/cctv-label/app:/app:ro
