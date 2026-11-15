@@ -69,6 +69,15 @@ Tailscale sidecar that publishes it via Funnel. Friends open their link; nothing
 
 Local test without Docker: `python3 deploy/build/app/label_server.py --data deploy/build/data`.
 
+## Rain analysis and report
+
+```bash
+uv run python -m cctv.rain --counts data/interim/l640/image_counts.parquet --out data/processed/l640
+uv run python -m cctv.charts      # writes reports/figures/*.png
+```
+
+The write-up is [`reports/report.md`](reports/report.md).
+
 ## Tests
 
 ```bash
