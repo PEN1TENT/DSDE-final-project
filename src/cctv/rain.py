@@ -13,8 +13,9 @@ are not independent).
 
 Two measures are used: vehicle count, and the share of the frame covered by
 vehicle boxes, which is less sensitive to the detector missing small vehicles.
-Rain on the lens can also hide vehicles, so image sharpness is reported per rain
-level as a check.
+Rain on the lens and darkness also hide vehicles, so a third measure, "calibrated",
+scales each class by hand/model from the labelled frames in the same condition
+(time of day x wet/dry). Without it, wet evenings look emptier than they are.
 
     uv run python -m cctv.rain
     uv run python -m cctv.rain --counts data/interim/image_counts_best.parquet
@@ -30,12 +31,41 @@ import pandas as pd
 
 BINS = [-0.01, 0.1, 2.0, 5.0, np.inf]
 LEVELS = ["dry", "light (0.1-2)", "moderate (2-5)", "heavy (>5)"]
-MEASURES = {"vehicles": "n_vehicles", "covered": "covered_fraction"}
+MEASURES = {"vehicles": "n_vehicles", "covered": "covered_fraction", "calibrated": "n_calibrated"}
+CLASSES = {"four_wheel": ["car", "truck"], "motorcycle": ["motorcycle"], "bus": ["bus"], "bicycle": ["bicycle"]}
+PERIODS = ([5, 16, 19, 22], ["day 6-16", "evening 17-19", "late 20-21"])
+
+
+def condition(hour: pd.Series, rain_mm: pd.Series) -> pd.Series:
+    period = pd.cut(hour, PERIODS[0], labels=PERIODS[1]).astype(str)
+    return period + np.where(rain_mm > 0.1, " wet", " dry")
+
+
+def calibrate(df: pd.DataFrame, labels: Path, labelled: Path) -> tuple[pd.DataFrame, pd.DataFrame]:
+    """Add n_calibrated = sum over classes of model count x (hand / model) in that condition."""
+    lab = pd.read_csv(labels / labelled.name).merge(
+        pd.read_csv(labels / "assignments.csv")[["who", "path", "role"]], on=["who", "path"])
+    lab = lab[(lab["role"] == "own") & (lab["unusable"] == 0)]
+    lab = lab.merge(df[["path", "hour", "rain_now"] + [f"n_{c}" for cs in CLASSES.values() for c in cs]], on="path")
+    lab["cond"] = condition(lab["hour"], lab["rain_now"])
+    df["cond"] = condition(df["hour"], df["rain_now"])
+    factors = {}
+    df["n_calibrated"] = 0.0
+    for name, cols in CLASSES.items():
+        hand = lab[cols].sum(axis=1).groupby(lab["cond"]).sum()
+        model = lab[[f"n_{c}" for c in cols]].sum(axis=1).groupby(lab["cond"]).sum()
+        f = (hand / model.where(model > 0)).fillna(1.0)
+        factors[name] = f
+        df["n_calibrated"] += df[[f"n_{c}" for c in cols]].sum(axis=1) * df["cond"].map(f).fillna(1.0)
+    table = pd.DataFrame(factors)
+    table["frames"] = lab.groupby("cond").size()
+    return df, table
 
 
 def load(images: Path, counts: Path, weather: Path) -> pd.DataFrame:
     img = pd.read_parquet(images, columns=["path", "camera_id", "timestamp", "brightness", "sharpness", "frozen"])
-    cnt = pd.read_parquet(counts, columns=["path", "n_vehicles", "covered_fraction", "n_motorcycle", "n_car", "n_truck"])
+    cnt = pd.read_parquet(counts, columns=["path", "n_vehicles", "covered_fraction",
+                                           "n_motorcycle", "n_car", "n_truck", "n_bus", "n_bicycle"])
     df = img.merge(cnt, on="path").dropna(subset=["timestamp"])
     df = df[~df["frozen"]]
     df["camera_id"] = df["camera_id"].astype(int)
@@ -55,7 +85,7 @@ def load(images: Path, counts: Path, weather: Path) -> pd.DataFrame:
     df["rain_2h_before"] = lookup(now_end - pd.Timedelta(hours=2))
     df["hour"] = df["timestamp"].dt.hour
     df["date"] = df["timestamp"].dt.date
-    df["daytype"] = np.where(df["timestamp"].dt.dayofweek >= 5, "weekend", "weekday")
+    df["daytype"] = np.where(df["timestamp"].dt.day_of_week >= 5, "weekend", "weekday")
     return df.dropna(subset=["rain_now"])
 
 
@@ -108,10 +138,16 @@ def main() -> None:
     parser.add_argument("--counts", type=Path, default=Path("data/interim/image_counts.parquet"))
     parser.add_argument("--weather", type=Path, default=Path("data/interim/weather.parquet"))
     parser.add_argument("--out", type=Path, default=Path("data/processed"))
+    parser.add_argument("--labels", type=Path, default=Path("data/labels"))
+    parser.add_argument("--labelled", type=Path, default=Path("export.csv"), help="hand labels file in --labels")
     parser.add_argument("--boot", type=int, default=500)
     args = parser.parse_args()
 
-    df = add_excess(load(args.images, args.counts, args.weather))
+    df, factors = calibrate(load(args.images, args.counts, args.weather), args.labels, args.labelled)
+    pd.set_option("display.float_format", "{:.2f}".format)
+    print("calibration factors (hand / model) by condition:")
+    print(factors.to_string())
+    df = add_excess(df)
     print(f"{len(df)} snapshots, {df['camera_id'].nunique()} cameras, "
           f"{df['date'].nunique()} days, {(df['rain_now'] > 0.1).mean():.0%} in wet hours")
     pd.set_option("display.float_format", "{:.1f}".format)
@@ -130,11 +166,24 @@ def main() -> None:
     # Is the effect bigger at rush hour? (rain_now, wet = > 0.1 mm)
     df["wet"] = df["rain_now"] > 0.1
     df["period"] = pd.cut(df["hour"], [5, 9, 16, 19, 22], labels=["morning 6-9", "midday 10-16", "evening 17-19", "late 20-21"], right=True)
-    by = df.groupby(["period", "wet"], observed=True)["excess_vehicles"].mean().unstack()
-    by = 100 * np.expm1(by)
-    by["wet_minus_dry"] = by[True] - by[False]
-    print("\n== wet vs dry by time of day (% vs usual, vehicles) ==")
-    print(by.rename(columns={False: "dry", True: "wet"}).to_string())
+    for m in ["vehicles", "calibrated"]:
+        by = 100 * np.expm1(df.groupby(["period", "wet"], observed=True)[f"excess_{m}"].mean().unstack())
+        by["wet_minus_dry"] = by[True] - by[False]
+        print(f"\n== wet vs dry by time of day (% vs usual, {m}) ==")
+        print(by.rename(columns={False: "dry", True: "wet"}).to_string())
+
+    # Leave one day out: a result that hinges on one day is not a rain effect.
+    rows = []
+    for drop in [None, *sorted(df["date"].unique())]:
+        d = df if drop is None else df[df["date"] != drop]
+        heavy = d["rain_now"] > 5
+        late = d["hour"] >= 17
+        e = d["excess_calibrated"]
+        rows.append({"dropped": str(drop or "none"),
+                     "heavy_vs_dry_%": 100 * (np.expm1(e[heavy].mean()) - np.expm1(e[~d["wet"]].mean())),
+                     "evening_wet_vs_dry_%": 100 * (np.expm1(e[late & d["wet"]].mean()) - np.expm1(e[late & ~d["wet"]].mean()))})
+    print("\n== leave one day out (calibrated) ==")
+    print(pd.DataFrame(rows).to_string(index=False))
 
     out = args.out / "rain_effect.csv"
     pd.concat(results).to_csv(out, index=False)
