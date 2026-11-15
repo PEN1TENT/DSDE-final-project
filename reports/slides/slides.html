@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Does rain make Bangkok roads look more congested? (Jarn Touz)</title>
+<!-- Build the PDF: see reports/slides/README.md -->
+<style>
+  @page { size: 1280px 720px; margin: 0; }
+  :root {
+    --ink: #0b0b0b; --ink2: #52514e; --muted: #8a8984; --line: #e4e3df;
+    --surface: #fcfcfb; --card: #f3f2ee; --blue: #2a78d6; --orange: #eb6834; --aqua: #1baf7a;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: #777; }
+  body { font-family: -apple-system, "Helvetica Neue", Arial, sans-serif; color: var(--ink); }
+  .slide {
+    width: 1280px; height: 720px; background: var(--surface); position: relative;
+    padding: 56px 72px 48px; overflow: hidden; page-break-after: always; break-after: page;
+    margin: 0 auto 24px; display: flex; flex-direction: column;
+  }
+  @media print { html, body { background: none; } .slide { margin: 0; } }
+  .kicker { font-size: 15px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--blue); margin-bottom: 10px; }
+  h1 { font-size: 40px; line-height: 1.15; font-weight: 700; letter-spacing: -.01em; }
+  h2 { font-size: 32px; line-height: 1.2; font-weight: 700; margin-bottom: 26px; letter-spacing: -.01em; }
+  h3 { font-size: 19px; font-weight: 700; margin-bottom: 8px; }
+  p, li { font-size: 20px; line-height: 1.45; color: var(--ink2); }
+  ul { padding-left: 24px; }
+  li { margin-bottom: 10px; }
+  li::marker { color: var(--muted); }
+  b, strong { color: var(--ink); }
+  .num { font-variant-numeric: tabular-nums; }
+  .page { position: absolute; right: 40px; bottom: 22px; font-size: 13px; color: var(--muted); }
+  .foot { position: absolute; left: 72px; bottom: 22px; font-size: 13px; color: var(--muted); }
+  .row { display: flex; gap: 40px; flex: 1; min-height: 0; }
+  .col { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+  .fig { width: 100%; height: 100%; object-fit: contain; object-position: center top; min-height: 0; }
+  .figbox { flex: 1; min-height: 0; display: flex; }
+  .cap { font-size: 14px; color: var(--muted); margin-top: 6px; }
+  .card { background: var(--card); border-radius: 12px; padding: 18px 22px; }
+  .stats { display: flex; gap: 18px; margin-bottom: 28px; }
+  .stat { flex: 1; background: var(--card); border-radius: 12px; padding: 16px 20px; }
+  .stat .v { font-size: 38px; font-weight: 700; letter-spacing: -.02em; }
+  .stat .l { font-size: 15px; color: var(--ink2); margin-top: 2px; }
+  table { border-collapse: collapse; width: 100%; font-size: 17px; }
+  th { text-align: left; font-size: 13px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); font-weight: 600; padding: 0 12px 8px 0; border-bottom: 1px solid var(--line); }
+  td { padding: 11px 12px 11px 0; border-bottom: 1px solid var(--line); color: var(--ink2); vertical-align: top; line-height: 1.35; }
+  td:first-child { color: var(--ink); font-weight: 600; }
+  code { font-family: "SF Mono", Menlo, monospace; font-size: .86em; background: #ecebe6; padding: 1px 6px; border-radius: 4px; color: var(--ink); }
+  .pill { display: inline-block; font-size: 13px; font-weight: 600; padding: 3px 10px; border-radius: 999px; background: #e3edf9; color: var(--blue); margin-right: 6px; }
+  .pill.o { background: #fbe9e1; color: #c24f1f; }
+  .pill.g { background: #ddf3ea; color: #12875d; }
+  .big { font-size: 64px; font-weight: 800; letter-spacing: -.03em; line-height: 1; }
+
+  /* title */
+  .title { background: #10161f; color: #fff; justify-content: center; padding: 72px 88px; }
+  .title h1 { font-size: 54px; color: #fff; max-width: 980px; }
+  .title p { color: #b9c2cf; font-size: 22px; }
+  .title .kicker { color: #7fb2ef; }
+  .title .meta { margin-top: 40px; display: flex; gap: 48px; }
+  .title .meta div { font-size: 18px; color: #dfe5ee; line-height: 1.5; }
+  .title .meta span { display: block; font-size: 13px; color: #8693a6; text-transform: uppercase; letter-spacing: .08em; }
+  .title .strip { position: absolute; right: 0; top: 0; bottom: 0; width: 360px; display: grid; grid-template-rows: 1fr 1fr; }
+  .title .strip img { width: 100%; height: 100%; object-fit: cover; opacity: .85; }
+  .title .inner { max-width: 760px; }
+
+  /* section divider */
+  .divider { background: #10161f; justify-content: center; }
+  .divider h1 { color: #fff; font-size: 48px; }
+  .divider p { color: #b9c2cf; margin-top: 14px; font-size: 22px; max-width: 860px; }
+  .divider .kicker { color: #7fb2ef; }
+  .divider .page { color: #6b778a; }
+
+  /* architecture diagram */
+  .arch { display: grid; grid-template-columns: 210px 34px 1fr 34px 210px; align-items: stretch; flex: 1; min-height: 0; }
+  .lane { display: flex; flex-direction: column; gap: 10px; }
+  .lane-t { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin-bottom: 2px; }
+  .box { border: 1.5px solid var(--line); background: #fff; border-radius: 10px; padding: 9px 12px; font-size: 15px; line-height: 1.3; color: var(--ink2); }
+  .box b { display: block; font-size: 16px; color: var(--ink); }
+  .box.src { border-color: #b8d1f0; background: #f2f7fd; }
+  .box.de { border-color: #c7e9da; background: #f1faf6; }
+  .box.ds { border-color: #f4cdbd; background: #fdf4f0; }
+  .box.bi { border-color: #d6c8f0; background: #f6f2fd; }
+  .lane > .box.src { flex: 1; display: flex; flex-direction: column; justify-content: center; }
+  .de-grid { flex: 1; grid-auto-rows: 1fr; }
+  .arrow { display: flex; align-items: center; justify-content: center; font-size: 26px; color: var(--muted); }
+  .de-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .orch { margin-top: 10px; border: 1.5px dashed var(--aqua); border-radius: 10px; padding: 8px 12px; font-size: 14.5px; color: #12875d; }
+  .flow { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; font-size: 14px; color: var(--ink2); margin-top: 6px; }
+  .flow span { background: #fff; border: 1px solid #c7e9da; padding: 3px 9px; border-radius: 6px; }
+  .flow i { color: var(--muted); font-style: normal; }
+
+  .formula { font-family: "SF Mono", Menlo, monospace; font-size: 18px; background: #10161f; color: #e9eef5; padding: 18px 22px; border-radius: 10px; line-height: 1.6; margin: 6px 0 18px; }
+  .formula em { color: #7fb2ef; font-style: normal; }
+  .callout { border-left: 4px solid var(--orange); padding: 10px 16px; background: #fdf4f0; border-radius: 0 10px 10px 0; font-size: 18px; color: var(--ink2); line-height: 1.45; }
+  .callout.b { border-color: var(--blue); background: #f2f7fd; }
+  .shot { border-radius: 10px; border: 1px solid var(--line); width: 100%; height: 100%; object-fit: cover; object-position: left top; }
+</style>
+</head>
+<body>
+
+<!-- 1 Title -->
+<section class="slide title">
+  <div class="strip">
+    <img src="fig/frame_dry_day.png" alt="">
+    <img src="fig/frame_wet_night.png" alt="">
+  </div>
+  <div class="inner">
+    <div class="kicker">2110403 DSDE · Final project 2026/1</div>
+    <h1>Does rain make Bangkok roads look more congested?</h1>
+    <p style="margin-top:18px">A one-week study of 61,143 CCTV snapshots from 100 BMA traffic cameras</p>
+    <div class="meta">
+      <div><span>Group</span>Jarn Touz</div>
+      <div><span>Members</span>[name 1] · [name 2] · [name 3]<br>[name 4] · [name 5] · [name 6]</div>
+    </div>
+  </div>
+</section>
+
+<!-- 2 Answer first -->
+<section class="slide">
+  <div class="kicker">The short answer</div>
+  <h2>Heavy rain comes with about 4% more vehicles in view, during the downpour only</h2>
+  <div class="stats">
+    <div class="stat"><div class="v num">+3.7 pts</div><div class="l">heavy rain (&gt;5 mm/h) vs dry hours, same camera &amp; hour</div></div>
+    <div class="stat"><div class="v num">+2.5 to +4.9</div><div class="l">range when any one day is left out</div></div>
+    <div class="stat"><div class="v num">0</div><div class="l">effect from rain 1–2 hours earlier</div></div>
+    <div class="stat"><div class="v num">37% → 100%</div><div class="l">vehicles found by detector, first run → calibrated</div></div>
+  </div>
+  <ul>
+    <li><b>Light rain</b> comes with slightly <i>fewer</i> vehicles (about −2%), close to zero.</li>
+    <li>The apparent <b>drop on wet evenings</b> comes from one day (Mon 31 Aug); without it the sign flips.</li>
+    <li>Much of the work was making the counts trustworthy: <b>1,000 frames counted by hand</b> to pick and correct the detector.</li>
+  </ul>
+  <div class="page">2</div>
+</section>
+
+<!-- 3 Data -->
+<section class="slide">
+  <div class="kicker">1 · Data</div>
+  <h2>One CCTV dataset plus three outside sources and our own labels</h2>
+  <table>
+    <tr><th style="width:230px">Source</th><th style="width:220px">How we got it</th><th>What it adds</th></tr>
+    <tr><td>BMA CCTV images</td><td>Provided (scraped)</td><td>100 cameras, 25–31 Aug 2026, ~1 image / 10 min, 352×288 px, ~611 images per camera</td></tr>
+    <tr><td>Open-Meteo archive</td><td>REST API</td><td>Hourly modelled rainfall at each camera's coordinates → rain level per snapshot</td></tr>
+    <tr><td>OpenStreetMap</td><td>Overpass API (QL)</td><td>Nearest road: class, lanes, speed limit, one-way; schools, hospitals, malls, rail stations within 500 m</td></tr>
+    <tr><td>sunrise-sunset.org</td><td>REST API</td><td>Sunrise, sunset, civil twilight per day → day / twilight / night label per snapshot</td></tr>
+    <tr><td>Team hand labels</td><td>Our labelling web app</td><td>1,000 frames counted by 5 people (199 counted twice) → ground truth for the detector</td></tr>
+  </table>
+  <p style="margin-top:20px; font-size:17px">All API responses are cached in <code>data/raw/external/</code>, so the whole pipeline re-runs offline.</p>
+  <div class="page">3</div>
+</section>
+
+<!-- 4 Architecture -->
+<section class="slide">
+  <div class="kicker">2 · How the components connect</div>
+  <h2 style="margin-bottom:18px">From raw images to a dashboard in one command</h2>
+  <div class="arch">
+    <div class="lane">
+      <div class="lane-t">Sources</div>
+      <div class="box src"><b>CCTV images</b>61k JPEGs, 100 cameras</div>
+      <div class="box src"><b>Open-Meteo</b>hourly rain</div>
+      <div class="box src"><b>OpenStreetMap</b>road context</div>
+      <div class="box src"><b>sunrise-sunset</b>light phase</div>
+      <div class="box src"><b>Hand labels</b>1,000 frames</div>
+    </div>
+    <div class="arrow">→</div>
+    <div class="lane">
+      <div class="lane-t">Component 1 · Data engineering &nbsp;<span style="color:#c24f1f">· Component 2 · Data science</span></div>
+      <div class="de-grid">
+        <div class="box de"><b>inventory</b>timestamps, readability, brightness, frozen-frame flag</div>
+        <div class="box de"><b>detect</b>YOLO11-L vehicle boxes &amp; counts per class</div>
+        <div class="box de"><b>weather · osm · daylight</b>fetch, cache, join to camera &amp; hour</div>
+        <div class="box de"><b>mart</b>clean tables for the dashboard</div>
+        <div class="box ds"><b>bake-off &amp; evaluate</b>pick detector, measure error vs hand counts</div>
+        <div class="box ds"><b>rain</b>calibrate, excess over usual, bootstrap CIs</div>
+      </div>
+      <div class="orch"><b>cctv.pipeline</b> runs the steps in order and skips any whose outputs are newer than their inputs
+        <div class="flow"><span>inventory</span><i>→</i><span>detect</span><i>→</i><span>weather</span><i>→</i><span>osm</span><i>→</i><span>daylight</span><i>→</i><span>rain</span><i>→</i><span>charts</span><i>→</i><span>mart</span></div>
+      </div>
+    </div>
+    <div class="arrow">→</div>
+    <div class="lane">
+      <div class="lane-t">Component 3 &amp; 4</div>
+      <div class="box bi" style="flex:1"><b>Streamlit dashboard</b>overview · camera map · rain vs congestion · road context · camera explorer</div>
+      <div class="box bi" style="flex:1"><b>Insights</b>report + charts: rain effect, timing, robustness</div>
+    </div>
+  </div>
+  <div class="page">4</div>
+</section>
+
+<!-- 5 DE -->
+<section class="slide">
+  <div class="kicker">Component 1 · Data engineering</div>
+  <h2>Cleaning the images before counting anything</h2>
+  <div class="row">
+    <div class="col">
+      <ul>
+        <li><b>Timestamps</b> parsed from the filename, then EXIF; images with neither kept and flagged.</li>
+        <li><b>Frozen frames</b> (camera stuck on the same picture) detected and removed.</li>
+        <li><b>Readability, brightness, sharpness</b> stored per image, so dark or blurred frames can be filtered.</li>
+        <li>Camera/hour cells with <b>fewer than 3 snapshots</b> dropped before comparing.</li>
+        <li>Outside data joined on <b>camera location + hour</b>; road attributes on the nearest OSM way.</li>
+      </ul>
+    </div>
+    <div class="col" style="gap:14px">
+      <div class="card"><h3>Reproducible</h3><p style="font-size:17px"><code>uv run python -m cctv.pipeline</code> rebuilds only what is out of date; <code>--dry-run</code> shows the plan.</p></div>
+      <div class="card"><h3>Resumable detection</h3><p style="font-size:17px">YOLO runs at ~10 images/s on an Apple GPU and picks up where it stopped.</p></div>
+      <div class="card"><h3>Tested</h3><p style="font-size:17px">20 pytest tests cover timestamp parsing, OSM road matching, light phases and the labelling app.</p></div>
+    </div>
+  </div>
+  <div class="page">5</div>
+</section>
+
+<!-- 6 Detection examples -->
+<section class="slide">
+  <div class="kicker">Component 1 · From pixels to counts</div>
+  <h2>YOLO11 turns each frame into vehicle counts by class</h2>
+  <div class="row" style="gap:28px">
+    <div class="col"><div class="figbox"><img class="fig" src="fig/frame_dry_day.png" alt="Detections on a dry morning frame"></div><div class="cap">Dry morning, 31 Aug 09:10</div></div>
+    <div class="col"><div class="figbox"><img class="fig" src="fig/frame_wet_night.png" alt="Detections on a wet evening frame"></div><div class="cap">Wet evening, 28 Aug 19:25: glare and reflections make misses more likely</div></div>
+  </div>
+  <p style="font-size:15px; margin-top:8px"><span class="pill">car</span><span class="pill g">truck</span><span class="pill o">motorcycle</span> Boxes shown at confidence ≥ 0.25 for readability; counting uses 0.05.</p>
+  <div class="page">6</div>
+</section>
+
+<!-- 7 Golden set -->
+<section class="slide">
+  <div class="kicker">Component 2 · How good are the counts?</div>
+  <h2>We counted 1,000 frames by hand to measure the detector</h2>
+  <div class="row">
+    <div class="col">
+      <ul>
+        <li><b>Stratified sample:</b> 12 strata (time of day × rain × traffic) × 75 frames, plus 100 frames where the model saw nothing.</li>
+        <li><b>5 people, 240 frames each</b>, through a small labelling web app on our homelab (Docker + Tailscale Funnel). The page never shows model boxes.</li>
+        <li><b>199 frames counted twice</b> → two people differ by <b>2.7 vehicles</b> per frame. No detector can look better than that.</li>
+        <li>Pickups count as cars by hand; YOLO calls many of them trucks, so we also compare <b>cars + trucks</b>.</li>
+      </ul>
+    </div>
+    <div class="col" style="flex:.8; justify-content:center; gap:16px">
+      <div class="stat"><div class="v num">1,000</div><div class="l">hand-counted frames (12 unusable)</div></div>
+      <div class="stat"><div class="v num">2.7</div><div class="l">vehicles: human vs human disagreement</div></div>
+      <div class="stat"><div class="v num">4.9</div><div class="l">vehicles: MAE of the chosen detector</div></div>
+    </div>
+  </div>
+  <div class="page">7</div>
+</section>
+
+<!-- 8 Detector error -->
+<section class="slide">
+  <div class="kicker">Component 2 · Detector bake-off and calibration</div>
+  <h2>The first detector missed 63% of vehicles, worst at night in rain</h2>
+  <div class="row">
+    <div class="col" style="flex:1.35"><div class="figbox"><img class="fig" src="../figures/detector_error.png" alt="Model count divided by hand count by condition"></div></div>
+    <div class="col">
+      <ul style="font-size:18px">
+        <li>Tried YOLO11 <b>s / m / l / x</b> at 640 / 960 / 1280 px and several thresholds, tune/test split.</li>
+        <li><b>yolo11l, 640 px, conf 0.05</b> wins. Bigger inputs don't help on 352×288 frames.</li>
+        <li><b>Calibration</b>: per condition (day/evening/late × wet/dry) and class, scale by hand ÷ model.</li>
+        <li>Bars are <b>cross-fitted</b>: each person's frames are corrected with factors from everyone else.</li>
+      </ul>
+      <div class="callout" style="font-size:16px">Late wet hours (34 frames) stay unreliable. No headline number depends on them: raw counts give the same result.</div>
+    </div>
+  </div>
+  <div class="page">8</div>
+</section>
+
+<!-- 9 Method -->
+<section class="slide">
+  <div class="kicker">Component 2 · Analysis method</div>
+  <h2>Compare each snapshot with what is usual for that camera and hour</h2>
+  <div class="formula">excess = log(1 + count) − mean log(1 + count) in <em>(camera, hour, weekday/weekend)</em><br>exp(excess) − 1 ≈ “% above usual”</div>
+  <div class="row" style="gap:24px">
+    <div class="card col"><h3>Why a baseline?</h3><p style="font-size:17px">Rush hour, camera zoom and road size differ far more than rain does. Subtracting the camera-hour mean removes them.</p></div>
+    <div class="card col"><h3>Rain levels</h3><p style="font-size:17px">dry · light 0.1–2 · moderate 2–5 · heavy &gt;5 mm/h, for the same hour and 1 or 2 hours before.</p></div>
+    <div class="card col"><h3>Honest uncertainty</h3><p style="font-size:17px">95% CIs from resampling whole camera-days, since snapshots from one camera on one day are not independent.</p></div>
+  </div>
+  <div class="page">9</div>
+</section>
+
+<!-- 10 Divider -->
+<section class="slide divider">
+  <div class="kicker">Component 4</div>
+  <h1>What we found</h1>
+  <p>Traffic patterns first, then the rain effect and the checks behind it.</p>
+  <div class="page">10</div>
+</section>
+
+<!-- 11 Patterns -->
+<section class="slide">
+  <div class="kicker">Traffic patterns</div>
+  <h2>Clear weekday rush hours; cars dominate what the cameras see</h2>
+  <div class="row" style="gap:28px">
+    <div class="col"><div class="figbox"><img class="fig" src="fig/hourly_profile.png" alt="Vehicles per frame by hour"></div>
+      <p style="font-size:16px; margin-top:8px">Weekday evening peak at <b>17:00</b> (~23 vehicles per frame), morning peak at 08:00. Weekends are lower and flatter.</p></div>
+    <div class="col"><div class="figbox"><img class="fig" src="fig/vehicle_mix.png" alt="Detected vehicles by class"></div>
+      <p style="font-size:16px; margin-top:8px">Motorcycles are under-detected (small, often hidden), which is why calibration is done per class.</p></div>
+  </div>
+  <div class="page">11</div>
+</section>
+
+<!-- 12 Rain levels -->
+<section class="slide">
+  <div class="kicker">Finding 1 · Rain level and timing</div>
+  <h2>Only heavy rain, in the same hour, comes with more vehicles</h2>
+  <div class="row">
+    <div class="col" style="flex:1.45"><div class="figbox"><img class="fig" src="../figures/rain_levels.png" alt="Percent vs usual by rain level"></div></div>
+    <div class="col">
+      <ul style="font-size:18px">
+        <li><b>Heavy rain now: +5.8%</b> vs usual; dry hours +2.0% → <b>+3.7 points</b>.</li>
+        <li>Light and moderate rain sit slightly below usual.</li>
+        <li>Rain <b>1 hour earlier</b>: nothing. Traffic builds up during the downpour, not after it.</li>
+        <li>Heavy rain 2 h earlier hints at <i>fewer</i> vehicles (−4.8%), but only 454 snapshots.</li>
+      </ul>
+      <div class="callout b" style="font-size:16px">Same answer without calibration: raw counts give +6.2% for heavy rain.</div>
+    </div>
+  </div>
+  <div class="page">12</div>
+</section>
+
+<!-- 13 Time of day + LODO -->
+<section class="slide">
+  <div class="kicker">Finding 2 · Does it hold up?</div>
+  <h2>The heavy-rain effect survives dropping any day; the evening dip does not</h2>
+  <div class="row" style="gap:28px">
+    <div class="col"><div class="figbox"><img class="fig" src="../figures/wet_dry_by_hour.png" alt="Wet vs dry by hour"></div>
+      <p style="font-size:16px; margin-top:6px">Wet and dry hours track each other until 19–20 h, where wet hours fall to about −10%.</p></div>
+    <div class="col"><div class="figbox"><img class="fig" src="../figures/leave_one_day_out.png" alt="Leave one day out"></div>
+      <p style="font-size:16px; margin-top:6px">Heavy rain stays <b>+2.5 to +4.9</b>. Dropping Mon 31 Aug flips wet evenings from <b>−7.1 to +1.6</b>.</p></div>
+  </div>
+  <div class="page">13</div>
+</section>
+
+<!-- 14 Map -->
+<section class="slide">
+  <div class="kicker">Finding 3 · Where</div>
+  <h2>Per camera, “any rain” looks negative because most rain is light</h2>
+  <div class="row">
+    <div class="col" style="flex:1.3"><div class="figbox"><img class="fig" src="fig/camera_map.png" alt="Map of rain effect per camera"></div></div>
+    <div class="col">
+      <p style="font-size:18px; margin-bottom:14px">The map compares <b>all wet hours</b> with dry hours at each camera. Average: <b>−3.9%</b>, and 74 of 100 cameras are below zero.</p>
+      <p style="font-size:18px; margin-bottom:14px">That is not a contradiction of +3.7. Of the 31k wet snapshots, <b>26k are light rain</b> and only <b>450 are heavy</b>, so the map is mostly the light-rain effect.</p>
+      <div class="callout" style="font-size:16px">Lesson: the rain effect depends on how hard it rains. Splitting by level is what reveals the heavy-rain increase.</div>
+    </div>
+  </div>
+  <div class="page">14</div>
+</section>
+
+<!-- 15 Dashboard -->
+<section class="slide">
+  <div class="kicker">Component 3 · BI dashboard</div>
+  <h2>Explore every camera, hour and rain level yourself</h2>
+  <div class="row" style="gap:20px">
+    <div class="col" style="flex:1.2"><div class="figbox"><img class="shot" src="fig/dash_overview_crop.png" alt="Dashboard overview tab"></div><div class="cap">Overview: KPIs and traffic vs rain through the week</div></div>
+    <div class="col" style="gap:12px">
+      <div class="figbox"><img class="shot" src="fig/dash_map_crop.png" alt="Dashboard map tab" style="object-position: center 40%"></div>
+      <div class="figbox"><img class="shot" src="fig/dash_explorer_crop.png" alt="Dashboard camera explorer tab"></div>
+      <div class="cap">Camera map and camera explorer (raw image for any snapshot)</div>
+    </div>
+  </div>
+  <p style="font-size:15px; margin-top:10px">Tabs: overview · map · rain vs congestion · road context (OSM) · camera explorer. Filters: dates, weekday/weekend, light phase, road class. <code>uv run streamlit run src/cctv/dashboard.py</code></p>
+  <div class="page">15</div>
+</section>
+
+<!-- 16 Limitations -->
+<section class="slide">
+  <div class="kicker">Limits</div>
+  <h2>A well-checked case study, not a general law</h2>
+  <div class="row">
+    <div class="col">
+      <ul style="font-size:19px">
+        <li><b>One week</b>, 450 heavy-rain snapshots. Scraping more in Nov–Dec wouldn't help: it's the dry season.</li>
+        <li><b>Rain is area-level and hourly</b>: modelled on a grid, and a 20-minute storm spreads over its hour.</li>
+        <li><b>Counts ≠ congestion.</b> More vehicles in view can mean slower traffic or just more traffic; snapshots 10 min apart can't measure speed.</li>
+        <li><b>Hand labels are imperfect</b> (2.7 vehicles between people), and rain on the lens blurs single frames.</li>
+      </ul>
+    </div>
+    <div class="col" style="flex:.85; gap:14px">
+      <div class="card"><h3>Next steps</h3><p style="font-size:17px">Repeat over a full rainy season; use rain-gauge data; track vehicles across consecutive frames for a speed proxy; use OSM context to see which road types react most.</p></div>
+    </div>
+  </div>
+  <div class="page">16</div>
+</section>
+
+<!-- 17 Wrap-up -->
+<section class="slide">
+  <div class="kicker">Summary</div>
+  <h2>What we built and what we learned</h2>
+  <div class="row" style="gap:22px">
+    <div class="card col"><h3>Data engineering</h3><p style="font-size:17px">Inventory and cleaning of 61k images, YOLO detection, 3 outside sources, one incremental pipeline.</p></div>
+    <div class="card col"><h3>Data science</h3><p style="font-size:17px">1,000 hand labels, detector bake-off, cross-fitted calibration, baseline-adjusted rain effect with bootstrap CIs.</p></div>
+    <div class="card col"><h3>Dashboard</h3><p style="font-size:17px">Streamlit app with five tabs and filters, down to the raw image of any snapshot.</p></div>
+    <div class="card col"><h3>Insight</h3><p style="font-size:17px"><b>Heavy rain → ~4% more vehicles</b> in the same hour. Light rain and earlier rain: no increase.</p></div>
+  </div>
+  <p style="margin-top:28px; font-size:17px">Code, slides and video: see the Google Drive link on myCourseVille. Thank you!</p>
+  <div class="page">17</div>
+</section>
+
+</body>
+</html>
