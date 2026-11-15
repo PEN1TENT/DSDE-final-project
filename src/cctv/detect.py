@@ -7,6 +7,9 @@ Writes two tables to the output folder:
 Safe to re-run: images already present in image_counts.parquet are skipped.
 
     uv run python -m cctv.detect --raw data/raw --out data/interim
+    # settings chosen by cctv.bakeoff, into their own folder:
+    uv run python -m cctv.detect --raw data/raw/cctv_images --out data/interim/l640 \
+        --inventory data/interim/images.parquet --model yolo11l.pt --imgsz 640 --conf 0.05 --device mps
 """
 
 from __future__ import annotations
@@ -73,6 +76,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--raw", type=Path, default=Path("data/raw"))
     parser.add_argument("--out", type=Path, default=Path("data/interim"))
+    parser.add_argument("--inventory", type=Path, default=None, help="images.parquet; default <out>/images.parquet")
     parser.add_argument("--model", default="yolo11s.pt", help="ultralytics weights; downloaded on first use")
     parser.add_argument("--conf", type=float, default=0.25, help="minimum detection confidence")
     parser.add_argument("--imgsz", type=int, default=960, help="inference size; larger finds small, distant vehicles")
@@ -83,7 +87,8 @@ def main() -> None:
 
     from ultralytics import YOLO  # imported late so --help stays fast
 
-    inventory = pd.read_parquet(args.out / "images.parquet")
+    args.out.mkdir(parents=True, exist_ok=True)
+    inventory = pd.read_parquet(args.inventory or args.out / "images.parquet")
     todo = inventory.loc[inventory["readable"], "path"].tolist()
     counts_path, boxes_path = args.out / "image_counts.parquet", args.out / "detections.parquet"
     if counts_path.exists():
