@@ -8,7 +8,9 @@ dependencies = [
     "opencv-python-headless",
     "pandas",
     "pillow",
+    "plotly>=7.1.0",
     "pyarrow",
+    "streamlit>=1.67.0",
     "ultralytics",
 ]
 
