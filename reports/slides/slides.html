@@ -297,7 +297,26 @@
   <div class="page">11</div>
 </section>
 
-<!-- 12 Rain levels -->
+<!-- 12 Weekday vs weekend -->
+<section class="slide">
+  <div class="kicker">Traffic patterns · Weekday vs weekend</div>
+  <h2>Weekends empty the office districts, not the shopping areas</h2>
+  <div class="row" style="gap:28px">
+    <div class="col" style="flex:1.25"><div class="figbox"><img class="fig" src="fig/weekend_map.png" alt="Map of weekend traffic as a share of weekday traffic per camera"></div></div>
+    <div class="col">
+      <div class="figbox" style="flex:0 0 auto; height:230px"><img class="fig" src="fig/weekend_by_mall.png" alt="Weekend share by number of malls nearby"></div>
+      <ul style="font-size:16px; margin-top:14px">
+        <li>Weekends carry <b>about a quarter less</b> traffic (−23%). The 06–08 commute peak is gone; middays are as busy as weekdays.</li>
+        <li>Cameras with 3+ malls nearby keep <b>80%</b> vs <b>72%</b> with none (permutation p ≈ 0.01).</li>
+        <li>Sathorn offices keep only <b>19%</b>; Phra Athit and Sao Chingcha in the old town keep <b>98–106%</b>.</li>
+      </ul>
+      <div class="callout b" style="font-size:14px">One weekend only. Compared hour by hour, so missing hours don't bias a camera.</div>
+    </div>
+  </div>
+  <div class="page">12</div>
+</section>
+
+<!-- 13 Rain levels -->
 <section class="slide">
   <div class="kicker">Finding 1 · Rain level and timing</div>
   <h2>Only heavy rain, in the same hour, comes with more vehicles</h2>
@@ -313,10 +332,10 @@
       <div class="callout b" style="font-size:16px">Same answer without calibration: raw counts give +6.2% for heavy rain.</div>
     </div>
   </div>
-  <div class="page">12</div>
+  <div class="page">13</div>
 </section>
 
-<!-- 13 Time of day + LODO -->
+<!-- 14 Time of day + LODO -->
 <section class="slide">
   <div class="kicker">Finding 2 · Does it hold up?</div>
   <h2>The heavy-rain effect survives dropping any day; the evening dip does not</h2>
@@ -326,10 +345,10 @@
     <div class="col"><div class="figbox"><img class="fig" src="../figures/leave_one_day_out.png" alt="Leave one day out"></div>
       <p style="font-size:16px; margin-top:6px">Heavy rain stays <b>+2.5 to +4.9</b>. Dropping Mon 31 Aug flips wet evenings from <b>−7.1 to +1.6</b>.</p></div>
   </div>
-  <div class="page">13</div>
+  <div class="page">14</div>
 </section>
 
-<!-- 14 Map -->
+<!-- 15 Map -->
 <section class="slide">
   <div class="kicker">Finding 3 · Where</div>
   <h2>Per camera, “any rain” looks negative because most rain is light</h2>
@@ -341,10 +360,10 @@
       <div class="callout" style="font-size:16px">Lesson: the rain effect depends on how hard it rains. Splitting by level is what reveals the heavy-rain increase.</div>
     </div>
   </div>
-  <div class="page">14</div>
+  <div class="page">15</div>
 </section>
 
-<!-- 15 Dashboard -->
+<!-- 16 Dashboard -->
 <section class="slide">
   <div class="kicker">Component 3 · BI dashboard</div>
   <h2>Explore every camera, hour and rain level yourself</h2>
@@ -357,10 +376,10 @@
     </div>
   </div>
   <p style="font-size:15px; margin-top:10px">Tabs: overview · map · rain vs congestion · road context (OSM) · camera explorer. Filters: dates, weekday/weekend, light phase, road class. <code>uv run streamlit run src/cctv/dashboard.py</code></p>
-  <div class="page">15</div>
+  <div class="page">16</div>
 </section>
 
-<!-- 16 Limitations -->
+<!-- 17 Limitations -->
 <section class="slide">
   <div class="kicker">Limits</div>
   <h2>A well-checked case study, not a general law</h2>
@@ -377,10 +396,10 @@
       <div class="card"><h3>Next steps</h3><p style="font-size:17px">Repeat over a full rainy season; use rain-gauge data; track vehicles across consecutive frames for a speed proxy; use OSM context to see which road types react most.</p></div>
     </div>
   </div>
-  <div class="page">16</div>
+  <div class="page">17</div>
 </section>
 
-<!-- 17 Wrap-up -->
+<!-- 18 Wrap-up -->
 <section class="slide">
   <div class="kicker">Summary</div>
   <h2>What we built and what we learned</h2>
@@ -388,10 +407,10 @@
     <div class="card col"><h3>Data engineering</h3><p style="font-size:17px">Inventory and cleaning of 61k images, YOLO detection, 3 outside sources, one incremental pipeline.</p></div>
     <div class="card col"><h3>Data science</h3><p style="font-size:17px">1,000 hand labels, detector bake-off, cross-fitted calibration, baseline-adjusted rain effect with bootstrap CIs.</p></div>
     <div class="card col"><h3>Dashboard</h3><p style="font-size:17px">Streamlit app with five tabs and filters, down to the raw image of any snapshot.</p></div>
-    <div class="card col"><h3>Insight</h3><p style="font-size:17px"><b>Heavy rain → ~4% more vehicles</b> in the same hour. Light rain and earlier rain: no increase.</p></div>
+    <div class="card col"><h3>Insight</h3><p style="font-size:17px"><b>Heavy rain → ~4% more vehicles</b> in the same hour. Weekends: office areas empty, shopping areas stay busy.</p></div>
   </div>
   <p style="margin-top:28px; font-size:17px">Code, slides and video: see the Google Drive link on myCourseVille. Thank you!</p>
-  <div class="page">17</div>
+  <div class="page">18</div>
 </section>
 
 </body>

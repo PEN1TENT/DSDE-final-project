@@ -1,6 +1,6 @@
 # Slides
 
-`slides.html` is the deck (17 slides, 1280×720). `slides.pdf` is the file to submit.
+`slides.html` is the deck (18 slides, 1280×720). `slides.pdf` is the file to submit.
 
 ```bash
 uv run python reports/slides/make_figures.py   # camera map, hourly profile, vehicle mix, example frames

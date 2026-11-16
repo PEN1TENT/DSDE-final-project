@@ -106,24 +106,34 @@ with tab_over:
 
 # ---- Map ----
 with tab_map:
-    metric = st.radio("Colour cameras by", ["Average traffic", "Rain effect", "Peak hour"], horizontal=True)
+    metric = st.radio("Colour cameras by", ["Average traffic", "Rain effect", "Peak hour", "Weekend share"],
+                      horizontal=True)
     sel = f.groupby("camera_id").agg(traffic=("n_calibrated", "mean"), snaps=("n_calibrated", "size")).reset_index()
     e = f.groupby(["camera_id", "wet"])["excess_calibrated"].agg(["mean", "size"]).unstack()
     rain_eff = (100 * (np.expm1(e[("mean", True)]) - np.expm1(e[("mean", False)])))
     rain_eff = rain_eff.where((e[("size", True)] >= 10) & (e[("size", False)] >= 10)).rename("rain_effect")
     m = cams.merge(sel, on="camera_id").merge(rain_eff.reset_index(), on="camera_id", how="left")
-    color = {"Average traffic": "traffic", "Rain effect": "rain_effect", "Peak hour": "peak_hour"}[metric]
-    hover = {c: True for c in ["road_class", "lanes", "n_rail_station_500m", "peak_hour"] if c in m.columns}
+    color = {"Average traffic": "traffic", "Rain effect": "rain_effect", "Peak hour": "peak_hour",
+             "Weekend share": "weekend_kept_pct"}[metric]
+    hover = {c: True for c in ["road_class", "lanes", "n_rail_station_500m", "n_mall_market_500m", "peak_hour"]
+             if c in m.columns}
+    if "weekend_kept_pct" in m.columns:
+        hover["weekend_kept_pct"] = ":.0f"
+    scale = {"rain_effect": "RdBu_r", "weekend_kept_pct": "RdYlBu"}.get(color, "YlOrRd")
     fig = px.scatter_map(
         m, lat="latitude", lon="longitude", color=color, size="traffic", size_max=18, zoom=11, height=600,
         center={"lat": float(m["latitude"].mean()), "lon": float(m["longitude"].mean())},
         hover_name="name", hover_data={"traffic": ":.1f", "rain_effect": ":+.1f", **hover},
-        color_continuous_scale="RdBu_r" if color == "rain_effect" else "YlOrRd",
-        color_continuous_midpoint=0 if color == "rain_effect" else None, map_style="open-street-map")
+        color_continuous_scale=scale, color_continuous_midpoint=0 if color == "rain_effect" else None,
+        range_color=(40, 100) if color == "weekend_kept_pct" else None, map_style="open-street-map",
+        labels={"weekend_kept_pct": "weekend % of weekday", "rain_effect": "rain effect (pts)",
+                "n_mall_market_500m": "malls within 500 m"})
     fig.update_layout(margin=dict(l=0, r=0, t=0, b=0))
     st.plotly_chart(fig, width="stretch")
     st.caption("Rain effect = calibrated traffic vs the camera's usual for that hour, wet hours minus dry hours "
-               "(percentage points). Cameras with fewer than 10 wet or dry snapshots in the selection are blank.")
+               "(percentage points). Cameras with fewer than 10 wet or dry snapshots in the selection are blank. "
+               "Weekend share = weekend traffic as % of weekday traffic at the same hours (whole week, not filtered); "
+               "office areas empty out at weekends, shopping and old-town areas stay busy.")
     st.dataframe(m.sort_values("traffic", ascending=False)[
         ["name", "traffic", "rain_effect", "peak_hour"] + [c for c in ["road_class", "lanes"] if c in m.columns]]
         .head(15).round(1), hide_index=True, width="stretch")

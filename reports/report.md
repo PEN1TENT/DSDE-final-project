@@ -21,6 +21,9 @@ counts to pick a detector and correct its undercount.
   The final detector (yolo11l, 640 px, confidence 0.05) finds 86%. Calibrating each
   vehicle class per condition brings the total to about 100%, except in the late-night
   wet cell, which has too few frames.
+- **Weekends empty office areas, not shopping areas.** Weekend traffic is 23% lower
+  overall, but cameras near malls and in the old town keep about 80–100% of it, while the Sathorn
+  office district keeps 19%.
 
 This is one week of monsoon-season data with 450 heavy-rain snapshots. We read the results
 as a well-checked case study, not a general law.
@@ -86,6 +89,23 @@ The heavy-rain difference stays between +2.5 and +4.9 points whichever day is re
 The evening dip is different: dropping Monday 31 Aug flips it from −7.1 to +1.6 points.
 That evening was unusual in some way the rain does not explain, so we do not report a
 general "wet evenings are emptier" effect.
+
+### Weekday vs weekend
+
+![Weekend share per camera](slides/fig/weekend_map.png)
+
+Weekends carry 23% fewer vehicles (12.8 vs 16.6 per frame). The gap is not even through the day. At
+06–08 the weekend has only 56–61% of weekday traffic, because the commute peak disappears.
+At 11–12 the two are almost equal. For each camera we divide weekend by weekday traffic,
+hour by hour, using only hours seen on both day types.
+
+The share ranges from 19% to 106% (median 76%). The cameras that empty out most are in office and
+government areas: Narathiwas Road in the Sathorn business district (19%), the PTT head office
+on Vibhavadi (45%) and opposite Chitralada Palace (41%). The ones that stay busy are in old-town
+and shopping areas: Phra Athit Road (106%), Sao Chingcha (98%) and Wongwian Yai (99%).
+Using OpenStreetMap, cameras with three or more malls or markets within 500 m keep 80% of their
+traffic at weekends, against 72% for cameras with none (permutation test, p ≈ 0.01). Schools
+nearby show no pattern. This rests on a single weekend.
 
 ### Detector error
 

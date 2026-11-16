@@ -294,8 +294,20 @@ image(s, FIG / "vehicle_mix.png", 654, 150, 554, 380, crop_top=True)
 text(s, 72, 560, 554, 60, [[("Weekday evening peak at ", False), ("17:00", True), (" (~23 vehicles per frame), morning peak at 08:00. Weekends are lower and flatter.", False)]], 13)
 text(s, 654, 560, 554, 60, "Motorcycles are under-detected (small, often hidden), which is why calibration is done per class.", 13)
 
-# 12 Rain levels ----------------------------------------------------------
+# 12 Weekday vs weekend ---------------------------------------------------
 s = new_slide(page=12)
+header(s, "Traffic patterns · Weekday vs weekend", "Weekends empty the office districts, not the shopping areas")
+image(s, FIG / "weekend_map.png", 72, 150, 640, 500, crop_top=True)
+image(s, FIG / "weekend_by_mall.png", 740, 150, 468, 220, crop_top=True)
+bullets(s, 740, 385, 468, 220, [
+    [("Weekends carry ", False), ("about a quarter less", True), (" traffic (−23%). The 06–08 commute peak is gone; middays are as busy as weekdays.", False)],
+    [("3+ malls nearby keep ", False), ("80%", True), (" vs ", False), ("72%", True), (" with none (permutation p ≈ 0.01).", False)],
+    [("Sathorn offices keep only ", False), ("19%", True), ("; Phra Athit and Sao Chingcha in the old town keep ", False), ("98–106%", True), (".", False)],
+], 13)
+callout(s, 740, 610, 468, 44, "One weekend only. Compared hour by hour, so missing hours don't bias a camera.", BLUE, "#f2f7fd")
+
+# 13 Rain levels ----------------------------------------------------------
+s = new_slide(page=13)
 header(s, "Finding 1 · Rain level and timing", "Only heavy rain, in the same hour, comes with more vehicles")
 image(s, REP / "rain_levels.png", 72, 150, 700, 480, crop_top=True)
 bullets(s, 800, 160, 408, 340, [
@@ -306,16 +318,16 @@ bullets(s, 800, 160, 408, 340, [
 ], 14)
 callout(s, 800, 520, 408, 64, "Same answer without calibration: raw counts give +6.2% for heavy rain.", BLUE, "#f2f7fd")
 
-# 13 Robustness -----------------------------------------------------------
-s = new_slide(page=13)
+# 14 Robustness -----------------------------------------------------------
+s = new_slide(page=14)
 header(s, "Finding 2 · Does it hold up?", "The heavy-rain effect survives dropping any day; the evening dip does not")
 image(s, REP / "wet_dry_by_hour.png", 72, 150, 554, 400, crop_top=True)
 image(s, REP / "leave_one_day_out.png", 654, 150, 554, 400, crop_top=True)
 text(s, 72, 570, 554, 60, "Wet and dry hours track each other until 19–20 h, where wet hours fall to about −10%.", 13)
 text(s, 654, 570, 554, 60, [[("Heavy rain stays ", False), ("+2.5 to +4.9", True), (". Dropping Mon 31 Aug flips wet evenings from ", False), ("−7.1 to +1.6", True), (".", False)]], 13)
 
-# 14 Map ------------------------------------------------------------------
-s = new_slide(page=14)
+# 15 Map ------------------------------------------------------------------
+s = new_slide(page=15)
 header(s, "Finding 3 · Where", "Per camera, “any rain” looks negative because most rain is light")
 image(s, FIG / "camera_map.png", 72, 150, 620, 500, crop_top=True)
 text(s, 730, 160, 478, 300, [
@@ -324,8 +336,8 @@ text(s, 730, 160, 478, 300, [
 ], 15, spacing=14)
 callout(s, 730, 420, 478, 96, "Lesson: the rain effect depends on how hard it rains. Splitting by level is what reveals the heavy-rain increase.")
 
-# 15 Dashboard ------------------------------------------------------------
-s = new_slide(page=15)
+# 16 Dashboard ------------------------------------------------------------
+s = new_slide(page=16)
 header(s, "Component 3 · BI dashboard", "Explore every camera, hour and rain level yourself")
 image(s, FIG / "dash_overview_crop.png", 72, 150, 640, 440, crop_top=True)
 image(s, FIG / "dash_map_crop.png", 740, 150, 468, 210, crop_top=True)
@@ -334,8 +346,8 @@ cap(s, 72, 596, 640, "Overview: KPIs and traffic vs rain through the week")
 cap(s, 740, 596, 468, "Camera map and camera explorer (raw image for any snapshot)")
 text(s, 72, 630, 1136, 40, "Tabs: overview · map · rain vs congestion · road context (OSM) · camera explorer. Filters: dates, weekday/weekend, light phase, road class. Run: uv run streamlit run src/cctv/dashboard.py", 12)
 
-# 16 Limits ---------------------------------------------------------------
-s = new_slide(page=16)
+# 17 Limits ---------------------------------------------------------------
+s = new_slide(page=17)
 header(s, "Limits", "A well-checked case study, not a general law")
 bullets(s, 72, 160, 640, 480, [
     [("One week", True), (", 450 heavy-rain snapshots. Scraping more in Nov–Dec wouldn't help: it's the dry season.", False)],
@@ -345,13 +357,13 @@ bullets(s, 72, 160, 640, 480, [
 ], 16)
 card(s, 752, 160, 456, 220, "Next steps", "Repeat over a full rainy season; use rain-gauge data; track vehicles across consecutive frames for a speed proxy; use OSM context to see which road types react most.", 15)
 
-# 17 Summary --------------------------------------------------------------
-s = new_slide(page=17)
+# 18 Summary --------------------------------------------------------------
+s = new_slide(page=18)
 header(s, "Summary", "What we built and what we learned")
 for i, (t, b) in enumerate([("Data engineering", "Inventory and cleaning of 61k images, YOLO detection, 3 outside sources, one incremental pipeline."),
                             ("Data science", "1,000 hand labels, detector bake-off, cross-fitted calibration, baseline-adjusted rain effect with bootstrap CIs."),
                             ("Dashboard", "Streamlit app with five tabs and filters, down to the raw image of any snapshot."),
-                            ("Insight", "Heavy rain → ~4% more vehicles in the same hour. Light rain and earlier rain: no increase.")]):
+                            ("Insight", "Heavy rain → ~4% more vehicles in the same hour. Weekends: office areas empty, shopping areas stay busy.")]):
     card(s, 72 + i * 289, 160, 271, 260, t, b, 14)
 text(s, 72, 460, 1136, 30, "Code, slides and video: see the Google Drive link on myCourseVille. Thank you!", 15)
 

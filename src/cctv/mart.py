@@ -56,8 +56,28 @@ def build(snaps: pd.DataFrame, info: pd.DataFrame, osm: pd.DataFrame | None, day
     ok = (e[("size", True)] >= 10) & (e[("size", False)] >= 10)
     stats["rain_effect_pct"] = (100 * (np.expm1(e[("mean", True)]) - np.expm1(e[("mean", False)]))).where(ok)
     stats["wet_snapshots"] = e[("size", True)].fillna(0).astype(int)
+    stats = stats.join(weekend_kept(s))
     cams = cams.merge(stats.reset_index(), on="camera_id", how="left")
     return s, cams
+
+
+def weekend_kept(s: pd.DataFrame) -> pd.DataFrame:
+    """Per camera: weekend traffic as a % of weekday traffic, compared hour by hour.
+
+    Only hours seen on both day types count, so a camera with missing weekday mornings is not
+    compared on its busy weekday hours alone. All weather is used: rain moves counts by a few
+    percent, the weekday/weekend gap is about 30%.
+    """
+    h = s.groupby(["camera_id", "daytype", "hour"])["n_calibrated"].mean().unstack("daytype")
+    h = h.dropna(subset=["weekday", "weekend"])
+    g = h.groupby("camera_id")[["weekday", "weekend"]].sum()
+    hours = h.groupby("camera_id").size()
+    out = pd.DataFrame({
+        "weekday_mean": s[s["daytype"] == "weekday"].groupby("camera_id")["n_calibrated"].mean(),
+        "weekend_mean": s[s["daytype"] == "weekend"].groupby("camera_id")["n_calibrated"].mean(),
+        "weekend_kept_pct": (100 * g["weekend"] / g["weekday"]).where(hours >= 10),
+    })
+    return out
 
 
 def main() -> None:
