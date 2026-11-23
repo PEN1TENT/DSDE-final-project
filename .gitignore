@@ -16,3 +16,12 @@ data/labels/tokens.csv
 deploy/build/
 # model weights
 *.pt
+
+# local AI agent rules, skills, and personal context notes
+AGENTS.md
+GEMINI.md
+CLAUDE.md
+.agents/
+context/project_memory.md
+TEST_INFRA.md
+TEST_READY.md

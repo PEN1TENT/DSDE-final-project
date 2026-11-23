@@ -24,16 +24,44 @@ scales each class by hand/model from the labelled frames in the same condition
 from __future__ import annotations
 
 import argparse
+from collections import Counter
 from pathlib import Path
+from typing import Any, Iterable
 
-import numpy as np
-import pandas as pd
+try:
+    import numpy as np
+    import pandas as pd
+except ImportError:  # Allow stdlib-only unit testing of completeness helpers.
+    np = None  # type: ignore[assignment]
+    pd = None  # type: ignore[assignment]
 
-BINS = [-0.01, 0.1, 2.0, 5.0, np.inf]
+MIN_CELL_FRAMES = 3
+BINS = [-0.01, 0.1, 2.0, 5.0, float("inf")]
 LEVELS = ["dry", "light (0.1-2)", "moderate (2-5)", "heavy (>5)"]
 MEASURES = {"vehicles": "n_vehicles", "covered": "covered_fraction", "calibrated": "n_calibrated"}
 CLASSES = {"four_wheel": ["car", "truck"], "motorcycle": ["motorcycle"], "bus": ["bus"], "bicycle": ["bicycle"]}
 PERIODS = ([5, 16, 19, 22], ["day 6-16", "evening 17-19", "late 20-21"])
+
+
+def complete_hour_cell_keys(
+    records: Iterable[tuple[Any, Any, Any]],
+    min_frames: int = MIN_CELL_FRAMES,
+) -> set[tuple[Any, Any, Any]]:
+    """Return `(camera_id, date, hour)` keys with at least `min_frames` usable snapshots."""
+    counts = Counter(records)
+    return {key for key, count in counts.items() if count >= min_frames}
+
+
+def filter_complete_hour_records(
+    rows: list[dict[str, Any]],
+    min_frames: int = MIN_CELL_FRAMES,
+) -> list[dict[str, Any]]:
+    """Keep only rows whose `(camera_id, date, hour)` cell has at least `min_frames`."""
+    keep = complete_hour_cell_keys(
+        ((r["camera_id"], r["date"], r["hour"]) for r in rows),
+        min_frames=min_frames,
+    )
+    return [r for r in rows if (r["camera_id"], r["date"], r["hour"]) in keep]
 
 
 def condition(hour: pd.Series, rain_mm: pd.Series) -> pd.Series:
@@ -63,11 +91,24 @@ def calibrate(df: pd.DataFrame, labels: Path, labelled: Path) -> tuple[pd.DataFr
 
 
 def load(images: Path, counts: Path, weather: Path) -> pd.DataFrame:
-    img = pd.read_parquet(images, columns=["path", "camera_id", "timestamp", "brightness", "sharpness", "frozen"])
+    base_cols = ["path", "camera_id", "timestamp", "brightness", "sharpness", "frozen"]
+    qc_cols = ["white_png", "truncated_jpeg", "gst_bars", "placeholder", "usable"]
+    try:
+        import pyarrow.parquet as pq
+        available = set(pq.read_schema(images).names)
+        read_cols = [c for c in base_cols + qc_cols if c in available]
+    except Exception:
+        read_cols = base_cols
+    img = pd.read_parquet(images, columns=read_cols)
     cnt = pd.read_parquet(counts, columns=["path", "n_vehicles", "covered_fraction",
                                            "n_motorcycle", "n_car", "n_truck", "n_bus", "n_bicycle"])
     df = img.merge(cnt, on="path").dropna(subset=["timestamp"])
-    df = df[~df["frozen"]]
+    df = df[~df["frozen"].fillna(False)]
+    for qc_col in ("white_png", "truncated_jpeg", "gst_bars", "placeholder"):
+        if qc_col in df.columns:
+            df = df[~df[qc_col].fillna(False)]
+    if "usable" in df.columns:
+        df = df[df["usable"].fillna(True)]
     df["camera_id"] = df["camera_id"].astype(int)
 
     w = pd.read_parquet(weather)
@@ -89,13 +130,31 @@ def load(images: Path, counts: Path, weather: Path) -> pd.DataFrame:
     return df.dropna(subset=["rain_now"])
 
 
-def add_excess(df: pd.DataFrame) -> pd.DataFrame:
+def add_excess(df: pd.DataFrame, min_cell_frames: int = MIN_CELL_FRAMES) -> pd.DataFrame:
+    if pd is None or np is None:
+        raise ModuleNotFoundError("pandas and numpy are required for add_excess()")
+    df = df.copy()
+    if "date" not in df.columns and "timestamp" in df.columns:
+        df["date"] = pd.to_datetime(df["timestamp"]).dt.date
+    if "hour" not in df.columns and "timestamp" in df.columns:
+        df["hour"] = pd.to_datetime(df["timestamp"]).dt.hour
+    if "daytype" not in df.columns and "timestamp" in df.columns:
+        df["daytype"] = np.where(pd.to_datetime(df["timestamp"]).dt.day_of_week >= 5, "weekend", "weekday")
+
+    # Drop incomplete (camera_id, date, hour) outage slots (e.g. Thu 27 Aug 07h/08h
+    # single-frame cells) BEFORE computing weekday/weekend baseline means.
+    hour_cell = [df["camera_id"], df["date"], df["hour"]]
+    df = df[df.groupby(hour_cell)["camera_id"].transform("size") >= min_cell_frames].copy()
+    if df.empty:
+        for name in MEASURES:
+            df[f"excess_{name}"] = pd.Series(dtype=float)
+        return df
+
     cell = [df["camera_id"], df["hour"], df["daytype"]]
+    df = df[df.groupby(cell)["camera_id"].transform("size") >= min_cell_frames].copy()
     for name, col in MEASURES.items():
         y = np.log1p(df[col] * (100 if name == "covered" else 1))  # covered: percent of frame
         df[f"excess_{name}"] = y - y.groupby(cell).transform("mean")
-    # Cells with one snapshot have zero excess by construction; drop them.
-    df = df[df.groupby(cell)["path"].transform("size") >= 3].copy()
     return df
 
 

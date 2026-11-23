@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="740" viewBox="0 0 1200 740" role="img">
+  <style>text { font-family: Segoe UI, Inter, Arial, Helvetica, sans-serif; fill: #0b0b0b; } .mono { font-family: Consolas, Courier New, monospace; }</style>
+  <rect x="0" y="0" width="1200" height="740" fill="#fcfcfb" />
+  <text x="36" y="36" font-size="19" font-weight="700" fill="#0b0b0b">Anatomy of the Thu 27 Aug Morning Blackout (06:00–09:30 ICT)</text>
+  <text x="36" y="58" font-size="12" fill="#52514e">3 pseudo-active cameras (150 frozen, 432 &amp; 1804 GStreamer bars) + 69 white-PNG probes (07:21–07:30) + 28 silent timeouts = 0 live traffic frames before 08:50</text>
+  <line x1="36" y1="70" x2="1164" y2="70" stroke="#e4e3df" stroke-width="1" />
+  <rect x="90" y="120" width="1060" height="290" fill="#ffffff" stroke="#e4e3df" stroke-width="1" />
+  <rect x="90" y="120" width="858.0952380952381" height="290" fill="#fdf2f2" opacity="0.8" />
+  <line x1="90" y1="410.0" x2="1150" y2="410.0" stroke="#e4e3df" stroke-width="0.8" />
+  <text x="80" y="414.0" font-size="10.5" fill="#52514e" text-anchor="end">0</text>
+  <line x1="90" y1="337.5" x2="1150" y2="337.5" stroke="#e4e3df" stroke-width="0.8" />
+  <text x="80" y="341.5" font-size="10.5" fill="#52514e" text-anchor="end">20</text>
+  <line x1="90" y1="265.0" x2="1150" y2="265.0" stroke="#e4e3df" stroke-width="0.8" />
+  <text x="80" y="269.0" font-size="10.5" fill="#52514e" text-anchor="end">40</text>
+  <line x1="90" y1="192.5" x2="1150" y2="192.5" stroke="#e4e3df" stroke-width="0.8" />
+  <text x="80" y="196.5" font-size="10.5" fill="#52514e" text-anchor="end">60</text>
+  <line x1="90" y1="120.0" x2="1150" y2="120.0" stroke="#e4e3df" stroke-width="0.8" />
+  <text x="80" y="124.0" font-size="10.5" fill="#52514e" text-anchor="end">80</text>
+  <text x="28" y="265.0" font-size="11.5" fill="#52514e" text-anchor="middle" transform="rotate(-90 28 265.0)">Cameras captured per 5-min slot</text>
+  <rect x="92.5" y="406.4" width="20.2" height="3.6" fill="#7b4dbb" />
+  <rect x="117.7" y="406.4" width="20.2" height="3.6" fill="#7b4dbb" />
+  <rect x="117.7" y="402.8" width="20.2" height="3.6" fill="#d63638" />
+  <rect x="143.0" y="406.4" width="20.2" height="3.6" fill="#7b4dbb" />
+  <rect x="168.2" y="406.4" width="20.2" height="3.6" fill="#7b4dbb" />
+  <rect x="168.2" y="402.8" width="20.2" height="3.6" fill="#d63638" />
+  <rect x="193.5" y="406.4" width="20.2" height="3.6" fill="#7b4dbb" />
+  <rect x="218.7" y="406.4" width="20.2" height="3.6" fill="#7b4dbb" />
+  <rect x="218.7" y="402.8" width="20.2" height="3.6" fill="#d63638" />
+  <rect x="243.9" y="406.4" width="20.2" height="3.6" fill="#7b4dbb" />
+  <rect x="269.2" y="406.4" width="20.2" height="3.6" fill="#7b4dbb" />
+  <rect x="269.2" y="402.8" width="20.2" height="3.6" fill="#d63638" />
+  <rect x="294.4" y="406.4" width="20.2" height="3.6" fill="#7b4dbb" />
+  <rect x="319.6" y="406.4" width="20.2" height="3.6" fill="#7b4dbb" />
+  <rect x="319.6" y="402.8" width="20.2" height="3.6" fill="#d63638" />
+  <rect x="344.9" y="406.4" width="20.2" height="3.6" fill="#7b4dbb" />
+  <rect x="370.1" y="406.4" width="20.2" height="3.6" fill="#7b4dbb" />
+  <rect x="370.1" y="402.8" width="20.2" height="3.6" fill="#d63638" />
+  <rect x="395.4" y="406.4" width="20.2" height="3.6" fill="#7b4dbb" />
+  <rect x="420.6" y="406.4" width="20.2" height="3.6" fill="#7b4dbb" />
+  <rect x="420.6" y="402.8" width="20.2" height="3.6" fill="#d63638" />
+  <rect x="445.8" y="406.4" width="20.2" height="3.6" fill="#7b4dbb" />
+  <rect x="471.1" y="406.4" width="20.2" height="3.6" fill="#7b4dbb" />
+  <rect x="471.1" y="402.8" width="20.2" height="3.6" fill="#d63638" />
+  <rect x="496.3" y="359.2" width="20.2" height="50.8" fill="#f59e0b" />
+  <rect x="496.3" y="355.6" width="20.2" height="3.6" fill="#7b4dbb" />
+  <rect x="521.5" y="210.6" width="20.2" height="199.4" fill="#f59e0b" />
+  <rect x="546.8" y="402.8" width="20.2" height="7.2" fill="#f59e0b" />
+  <rect x="546.8" y="399.1" width="20.2" height="3.6" fill="#7b4dbb" />
+  <rect x="572.0" y="406.4" width="20.2" height="3.6" fill="#7b4dbb" />
+  <rect x="572.0" y="402.8" width="20.2" height="3.6" fill="#d63638" />
+  <rect x="597.3" y="406.4" width="20.2" height="3.6" fill="#7b4dbb" />
+  <rect x="622.5" y="406.4" width="20.2" height="3.6" fill="#7b4dbb" />
+  <rect x="622.5" y="402.8" width="20.2" height="3.6" fill="#d63638" />
+  <rect x="647.7" y="406.4" width="20.2" height="3.6" fill="#7b4dbb" />
+  <rect x="673.0" y="406.4" width="20.2" height="3.6" fill="#7b4dbb" />
+  <rect x="673.0" y="402.8" width="20.2" height="3.6" fill="#d63638" />
+  <rect x="698.2" y="406.4" width="20.2" height="3.6" fill="#7b4dbb" />
+  <rect x="723.5" y="406.4" width="20.2" height="3.6" fill="#7b4dbb" />
+  <rect x="723.5" y="402.8" width="20.2" height="3.6" fill="#d63638" />
+  <rect x="748.7" y="406.4" width="20.2" height="3.6" fill="#7b4dbb" />
+  <rect x="773.9" y="406.4" width="20.2" height="3.6" fill="#7b4dbb" />
+  <rect x="773.9" y="402.8" width="20.2" height="3.6" fill="#d63638" />
+  <rect x="799.2" y="406.4" width="20.2" height="3.6" fill="#7b4dbb" />
+  <rect x="824.4" y="406.4" width="20.2" height="3.6" fill="#7b4dbb" />
+  <rect x="824.4" y="402.8" width="20.2" height="3.6" fill="#d63638" />
+  <rect x="849.6" y="406.4" width="20.2" height="3.6" fill="#7b4dbb" />
+  <rect x="874.9" y="406.4" width="20.2" height="3.6" fill="#7b4dbb" />
+  <rect x="874.9" y="402.8" width="20.2" height="3.6" fill="#d63638" />
+  <rect x="900.1" y="406.4" width="20.2" height="3.6" fill="#7b4dbb" />
+  <rect x="925.4" y="406.4" width="20.2" height="3.6" fill="#7b4dbb" />
+  <rect x="925.4" y="402.8" width="20.2" height="3.6" fill="#d63638" />
+  <rect x="950.6" y="246.9" width="20.2" height="163.1" fill="#1baf7a" />
+  <rect x="975.8" y="217.9" width="20.2" height="192.1" fill="#1baf7a" />
+  <rect x="975.8" y="214.2" width="20.2" height="3.6" fill="#d63638" />
+  <rect x="1001.1" y="243.2" width="20.2" height="166.8" fill="#1baf7a" />
+  <rect x="1026.3" y="217.9" width="20.2" height="192.1" fill="#1baf7a" />
+  <rect x="1026.3" y="214.2" width="20.2" height="3.6" fill="#d63638" />
+  <rect x="1051.5" y="243.2" width="20.2" height="166.8" fill="#1baf7a" />
+  <rect x="1076.8" y="221.5" width="20.2" height="188.5" fill="#1baf7a" />
+  <rect x="1076.8" y="217.9" width="20.2" height="3.6" fill="#d63638" />
+  <rect x="1102.0" y="239.6" width="20.2" height="170.4" fill="#1baf7a" />
+  <rect x="1127.3" y="221.5" width="20.2" height="188.5" fill="#1baf7a" />
+  <rect x="1127.3" y="217.9" width="20.2" height="3.6" fill="#d63638" />
+  <line x1="102.61904761904762" y1="410" x2="102.61904761904762" y2="415" stroke="#52514e" stroke-width="1" />
+  <text x="102.61904761904762" y="428" font-size="10.5" fill="#52514e" text-anchor="middle">06:00</text>
+  <line x1="254.04761904761904" y1="410" x2="254.04761904761904" y2="415" stroke="#52514e" stroke-width="1" />
+  <text x="254.04761904761904" y="428" font-size="10.5" fill="#52514e" text-anchor="middle">06:30</text>
+  <line x1="405.4761904761904" y1="410" x2="405.4761904761904" y2="415" stroke="#52514e" stroke-width="1" />
+  <text x="405.4761904761904" y="428" font-size="10.5" fill="#52514e" text-anchor="middle">07:00</text>
+  <line x1="556.9047619047618" y1="410" x2="556.9047619047618" y2="415" stroke="#52514e" stroke-width="1" />
+  <text x="556.9047619047618" y="428" font-size="10.5" fill="#52514e" text-anchor="middle">07:30</text>
+  <line x1="708.3333333333333" y1="410" x2="708.3333333333333" y2="415" stroke="#52514e" stroke-width="1" />
+  <text x="708.3333333333333" y="428" font-size="10.5" fill="#52514e" text-anchor="middle">08:00</text>
+  <line x1="859.7619047619047" y1="410" x2="859.7619047619047" y2="415" stroke="#52514e" stroke-width="1" />
+  <text x="859.7619047619047" y="428" font-size="10.5" fill="#52514e" text-anchor="middle">08:30</text>
+  <line x1="1011.1904761904761" y1="410" x2="1011.1904761904761" y2="415" stroke="#52514e" stroke-width="1" />
+  <text x="1011.1904761904761" y="428" font-size="10.5" fill="#52514e" text-anchor="middle">09:00</text>
+  <text x="104" y="144" font-size="12" font-weight="700" fill="#d63638">06:00–08:49: 0 live traffic frames across all 100 cameras</text>
+  <text x="104" y="162" font-size="10.8" fill="#52514e">Only 3 pseudo-active feeds polling (150 frozen + 432/1804 SMPTE bars)</text>
+  <line x1="531.6666666666666" y1="206.625" x2="579.6666666666666" y2="172.625" stroke="#f59e0b" stroke-width="1.2" />
+  <text x="583.6666666666666" y="168.625" font-size="11" font-weight="700" fill="#b45309">07:21–07:30 retry probe: 71 white PNGs</text>
+  <text x="583.6666666666666" y="183.625" font-size="10.2" fill="#52514e">(69 partial cams + 150 + 1804; 28 cams timed out)</text>
+  <line x1="948.0952380952381" y1="120" x2="948.0952380952381" y2="410" stroke="#1baf7a" stroke-width="1.5" stroke-dasharray="4,3" />
+  <text x="956.0952380952381" y="144" font-size="11.2" font-weight="700" fill="#0f766e">Recovery at 08:50:08</text>
+  <text x="956.0952380952381" y="161" font-size="10.2" fill="#52514e">98 live cams by 08:55; cam 233 at 09:00:13</text>
+  <text x="36" y="453" font-size="12.5" font-weight="700" fill="#0b0b0b">Fleet Cohort Breakdown (Total = 100 Cameras)</text>
+  <rect x="290" y="465" width="860" height="175" fill="#ffffff" stroke="#e4e3df" stroke-width="1" />
+  <text x="278" y="490.875" font-size="10.5" font-weight="600" fill="#0b0b0b" text-anchor="end">cam 150 (1 cam · frozen)</text>
+  <rect x="290.0" y="472.0" width="327.6" height="29.8" fill="#d63638" rx="3" />
+  <text x="453.8095238095238" y="490.375" font-size="9.8" font-weight="600" fill="#ffffff" text-anchor="middle">Frozen (26 Aug 19:41)</text>
+  <rect x="617.6" y="472.0" width="41.0" height="29.8" fill="#f59e0b" rx="3" />
+  <rect x="658.6" y="472.0" width="491.4" height="29.8" fill="#d63638" rx="3" />
+  <text x="904.2857142857142" y="490.375" font-size="9.8" font-weight="600" fill="#ffffff" text-anchor="middle">Remains frozen until 28 Aug 06:21</text>
+  <text x="278" y="534.625" font-size="10.5" font-weight="600" fill="#0b0b0b" text-anchor="end">cams 432 &amp; 1804 (2 cams · GSt bars)</text>
+  <line x1="290" y1="508.75" x2="1150" y2="508.75" stroke="#e4e3df" stroke-width="0.8" />
+  <rect x="290.0" y="515.8" width="696.2" height="29.8" fill="#7b4dbb" rx="3" />
+  <text x="638.0952380952381" y="534.125" font-size="9.8" font-weight="600" fill="#ffffff" text-anchor="middle">gst-launch-0.10 SMPTE bars (17 + 16 frames; 1 PNG on 1804)</text>
+  <rect x="986.2" y="515.8" width="163.8" height="29.8" fill="#1baf7a" rx="3" />
+  <text x="1068.095238095238" y="534.125" font-size="9.8" font-weight="600" fill="#ffffff" text-anchor="middle">Live recovered</text>
+  <text x="278" y="578.375" font-size="10.5" font-weight="600" fill="#0b0b0b" text-anchor="end">partial_white_png (69 cams)</text>
+  <line x1="290" y1="552.5" x2="1150" y2="552.5" stroke="#e4e3df" stroke-width="0.8" />
+  <rect x="290.0" y="559.5" width="327.6" height="29.8" fill="#e6e5e0" rx="3" />
+  <text x="453.8095238095238" y="577.875" font-size="9.8" font-weight="600" fill="#0b0b0b" text-anchor="middle">Dark (0 frames)</text>
+  <rect x="617.6" y="559.5" width="49.1" height="29.8" fill="#f59e0b" rx="3" />
+  <rect x="666.8" y="559.5" width="319.4" height="29.8" fill="#e6e5e0" rx="3" />
+  <text x="826.4761904761905" y="577.875" font-size="9.8" font-weight="600" fill="#0b0b0b" text-anchor="middle">Dark</text>
+  <rect x="986.2" y="559.5" width="163.8" height="29.8" fill="#1baf7a" rx="3" />
+  <text x="1068.095238095238" y="577.875" font-size="9.8" font-weight="600" fill="#ffffff" text-anchor="middle">Live (233 @ 09:00)</text>
+  <text x="278" y="622.125" font-size="10.5" font-weight="600" fill="#0b0b0b" text-anchor="end">zero_morning (28 cams)</text>
+  <line x1="290" y1="596.25" x2="1150" y2="596.25" stroke="#e4e3df" stroke-width="0.8" />
+  <rect x="290.0" y="603.2" width="696.2" height="29.8" fill="#e6e5e0" rx="3" />
+  <text x="638.0952380952381" y="621.625" font-size="9.8" font-weight="600" fill="#0b0b0b" text-anchor="middle">Completely dark (0 frames 06:00–08:49)</text>
+  <rect x="986.2" y="603.2" width="163.8" height="29.8" fill="#1baf7a" rx="3" />
+  <text x="1068.095238095238" y="621.625" font-size="9.8" font-weight="600" fill="#ffffff" text-anchor="middle">Live recovered</text>
+  <line x1="290.0" y1="640" x2="290.0" y2="645" stroke="#52514e" stroke-width="1" />
+  <text x="290.0" y="658" font-size="10.2" fill="#52514e" text-anchor="middle">06:00</text>
+  <line x1="412.85714285714283" y1="640" x2="412.85714285714283" y2="645" stroke="#52514e" stroke-width="1" />
+  <text x="412.85714285714283" y="658" font-size="10.2" fill="#52514e" text-anchor="middle">06:30</text>
+  <line x1="535.7142857142857" y1="640" x2="535.7142857142857" y2="645" stroke="#52514e" stroke-width="1" />
+  <text x="535.7142857142857" y="658" font-size="10.2" fill="#52514e" text-anchor="middle">07:00</text>
+  <line x1="658.5714285714286" y1="640" x2="658.5714285714286" y2="645" stroke="#52514e" stroke-width="1" />
+  <text x="658.5714285714286" y="658" font-size="10.2" fill="#52514e" text-anchor="middle">07:30</text>
+  <line x1="781.4285714285713" y1="640" x2="781.4285714285713" y2="645" stroke="#52514e" stroke-width="1" />
+  <text x="781.4285714285713" y="658" font-size="10.2" fill="#52514e" text-anchor="middle">08:00</text>
+  <line x1="904.2857142857143" y1="640" x2="904.2857142857143" y2="645" stroke="#52514e" stroke-width="1" />
+  <text x="904.2857142857143" y="658" font-size="10.2" fill="#52514e" text-anchor="middle">08:30</text>
+  <line x1="1027.142857142857" y1="640" x2="1027.142857142857" y2="645" stroke="#52514e" stroke-width="1" />
+  <text x="1027.142857142857" y="658" font-size="10.2" fill="#52514e" text-anchor="middle">09:00</text>
+  <line x1="1150.0" y1="640" x2="1150.0" y2="645" stroke="#52514e" stroke-width="1" />
+  <text x="1150.0" y="658" font-size="10.2" fill="#52514e" text-anchor="middle">09:30</text>
+  <rect x="36" y="678" width="14" height="12" fill="#1baf7a" stroke="#b8b6af" stroke-width="0.6" />
+  <text x="56" y="688" font-size="11" fill="#52514e">Live traffic JPEG</text>
+  <rect x="261" y="678" width="14" height="12" fill="#f59e0b" stroke="#b8b6af" stroke-width="0.6" />
+  <text x="281" y="688" font-size="11" fill="#52514e">400×266 white PNG</text>
+  <rect x="486" y="678" width="14" height="12" fill="#7b4dbb" stroke="#b8b6af" stroke-width="0.6" />
+  <text x="506" y="688" font-size="11" fill="#52514e">246×205 GStreamer bars</text>
+  <rect x="711" y="678" width="14" height="12" fill="#d63638" stroke="#b8b6af" stroke-width="0.6" />
+  <text x="731" y="688" font-size="11" fill="#52514e">Frozen stale JPEG (cam 150)</text>
+  <rect x="936" y="678" width="14" height="12" fill="#e6e5e0" stroke="#b8b6af" stroke-width="0.6" />
+  <text x="956" y="688" font-size="11" fill="#52514e">Dark / no capture</text>
+  <line x1="36" y1="708" x2="1164" y2="708" stroke="#e4e3df" stroke-width="1" />
+  <text x="36" y="727" font-size="10.5" fill="#7a7872">Source: reports/forensics/camera_forensics.csv, no_eoi_events.csv, corpus_summary.json + raw filename timestamps for 5-min slots.</text>
+</svg>

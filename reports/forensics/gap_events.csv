@@ -1,0 +1,914 @@
+camera_id,ip_address,subnet_16,location_en,date,start_ts,end_ts,gap_min,gap_class,neighbor_context
+126,10.117.128.46,10.117.0.0/16,Near Soi Lat Phrao 30 on Lat Phrao Road,2026-08-25,2026-08-25 06:00:00,2026-08-25 06:20:00,20.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=1/16
+224,10.117.129.135,10.117.0.0/16,Footbridge near The Criminal Court on  Ratchadaphisek Road,2026-08-25,2026-08-25 06:00:00,2026-08-25 06:20:00,20.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=1/16
+938,10.156.102.38,10.156.0.0/16,connect BMAcctv,2026-08-25,2026-08-25 06:00:12,2026-08-25 06:20:05,19.88,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/4
+186,10.112.129.127,10.112.0.0/16,Directional sign to Rama 3 Bridge on Ratchadaphisek Road,2026-08-25,2026-08-25 06:00:16,2026-08-25 06:20:11,19.92,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/2
+1039,10.151.128.28,10.151.0.0/16,Near the police box on Rama 4 Road (Inbound),2026-08-25,2026-08-25 06:00:16,2026-08-25 06:20:08,19.87,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+529,10.151.101.91,10.151.0.0/16,Henri Dunant Intersection,2026-08-25,2026-08-25 06:00:17,2026-08-25 06:20:11,19.9,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+233,10.102.129.137,10.102.0.0/16,Opposite Chitralada Palace on Rama 5 Road,2026-08-25,2026-08-25 06:00:19,2026-08-25 06:15:17,14.97,12-20m,fleet_no_live_midgap=8/99; subnet_no_live_midgap=1/13
+1063,10.102.129.138,10.102.0.0/16,Opposite Chitralada Palace,2026-08-25,2026-08-25 06:00:19,2026-08-25 06:15:17,14.97,12-20m,fleet_no_live_midgap=8/99; subnet_no_live_midgap=1/13
+572,10.151.101.56,10.151.0.0/16,Jor Por Ror  Intersection,2026-08-25,2026-08-25 06:00:21,2026-08-25 06:15:19,14.97,12-20m,fleet_no_live_midgap=7/99; subnet_no_live_midgap=2/6
+500,10.137.102.27,10.137.0.0/16,Pra Tu Num Intersection,2026-08-25,2026-08-25 06:00:27,2026-08-25 06:15:25,14.97,12-20m,fleet_no_live_midgap=7/99; subnet_no_live_midgap=0/5
+413,10.101.102.190,10.101.0.0/16,Tanao Road,2026-08-25,2026-08-25 06:00:32,2026-08-25 06:15:31,14.98,12-20m,fleet_no_live_midgap=7/99; subnet_no_live_midgap=1/10
+411,10.101.102.132,10.101.0.0/16,Phra Athit Road,2026-08-25,2026-08-25 06:00:33,2026-08-25 06:15:32,14.98,12-20m,fleet_no_live_midgap=7/99; subnet_no_live_midgap=1/10
+363,10.102.102.73,10.102.0.0/16,Khatdusit Intersection,2026-08-25,2026-08-25 06:00:40,2026-08-25 06:15:42,15.03,12-20m,fleet_no_live_midgap=7/99; subnet_no_live_midgap=0/13
+371,10.101.101.12,10.101.0.0/16,Thewet Intersection,2026-08-25,2026-08-25 06:00:45,2026-08-25 06:15:47,15.03,12-20m,fleet_no_live_midgap=7/99; subnet_no_live_midgap=0/10
+1408,10.117.128.21,10.117.0.0/16,Central barrier in front of Cyber World Tower on Thiam Ruam Mit Road,2026-08-25,2026-08-25 06:00:45,2026-08-25 06:15:47,15.03,12-20m,fleet_no_live_midgap=7/99; subnet_no_live_midgap=2/16
+576,10.101.102.10,10.101.0.0/16,Bang Lamphu Intersection,2026-08-25,2026-08-25 06:00:47,2026-08-25 06:15:50,15.05,12-20m,fleet_no_live_midgap=6/99; subnet_no_live_midgap=0/10
+595,10.118.101.10,10.118.0.0/16,Ban Khaek Juncion,2026-08-25,2026-08-25 06:00:48,2026-08-25 06:15:50,15.03,12-20m,fleet_no_live_midgap=7/99; subnet_no_live_midgap=0/2
+1195,10.116.128.28,10.116.0.0/16,Near the police box on Mahai Sawan Road (Inbound),2026-08-25,2026-08-25 06:00:49,2026-08-25 06:15:50,15.02,12-20m,fleet_no_live_midgap=8/99; subnet_no_live_midgap=0/6
+1815,10.156.102.69,10.156.0.0/16,Rama 9 Intersection,2026-08-25,2026-08-25 06:00:50,2026-08-25 06:15:53,15.05,12-20m,fleet_no_live_midgap=6/99; subnet_no_live_midgap=1/4
+1368,10.102.102.57,10.102.0.0/16,Lan Phra Rup Intersection,2026-08-25,2026-08-25 06:00:52,2026-08-25 06:15:53,15.02,12-20m,fleet_no_live_midgap=7/99; subnet_no_live_midgap=0/13
+36,10.116.128.42,10.116.0.0/16,Near the police box and BRT Ratchapruek Station on Ratchapruek Road,2026-08-25,2026-08-25 06:00:55,2026-08-25 06:15:58,15.05,12-20m,fleet_no_live_midgap=9/99; subnet_no_live_midgap=1/6
+75,10.112.128.26,10.112.0.0/16,Under the overpass on Narathiwas Road,2026-08-25,2026-08-25 06:00:55,2026-08-25 06:15:56,15.02,12-20m,fleet_no_live_midgap=10/99; subnet_no_live_midgap=1/2
+124,10.117.128.42,10.117.0.0/16,Central barrier near the police box on Ratchadaphisek Road,2026-08-25,2026-08-25 06:00:55,2026-08-25 06:15:58,15.05,12-20m,fleet_no_live_midgap=9/99; subnet_no_live_midgap=3/16
+125,10.117.128.44,10.117.0.0/16,Central barrier near the police box on Ratchadaphisek Road,2026-08-25,2026-08-25 06:00:55,2026-08-25 06:15:58,15.05,12-20m,fleet_no_live_midgap=9/99; subnet_no_live_midgap=3/16
+1103,10.116.128.40,10.116.0.0/16,17/5000 Ratchada-Ratchaphruek Intersection,2026-08-25,2026-08-25 06:00:55,2026-08-25 06:15:58,15.05,12-20m,fleet_no_live_midgap=9/99; subnet_no_live_midgap=1/6
+120,10.117.128.33,10.117.0.0/16,Ratchada-Sutthisan Intersection,2026-08-25,2026-08-25 06:00:56,2026-08-25 06:15:58,15.03,12-20m,fleet_no_live_midgap=10/99; subnet_no_live_midgap=4/16
+604,10.104.101.35,10.104.0.0/16,Silom-Naradhiwas Intersection,2026-08-25,2026-08-25 06:01:03,2026-08-25 06:16:07,15.07,12-20m,fleet_no_live_midgap=6/99; subnet_no_live_midgap=0/2
+599,10.104.101.51,10.104.0.0/16,Surasak Intersection,2026-08-25,2026-08-25 06:01:05,2026-08-25 06:16:08,15.05,12-20m,fleet_no_live_midgap=7/99; subnet_no_live_midgap=0/2
+1112,10.126.128.108,10.126.0.0/16,Sutthisan Intersection,2026-08-25,2026-08-25 06:01:05,2026-08-25 06:16:08,15.05,12-20m,fleet_no_live_midgap=7/99; subnet_no_live_midgap=0/1
+301,10.102.101.53,10.102.0.0/16,Aoo Tong Nok Intersection,2026-08-25,2026-08-25 06:01:08,2026-08-25 06:16:10,15.03,12-20m,fleet_no_live_midgap=6/99; subnet_no_live_midgap=0/13
+188,10.112.129.129,10.112.0.0/16,Footbridge near Soi Rama 3 Soi68 on Rama 3 Road,2026-08-25,2026-08-25 06:01:13,2026-08-25 06:16:16,15.05,12-20m,fleet_no_live_midgap=9/99; subnet_no_live_midgap=1/2
+206,10.128.129.131,10.128.0.0/16,Footbridge near Soi Narathiwas 20 on Narathiwas Road,2026-08-25,2026-08-25 06:01:13,2026-08-25 06:16:16,15.05,12-20m,fleet_no_live_midgap=9/99; subnet_no_live_midgap=0/3
+250,10.137.129.123,10.137.0.0/16,Footbridge near Soi Phetchaburi 38 on Phetchaburi Road,2026-08-25,2026-08-25 06:01:13,2026-08-25 06:16:18,15.08,12-20m,fleet_no_live_midgap=7/99; subnet_no_live_midgap=1/5
+256,10.137.129.130,10.137.0.0/16,Footbridge near Soi Phetchaburi 27 on Phetchaburi Road,2026-08-25,2026-08-25 06:01:13,2026-08-25 06:16:18,15.08,12-20m,fleet_no_live_midgap=7/99; subnet_no_live_midgap=1/5
+211,10.117.129.122,10.117.0.0/16,Footbridge near Soi Ratchadaphisek 3 on Ratchadaphisek Road,2026-08-25,2026-08-25 06:01:15,2026-08-25 06:16:18,15.05,12-20m,fleet_no_live_midgap=10/99; subnet_no_live_midgap=4/16
+215,10.117.129.126,10.117.0.0/16,Footbridge near Soi Ratchadaphisek 7 on Ratchadaphisek Road,2026-08-25,2026-08-25 06:01:15,2026-08-25 06:16:18,15.05,12-20m,fleet_no_live_midgap=10/99; subnet_no_live_midgap=4/16
+219,10.117.129.128,10.117.0.0/16,Footbridge near Soi Ratchadaphisek 14 on Ratchadaphisek Road,2026-08-25,2026-08-25 06:01:15,2026-08-25 06:16:18,15.05,12-20m,fleet_no_live_midgap=10/99; subnet_no_live_midgap=4/16
+82,10.137.128.42,10.137.0.0/16,Footbridge near Soi Ratchaprarop 3 on Ratchaprarop Road,2026-08-25,2026-08-25 06:01:16,2026-08-25 06:16:21,15.08,12-20m,fleet_no_live_midgap=6/99; subnet_no_live_midgap=0/5
+194,10.128.129.127,10.128.0.0/16,Footbridge near Entrance to Soi Convent on  South Sathorn Road,2026-08-25,2026-08-25 06:01:18,2026-08-25 06:16:24,15.1,12-20m,fleet_no_live_midgap=6/99; subnet_no_live_midgap=0/3
+170,10.114.129.121,10.114.0.0/16,Footbridge near  Nawati Somdet Ya Hospital on Phahon Yothin Road,2026-08-25,2026-08-25 06:01:19,2026-08-25 06:16:26,15.12,12-20m,fleet_no_live_midgap=6/99; subnet_no_live_midgap=0/6
+225,10.117.129.136,10.117.0.0/16,Footbridge near The Criminal Court on  Ratchadaphisek Road,2026-08-25,2026-08-25 06:01:20,2026-08-25 06:16:27,15.12,12-20m,fleet_no_live_midgap=6/99; subnet_no_live_midgap=2/16
+141,10.130.129.130,10.130.0.0/16,Footbridge in front of PTT Public Company Limited near Soi Vibhavadi Rangsit 11 on Vibhavadi Rangsit Road,2026-08-25,2026-08-25 06:01:23,2026-08-25 06:16:33,15.17,12-20m,fleet_no_live_midgap=6/99; subnet_no_live_midgap=0/3
+179,10.114.129.130,10.114.0.0/16,Footbridge in front of  PHYATHAI HOSPITAL 2 on Phahon Yothin Road,2026-08-25,2026-08-25 06:01:23,2026-08-25 06:16:31,15.13,12-20m,fleet_no_live_midgap=7/99; subnet_no_live_midgap=0/6
+1078,10.118.128.24,10.118.0.0/16,The flyover in front of Wat Suwan,2026-08-25,2026-08-25 06:01:25,2026-08-25 06:16:34,15.15,12-20m,fleet_no_live_midgap=6/99; subnet_no_live_midgap=0/2
+176,10.114.129.127,10.114.0.0/16,Footbridge in front of Chatuchak Park on Phahon Yothin Road,2026-08-25,2026-08-25 06:01:26,2026-08-25 06:16:34,15.13,12-20m,fleet_no_live_midgap=9/99; subnet_no_live_midgap=1/6
+177,10.114.129.128,10.114.0.0/16,Footbridge in front of Chatuchak Park on Phahon Yothin Road,2026-08-25,2026-08-25 06:01:26,2026-08-25 06:16:34,15.13,12-20m,fleet_no_live_midgap=9/99; subnet_no_live_midgap=1/6
+228,10.151.129.124,10.151.0.0/16,In front of Klang Hospital on Luang Road,2026-08-25,2026-08-25 06:01:26,2026-08-25 06:16:36,15.17,12-20m,fleet_no_live_midgap=6/99; subnet_no_live_midgap=2/6
+68,10.151.128.30,10.151.0.0/16,In front of bangkokbank Worachak Branch on Worachak Road,2026-08-25,2026-08-25 06:01:28,2026-08-25 06:16:37,15.15,12-20m,fleet_no_live_midgap=6/99; subnet_no_live_midgap=2/6
+176,10.114.129.127,10.114.0.0/16,Footbridge in front of Chatuchak Park on Phahon Yothin Road,2026-08-25,2026-08-25 06:16:34,2026-08-25 06:31:55,15.35,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+137,10.130.129.126,10.130.0.0/16,Footbridge near Big C Extra Entrance to Soi Lat Phrao 7 on Lat Phrao Road,2026-08-25,2026-08-25 06:41:12,2026-08-25 06:56:11,14.98,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/3
+196,10.128.129.129,10.128.0.0/16,Footbridge in front of Makro on Narathiwas Road,2026-08-25,2026-08-25 06:41:17,2026-08-25 06:56:16,14.98,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/3
+1368,10.102.102.57,10.102.0.0/16,Lan Phra Rup Intersection,2026-08-25,2026-08-25 06:55:43,2026-08-25 07:10:43,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/13
+414,10.101.102.200,10.101.0.0/16,Below/Under Phra Phuttha Yodfa Bridge (Memorial Bridge),2026-08-25,2026-08-25 07:00:31,2026-08-25 07:17:26,16.92,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/10
+1362,10.102.101.224,10.102.0.0/16,Nakhon Chai Si Intersection,2026-08-25,2026-08-25 07:00:59,2026-08-25 07:18:13,17.23,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/13
+395,10.101.101.104,10.101.0.0/16,Sao Chingcha Intersection,2026-08-25,2026-08-25 07:01:00,2026-08-25 07:18:14,17.23,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/10
+150,10.102.129.123,10.102.0.0/16,Footbridge near Samsenwittayalai School on Rama 6 Road,2026-08-25,2026-08-25 07:01:05,2026-08-25 07:18:20,17.25,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/13
+239,10.107.129.128,10.107.0.0/16,Footbridge near Triamudomsuksa School on Phayathai Road,2026-08-25,2026-08-25 07:01:05,2026-08-25 07:18:19,17.23,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/3
+158,10.116.129.123,10.116.0.0/16,Footbridge near Soi Charoen Nakhon 46 on Charoen Nakhon Road,2026-08-25,2026-08-25 07:01:06,2026-08-25 07:18:20,17.23,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+1076,10.116.129.125,10.116.0.0/16,Footbridge near Soi Thoet Thai 21 on Ratchaphruek Road,2026-08-25,2026-08-25 07:01:07,2026-08-25 07:18:21,17.23,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+1070,10.114.129.125,10.114.0.0/16,Footbridge near Soi Phahon Yothin 18/2 on Phahon Yothin Road,2026-08-25,2026-08-25 07:01:09,2026-08-25 07:18:23,17.23,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+136,10.130.129.125,10.130.0.0/16,Footbridge near Big C Extra Entrance to Soi Lat Phrao 7 on Lat Phrao Road,2026-08-25,2026-08-25 07:01:13,2026-08-25 07:18:27,17.23,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/3
+212,10.117.129.123,10.117.0.0/16,Footbridge near Big C Ratchadaphisek on Ratchadaphisek Road,2026-08-25,2026-08-25 07:01:13,2026-08-25 07:18:27,17.23,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/16
+127,10.117.128.48,10.117.0.0/16,Near Soi Lat Phrao 30 on Lat Phrao Road,2026-08-25,2026-08-25 07:01:15,2026-08-25 07:18:30,17.25,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/16
+251,10.137.129.124,10.137.0.0/16,Footbridge near Dishongsaram Temple on Phetchaburi Road,2026-08-25,2026-08-25 07:01:15,2026-08-25 07:18:29,17.23,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/5
+135,10.117.129.138,10.117.0.0/16,Footbridge in front of Toyota Sure on  Ratchadaphisek Road,2026-08-25,2026-08-25 07:01:17,2026-08-25 07:18:32,17.25,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/16
+178,10.114.129.129,10.114.0.0/16,Footbridge in front of  PHYATHAI HOSPITAL 2 on Phahon Yothin Road,2026-08-25,2026-08-25 07:01:17,2026-08-25 07:18:32,17.25,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+139,10.130.129.128,10.130.0.0/16,Footbridge in front of Horwang School on Phahon Yothin Road,2026-08-25,2026-08-25 07:01:19,2026-08-25 07:18:34,17.25,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/3
+169,10.125.129.126,10.125.0.0/16,Footbridge in front of Wat Sao  Hin  Near Soi Wong Sawang 3 on Wong Sawang Road,2026-08-25,2026-08-25 07:01:20,2026-08-25 07:18:35,17.25,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/0
+176,10.114.129.127,10.114.0.0/16,Footbridge in front of Chatuchak Park on Phahon Yothin Road,2026-08-25,2026-08-25 07:01:20,2026-08-25 07:18:35,17.25,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+1132,10.118.128.22,10.118.0.0/16,The flyover in front of Wat Suwan,2026-08-25,2026-08-25 07:01:20,2026-08-25 07:18:34,17.23,12-20m,fleet_no_live_midgap=3/99; subnet_no_live_midgap=0/2
+70,10.101.128.24,10.101.0.0/16,"Near Thanachart Bank Public Company Limited,Branch Bang Khunphrom on Sam Sen Road",2026-08-25,2026-08-25 07:01:23,2026-08-25 07:18:37,17.23,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=1/10
+1060,10.151.128.21,10.151.0.0/16,"In front of Sai Panya School, Krung Kasem Road",2026-08-25,2026-08-25 07:01:23,2026-08-25 07:21:21,19.97,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+1361,10.101.128.22,10.101.0.0/16,In front of The Bank of Thailand: BOT on Sam Sen Road,2026-08-25,2026-08-25 07:01:23,2026-08-25 07:18:37,17.23,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=1/10
+411,10.101.102.132,10.101.0.0/16,Phra Athit Road,2026-08-25,2026-08-25 07:05:26,2026-08-25 07:20:25,14.98,12-20m,fleet_no_live_midgap=10/99; subnet_no_live_midgap=0/10
+363,10.102.102.73,10.102.0.0/16,Khatdusit Intersection,2026-08-25,2026-08-25 07:05:33,2026-08-25 07:17:48,12.25,12-20m,fleet_no_live_midgap=30/99; subnet_no_live_midgap=4/13
+370,10.101.101.13,10.101.0.0/16,Thewet Intersection,2026-08-25,2026-08-25 07:05:36,2026-08-25 07:17:54,12.3,12-20m,fleet_no_live_midgap=31/99; subnet_no_live_midgap=5/10
+371,10.101.101.12,10.101.0.0/16,Thewet Intersection,2026-08-25,2026-08-25 07:05:36,2026-08-25 07:17:54,12.3,12-20m,fleet_no_live_midgap=31/99; subnet_no_live_midgap=5/10
+1408,10.117.128.21,10.117.0.0/16,Central barrier in front of Cyber World Tower on Thiam Ruam Mit Road,2026-08-25,2026-08-25 07:05:38,2026-08-25 07:17:54,12.27,12-20m,fleet_no_live_midgap=32/99; subnet_no_live_midgap=3/16
+576,10.101.102.10,10.101.0.0/16,Bang Lamphu Intersection,2026-08-25,2026-08-25 07:05:41,2026-08-25 07:17:57,12.27,12-20m,fleet_no_live_midgap=32/99; subnet_no_live_midgap=4/10
+595,10.118.101.10,10.118.0.0/16,Ban Khaek Juncion,2026-08-25,2026-08-25 07:05:41,2026-08-25 07:17:57,12.27,12-20m,fleet_no_live_midgap=32/99; subnet_no_live_midgap=1/2
+1195,10.116.128.28,10.116.0.0/16,Near the police box on Mahai Sawan Road (Inbound),2026-08-25,2026-08-25 07:05:41,2026-08-25 07:17:59,12.3,12-20m,fleet_no_live_midgap=30/99; subnet_no_live_midgap=2/6
+1815,10.156.102.69,10.156.0.0/16,Rama 9 Intersection,2026-08-25,2026-08-25 07:05:44,2026-08-25 07:17:59,12.25,12-20m,fleet_no_live_midgap=31/99; subnet_no_live_midgap=3/4
+75,10.112.128.26,10.112.0.0/16,Under the overpass on Narathiwas Road,2026-08-25,2026-08-25 07:05:46,2026-08-25 07:18:04,12.3,12-20m,fleet_no_live_midgap=31/99; subnet_no_live_midgap=0/2
+1103,10.116.128.40,10.116.0.0/16,17/5000 Ratchada-Ratchaphruek Intersection,2026-08-25,2026-08-25 07:05:46,2026-08-25 07:18:04,12.3,12-20m,fleet_no_live_midgap=31/99; subnet_no_live_midgap=2/6
+36,10.116.128.42,10.116.0.0/16,Near the police box and BRT Ratchapruek Station on Ratchapruek Road,2026-08-25,2026-08-25 07:05:49,2026-08-25 07:18:04,12.25,12-20m,fleet_no_live_midgap=35/99; subnet_no_live_midgap=3/6
+120,10.117.128.33,10.117.0.0/16,Ratchada-Sutthisan Intersection,2026-08-25,2026-08-25 07:05:49,2026-08-25 07:18:06,12.28,12-20m,fleet_no_live_midgap=30/99; subnet_no_live_midgap=3/16
+124,10.117.128.42,10.117.0.0/16,Central barrier near the police box on Ratchadaphisek Road,2026-08-25,2026-08-25 07:05:49,2026-08-25 07:18:05,12.27,12-20m,fleet_no_live_midgap=32/99; subnet_no_live_midgap=5/16
+125,10.117.128.44,10.117.0.0/16,Central barrier near the police box on Ratchadaphisek Road,2026-08-25,2026-08-25 07:05:49,2026-08-25 07:18:05,12.27,12-20m,fleet_no_live_midgap=32/99; subnet_no_live_midgap=5/16
+604,10.104.101.35,10.104.0.0/16,Silom-Naradhiwas Intersection,2026-08-25,2026-08-25 07:05:56,2026-08-25 07:20:56,15.0,12-20m,fleet_no_live_midgap=10/99; subnet_no_live_midgap=1/2
+599,10.104.101.51,10.104.0.0/16,Surasak Intersection,2026-08-25,2026-08-25 07:05:57,2026-08-25 07:20:56,14.98,12-20m,fleet_no_live_midgap=12/99; subnet_no_live_midgap=2/2
+1112,10.126.128.108,10.126.0.0/16,Sutthisan Intersection,2026-08-25,2026-08-25 07:05:57,2026-08-25 07:20:56,14.98,12-20m,fleet_no_live_midgap=12/99; subnet_no_live_midgap=1/1
+301,10.102.101.53,10.102.0.0/16,Aoo Tong Nok Intersection,2026-08-25,2026-08-25 07:06:01,2026-08-25 07:21:01,15.0,12-20m,fleet_no_live_midgap=10/99; subnet_no_live_midgap=2/13
+206,10.128.129.131,10.128.0.0/16,Footbridge near Soi Narathiwas 20 on Narathiwas Road,2026-08-25,2026-08-25 07:06:04,2026-08-25 07:21:04,15.0,12-20m,fleet_no_live_midgap=10/99; subnet_no_live_midgap=0/3
+188,10.112.129.129,10.112.0.0/16,Footbridge near Soi Rama 3 Soi68 on Rama 3 Road,2026-08-25,2026-08-25 07:06:06,2026-08-25 07:21:06,15.0,12-20m,fleet_no_live_midgap=10/99; subnet_no_live_midgap=0/2
+211,10.117.129.122,10.117.0.0/16,Footbridge near Soi Ratchadaphisek 3 on Ratchadaphisek Road,2026-08-25,2026-08-25 07:06:07,2026-08-25 07:21:06,14.98,12-20m,fleet_no_live_midgap=14/99; subnet_no_live_midgap=1/16
+219,10.117.129.128,10.117.0.0/16,Footbridge near Soi Ratchadaphisek 14 on Ratchadaphisek Road,2026-08-25,2026-08-25 07:06:07,2026-08-25 07:21:06,14.98,12-20m,fleet_no_live_midgap=14/99; subnet_no_live_midgap=1/16
+250,10.137.129.123,10.137.0.0/16,Footbridge near Soi Phetchaburi 38 on Phetchaburi Road,2026-08-25,2026-08-25 07:06:07,2026-08-25 07:21:06,14.98,12-20m,fleet_no_live_midgap=14/99; subnet_no_live_midgap=2/5
+256,10.137.129.130,10.137.0.0/16,Footbridge near Soi Phetchaburi 27 on Phetchaburi Road,2026-08-25,2026-08-25 07:06:07,2026-08-25 07:21:06,14.98,12-20m,fleet_no_live_midgap=14/99; subnet_no_live_midgap=2/5
+82,10.137.128.42,10.137.0.0/16,Footbridge near Soi Ratchaprarop 3 on Ratchaprarop Road,2026-08-25,2026-08-25 07:06:09,2026-08-25 07:21:09,15.0,12-20m,fleet_no_live_midgap=10/99; subnet_no_live_midgap=1/5
+215,10.117.129.126,10.117.0.0/16,Footbridge near Soi Ratchadaphisek 7 on Ratchadaphisek Road,2026-08-25,2026-08-25 07:06:09,2026-08-25 07:21:08,14.98,12-20m,fleet_no_live_midgap=11/99; subnet_no_live_midgap=0/16
+137,10.130.129.126,10.130.0.0/16,Footbridge near Big C Extra Entrance to Soi Lat Phrao 7 on Lat Phrao Road,2026-08-25,2026-08-25 07:06:12,2026-08-25 07:21:11,14.98,12-20m,fleet_no_live_midgap=13/99; subnet_no_live_midgap=0/3
+170,10.114.129.121,10.114.0.0/16,Footbridge near  Nawati Somdet Ya Hospital on Phahon Yothin Road,2026-08-25,2026-08-25 07:06:12,2026-08-25 07:21:11,14.98,12-20m,fleet_no_live_midgap=13/99; subnet_no_live_midgap=0/6
+194,10.128.129.127,10.128.0.0/16,Footbridge near Entrance to Soi Convent on  South Sathorn Road,2026-08-25,2026-08-25 07:06:12,2026-08-25 07:21:11,14.98,12-20m,fleet_no_live_midgap=13/99; subnet_no_live_midgap=0/3
+225,10.117.129.136,10.117.0.0/16,Footbridge near The Criminal Court on  Ratchadaphisek Road,2026-08-25,2026-08-25 07:06:12,2026-08-25 07:21:11,14.98,12-20m,fleet_no_live_midgap=13/99; subnet_no_live_midgap=0/16
+179,10.114.129.130,10.114.0.0/16,Footbridge in front of  PHYATHAI HOSPITAL 2 on Phahon Yothin Road,2026-08-25,2026-08-25 07:06:15,2026-08-25 07:21:14,14.98,12-20m,fleet_no_live_midgap=10/99; subnet_no_live_midgap=0/6
+141,10.130.129.130,10.130.0.0/16,Footbridge in front of PTT Public Company Limited near Soi Vibhavadi Rangsit 11 on Vibhavadi Rangsit Road,2026-08-25,2026-08-25 07:06:17,2026-08-25 07:21:16,14.98,12-20m,fleet_no_live_midgap=12/99; subnet_no_live_midgap=0/3
+196,10.128.129.129,10.128.0.0/16,Footbridge in front of Makro on Narathiwas Road,2026-08-25,2026-08-25 07:06:17,2026-08-25 07:21:16,14.98,12-20m,fleet_no_live_midgap=12/99; subnet_no_live_midgap=0/3
+1078,10.118.128.24,10.118.0.0/16,The flyover in front of Wat Suwan,2026-08-25,2026-08-25 07:06:17,2026-08-25 07:21:16,14.98,12-20m,fleet_no_live_midgap=12/99; subnet_no_live_midgap=0/2
+177,10.114.129.128,10.114.0.0/16,Footbridge in front of Chatuchak Park on Phahon Yothin Road,2026-08-25,2026-08-25 07:06:19,2026-08-25 07:21:18,14.98,12-20m,fleet_no_live_midgap=11/99; subnet_no_live_midgap=0/6
+228,10.151.129.124,10.151.0.0/16,In front of Klang Hospital on Luang Road,2026-08-25,2026-08-25 07:06:19,2026-08-25 07:21:19,15.0,12-20m,fleet_no_live_midgap=10/99; subnet_no_live_midgap=2/6
+68,10.151.128.30,10.151.0.0/16,In front of bangkokbank Worachak Branch on Worachak Road,2026-08-25,2026-08-25 07:06:20,2026-08-25 07:21:19,14.98,12-20m,fleet_no_live_midgap=11/99; subnet_no_live_midgap=3/6
+277,10.137.101.27,10.137.0.0/16,Footbridge near Soi Rang Nam on Phayathai Road,2026-08-25,2026-08-25 07:10:23,2026-08-25 07:25:23,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/5
+412,10.101.102.134,10.101.0.0/16,Phra Athit Road,2026-08-25,2026-08-25 07:10:25,2026-08-25 07:25:26,15.02,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/10
+120,10.117.128.33,10.117.0.0/16,Ratchada-Sutthisan Intersection,2026-08-25,2026-08-25 07:35:54,2026-08-25 07:50:52,14.97,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/16
+395,10.101.101.104,10.101.0.0/16,Sao Chingcha Intersection,2026-08-25,2026-08-25 08:06:00,2026-08-25 08:20:59,14.98,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/10
+123,10.117.128.40,10.117.0.0/16,Central barrier near the police box on Ratchadaphisek Road,2026-08-25,2026-08-25 08:10:49,2026-08-25 08:26:12,15.38,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/16
+233,10.102.129.137,10.102.0.0/16,Opposite Chitralada Palace on Rama 5 Road,2026-08-25,2026-08-25 08:15:13,2026-08-25 08:30:13,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/13
+301,10.102.101.53,10.102.0.0/16,Aoo Tong Nok Intersection,2026-08-25,2026-08-25 08:21:03,2026-08-25 08:36:03,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/13
+125,10.117.128.44,10.117.0.0/16,Central barrier near the police box on Ratchadaphisek Road,2026-08-25,2026-08-25 08:26:12,2026-08-25 08:40:48,14.6,12-20m,fleet_no_live_midgap=6/99; subnet_no_live_midgap=0/16
+1076,10.116.129.125,10.116.0.0/16,Footbridge near Soi Thoet Thai 21 on Ratchaphruek Road,2026-08-25,2026-08-25 08:46:29,2026-08-25 09:01:03,14.57,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+913,10.156.102.13,10.156.0.0/16,connect BMAcctv,2026-08-25,2026-08-25 09:25:05,2026-08-25 09:40:05,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/4
+230,10.102.129.126,10.102.0.0/16,Entrance to Soi Ranong 2 on Rama 5 Road,2026-08-25,2026-08-25 09:30:32,2026-08-25 09:45:30,14.97,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/13
+1078,10.118.128.24,10.118.0.0/16,The flyover in front of Wat Suwan,2026-08-25,2026-08-25 09:31:17,2026-08-25 09:46:16,14.98,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/2
+1028,10.102.128.34,10.102.0.0/16,Red Bridge Intersection,2026-08-25,2026-08-25 10:00:54,2026-08-25 10:15:53,14.98,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/13
+1408,10.117.128.21,10.117.0.0/16,Central barrier in front of Cyber World Tower on Thiam Ruam Mit Road,2026-08-25,2026-08-25 10:05:40,2026-08-25 10:20:39,14.98,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/16
+1112,10.126.128.108,10.126.0.0/16,Sutthisan Intersection,2026-08-25,2026-08-25 10:10:57,2026-08-25 10:25:56,14.98,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/1
+225,10.117.129.136,10.117.0.0/16,Footbridge near The Criminal Court on  Ratchadaphisek Road,2026-08-25,2026-08-25 10:11:12,2026-08-25 10:26:12,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/16
+137,10.130.129.126,10.130.0.0/16,Footbridge near Big C Extra Entrance to Soi Lat Phrao 7 on Lat Phrao Road,2026-08-25,2026-08-25 10:41:11,2026-08-25 10:56:11,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/3
+36,10.116.128.42,10.116.0.0/16,Near the police box and BRT Ratchapruek Station on Ratchapruek Road,2026-08-25,2026-08-25 11:00:48,2026-08-25 11:15:48,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+26,10.116.128.22,10.116.0.0/16,Near Pao Leng Pharmacy on Mahai Sawan Road (Inbound),2026-08-25,2026-08-25 11:30:41,2026-08-25 11:45:41,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+1361,10.101.128.22,10.101.0.0/16,In front of The Bank of Thailand: BOT on Sam Sen Road,2026-08-25,2026-08-25 11:36:24,2026-08-25 11:51:23,14.98,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/10
+1078,10.118.128.24,10.118.0.0/16,The flyover in front of Wat Suwan,2026-08-25,2026-08-25 11:46:17,2026-08-25 12:01:22,15.08,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/2
+277,10.137.101.27,10.137.0.0/16,Footbridge near Soi Rang Nam on Phayathai Road,2026-08-25,2026-08-25 12:05:23,2026-08-25 12:20:23,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/5
+256,10.137.129.130,10.137.0.0/16,Footbridge near Soi Phetchaburi 27 on Phetchaburi Road,2026-08-25,2026-08-25 12:11:07,2026-08-25 12:26:07,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/5
+301,10.102.101.53,10.102.0.0/16,Aoo Tong Nok Intersection,2026-08-25,2026-08-25 12:16:01,2026-08-25 12:31:02,15.02,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/13
+1070,10.114.129.125,10.114.0.0/16,Footbridge near Soi Phahon Yothin 18/2 on Phahon Yothin Road,2026-08-25,2026-08-25 12:16:06,2026-08-25 12:31:07,15.02,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+150,10.102.129.123,10.102.0.0/16,Footbridge near Samsenwittayalai School on Rama 6 Road,2026-08-25,2026-08-25 12:36:06,2026-08-25 12:51:06,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/13
+26,10.116.128.22,10.116.0.0/16,Near Pao Leng Pharmacy on Mahai Sawan Road (Inbound),2026-08-25,2026-08-25 12:45:42,2026-08-25 13:00:42,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+178,10.114.129.129,10.114.0.0/16,Footbridge in front of  PHYATHAI HOSPITAL 2 on Phahon Yothin Road,2026-08-25,2026-08-25 13:06:22,2026-08-25 13:21:19,14.95,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+1076,10.116.129.125,10.116.0.0/16,Footbridge near Soi Thoet Thai 21 on Ratchaphruek Road,2026-08-25,2026-08-25 13:21:05,2026-08-25 13:36:09,15.07,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+188,10.112.129.129,10.112.0.0/16,Footbridge near Soi Rama 3 Soi68 on Rama 3 Road,2026-08-25,2026-08-25 13:21:08,2026-08-25 13:36:11,15.05,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/2
+36,10.116.128.42,10.116.0.0/16,Near the police box and BRT Ratchapruek Station on Ratchapruek Road,2026-08-25,2026-08-25 13:25:50,2026-08-25 13:40:53,15.05,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+225,10.117.129.136,10.117.0.0/16,Footbridge near The Criminal Court on  Ratchadaphisek Road,2026-08-25,2026-08-25 13:26:15,2026-08-25 13:41:17,15.03,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/16
+1132,10.118.128.22,10.118.0.0/16,The flyover in front of Wat Suwan,2026-08-25,2026-08-25 13:26:20,2026-08-25 13:41:22,15.03,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/2
+413,10.101.102.190,10.101.0.0/16,Tanao Road,2026-08-25,2026-08-25 13:55:29,2026-08-25 14:10:26,14.95,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/10
+1039,10.151.128.28,10.151.0.0/16,Near the police box on Rama 4 Road (Inbound),2026-08-25,2026-08-25 14:00:13,2026-08-25 14:15:12,14.98,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/6
+432,10.107.101.53,10.107.0.0/16,Pathum Wan  Intersection,2026-08-25,2026-08-25 14:10:21,2026-08-25 14:25:21,15.0,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/3
+141,10.130.129.130,10.130.0.0/16,Footbridge in front of PTT Public Company Limited near Soi Vibhavadi Rangsit 11 on Vibhavadi Rangsit Road,2026-08-25,2026-08-25 15:11:17,2026-08-25 15:26:17,15.0,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/3
+135,10.117.129.138,10.117.0.0/16,Footbridge in front of Toyota Sure on  Ratchadaphisek Road,2026-08-25,2026-08-25 15:46:15,2026-08-25 16:01:15,15.0,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/16
+219,10.117.129.128,10.117.0.0/16,Footbridge near Soi Ratchadaphisek 14 on Ratchadaphisek Road,2026-08-25,2026-08-25 15:51:07,2026-08-25 16:06:08,15.02,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/16
+1076,10.116.129.125,10.116.0.0/16,Footbridge near Soi Thoet Thai 21 on Ratchaphruek Road,2026-08-25,2026-08-25 16:16:05,2026-08-25 16:31:08,15.05,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/6
+1132,10.118.128.22,10.118.0.0/16,The flyover in front of Wat Suwan,2026-08-25,2026-08-25 16:21:18,2026-08-25 16:36:18,15.0,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/2
+224,10.117.129.135,10.117.0.0/16,Footbridge near The Criminal Court on  Ratchadaphisek Road,2026-08-25,2026-08-25 16:30:00,2026-08-25 16:45:01,15.02,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/16
+225,10.117.129.136,10.117.0.0/16,Footbridge near The Criminal Court on  Ratchadaphisek Road,2026-08-25,2026-08-25 16:41:15,2026-08-25 16:56:16,15.02,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/16
+178,10.114.129.129,10.114.0.0/16,Footbridge in front of  PHYATHAI HOSPITAL 2 on Phahon Yothin Road,2026-08-25,2026-08-25 16:51:16,2026-08-25 17:06:16,15.0,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/6
+301,10.102.101.53,10.102.0.0/16,Aoo Tong Nok Intersection,2026-08-25,2026-08-25 17:21:03,2026-08-25 17:36:02,14.98,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/13
+186,10.112.129.127,10.112.0.0/16,Directional sign to Rama 3 Bridge on Ratchadaphisek Road,2026-08-25,2026-08-25 17:40:11,2026-08-25 17:55:11,15.0,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/2
+141,10.130.129.130,10.130.0.0/16,Footbridge in front of PTT Public Company Limited near Soi Vibhavadi Rangsit 11 on Vibhavadi Rangsit Road,2026-08-25,2026-08-25 17:46:17,2026-08-25 18:01:17,15.0,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/3
+1076,10.116.129.125,10.116.0.0/16,Footbridge near Soi Thoet Thai 21 on Ratchaphruek Road,2026-08-25,2026-08-25 17:51:05,2026-08-25 18:06:08,15.05,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/6
+432,10.107.101.53,10.107.0.0/16,Pathum Wan  Intersection,2026-08-25,2026-08-25 18:05:24,2026-08-25 18:20:21,14.95,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/3
+569,10.101.102.68,10.101.0.0/16,Jor Por Ror  Intersection,2026-08-25,2026-08-25 18:20:34,2026-08-25 18:35:34,15.0,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/10
+158,10.116.129.123,10.116.0.0/16,Footbridge near Soi Charoen Nakhon 46 on Charoen Nakhon Road,2026-08-25,2026-08-25 18:26:14,2026-08-25 18:46:05,19.85,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/6
+178,10.114.129.129,10.114.0.0/16,Footbridge in front of  PHYATHAI HOSPITAL 2 on Phahon Yothin Road,2026-08-25,2026-08-25 18:26:26,2026-08-25 18:41:20,14.9,12-20m,fleet_no_live_midgap=3/99; subnet_no_live_midgap=0/6
+414,10.101.102.200,10.101.0.0/16,Below/Under Phra Phuttha Yodfa Bridge (Memorial Bridge),2026-08-25,2026-08-25 18:45:29,2026-08-25 19:00:29,15.0,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/10
+119,10.117.128.36,10.117.0.0/16,Ratchada-Sutthisan Intersection,2026-08-25,2026-08-25 19:00:49,2026-08-25 19:15:49,15.0,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/16
+119,10.117.128.36,10.117.0.0/16,Ratchada-Sutthisan Intersection,2026-08-25,2026-08-25 19:45:50,2026-08-25 20:00:50,15.0,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/16
+1188,10.151.101.88,10.151.0.0/16,Ratchathewi Intersection,2026-08-25,2026-08-25 19:50:11,2026-08-25 20:05:11,15.0,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/6
+630,10.102.102.68,10.102.0.0/16,Gesagomon Intersection,2026-08-25,2026-08-25 20:40:32,2026-08-25 20:55:32,15.0,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/13
+126,10.117.128.46,10.117.0.0/16,Near Soi Lat Phrao 30 on Lat Phrao Road,2026-08-26,2026-08-26 06:10:00,2026-08-26 06:25:00,15.0,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/16
+915,10.156.102.15,10.156.0.0/16,connect BMAcctv,2026-08-26,2026-08-26 06:10:08,2026-08-26 06:25:05,14.95,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=2/4
+913,10.156.102.13,10.156.0.0/16,connect BMAcctv,2026-08-26,2026-08-26 06:10:10,2026-08-26 06:25:05,14.92,12-20m,fleet_no_live_midgap=3/99; subnet_no_live_midgap=3/4
+11,10.126.128.34,10.126.0.0/16,Traffic Lights near Soi Rajavithi  6 on Rajavithi  Road,2026-08-26,2026-08-26 06:10:11,2026-08-26 06:23:09,12.97,12-20m,fleet_no_live_midgap=5/99; subnet_no_live_midgap=0/1
+186,10.112.129.127,10.112.0.0/16,Directional sign to Rama 3 Bridge on Ratchadaphisek Road,2026-08-26,2026-08-26 06:10:13,2026-08-26 06:23:32,13.32,12-20m,fleet_no_live_midgap=5/99; subnet_no_live_midgap=0/2
+529,10.151.101.91,10.151.0.0/16,Henri Dunant Intersection,2026-08-26,2026-08-26 06:10:14,2026-08-26 06:23:32,13.3,12-20m,fleet_no_live_midgap=6/99; subnet_no_live_midgap=0/6
+572,10.151.101.56,10.151.0.0/16,Jor Por Ror  Intersection,2026-08-26,2026-08-26 06:10:17,2026-08-26 06:23:37,13.33,12-20m,fleet_no_live_midgap=5/99; subnet_no_live_midgap=0/6
+500,10.137.102.27,10.137.0.0/16,Pra Tu Num Intersection,2026-08-26,2026-08-26 06:10:23,2026-08-26 06:23:40,13.28,12-20m,fleet_no_live_midgap=5/99; subnet_no_live_midgap=0/5
+542,10.107.101.83,10.107.0.0/16,Chit Lom Intersection,2026-08-26,2026-08-26 06:10:26,2026-08-26 06:23:45,13.32,12-20m,fleet_no_live_midgap=5/99; subnet_no_live_midgap=0/3
+411,10.101.102.132,10.101.0.0/16,Phra Athit Road,2026-08-26,2026-08-26 06:10:30,2026-08-26 06:23:48,13.3,12-20m,fleet_no_live_midgap=6/99; subnet_no_live_midgap=1/10
+413,10.101.102.190,10.101.0.0/16,Tanao Road,2026-08-26,2026-08-26 06:10:30,2026-08-26 06:23:48,13.3,12-20m,fleet_no_live_midgap=6/99; subnet_no_live_midgap=1/10
+412,10.101.102.134,10.101.0.0/16,Phra Athit Road,2026-08-26,2026-08-26 06:10:31,2026-08-26 06:23:48,13.28,12-20m,fleet_no_live_midgap=7/99; subnet_no_live_midgap=2/10
+414,10.101.102.200,10.101.0.0/16,Below/Under Phra Phuttha Yodfa Bridge (Memorial Bridge),2026-08-26,2026-08-26 06:10:32,2026-08-26 06:23:50,13.3,12-20m,fleet_no_live_midgap=5/99; subnet_no_live_midgap=0/10
+363,10.102.102.73,10.102.0.0/16,Khatdusit Intersection,2026-08-26,2026-08-26 06:10:36,2026-08-26 06:23:55,13.32,12-20m,fleet_no_live_midgap=5/99; subnet_no_live_midgap=0/13
+569,10.101.102.68,10.101.0.0/16,Jor Por Ror  Intersection,2026-08-26,2026-08-26 06:10:39,2026-08-26 06:23:56,13.28,12-20m,fleet_no_live_midgap=5/99; subnet_no_live_midgap=0/10
+88,10.128.128.34,10.128.0.0/16,Chan-Sathu Pradit Intersection Intersection,2026-08-26,2026-08-26 06:10:40,2026-08-26 06:23:58,13.3,12-20m,fleet_no_live_midgap=5/99; subnet_no_live_midgap=0/3
+371,10.101.101.12,10.101.0.0/16,Thewet Intersection,2026-08-26,2026-08-26 06:10:41,2026-08-26 06:24:01,13.33,12-20m,fleet_no_live_midgap=6/99; subnet_no_live_midgap=0/10
+1408,10.117.128.21,10.117.0.0/16,Central barrier in front of Cyber World Tower on Thiam Ruam Mit Road,2026-08-26,2026-08-26 06:10:41,2026-08-26 06:24:01,13.33,12-20m,fleet_no_live_midgap=6/99; subnet_no_live_midgap=1/16
+112,10.117.128.25,10.117.0.0/16,near the police box on Thiam Ruam Mit Road,2026-08-26,2026-08-26 06:10:43,2026-08-26 06:24:01,13.3,12-20m,fleet_no_live_midgap=7/99; subnet_no_live_midgap=2/16
+32,10.116.128.34,10.116.0.0/16,Bang Yi Rue Intersection  on Phetkasem Road,2026-08-26,2026-08-26 06:10:45,2026-08-26 06:24:04,13.32,12-20m,fleet_no_live_midgap=5/99; subnet_no_live_midgap=0/6
+1195,10.116.128.28,10.116.0.0/16,Near the police box on Mahai Sawan Road (Inbound),2026-08-26,2026-08-26 06:10:46,2026-08-26 06:24:06,13.33,12-20m,fleet_no_live_midgap=5/99; subnet_no_live_midgap=0/6
+1589,10.108.102.43,10.108.0.0/16,,2026-08-26,2026-08-26 06:10:50,2026-08-26 06:24:09,13.32,12-20m,fleet_no_live_midgap=5/99; subnet_no_live_midgap=0/0
+75,10.112.128.26,10.112.0.0/16,Under the overpass on Narathiwas Road,2026-08-26,2026-08-26 06:10:53,2026-08-26 06:24:11,13.3,12-20m,fleet_no_live_midgap=8/99; subnet_no_live_midgap=0/2
+119,10.117.128.36,10.117.0.0/16,Ratchada-Sutthisan Intersection,2026-08-26,2026-08-26 06:10:53,2026-08-26 06:24:11,13.3,12-20m,fleet_no_live_midgap=8/99; subnet_no_live_midgap=2/16
+124,10.117.128.42,10.117.0.0/16,Central barrier near the police box on Ratchadaphisek Road,2026-08-26,2026-08-26 06:10:53,2026-08-26 06:24:11,13.3,12-20m,fleet_no_live_midgap=8/99; subnet_no_live_midgap=2/16
+1103,10.116.128.40,10.116.0.0/16,17/5000 Ratchada-Ratchaphruek Intersection,2026-08-26,2026-08-26 06:10:53,2026-08-26 06:24:11,13.3,12-20m,fleet_no_live_midgap=8/99; subnet_no_live_midgap=0/6
+120,10.117.128.33,10.117.0.0/16,Ratchada-Sutthisan Intersection,2026-08-26,2026-08-26 06:10:57,2026-08-26 06:24:12,13.25,12-20m,fleet_no_live_midgap=5/99; subnet_no_live_midgap=1/16
+1362,10.102.101.224,10.102.0.0/16,Nakhon Chai Si Intersection,2026-08-26,2026-08-26 06:11:04,2026-08-26 06:24:19,13.25,12-20m,fleet_no_live_midgap=5/99; subnet_no_live_midgap=0/13
+395,10.101.101.104,10.101.0.0/16,Sao Chingcha Intersection,2026-08-26,2026-08-26 06:11:06,2026-08-26 06:24:21,13.25,12-20m,fleet_no_live_midgap=5/99; subnet_no_live_midgap=0/10
+301,10.102.101.53,10.102.0.0/16,Aoo Tong Nok Intersection,2026-08-26,2026-08-26 06:11:10,2026-08-26 06:24:24,13.23,12-20m,fleet_no_live_midgap=5/99; subnet_no_live_midgap=0/13
+158,10.116.129.123,10.116.0.0/16,Footbridge near Soi Charoen Nakhon 46 on Charoen Nakhon Road,2026-08-26,2026-08-26 06:11:13,2026-08-26 06:24:27,13.23,12-20m,fleet_no_live_midgap=6/99; subnet_no_live_midgap=1/6
+1076,10.116.129.125,10.116.0.0/16,Footbridge near Soi Thoet Thai 21 on Ratchaphruek Road,2026-08-26,2026-08-26 06:11:13,2026-08-26 06:24:29,13.27,12-20m,fleet_no_live_midgap=5/99; subnet_no_live_midgap=0/6
+188,10.112.129.129,10.112.0.0/16,Footbridge near Soi Rama 3 Soi68 on Rama 3 Road,2026-08-26,2026-08-26 06:11:15,2026-08-26 06:24:29,13.23,12-20m,fleet_no_live_midgap=6/99; subnet_no_live_midgap=0/2
+211,10.117.129.122,10.117.0.0/16,Footbridge near Soi Ratchadaphisek 3 on Ratchadaphisek Road,2026-08-26,2026-08-26 06:11:17,2026-08-26 06:24:32,13.25,12-20m,fleet_no_live_midgap=5/99; subnet_no_live_midgap=1/16
+215,10.117.129.126,10.117.0.0/16,Footbridge near Soi Ratchadaphisek 7 on Ratchadaphisek Road,2026-08-26,2026-08-26 06:11:18,2026-08-26 06:24:32,13.23,12-20m,fleet_no_live_midgap=6/99; subnet_no_live_midgap=2/16
+136,10.130.129.125,10.130.0.0/16,Footbridge near Big C Extra Entrance to Soi Lat Phrao 7 on Lat Phrao Road,2026-08-26,2026-08-26 06:11:20,2026-08-26 06:24:35,13.25,12-20m,fleet_no_live_midgap=8/99; subnet_no_live_midgap=1/3
+137,10.130.129.126,10.130.0.0/16,Footbridge near Big C Extra Entrance to Soi Lat Phrao 7 on Lat Phrao Road,2026-08-26,2026-08-26 06:11:20,2026-08-26 06:24:35,13.25,12-20m,fleet_no_live_midgap=8/99; subnet_no_live_midgap=1/3
+170,10.114.129.121,10.114.0.0/16,Footbridge near  Nawati Somdet Ya Hospital on Phahon Yothin Road,2026-08-26,2026-08-26 06:11:20,2026-08-26 06:24:37,13.28,12-20m,fleet_no_live_midgap=5/99; subnet_no_live_midgap=0/6
+194,10.128.129.127,10.128.0.0/16,Footbridge near Entrance to Soi Convent on  South Sathorn Road,2026-08-26,2026-08-26 06:11:20,2026-08-26 06:24:35,13.25,12-20m,fleet_no_live_midgap=8/99; subnet_no_live_midgap=0/3
+225,10.117.129.136,10.117.0.0/16,Footbridge near The Criminal Court on  Ratchadaphisek Road,2026-08-26,2026-08-26 06:11:22,2026-08-26 06:24:37,13.25,12-20m,fleet_no_live_midgap=6/99; subnet_no_live_midgap=1/16
+127,10.117.128.48,10.117.0.0/16,Near Soi Lat Phrao 30 on Lat Phrao Road,2026-08-26,2026-08-26 06:11:23,2026-08-26 06:24:38,13.25,12-20m,fleet_no_live_midgap=5/99; subnet_no_live_midgap=1/16
+135,10.117.129.138,10.117.0.0/16,Footbridge in front of Toyota Sure on  Ratchadaphisek Road,2026-08-26,2026-08-26 06:11:25,2026-08-26 06:24:40,13.25,12-20m,fleet_no_live_midgap=6/99; subnet_no_live_midgap=1/16
+179,10.114.129.130,10.114.0.0/16,Footbridge in front of  PHYATHAI HOSPITAL 2 on Phahon Yothin Road,2026-08-26,2026-08-26 06:11:25,2026-08-26 06:24:39,13.23,12-20m,fleet_no_live_midgap=7/99; subnet_no_live_midgap=0/6
+196,10.128.129.129,10.128.0.0/16,Footbridge in front of Makro on Narathiwas Road,2026-08-26,2026-08-26 06:11:25,2026-08-26 06:24:40,13.25,12-20m,fleet_no_live_midgap=6/99; subnet_no_live_midgap=0/3
+1132,10.118.128.22,10.118.0.0/16,The flyover in front of Wat Suwan,2026-08-26,2026-08-26 06:11:26,2026-08-26 06:24:42,13.27,12-20m,fleet_no_live_midgap=5/99; subnet_no_live_midgap=0/2
+1078,10.118.128.24,10.118.0.0/16,The flyover in front of Wat Suwan,2026-08-26,2026-08-26 06:11:27,2026-08-26 06:24:42,13.25,12-20m,fleet_no_live_midgap=6/99; subnet_no_live_midgap=1/2
+177,10.114.129.128,10.114.0.0/16,Footbridge in front of Chatuchak Park on Phahon Yothin Road,2026-08-26,2026-08-26 06:11:28,2026-08-26 06:24:43,13.25,12-20m,fleet_no_live_midgap=5/99; subnet_no_live_midgap=0/6
+68,10.151.128.30,10.151.0.0/16,In front of bangkokbank Worachak Branch on Worachak Road,2026-08-26,2026-08-26 06:11:30,2026-08-26 06:24:45,13.25,12-20m,fleet_no_live_midgap=5/99; subnet_no_live_midgap=0/6
+1060,10.151.128.21,10.151.0.0/16,"In front of Sai Panya School, Krung Kasem Road",2026-08-26,2026-08-26 06:11:31,2026-08-26 06:24:45,13.23,12-20m,fleet_no_live_midgap=6/99; subnet_no_live_midgap=1/6
+370,10.101.101.13,10.101.0.0/16,Thewet Intersection,2026-08-26,2026-08-26 06:15:51,2026-08-26 06:34:16,18.42,12-20m,fleet_no_live_midgap=4/99; subnet_no_live_midgap=0/10
+137,10.130.129.126,10.130.0.0/16,Footbridge near Big C Extra Entrance to Soi Lat Phrao 7 on Lat Phrao Road,2026-08-26,2026-08-26 06:24:35,2026-08-26 06:41:16,16.68,12-20m,fleet_no_live_midgap=3/99; subnet_no_live_midgap=0/3
+126,10.117.128.46,10.117.0.0/16,Near Soi Lat Phrao 30 on Lat Phrao Road,2026-08-26,2026-08-26 06:25:00,2026-08-26 06:45:00,20.0,12-20m,fleet_no_live_midgap=3/99; subnet_no_live_midgap=1/16
+915,10.156.102.15,10.156.0.0/16,connect BMAcctv,2026-08-26,2026-08-26 06:25:05,2026-08-26 06:45:05,20.0,12-20m,fleet_no_live_midgap=3/99; subnet_no_live_midgap=3/4
+1039,10.151.128.28,10.151.0.0/16,Near the police box on Rama 4 Road (Inbound),2026-08-26,2026-08-26 06:25:08,2026-08-26 06:40:07,14.98,12-20m,fleet_no_live_midgap=7/99; subnet_no_live_midgap=0/6
+1188,10.151.101.88,10.151.0.0/16,Ratchathewi Intersection,2026-08-26,2026-08-26 06:25:10,2026-08-26 06:40:11,15.02,12-20m,fleet_no_live_midgap=7/99; subnet_no_live_midgap=0/6
+233,10.102.129.137,10.102.0.0/16,Opposite Chitralada Palace on Rama 5 Road,2026-08-26,2026-08-26 06:25:12,2026-08-26 06:40:13,15.02,12-20m,fleet_no_live_midgap=7/99; subnet_no_live_midgap=0/13
+1063,10.102.129.138,10.102.0.0/16,Opposite Chitralada Palace,2026-08-26,2026-08-26 06:25:12,2026-08-26 06:40:12,15.0,12-20m,fleet_no_live_midgap=8/99; subnet_no_live_midgap=1/13
+432,10.107.101.53,10.107.0.0/16,Pathum Wan  Intersection,2026-08-26,2026-08-26 06:25:20,2026-08-26 06:40:21,15.02,12-20m,fleet_no_live_midgap=7/99; subnet_no_live_midgap=0/3
+277,10.137.101.27,10.137.0.0/16,Footbridge near Soi Rang Nam on Phayathai Road,2026-08-26,2026-08-26 06:25:23,2026-08-26 06:40:23,15.0,12-20m,fleet_no_live_midgap=8/99; subnet_no_live_midgap=0/5
+619,10.107.101.41,10.107.0.0/16,Pathum Wan  Intersection,2026-08-26,2026-08-26 06:25:23,2026-08-26 06:40:24,15.02,12-20m,fleet_no_live_midgap=7/99; subnet_no_live_midgap=0/3
+230,10.102.129.126,10.102.0.0/16,Entrance to Soi Ranong 2 on Rama 5 Road,2026-08-26,2026-08-26 06:25:30,2026-08-26 06:40:30,15.0,12-20m,fleet_no_live_midgap=8/99; subnet_no_live_midgap=0/13
+1804,10.134.116.85,10.134.0.0/16,On Nut Road,2026-08-26,2026-08-26 06:25:30,2026-08-26 06:40:31,15.02,12-20m,fleet_no_live_midgap=7/99; subnet_no_live_midgap=0/0
+630,10.102.102.68,10.102.0.0/16,Gesagomon Intersection,2026-08-26,2026-08-26 06:25:31,2026-08-26 06:40:32,15.02,12-20m,fleet_no_live_midgap=8/99; subnet_no_live_midgap=0/13
+1071,10.114.128.42,10.114.0.0/16,Central barrier near Soi Phahon Yothin 18  on Kamphaeng Phet Road,2026-08-26,2026-08-26 06:25:31,2026-08-26 06:40:32,15.02,12-20m,fleet_no_live_midgap=8/99; subnet_no_live_midgap=0/6
+576,10.101.102.10,10.101.0.0/16,Bang Lamphu Intersection,2026-08-26,2026-08-26 06:25:41,2026-08-26 06:40:41,15.0,12-20m,fleet_no_live_midgap=8/99; subnet_no_live_midgap=0/10
+595,10.118.101.10,10.118.0.0/16,Ban Khaek Juncion,2026-08-26,2026-08-26 06:25:41,2026-08-26 06:40:42,15.02,12-20m,fleet_no_live_midgap=7/99; subnet_no_live_midgap=0/2
+26,10.116.128.22,10.116.0.0/16,Near Pao Leng Pharmacy on Mahai Sawan Road (Inbound),2026-08-26,2026-08-26 06:25:43,2026-08-26 06:40:42,14.98,12-20m,fleet_no_live_midgap=9/99; subnet_no_live_midgap=0/6
+1815,10.156.102.69,10.156.0.0/16,Rama 9 Intersection,2026-08-26,2026-08-26 06:25:43,2026-08-26 06:40:43,15.0,12-20m,fleet_no_live_midgap=7/99; subnet_no_live_midgap=4/4
+546,10.102.102.58,10.102.0.0/16,Panichayakarn junction,2026-08-26,2026-08-26 06:25:46,2026-08-26 06:40:45,14.98,12-20m,fleet_no_live_midgap=8/99; subnet_no_live_midgap=1/13
+1368,10.102.102.57,10.102.0.0/16,Lan Phra Rup Intersection,2026-08-26,2026-08-26 06:25:46,2026-08-26 06:40:45,14.98,12-20m,fleet_no_live_midgap=8/99; subnet_no_live_midgap=1/13
+36,10.116.128.42,10.116.0.0/16,Near the police box and BRT Ratchapruek Station on Ratchapruek Road,2026-08-26,2026-08-26 06:25:48,2026-08-26 06:40:48,15.0,12-20m,fleet_no_live_midgap=9/99; subnet_no_live_midgap=0/6
+123,10.117.128.40,10.117.0.0/16,Central barrier near the police box on Ratchadaphisek Road,2026-08-26,2026-08-26 06:25:48,2026-08-26 06:40:49,15.02,12-20m,fleet_no_live_midgap=8/99; subnet_no_live_midgap=3/16
+125,10.117.128.44,10.117.0.0/16,Central barrier near the police box on Ratchadaphisek Road,2026-08-26,2026-08-26 06:25:48,2026-08-26 06:40:50,15.03,12-20m,fleet_no_live_midgap=7/99; subnet_no_live_midgap=2/16
+118,10.117.128.30,10.117.0.0/16,Ratchada-Sutthisan Intersection,2026-08-26,2026-08-26 06:25:51,2026-08-26 06:40:50,14.98,12-20m,fleet_no_live_midgap=10/99; subnet_no_live_midgap=3/16
+332,10.102.101.105,10.102.0.0/16,Rat Cha Wat Intersection,2026-08-26,2026-08-26 06:25:51,2026-08-26 06:40:52,15.02,12-20m,fleet_no_live_midgap=8/99; subnet_no_live_midgap=1/13
+556,10.102.102.15,10.102.0.0/16,Vajira Intersection,2026-08-26,2026-08-26 06:25:51,2026-08-26 06:40:53,15.03,12-20m,fleet_no_live_midgap=7/99; subnet_no_live_midgap=0/13
+1028,10.102.128.34,10.102.0.0/16,Red Bridge Intersection,2026-08-26,2026-08-26 06:25:56,2026-08-26 06:40:55,14.98,12-20m,fleet_no_live_midgap=8/99; subnet_no_live_midgap=1/13
+604,10.104.101.35,10.104.0.0/16,Silom-Naradhiwas Intersection,2026-08-26,2026-08-26 06:25:58,2026-08-26 06:40:59,15.02,12-20m,fleet_no_live_midgap=8/99; subnet_no_live_midgap=0/2
+599,10.104.101.51,10.104.0.0/16,Surasak Intersection,2026-08-26,2026-08-26 06:25:59,2026-08-26 06:41:00,15.02,12-20m,fleet_no_live_midgap=8/99; subnet_no_live_midgap=0/2
+1112,10.126.128.108,10.126.0.0/16,Sutthisan Intersection,2026-08-26,2026-08-26 06:25:59,2026-08-26 06:40:59,15.0,12-20m,fleet_no_live_midgap=10/99; subnet_no_live_midgap=0/1
+150,10.102.129.123,10.102.0.0/16,Footbridge near Samsenwittayalai School on Rama 6 Road,2026-08-26,2026-08-26 06:26:04,2026-08-26 06:41:06,15.03,12-20m,fleet_no_live_midgap=8/99; subnet_no_live_midgap=1/13
+239,10.107.129.128,10.107.0.0/16,Footbridge near Triamudomsuksa School on Phayathai Road,2026-08-26,2026-08-26 06:26:04,2026-08-26 06:41:05,15.02,12-20m,fleet_no_live_midgap=9/99; subnet_no_live_midgap=0/3
+206,10.128.129.131,10.128.0.0/16,Footbridge near Soi Narathiwas 20 on Narathiwas Road,2026-08-26,2026-08-26 06:26:07,2026-08-26 06:41:07,15.0,12-20m,fleet_no_live_midgap=8/99; subnet_no_live_midgap=0/3
+1070,10.114.129.125,10.114.0.0/16,Footbridge near Soi Phahon Yothin 18/2 on Phahon Yothin Road,2026-08-26,2026-08-26 06:26:08,2026-08-26 06:41:09,15.02,12-20m,fleet_no_live_midgap=8/99; subnet_no_live_midgap=0/6
+219,10.117.129.128,10.117.0.0/16,Footbridge near Soi Ratchadaphisek 14 on Ratchadaphisek Road,2026-08-26,2026-08-26 06:26:09,2026-08-26 06:41:10,15.02,12-20m,fleet_no_live_midgap=8/99; subnet_no_live_midgap=2/16
+250,10.137.129.123,10.137.0.0/16,Footbridge near Soi Phetchaburi 38 on Phetchaburi Road,2026-08-26,2026-08-26 06:26:09,2026-08-26 06:41:09,15.0,12-20m,fleet_no_live_midgap=11/99; subnet_no_live_midgap=1/5
+256,10.137.129.130,10.137.0.0/16,Footbridge near Soi Phetchaburi 27 on Phetchaburi Road,2026-08-26,2026-08-26 06:26:09,2026-08-26 06:41:09,15.0,12-20m,fleet_no_live_midgap=11/99; subnet_no_live_midgap=1/5
+82,10.137.128.42,10.137.0.0/16,Footbridge near Soi Ratchaprarop 3 on Ratchaprarop Road,2026-08-26,2026-08-26 06:26:12,2026-08-26 06:41:12,15.0,12-20m,fleet_no_live_midgap=9/99; subnet_no_live_midgap=0/5
+212,10.117.129.123,10.117.0.0/16,Footbridge near Big C Ratchadaphisek on Ratchadaphisek Road,2026-08-26,2026-08-26 06:26:12,2026-08-26 06:41:13,15.02,12-20m,fleet_no_live_midgap=8/99; subnet_no_live_midgap=2/16
+251,10.137.129.124,10.137.0.0/16,Footbridge near Dishongsaram Temple on Phetchaburi Road,2026-08-26,2026-08-26 06:26:14,2026-08-26 06:41:16,15.03,12-20m,fleet_no_live_midgap=8/99; subnet_no_live_midgap=0/5
+178,10.114.129.129,10.114.0.0/16,Footbridge in front of  PHYATHAI HOSPITAL 2 on Phahon Yothin Road,2026-08-26,2026-08-26 06:26:17,2026-08-26 06:41:19,15.03,12-20m,fleet_no_live_midgap=7/99; subnet_no_live_midgap=0/6
+141,10.130.129.130,10.130.0.0/16,Footbridge in front of PTT Public Company Limited near Soi Vibhavadi Rangsit 11 on Vibhavadi Rangsit Road,2026-08-26,2026-08-26 06:26:18,2026-08-26 06:41:21,15.05,12-20m,fleet_no_live_midgap=7/99; subnet_no_live_midgap=0/3
+139,10.130.129.128,10.130.0.0/16,Footbridge in front of Horwang School on Phahon Yothin Road,2026-08-26,2026-08-26 06:26:19,2026-08-26 06:41:22,15.05,12-20m,fleet_no_live_midgap=8/99; subnet_no_live_midgap=0/3
+169,10.125.129.126,10.125.0.0/16,Footbridge in front of Wat Sao  Hin  Near Soi Wong Sawang 3 on Wong Sawang Road,2026-08-26,2026-08-26 06:26:19,2026-08-26 06:41:22,15.05,12-20m,fleet_no_live_midgap=8/99; subnet_no_live_midgap=0/0
+176,10.114.129.127,10.114.0.0/16,Footbridge in front of Chatuchak Park on Phahon Yothin Road,2026-08-26,2026-08-26 06:26:20,2026-08-26 06:41:22,15.03,12-20m,fleet_no_live_midgap=9/99; subnet_no_live_midgap=0/6
+228,10.151.129.124,10.151.0.0/16,In front of Klang Hospital on Luang Road,2026-08-26,2026-08-26 06:26:21,2026-08-26 06:41:24,15.05,12-20m,fleet_no_live_midgap=7/99; subnet_no_live_midgap=0/6
+70,10.101.128.24,10.101.0.0/16,"Near Thanachart Bank Public Company Limited,Branch Bang Khunphrom on Sam Sen Road",2026-08-26,2026-08-26 06:26:22,2026-08-26 06:41:24,15.03,12-20m,fleet_no_live_midgap=9/99; subnet_no_live_midgap=1/10
+1361,10.101.128.22,10.101.0.0/16,In front of The Bank of Thailand: BOT on Sam Sen Road,2026-08-26,2026-08-26 06:26:22,2026-08-26 06:41:24,15.03,12-20m,fleet_no_live_midgap=9/99; subnet_no_live_midgap=1/10
+11,10.126.128.34,10.126.0.0/16,Traffic Lights near Soi Rajavithi  6 on Rajavithi  Road,2026-08-26,2026-08-26 06:33:09,2026-08-26 06:45:10,12.02,12-20m,fleet_no_live_midgap=3/99; subnet_no_live_midgap=0/1
+26,10.116.128.22,10.116.0.0/16,Near Pao Leng Pharmacy on Mahai Sawan Road (Inbound),2026-08-26,2026-08-26 06:40:42,2026-08-26 06:55:43,15.02,12-20m,fleet_no_live_midgap=3/99; subnet_no_live_midgap=0/6
+595,10.118.101.10,10.118.0.0/16,Ban Khaek Juncion,2026-08-26,2026-08-26 06:40:42,2026-08-26 06:55:43,15.02,12-20m,fleet_no_live_midgap=3/99; subnet_no_live_midgap=0/2
+569,10.101.102.68,10.101.0.0/16,Jor Por Ror  Intersection,2026-08-26,2026-08-26 07:15:35,2026-08-26 07:27:38,12.05,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/10
+88,10.128.128.34,10.128.0.0/16,Chan-Sathu Pradit Intersection Intersection,2026-08-26,2026-08-26 07:15:37,2026-08-26 07:27:48,12.18,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/3
+370,10.101.101.13,10.101.0.0/16,Thewet Intersection,2026-08-26,2026-08-26 07:15:38,2026-08-26 07:27:51,12.22,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/10
+371,10.101.101.12,10.101.0.0/16,Thewet Intersection,2026-08-26,2026-08-26 07:15:39,2026-08-26 07:27:51,12.2,12-20m,fleet_no_live_midgap=4/99; subnet_no_live_midgap=1/10
+1408,10.117.128.21,10.117.0.0/16,Central barrier in front of Cyber World Tower on Thiam Ruam Mit Road,2026-08-26,2026-08-26 07:15:39,2026-08-26 07:27:51,12.2,12-20m,fleet_no_live_midgap=4/99; subnet_no_live_midgap=0/16
+112,10.117.128.25,10.117.0.0/16,near the police box on Thiam Ruam Mit Road,2026-08-26,2026-08-26 07:15:40,2026-08-26 07:27:51,12.18,12-20m,fleet_no_live_midgap=5/99; subnet_no_live_midgap=1/16
+26,10.116.128.22,10.116.0.0/16,Near Pao Leng Pharmacy on Mahai Sawan Road (Inbound),2026-08-26,2026-08-26 07:15:43,2026-08-26 07:27:54,12.18,12-20m,fleet_no_live_midgap=4/99; subnet_no_live_midgap=1/6
+32,10.116.128.34,10.116.0.0/16,Bang Yi Rue Intersection  on Phetkasem Road,2026-08-26,2026-08-26 07:15:43,2026-08-26 07:27:53,12.17,12-20m,fleet_no_live_midgap=5/99; subnet_no_live_midgap=2/6
+595,10.118.101.10,10.118.0.0/16,Ban Khaek Juncion,2026-08-26,2026-08-26 07:15:43,2026-08-26 07:27:54,12.18,12-20m,fleet_no_live_midgap=4/99; subnet_no_live_midgap=0/2
+1195,10.116.128.28,10.116.0.0/16,Near the police box on Mahai Sawan Road (Inbound),2026-08-26,2026-08-26 07:15:43,2026-08-26 07:27:54,12.18,12-20m,fleet_no_live_midgap=4/99; subnet_no_live_midgap=1/6
+75,10.112.128.26,10.112.0.0/16,Under the overpass on Narathiwas Road,2026-08-26,2026-08-26 07:15:50,2026-08-26 07:27:59,12.15,12-20m,fleet_no_live_midgap=3/99; subnet_no_live_midgap=0/2
+1589,10.108.102.43,10.108.0.0/16,,2026-08-26,2026-08-26 07:15:50,2026-08-26 07:27:59,12.15,12-20m,fleet_no_live_midgap=3/99; subnet_no_live_midgap=0/0
+1103,10.116.128.40,10.116.0.0/16,17/5000 Ratchada-Ratchaphruek Intersection,2026-08-26,2026-08-26 07:15:51,2026-08-26 07:28:01,12.17,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/6
+119,10.117.128.36,10.117.0.0/16,Ratchada-Sutthisan Intersection,2026-08-26,2026-08-26 07:15:52,2026-08-26 07:28:03,12.18,12-20m,fleet_no_live_midgap=3/99; subnet_no_live_midgap=1/16
+120,10.117.128.33,10.117.0.0/16,Ratchada-Sutthisan Intersection,2026-08-26,2026-08-26 07:15:52,2026-08-26 07:28:03,12.18,12-20m,fleet_no_live_midgap=3/99; subnet_no_live_midgap=1/16
+124,10.117.128.42,10.117.0.0/16,Central barrier near the police box on Ratchadaphisek Road,2026-08-26,2026-08-26 07:15:52,2026-08-26 07:28:02,12.17,12-20m,fleet_no_live_midgap=4/99; subnet_no_live_midgap=2/16
+18,10.102.128.36,10.102.0.0/16,Saphan Daeng Intersection,2026-08-26,2026-08-26 07:15:59,2026-08-26 07:28:08,12.15,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/13
+1362,10.102.101.224,10.102.0.0/16,Nakhon Chai Si Intersection,2026-08-26,2026-08-26 07:16:01,2026-08-26 07:28:10,12.15,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/13
+395,10.101.101.104,10.101.0.0/16,Sao Chingcha Intersection,2026-08-26,2026-08-26 07:16:03,2026-08-26 07:28:12,12.15,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/10
+301,10.102.101.53,10.102.0.0/16,Aoo Tong Nok Intersection,2026-08-26,2026-08-26 07:16:05,2026-08-26 07:28:16,12.18,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/13
+158,10.116.129.123,10.116.0.0/16,Footbridge near Soi Charoen Nakhon 46 on Charoen Nakhon Road,2026-08-26,2026-08-26 07:16:12,2026-08-26 07:28:18,12.1,12-20m,fleet_no_live_midgap=4/99; subnet_no_live_midgap=1/6
+188,10.112.129.129,10.112.0.0/16,Footbridge near Soi Rama 3 Soi68 on Rama 3 Road,2026-08-26,2026-08-26 07:16:12,2026-08-26 07:28:21,12.15,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/2
+1076,10.116.129.125,10.116.0.0/16,Footbridge near Soi Thoet Thai 21 on Ratchaphruek Road,2026-08-26,2026-08-26 07:16:12,2026-08-26 07:28:19,12.12,12-20m,fleet_no_live_midgap=3/99; subnet_no_live_midgap=0/6
+211,10.117.129.122,10.117.0.0/16,Footbridge near Soi Ratchadaphisek 3 on Ratchadaphisek Road,2026-08-26,2026-08-26 07:16:15,2026-08-26 07:28:23,12.13,12-20m,fleet_no_live_midgap=3/99; subnet_no_live_midgap=1/16
+215,10.117.129.126,10.117.0.0/16,Footbridge near Soi Ratchadaphisek 7 on Ratchadaphisek Road,2026-08-26,2026-08-26 07:16:15,2026-08-26 07:28:24,12.15,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/16
+136,10.130.129.125,10.130.0.0/16,Footbridge near Big C Extra Entrance to Soi Lat Phrao 7 on Lat Phrao Road,2026-08-26,2026-08-26 07:16:19,2026-08-26 07:28:28,12.15,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/3
+194,10.128.129.127,10.128.0.0/16,Footbridge near Entrance to Soi Convent on  South Sathorn Road,2026-08-26,2026-08-26 07:16:20,2026-08-26 07:28:28,12.13,12-20m,fleet_no_live_midgap=3/99; subnet_no_live_midgap=0/3
+170,10.114.129.121,10.114.0.0/16,Footbridge near  Nawati Somdet Ya Hospital on Phahon Yothin Road,2026-08-26,2026-08-26 07:16:22,2026-08-26 07:28:29,12.12,12-20m,fleet_no_live_midgap=3/99; subnet_no_live_midgap=0/6
+225,10.117.129.136,10.117.0.0/16,Footbridge near The Criminal Court on  Ratchadaphisek Road,2026-08-26,2026-08-26 07:16:22,2026-08-26 07:28:30,12.13,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/16
+127,10.117.128.48,10.117.0.0/16,Near Soi Lat Phrao 30 on Lat Phrao Road,2026-08-26,2026-08-26 07:16:23,2026-08-26 07:28:30,12.12,12-20m,fleet_no_live_midgap=3/99; subnet_no_live_midgap=1/16
+135,10.117.129.138,10.117.0.0/16,Footbridge in front of Toyota Sure on  Ratchadaphisek Road,2026-08-26,2026-08-26 07:16:26,2026-08-26 07:28:32,12.1,12-20m,fleet_no_live_midgap=4/99; subnet_no_live_midgap=0/16
+179,10.114.129.130,10.114.0.0/16,Footbridge in front of  PHYATHAI HOSPITAL 2 on Phahon Yothin Road,2026-08-26,2026-08-26 07:16:26,2026-08-26 07:28:32,12.1,12-20m,fleet_no_live_midgap=4/99; subnet_no_live_midgap=0/6
+196,10.128.129.129,10.128.0.0/16,Footbridge in front of Makro on Narathiwas Road,2026-08-26,2026-08-26 07:16:26,2026-08-26 07:28:34,12.13,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/3
+1132,10.118.128.22,10.118.0.0/16,The flyover in front of Wat Suwan,2026-08-26,2026-08-26 07:16:27,2026-08-26 07:28:35,12.13,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/2
+177,10.114.129.128,10.114.0.0/16,Footbridge in front of Chatuchak Park on Phahon Yothin Road,2026-08-26,2026-08-26 07:16:28,2026-08-26 07:28:35,12.12,12-20m,fleet_no_live_midgap=4/99; subnet_no_live_midgap=0/6
+1078,10.118.128.24,10.118.0.0/16,The flyover in front of Wat Suwan,2026-08-26,2026-08-26 07:16:28,2026-08-26 07:28:35,12.12,12-20m,fleet_no_live_midgap=4/99; subnet_no_live_midgap=1/2
+68,10.151.128.30,10.151.0.0/16,In front of bangkokbank Worachak Branch on Worachak Road,2026-08-26,2026-08-26 07:16:31,2026-08-26 07:28:38,12.12,12-20m,fleet_no_live_midgap=3/99; subnet_no_live_midgap=1/6
+1060,10.151.128.21,10.151.0.0/16,"In front of Sai Panya School, Krung Kasem Road",2026-08-26,2026-08-26 07:16:31,2026-08-26 07:28:38,12.12,12-20m,fleet_no_live_midgap=3/99; subnet_no_live_midgap=1/6
+211,10.117.129.122,10.117.0.0/16,Footbridge near Soi Ratchadaphisek 3 on Ratchadaphisek Road,2026-08-26,2026-08-26 07:28:23,2026-08-26 07:41:06,12.72,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/16
+196,10.128.129.129,10.128.0.0/16,Footbridge in front of Makro on Narathiwas Road,2026-08-26,2026-08-26 07:28:34,2026-08-26 07:41:16,12.7,12-20m,fleet_no_live_midgap=3/99; subnet_no_live_midgap=0/3
+177,10.114.129.128,10.114.0.0/16,Footbridge in front of Chatuchak Park on Phahon Yothin Road,2026-08-26,2026-08-26 07:28:35,2026-08-26 07:41:18,12.72,12-20m,fleet_no_live_midgap=6/99; subnet_no_live_midgap=0/6
+1078,10.118.128.24,10.118.0.0/16,The flyover in front of Wat Suwan,2026-08-26,2026-08-26 07:28:35,2026-08-26 07:41:16,12.68,12-20m,fleet_no_live_midgap=6/99; subnet_no_live_midgap=1/2
+1132,10.118.128.22,10.118.0.0/16,The flyover in front of Wat Suwan,2026-08-26,2026-08-26 07:28:35,2026-08-26 07:41:16,12.68,12-20m,fleet_no_live_midgap=6/99; subnet_no_live_midgap=1/2
+68,10.151.128.30,10.151.0.0/16,In front of bangkokbank Worachak Branch on Worachak Road,2026-08-26,2026-08-26 07:28:38,2026-08-26 07:41:18,12.67,12-20m,fleet_no_live_midgap=8/99; subnet_no_live_midgap=1/6
+1060,10.151.128.21,10.151.0.0/16,"In front of Sai Panya School, Krung Kasem Road",2026-08-26,2026-08-26 07:28:38,2026-08-26 07:41:21,12.72,12-20m,fleet_no_live_midgap=8/99; subnet_no_live_midgap=1/6
+219,10.117.129.128,10.117.0.0/16,Footbridge near Soi Ratchadaphisek 14 on Ratchadaphisek Road,2026-08-26,2026-08-26 07:31:06,2026-08-26 07:46:06,15.0,12-20m,fleet_no_live_midgap=41/99; subnet_no_live_midgap=4/16
+139,10.130.129.128,10.130.0.0/16,Footbridge in front of Horwang School on Phahon Yothin Road,2026-08-26,2026-08-26 07:31:16,2026-08-26 07:46:16,15.0,12-20m,fleet_no_live_midgap=50/99; subnet_no_live_midgap=2/3
+169,10.125.129.126,10.125.0.0/16,Footbridge in front of Wat Sao  Hin  Near Soi Wong Sawang 3 on Wong Sawang Road,2026-08-26,2026-08-26 07:31:16,2026-08-26 07:46:16,15.0,12-20m,fleet_no_live_midgap=50/99; subnet_no_live_midgap=0/0
+176,10.114.129.127,10.114.0.0/16,Footbridge in front of Chatuchak Park on Phahon Yothin Road,2026-08-26,2026-08-26 07:31:16,2026-08-26 07:46:16,15.0,12-20m,fleet_no_live_midgap=50/99; subnet_no_live_midgap=4/6
+228,10.151.129.124,10.151.0.0/16,In front of Klang Hospital on Luang Road,2026-08-26,2026-08-26 07:31:18,2026-08-26 07:46:18,15.0,12-20m,fleet_no_live_midgap=51/99; subnet_no_live_midgap=4/6
+70,10.101.128.24,10.101.0.0/16,"Near Thanachart Bank Public Company Limited,Branch Bang Khunphrom on Sam Sen Road",2026-08-26,2026-08-26 07:31:19,2026-08-26 07:46:18,14.98,12-20m,fleet_no_live_midgap=53/99; subnet_no_live_midgap=2/10
+1361,10.101.128.22,10.101.0.0/16,In front of The Bank of Thailand: BOT on Sam Sen Road,2026-08-26,2026-08-26 07:31:19,2026-08-26 07:46:18,14.98,12-20m,fleet_no_live_midgap=53/99; subnet_no_live_midgap=2/10
+1408,10.117.128.21,10.117.0.0/16,Central barrier in front of Cyber World Tower on Thiam Ruam Mit Road,2026-08-26,2026-08-26 07:45:38,2026-08-26 08:00:38,15.0,12-20m,fleet_no_live_midgap=4/99; subnet_no_live_midgap=0/16
+595,10.118.101.10,10.118.0.0/16,Ban Khaek Juncion,2026-08-26,2026-08-26 07:45:40,2026-08-26 08:00:40,15.0,12-20m,fleet_no_live_midgap=3/99; subnet_no_live_midgap=0/2
+228,10.151.129.124,10.151.0.0/16,In front of Klang Hospital on Luang Road,2026-08-26,2026-08-26 07:46:18,2026-08-26 08:01:19,15.02,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/6
+178,10.114.129.129,10.114.0.0/16,Footbridge in front of  PHYATHAI HOSPITAL 2 on Phahon Yothin Road,2026-08-26,2026-08-26 08:31:14,2026-08-26 08:46:14,15.0,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/6
+1132,10.118.128.22,10.118.0.0/16,The flyover in front of Wat Suwan,2026-08-26,2026-08-26 09:31:19,2026-08-26 09:46:20,15.02,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/2
+36,10.116.128.42,10.116.0.0/16,Near the police box and BRT Ratchapruek Station on Ratchapruek Road,2026-08-26,2026-08-26 09:40:53,2026-08-26 09:55:48,14.92,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/6
+212,10.117.129.123,10.117.0.0/16,Footbridge near Big C Ratchadaphisek on Ratchadaphisek Road,2026-08-26,2026-08-26 10:31:15,2026-08-26 10:46:16,15.02,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/16
+395,10.101.101.104,10.101.0.0/16,Sao Chingcha Intersection,2026-08-26,2026-08-26 10:36:07,2026-08-26 10:51:04,14.95,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/10
+139,10.130.129.128,10.130.0.0/16,Footbridge in front of Horwang School on Phahon Yothin Road,2026-08-26,2026-08-26 10:36:27,2026-08-26 10:51:24,14.95,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/3
+186,10.112.129.127,10.112.0.0/16,Directional sign to Rama 3 Bridge on Ratchadaphisek Road,2026-08-26,2026-08-26 10:45:13,2026-08-26 11:00:10,14.95,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/2
+1076,10.116.129.125,10.116.0.0/16,Footbridge near Soi Thoet Thai 21 on Ratchaphruek Road,2026-08-26,2026-08-26 11:26:04,2026-08-26 11:46:04,20.0,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/6
+179,10.114.129.130,10.114.0.0/16,Footbridge in front of  PHYATHAI HOSPITAL 2 on Phahon Yothin Road,2026-08-26,2026-08-26 11:46:14,2026-08-26 12:01:14,15.0,12-20m,fleet_no_live_midgap=3/99; subnet_no_live_midgap=0/6
+32,10.116.128.34,10.116.0.0/16,Bang Yi Rue Intersection  on Phetkasem Road,2026-08-26,2026-08-26 12:05:41,2026-08-26 12:20:41,15.0,12-20m,fleet_no_live_midgap=3/99; subnet_no_live_midgap=0/6
+158,10.116.129.123,10.116.0.0/16,Footbridge near Soi Charoen Nakhon 46 on Charoen Nakhon Road,2026-08-26,2026-08-26 12:06:04,2026-08-26 12:21:04,15.0,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/6
+194,10.128.129.127,10.128.0.0/16,Footbridge near Entrance to Soi Convent on  South Sathorn Road,2026-08-26,2026-08-26 12:16:11,2026-08-26 12:31:11,15.0,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/3
+542,10.107.101.83,10.107.0.0/16,Chit Lom Intersection,2026-08-26,2026-08-26 12:25:21,2026-08-26 12:40:21,15.0,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/3
+188,10.112.129.129,10.112.0.0/16,Footbridge near Soi Rama 3 Soi68 on Rama 3 Road,2026-08-26,2026-08-26 12:36:07,2026-08-26 12:51:07,15.0,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/2
+125,10.117.128.44,10.117.0.0/16,Central barrier near the police box on Ratchadaphisek Road,2026-08-26,2026-08-26 12:40:49,2026-08-26 12:55:51,15.03,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/16
+139,10.130.129.128,10.130.0.0/16,Footbridge in front of Horwang School on Phahon Yothin Road,2026-08-26,2026-08-26 12:41:18,2026-08-26 12:56:19,15.02,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/3
+630,10.102.102.68,10.102.0.0/16,Gesagomon Intersection,2026-08-26,2026-08-26 12:50:31,2026-08-26 13:05:31,15.0,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/13
+26,10.116.128.22,10.116.0.0/16,Near Pao Leng Pharmacy on Mahai Sawan Road (Inbound),2026-08-26,2026-08-26 12:55:43,2026-08-26 13:10:41,14.97,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/6
+1076,10.116.129.125,10.116.0.0/16,Footbridge near Soi Thoet Thai 21 on Ratchaphruek Road,2026-08-26,2026-08-26 13:26:04,2026-08-26 13:41:06,15.03,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/6
+215,10.117.129.126,10.117.0.0/16,Footbridge near Soi Ratchadaphisek 7 on Ratchadaphisek Road,2026-08-26,2026-08-26 13:26:09,2026-08-26 13:41:09,15.0,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/16
+228,10.151.129.124,10.151.0.0/16,In front of Klang Hospital on Luang Road,2026-08-26,2026-08-26 13:41:19,2026-08-26 13:56:22,15.05,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/6
+120,10.117.128.33,10.117.0.0/16,Ratchada-Sutthisan Intersection,2026-08-26,2026-08-26 13:55:51,2026-08-26 14:11:12,15.35,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/16
+219,10.117.129.128,10.117.0.0/16,Footbridge near Soi Ratchadaphisek 14 on Ratchadaphisek Road,2026-08-26,2026-08-26 13:56:09,2026-08-26 14:11:30,15.35,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/16
+88,10.128.128.34,10.128.0.0/16,Chan-Sathu Pradit Intersection Intersection,2026-08-26,2026-08-26 14:05:36,2026-08-26 14:20:36,15.0,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/3
+36,10.116.128.42,10.116.0.0/16,Near the police box and BRT Ratchapruek Station on Ratchapruek Road,2026-08-26,2026-08-26 14:15:49,2026-08-26 14:30:52,15.05,12-20m,fleet_no_live_midgap=3/99; subnet_no_live_midgap=0/6
+178,10.114.129.129,10.114.0.0/16,Footbridge in front of  PHYATHAI HOSPITAL 2 on Phahon Yothin Road,2026-08-26,2026-08-26 14:16:16,2026-08-26 14:31:20,15.07,12-20m,fleet_no_live_midgap=3/99; subnet_no_live_midgap=0/6
+123,10.117.128.40,10.117.0.0/16,Central barrier near the police box on Ratchadaphisek Road,2026-08-26,2026-08-26 14:30:52,2026-08-26 14:45:49,14.95,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/16
+1076,10.116.129.125,10.116.0.0/16,Footbridge near Soi Thoet Thai 21 on Ratchaphruek Road,2026-08-26,2026-08-26 14:31:08,2026-08-26 14:46:05,14.95,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/6
+206,10.128.129.131,10.128.0.0/16,Footbridge near Soi Narathiwas 20 on Narathiwas Road,2026-08-26,2026-08-26 15:01:05,2026-08-26 15:16:07,15.03,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/3
+186,10.112.129.127,10.112.0.0/16,Directional sign to Rama 3 Bridge on Ratchadaphisek Road,2026-08-26,2026-08-26 15:10:11,2026-08-26 15:25:11,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/2
+1368,10.102.102.57,10.102.0.0/16,Lan Phra Rup Intersection,2026-08-26,2026-08-26 15:20:45,2026-08-26 15:35:45,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/13
+432,10.107.101.53,10.107.0.0/16,Pathum Wan  Intersection,2026-08-26,2026-08-26 15:30:21,2026-08-26 15:45:21,15.0,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/3
+363,10.102.102.73,10.102.0.0/16,Khatdusit Intersection,2026-08-26,2026-08-26 15:55:34,2026-08-26 16:10:34,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/13
+576,10.101.102.10,10.101.0.0/16,Bang Lamphu Intersection,2026-08-26,2026-08-26 16:00:41,2026-08-26 16:15:41,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/10
+939,10.156.102.39,10.156.0.0/16,connect BMAcctv,2026-08-26,2026-08-26 16:10:06,2026-08-26 16:25:06,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/4
+225,10.117.129.136,10.117.0.0/16,Footbridge near The Criminal Court on  Ratchadaphisek Road,2026-08-26,2026-08-26 16:36:14,2026-08-26 16:51:14,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/16
+176,10.114.129.127,10.114.0.0/16,Footbridge in front of Chatuchak Park on Phahon Yothin Road,2026-08-26,2026-08-26 16:46:18,2026-08-26 17:01:18,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+75,10.112.128.26,10.112.0.0/16,Under the overpass on Narathiwas Road,2026-08-26,2026-08-26 17:05:47,2026-08-26 17:20:47,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/2
+1362,10.102.101.224,10.102.0.0/16,Nakhon Chai Si Intersection,2026-08-26,2026-08-26 17:05:57,2026-08-26 17:20:57,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/13
+120,10.117.128.33,10.117.0.0/16,Ratchada-Sutthisan Intersection,2026-08-26,2026-08-26 17:10:51,2026-08-26 17:25:50,14.98,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/16
+576,10.101.102.10,10.101.0.0/16,Bang Lamphu Intersection,2026-08-26,2026-08-26 17:15:41,2026-08-26 17:30:42,15.02,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/10
+88,10.128.128.34,10.128.0.0/16,Chan-Sathu Pradit Intersection Intersection,2026-08-26,2026-08-26 17:20:37,2026-08-26 17:35:38,15.02,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/3
+1815,10.156.102.69,10.156.0.0/16,Rama 9 Intersection,2026-08-26,2026-08-26 17:20:44,2026-08-26 17:35:45,15.02,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/4
+158,10.116.129.123,10.116.0.0/16,Footbridge near Soi Charoen Nakhon 46 on Charoen Nakhon Road,2026-08-26,2026-08-26 17:31:05,2026-08-26 17:46:06,15.02,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+371,10.101.101.12,10.101.0.0/16,Thewet Intersection,2026-08-26,2026-08-26 17:45:39,2026-08-26 18:00:39,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/10
+556,10.102.102.15,10.102.0.0/16,Vajira Intersection,2026-08-26,2026-08-26 17:50:52,2026-08-26 18:05:52,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/13
+170,10.114.129.121,10.114.0.0/16,Footbridge near  Nawati Somdet Ya Hospital on Phahon Yothin Road,2026-08-26,2026-08-26 17:56:14,2026-08-26 18:11:14,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+529,10.151.101.91,10.151.0.0/16,Henri Dunant Intersection,2026-08-26,2026-08-26 18:05:11,2026-08-26 18:20:11,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+158,10.116.129.123,10.116.0.0/16,Footbridge near Soi Charoen Nakhon 46 on Charoen Nakhon Road,2026-08-26,2026-08-26 18:06:05,2026-08-26 18:21:05,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+206,10.128.129.131,10.128.0.0/16,Footbridge near Soi Narathiwas 20 on Narathiwas Road,2026-08-26,2026-08-26 18:06:06,2026-08-26 18:21:05,14.98,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/3
+120,10.117.128.33,10.117.0.0/16,Ratchada-Sutthisan Intersection,2026-08-26,2026-08-26 18:25:50,2026-08-26 18:40:50,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/16
+1195,10.116.128.28,10.116.0.0/16,Near the police box on Mahai Sawan Road (Inbound),2026-08-26,2026-08-26 19:05:42,2026-08-26 19:20:42,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+371,10.101.101.12,10.101.0.0/16,Thewet Intersection,2026-08-26,2026-08-26 19:10:37,2026-08-26 19:25:37,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/10
+572,10.151.101.56,10.151.0.0/16,Jor Por Ror  Intersection,2026-08-26,2026-08-26 19:25:14,2026-08-26 19:40:14,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+225,10.117.129.136,10.117.0.0/16,Footbridge near The Criminal Court on  Ratchadaphisek Road,2026-08-26,2026-08-26 19:31:15,2026-08-26 19:46:15,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/16
+414,10.101.102.200,10.101.0.0/16,Below/Under Phra Phuttha Yodfa Bridge (Memorial Bridge),2026-08-26,2026-08-26 19:45:30,2026-08-26 20:00:29,14.98,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/10
+228,10.151.129.124,10.151.0.0/16,In front of Klang Hospital on Luang Road,2026-08-26,2026-08-26 19:46:21,2026-08-26 20:01:21,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+1078,10.118.128.24,10.118.0.0/16,The flyover in front of Wat Suwan,2026-08-26,2026-08-26 20:11:20,2026-08-26 20:26:19,14.98,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/2
+1195,10.116.128.28,10.116.0.0/16,Near the police box on Mahai Sawan Road (Inbound),2026-08-26,2026-08-26 20:40:42,2026-08-26 20:55:42,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+630,10.102.102.68,10.102.0.0/16,Gesagomon Intersection,2026-08-27,2026-08-27 09:05:31,2026-08-27 09:20:31,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=1/13
+1063,10.102.129.138,10.102.0.0/16,Opposite Chitralada Palace,2026-08-27,2026-08-27 09:30:13,2026-08-27 09:45:13,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=1/13
+186,10.112.129.127,10.112.0.0/16,Directional sign to Rama 3 Bridge on Ratchadaphisek Road,2026-08-27,2026-08-27 09:45:10,2026-08-27 10:00:15,15.08,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/2
+1368,10.102.102.57,10.102.0.0/16,Lan Phra Rup Intersection,2026-08-27,2026-08-27 09:55:43,2026-08-27 10:10:44,15.02,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=1/13
+139,10.130.129.128,10.130.0.0/16,Footbridge in front of Horwang School on Phahon Yothin Road,2026-08-27,2026-08-27 10:11:17,2026-08-27 10:26:17,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/3
+32,10.116.128.34,10.116.0.0/16,Bang Yi Rue Intersection  on Phetkasem Road,2026-08-27,2026-08-27 10:40:41,2026-08-27 11:00:41,20.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+169,10.125.129.126,10.125.0.0/16,Footbridge in front of Wat Sao  Hin  Near Soi Wong Sawang 3 on Wong Sawang Road,2026-08-27,2026-08-27 11:06:16,2026-08-27 11:21:17,15.02,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/0
+225,10.117.129.136,10.117.0.0/16,Footbridge near The Criminal Court on  Ratchadaphisek Road,2026-08-27,2026-08-27 11:16:14,2026-08-27 11:31:14,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/16
+219,10.117.129.128,10.117.0.0/16,Footbridge near Soi Ratchadaphisek 14 on Ratchadaphisek Road,2026-08-27,2026-08-27 11:26:06,2026-08-27 11:41:07,15.02,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/16
+542,10.107.101.83,10.107.0.0/16,Chit Lom Intersection,2026-08-27,2026-08-27 11:30:21,2026-08-27 11:45:21,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/3
+412,10.101.102.134,10.101.0.0/16,Phra Athit Road,2026-08-27,2026-08-27 11:35:26,2026-08-27 11:50:26,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/10
+158,10.116.129.123,10.116.0.0/16,Footbridge near Soi Charoen Nakhon 46 on Charoen Nakhon Road,2026-08-27,2026-08-27 12:21:29,2026-08-27 12:36:36,15.12,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+1103,10.116.128.40,10.116.0.0/16,17/5000 Ratchada-Ratchaphruek Intersection,2026-08-27,2026-08-27 12:31:47,2026-08-27 12:46:30,14.72,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+119,10.117.128.36,10.117.0.0/16,Ratchada-Sutthisan Intersection,2026-08-27,2026-08-27 12:31:48,2026-08-27 12:46:30,14.7,12-20m,fleet_no_live_midgap=4/99; subnet_no_live_midgap=2/16
+123,10.117.128.40,10.117.0.0/16,Central barrier near the police box on Ratchadaphisek Road,2026-08-27,2026-08-27 12:31:48,2026-08-27 12:46:30,14.7,12-20m,fleet_no_live_midgap=4/99; subnet_no_live_midgap=2/16
+125,10.117.128.44,10.117.0.0/16,Central barrier near the police box on Ratchadaphisek Road,2026-08-27,2026-08-27 12:31:48,2026-08-27 12:46:30,14.7,12-20m,fleet_no_live_midgap=4/99; subnet_no_live_midgap=2/16
+118,10.117.128.30,10.117.0.0/16,Ratchada-Sutthisan Intersection,2026-08-27,2026-08-27 12:31:49,2026-08-27 12:46:30,14.68,12-20m,fleet_no_live_midgap=6/99; subnet_no_live_midgap=4/16
+120,10.117.128.33,10.117.0.0/16,Ratchada-Sutthisan Intersection,2026-08-27,2026-08-27 12:31:49,2026-08-27 12:46:30,14.68,12-20m,fleet_no_live_midgap=6/99; subnet_no_live_midgap=4/16
+36,10.116.128.42,10.116.0.0/16,Near the police box and BRT Ratchapruek Station on Ratchapruek Road,2026-08-27,2026-08-27 12:36:16,2026-08-27 12:50:48,14.53,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/6
+124,10.117.128.42,10.117.0.0/16,Central barrier near the police box on Ratchadaphisek Road,2026-08-27,2026-08-27 12:36:16,2026-08-27 12:50:48,14.53,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/16
+212,10.117.129.123,10.117.0.0/16,Footbridge near Big C Ratchadaphisek on Ratchadaphisek Road,2026-08-27,2026-08-27 12:44:01,2026-08-27 12:56:11,12.17,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/16
+1028,10.102.128.34,10.102.0.0/16,Red Bridge Intersection,2026-08-27,2026-08-27 12:50:54,2026-08-27 13:06:07,15.22,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=1/13
+1804,10.134.116.85,10.134.0.0/16,On Nut Road,2026-08-27,2026-08-27 13:15:31,2026-08-27 13:30:31,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/0
+124,10.117.128.42,10.117.0.0/16,Central barrier near the police box on Ratchadaphisek Road,2026-08-27,2026-08-27 13:20:52,2026-08-27 13:35:51,14.98,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/16
+124,10.117.128.42,10.117.0.0/16,Central barrier near the police box on Ratchadaphisek Road,2026-08-27,2026-08-27 13:45:49,2026-08-27 14:00:49,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/16
+75,10.112.128.26,10.112.0.0/16,Under the overpass on Narathiwas Road,2026-08-27,2026-08-27 13:50:51,2026-08-27 14:05:51,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/2
+206,10.128.129.131,10.128.0.0/16,Footbridge near Soi Narathiwas 20 on Narathiwas Road,2026-08-27,2026-08-27 14:01:04,2026-08-27 14:16:04,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/3
+595,10.118.101.10,10.118.0.0/16,Ban Khaek Juncion,2026-08-27,2026-08-27 14:05:44,2026-08-27 14:20:44,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/2
+26,10.116.128.22,10.116.0.0/16,Near Pao Leng Pharmacy on Mahai Sawan Road (Inbound),2026-08-27,2026-08-27 14:25:42,2026-08-27 14:40:42,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+18,10.102.128.36,10.102.0.0/16,Saphan Daeng Intersection,2026-08-27,2026-08-27 14:35:59,2026-08-27 14:50:58,14.98,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=1/13
+88,10.128.128.34,10.128.0.0/16,Chan-Sathu Pradit Intersection Intersection,2026-08-27,2026-08-27 14:50:39,2026-08-27 15:05:36,14.95,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/3
+1071,10.114.128.42,10.114.0.0/16,Central barrier near Soi Phahon Yothin 18  on Kamphaeng Phet Road,2026-08-27,2026-08-27 14:55:32,2026-08-27 15:10:31,14.98,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+938,10.156.102.38,10.156.0.0/16,connect BMAcctv,2026-08-27,2026-08-27 15:05:06,2026-08-27 15:20:06,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/4
+26,10.116.128.22,10.116.0.0/16,Near Pao Leng Pharmacy on Mahai Sawan Road (Inbound),2026-08-27,2026-08-27 15:20:43,2026-08-27 15:35:45,15.03,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+432,10.107.101.53,10.107.0.0/16,Pathum Wan  Intersection,2026-08-27,2026-08-27 15:30:22,2026-08-27 15:45:21,14.98,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/3
+112,10.117.128.25,10.117.0.0/16,near the police box on Thiam Ruam Mit Road,2026-08-27,2026-08-27 15:30:39,2026-08-27 15:45:39,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/16
+1063,10.102.129.138,10.102.0.0/16,Opposite Chitralada Palace,2026-08-27,2026-08-27 15:35:13,2026-08-27 15:50:13,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=1/13
+119,10.117.128.36,10.117.0.0/16,Ratchada-Sutthisan Intersection,2026-08-27,2026-08-27 15:35:53,2026-08-27 15:50:50,14.95,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/16
+123,10.117.128.40,10.117.0.0/16,Central barrier near the police box on Ratchadaphisek Road,2026-08-27,2026-08-27 15:35:53,2026-08-27 15:50:49,14.93,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=1/16
+1071,10.114.128.42,10.114.0.0/16,Central barrier near Soi Phahon Yothin 18  on Kamphaeng Phet Road,2026-08-27,2026-08-27 16:10:31,2026-08-27 16:25:31,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+1078,10.118.128.24,10.118.0.0/16,The flyover in front of Wat Suwan,2026-08-27,2026-08-27 16:16:18,2026-08-27 16:31:17,14.98,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/2
+1076,10.116.129.125,10.116.0.0/16,Footbridge near Soi Thoet Thai 21 on Ratchaphruek Road,2026-08-27,2026-08-27 16:31:05,2026-08-27 16:46:05,15.0,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/6
+1063,10.102.129.138,10.102.0.0/16,Opposite Chitralada Palace,2026-08-27,2026-08-27 16:40:13,2026-08-27 16:55:13,15.0,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=1/13
+11,10.126.128.34,10.126.0.0/16,Traffic Lights near Soi Rajavithi  6 on Rajavithi  Road,2026-08-27,2026-08-27 16:45:08,2026-08-27 17:00:08,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/1
+413,10.101.102.190,10.101.0.0/16,Tanao Road,2026-08-27,2026-08-27 16:45:26,2026-08-27 17:00:26,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/10
+230,10.102.129.126,10.102.0.0/16,Entrance to Soi Ranong 2 on Rama 5 Road,2026-08-27,2026-08-27 16:45:31,2026-08-27 17:00:31,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=1/13
+604,10.104.101.35,10.104.0.0/16,Silom-Naradhiwas Intersection,2026-08-27,2026-08-27 16:55:57,2026-08-27 17:10:57,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/2
+546,10.102.102.58,10.102.0.0/16,Panichayakarn junction,2026-08-27,2026-08-27 17:35:46,2026-08-27 17:50:45,14.98,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=1/13
+432,10.107.101.53,10.107.0.0/16,Pathum Wan  Intersection,2026-08-27,2026-08-27 17:45:21,2026-08-27 18:00:23,15.03,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=1/3
+542,10.107.101.83,10.107.0.0/16,Chit Lom Intersection,2026-08-27,2026-08-27 17:45:21,2026-08-27 18:00:24,15.05,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/3
+1103,10.116.128.40,10.116.0.0/16,17/5000 Ratchada-Ratchaphruek Intersection,2026-08-27,2026-08-27 18:05:47,2026-08-27 18:20:48,15.02,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+529,10.151.101.91,10.151.0.0/16,Henri Dunant Intersection,2026-08-27,2026-08-27 18:10:11,2026-08-27 18:25:11,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+127,10.117.128.48,10.117.0.0/16,Near Soi Lat Phrao 30 on Lat Phrao Road,2026-08-27,2026-08-27 18:11:14,2026-08-27 18:26:14,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/16
+913,10.156.102.13,10.156.0.0/16,connect BMAcctv,2026-08-27,2026-08-27 18:25:06,2026-08-27 18:40:06,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/4
+1076,10.116.129.125,10.116.0.0/16,Footbridge near Soi Thoet Thai 21 on Ratchaphruek Road,2026-08-27,2026-08-27 18:26:05,2026-08-27 18:41:05,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+169,10.125.129.126,10.125.0.0/16,Footbridge in front of Wat Sao  Hin  Near Soi Wong Sawang 3 on Wong Sawang Road,2026-08-27,2026-08-27 18:31:17,2026-08-27 18:46:18,15.02,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/0
+26,10.116.128.22,10.116.0.0/16,Near Pao Leng Pharmacy on Mahai Sawan Road (Inbound),2026-08-27,2026-08-27 18:55:43,2026-08-27 19:10:42,14.98,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+239,10.107.129.128,10.107.0.0/16,Footbridge near Triamudomsuksa School on Phayathai Road,2026-08-27,2026-08-27 19:06:02,2026-08-27 19:21:03,15.02,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/3
+11,10.126.128.34,10.126.0.0/16,Traffic Lights near Soi Rajavithi  6 on Rajavithi  Road,2026-08-27,2026-08-27 19:10:09,2026-08-27 19:25:11,15.03,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/1
+126,10.117.128.46,10.117.0.0/16,Near Soi Lat Phrao 30 on Lat Phrao Road,2026-08-27,2026-08-27 20:35:01,2026-08-27 20:50:01,15.0,12-20m,fleet_no_live_midgap=3/99; subnet_no_live_midgap=1/16
+224,10.117.129.135,10.117.0.0/16,Footbridge near The Criminal Court on  Ratchadaphisek Road,2026-08-27,2026-08-27 20:35:01,2026-08-27 20:50:01,15.0,12-20m,fleet_no_live_midgap=3/99; subnet_no_live_midgap=1/16
+603,10.104.101.29,10.104.0.0/16,Silom-Naradhiwas Intersection,2026-08-27,2026-08-27 20:35:01,2026-08-27 20:50:01,15.0,12-20m,fleet_no_live_midgap=3/99; subnet_no_live_midgap=0/2
+277,10.137.101.27,10.137.0.0/16,Footbridge near Soi Rang Nam on Phayathai Road,2026-08-28,2026-08-28 06:05:22,2026-08-28 06:20:22,15.0,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/5
+938,10.156.102.38,10.156.0.0/16,connect BMAcctv,2026-08-28,2026-08-28 06:30:05,2026-08-28 06:45:05,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/4
+188,10.112.129.129,10.112.0.0/16,Footbridge near Soi Rama 3 Soi68 on Rama 3 Road,2026-08-28,2026-08-28 07:21:06,2026-08-28 07:36:06,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/2
+1195,10.116.128.28,10.116.0.0/16,Near the police box on Mahai Sawan Road (Inbound),2026-08-28,2026-08-28 07:30:45,2026-08-28 07:45:43,14.97,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+219,10.117.129.128,10.117.0.0/16,Footbridge near Soi Ratchadaphisek 14 on Ratchadaphisek Road,2026-08-28,2026-08-28 08:01:08,2026-08-28 08:16:10,15.03,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/16
+36,10.116.128.42,10.116.0.0/16,Near the police box and BRT Ratchapruek Station on Ratchapruek Road,2026-08-28,2026-08-28 08:15:50,2026-08-28 08:30:50,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+224,10.117.129.135,10.117.0.0/16,Footbridge near The Criminal Court on  Ratchadaphisek Road,2026-08-28,2026-08-28 08:40:00,2026-08-28 08:55:00,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/16
+119,10.117.128.36,10.117.0.0/16,Ratchada-Sutthisan Intersection,2026-08-28,2026-08-28 08:55:51,2026-08-28 09:10:52,15.02,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/16
+170,10.114.129.121,10.114.0.0/16,Footbridge near  Nawati Somdet Ya Hospital on Phahon Yothin Road,2026-08-28,2026-08-28 09:26:16,2026-08-28 09:41:21,15.08,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+1070,10.114.129.125,10.114.0.0/16,Footbridge near Soi Phahon Yothin 18/2 on Phahon Yothin Road,2026-08-28,2026-08-28 09:36:12,2026-08-28 09:51:16,15.07,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+1039,10.151.128.28,10.151.0.0/16,Near the police box on Rama 4 Road (Inbound),2026-08-28,2026-08-28 09:45:11,2026-08-28 10:00:12,15.02,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+206,10.128.129.131,10.128.0.0/16,Footbridge near Soi Narathiwas 20 on Narathiwas Road,2026-08-28,2026-08-28 09:51:14,2026-08-28 10:06:11,14.95,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/3
+82,10.137.128.42,10.137.0.0/16,Footbridge near Soi Ratchaprarop 3 on Ratchaprarop Road,2026-08-28,2026-08-28 09:51:20,2026-08-28 10:06:16,14.93,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/5
+595,10.118.101.10,10.118.0.0/16,Ban Khaek Juncion,2026-08-28,2026-08-28 09:55:42,2026-08-28 10:10:44,15.03,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/2
+68,10.151.128.30,10.151.0.0/16,In front of bangkokbank Worachak Branch on Worachak Road,2026-08-28,2026-08-28 09:56:24,2026-08-28 10:11:24,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+26,10.116.128.22,10.116.0.0/16,Near Pao Leng Pharmacy on Mahai Sawan Road (Inbound),2026-08-28,2026-08-28 10:00:57,2026-08-28 10:15:43,14.77,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+170,10.114.129.121,10.114.0.0/16,Footbridge near  Nawati Somdet Ya Hospital on Phahon Yothin Road,2026-08-28,2026-08-28 10:01:30,2026-08-28 10:16:16,14.77,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+11,10.126.128.34,10.126.0.0/16,Traffic Lights near Soi Rajavithi  6 on Rajavithi  Road,2026-08-28,2026-08-28 10:20:11,2026-08-28 10:35:08,14.95,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/1
+1078,10.118.128.24,10.118.0.0/16,The flyover in front of Wat Suwan,2026-08-28,2026-08-28 10:26:35,2026-08-28 10:41:21,14.77,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/2
+414,10.101.102.200,10.101.0.0/16,Below/Under Phra Phuttha Yodfa Bridge (Memorial Bridge),2026-08-28,2026-08-28 10:35:30,2026-08-28 10:50:31,15.02,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=2/10
+124,10.117.128.42,10.117.0.0/16,Central barrier near the police box on Ratchadaphisek Road,2026-08-28,2026-08-28 10:35:51,2026-08-28 10:50:54,15.05,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/16
+542,10.107.101.83,10.107.0.0/16,Chit Lom Intersection,2026-08-28,2026-08-28 11:10:25,2026-08-28 11:25:22,14.95,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/3
+619,10.107.101.41,10.107.0.0/16,Pathum Wan  Intersection,2026-08-28,2026-08-28 11:10:28,2026-08-28 11:25:25,14.95,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/3
+371,10.101.101.12,10.101.0.0/16,Thewet Intersection,2026-08-28,2026-08-28 11:40:42,2026-08-28 11:55:43,15.02,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=1/10
+123,10.117.128.40,10.117.0.0/16,Central barrier near the police box on Ratchadaphisek Road,2026-08-28,2026-08-28 11:40:53,2026-08-28 11:55:56,15.05,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/16
+1078,10.118.128.24,10.118.0.0/16,The flyover in front of Wat Suwan,2026-08-28,2026-08-28 11:51:23,2026-08-28 12:07:25,16.03,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/2
+211,10.117.129.122,10.117.0.0/16,Footbridge near Soi Ratchadaphisek 3 on Ratchadaphisek Road,2026-08-28,2026-08-28 11:56:15,2026-08-28 12:11:16,15.02,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/16
+137,10.130.129.126,10.130.0.0/16,Footbridge near Big C Extra Entrance to Soi Lat Phrao 7 on Lat Phrao Road,2026-08-28,2026-08-28 12:16:16,2026-08-28 12:32:08,15.87,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/3
+169,10.125.129.126,10.125.0.0/16,Footbridge in front of Wat Sao  Hin  Near Soi Wong Sawang 3 on Wong Sawang Road,2026-08-28,2026-08-28 12:46:22,2026-08-28 13:01:22,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/0
+913,10.156.102.13,10.156.0.0/16,connect BMAcctv,2026-08-28,2026-08-28 13:05:15,2026-08-28 13:20:14,14.98,12-20m,fleet_no_live_midgap=4/99; subnet_no_live_midgap=1/4
+11,10.126.128.34,10.126.0.0/16,Traffic Lights near Soi Rajavithi  6 on Rajavithi  Road,2026-08-28,2026-08-28 13:05:19,2026-08-28 13:20:17,14.97,12-20m,fleet_no_live_midgap=4/99; subnet_no_live_midgap=0/1
+301,10.102.101.53,10.102.0.0/16,Aoo Tong Nok Intersection,2026-08-28,2026-08-28 13:31:10,2026-08-28 13:46:01,14.85,12-20m,fleet_no_live_midgap=6/99; subnet_no_live_midgap=0/13
+1195,10.116.128.28,10.116.0.0/16,Near the police box on Mahai Sawan Road (Inbound),2026-08-28,2026-08-28 13:35:43,2026-08-28 13:50:43,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+301,10.102.101.53,10.102.0.0/16,Aoo Tong Nok Intersection,2026-08-28,2026-08-28 14:26:02,2026-08-28 14:41:02,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/13
+1815,10.156.102.69,10.156.0.0/16,Rama 9 Intersection,2026-08-28,2026-08-28 14:30:44,2026-08-28 14:45:44,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/4
+136,10.130.129.125,10.130.0.0/16,Footbridge near Big C Extra Entrance to Soi Lat Phrao 7 on Lat Phrao Road,2026-08-28,2026-08-28 14:31:13,2026-08-28 14:46:12,14.98,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/3
+169,10.125.129.126,10.125.0.0/16,Footbridge in front of Wat Sao  Hin  Near Soi Wong Sawang 3 on Wong Sawang Road,2026-08-28,2026-08-28 14:51:19,2026-08-28 15:06:19,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/0
+595,10.118.101.10,10.118.0.0/16,Ban Khaek Juncion,2026-08-28,2026-08-28 15:10:42,2026-08-28 15:25:41,14.98,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/2
+604,10.104.101.35,10.104.0.0/16,Silom-Naradhiwas Intersection,2026-08-28,2026-08-28 15:15:57,2026-08-28 15:30:58,15.02,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/2
+70,10.101.128.24,10.101.0.0/16,"Near Thanachart Bank Public Company Limited,Branch Bang Khunphrom on Sam Sen Road",2026-08-28,2026-08-28 15:26:21,2026-08-28 15:41:22,15.02,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=1/10
+228,10.151.129.124,10.151.0.0/16,In front of Klang Hospital on Luang Road,2026-08-28,2026-08-28 15:41:20,2026-08-28 15:56:19,14.98,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+176,10.114.129.127,10.114.0.0/16,Footbridge in front of Chatuchak Park on Phahon Yothin Road,2026-08-28,2026-08-28 15:51:19,2026-08-28 16:06:19,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+178,10.114.129.129,10.114.0.0/16,Footbridge in front of  PHYATHAI HOSPITAL 2 on Phahon Yothin Road,2026-08-28,2026-08-28 16:51:17,2026-08-28 17:06:17,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+178,10.114.129.129,10.114.0.0/16,Footbridge in front of  PHYATHAI HOSPITAL 2 on Phahon Yothin Road,2026-08-28,2026-08-28 17:16:15,2026-08-28 17:31:15,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+225,10.117.129.136,10.117.0.0/16,Footbridge near The Criminal Court on  Ratchadaphisek Road,2026-08-28,2026-08-28 17:21:15,2026-08-28 17:36:15,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/16
+139,10.130.129.128,10.130.0.0/16,Footbridge in front of Horwang School on Phahon Yothin Road,2026-08-28,2026-08-28 17:31:17,2026-08-28 17:46:17,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/3
+196,10.128.129.129,10.128.0.0/16,Footbridge in front of Makro on Narathiwas Road,2026-08-28,2026-08-28 17:46:17,2026-08-28 18:01:18,15.02,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/3
+112,10.117.128.25,10.117.0.0/16,near the police box on Thiam Ruam Mit Road,2026-08-28,2026-08-28 18:06:01,2026-08-28 18:20:39,14.63,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/16
+1076,10.116.129.125,10.116.0.0/16,Footbridge near Soi Thoet Thai 21 on Ratchaphruek Road,2026-08-28,2026-08-28 18:26:05,2026-08-28 18:41:05,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+1060,10.151.128.21,10.151.0.0/16,"In front of Sai Panya School, Krung Kasem Road",2026-08-28,2026-08-28 18:41:22,2026-08-28 18:56:22,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+18,10.102.128.36,10.102.0.0/16,Saphan Daeng Intersection,2026-08-28,2026-08-28 18:45:55,2026-08-28 19:00:57,15.03,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/13
+141,10.130.129.130,10.130.0.0/16,Footbridge in front of PTT Public Company Limited near Soi Vibhavadi Rangsit 11 on Vibhavadi Rangsit Road,2026-08-28,2026-08-28 18:56:17,2026-08-28 19:11:17,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/3
+123,10.117.128.40,10.117.0.0/16,Central barrier near the police box on Ratchadaphisek Road,2026-08-28,2026-08-28 19:05:49,2026-08-28 19:20:49,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/16
+1368,10.102.102.57,10.102.0.0/16,Lan Phra Rup Intersection,2026-08-28,2026-08-28 19:20:44,2026-08-28 19:35:44,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/13
+412,10.101.102.134,10.101.0.0/16,Phra Athit Road,2026-08-28,2026-08-28 19:30:29,2026-08-28 19:45:27,14.97,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/10
+363,10.102.102.73,10.102.0.0/16,Khatdusit Intersection,2026-08-28,2026-08-28 19:30:36,2026-08-28 19:45:34,14.97,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/13
+119,10.117.128.36,10.117.0.0/16,Ratchada-Sutthisan Intersection,2026-08-28,2026-08-28 20:00:49,2026-08-28 20:15:49,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/16
+26,10.116.128.22,10.116.0.0/16,Near Pao Leng Pharmacy on Mahai Sawan Road (Inbound),2026-08-28,2026-08-28 20:25:43,2026-08-28 20:40:44,15.02,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+36,10.116.128.42,10.116.0.0/16,Near the police box and BRT Ratchapruek Station on Ratchapruek Road,2026-08-29,2026-08-29 06:10:50,2026-08-29 06:25:48,14.97,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=1/6
+1103,10.116.128.40,10.116.0.0/16,17/5000 Ratchada-Ratchaphruek Intersection,2026-08-29,2026-08-29 06:10:50,2026-08-29 06:30:50,20.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+938,10.156.102.38,10.156.0.0/16,connect BMAcctv,2026-08-29,2026-08-29 06:15:05,2026-08-29 06:30:05,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/4
+82,10.137.128.42,10.137.0.0/16,Footbridge near Soi Ratchaprarop 3 on Ratchaprarop Road,2026-08-29,2026-08-29 06:26:08,2026-08-29 06:41:08,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/5
+135,10.117.129.138,10.117.0.0/16,Footbridge in front of Toyota Sure on  Ratchadaphisek Road,2026-08-29,2026-08-29 06:26:14,2026-08-29 06:41:14,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/16
+256,10.137.129.130,10.137.0.0/16,Footbridge near Soi Phetchaburi 27 on Phetchaburi Road,2026-08-29,2026-08-29 06:31:09,2026-08-29 06:46:10,15.02,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/5
+233,10.102.129.137,10.102.0.0/16,Opposite Chitralada Palace on Rama 5 Road,2026-08-29,2026-08-29 06:45:12,2026-08-29 07:00:13,15.02,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/13
+576,10.101.102.10,10.101.0.0/16,Bang Lamphu Intersection,2026-08-29,2026-08-29 06:45:43,2026-08-29 07:00:43,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/10
+68,10.151.128.30,10.151.0.0/16,In front of bangkokbank Worachak Branch on Worachak Road,2026-08-29,2026-08-29 06:56:24,2026-08-29 07:11:19,14.92,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+36,10.116.128.42,10.116.0.0/16,Near the police box and BRT Ratchapruek Station on Ratchapruek Road,2026-08-29,2026-08-29 07:25:48,2026-08-29 07:40:48,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+119,10.117.128.36,10.117.0.0/16,Ratchada-Sutthisan Intersection,2026-08-29,2026-08-29 07:25:48,2026-08-29 07:40:48,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/16
+500,10.137.102.27,10.137.0.0/16,Pra Tu Num Intersection,2026-08-29,2026-08-29 07:30:18,2026-08-29 07:45:18,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/5
+1076,10.116.129.125,10.116.0.0/16,Footbridge near Soi Thoet Thai 21 on Ratchaphruek Road,2026-08-29,2026-08-29 07:36:04,2026-08-29 07:56:03,19.98,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+432,10.107.101.53,10.107.0.0/16,Pathum Wan  Intersection,2026-08-29,2026-08-29 07:40:20,2026-08-29 07:55:20,15.0,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=1/3
+542,10.107.101.83,10.107.0.0/16,Chit Lom Intersection,2026-08-29,2026-08-29 07:40:20,2026-08-29 07:55:20,15.0,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=1/3
+277,10.137.101.27,10.137.0.0/16,Footbridge near Soi Rang Nam on Phayathai Road,2026-08-29,2026-08-29 07:40:23,2026-08-29 07:55:23,15.0,12-20m,fleet_no_live_midgap=3/99; subnet_no_live_midgap=0/5
+411,10.101.102.132,10.101.0.0/16,Phra Athit Road,2026-08-29,2026-08-29 07:40:25,2026-08-29 07:55:25,15.0,12-20m,fleet_no_live_midgap=5/99; subnet_no_live_midgap=1/10
+412,10.101.102.134,10.101.0.0/16,Phra Athit Road,2026-08-29,2026-08-29 07:40:25,2026-08-29 07:55:25,15.0,12-20m,fleet_no_live_midgap=5/99; subnet_no_live_midgap=1/10
+630,10.102.102.68,10.102.0.0/16,Gesagomon Intersection,2026-08-29,2026-08-29 07:40:30,2026-08-29 07:55:30,15.0,12-20m,fleet_no_live_midgap=6/99; subnet_no_live_midgap=0/13
+363,10.102.102.73,10.102.0.0/16,Khatdusit Intersection,2026-08-29,2026-08-29 07:40:33,2026-08-29 07:55:33,15.0,12-20m,fleet_no_live_midgap=8/99; subnet_no_live_midgap=1/13
+569,10.101.102.68,10.101.0.0/16,Jor Por Ror  Intersection,2026-08-29,2026-08-29 07:40:33,2026-08-29 07:55:33,15.0,12-20m,fleet_no_live_midgap=8/99; subnet_no_live_midgap=2/10
+370,10.101.101.13,10.101.0.0/16,Thewet Intersection,2026-08-29,2026-08-29 07:40:36,2026-08-29 07:55:36,15.0,12-20m,fleet_no_live_midgap=10/99; subnet_no_live_midgap=4/10
+371,10.101.101.12,10.101.0.0/16,Thewet Intersection,2026-08-29,2026-08-29 07:40:36,2026-08-29 07:55:36,15.0,12-20m,fleet_no_live_midgap=10/99; subnet_no_live_midgap=4/10
+112,10.117.128.25,10.117.0.0/16,near the police box on Thiam Ruam Mit Road,2026-08-29,2026-08-29 07:40:38,2026-08-29 07:55:38,15.0,12-20m,fleet_no_live_midgap=11/99; subnet_no_live_midgap=0/16
+576,10.101.102.10,10.101.0.0/16,Bang Lamphu Intersection,2026-08-29,2026-08-29 07:40:40,2026-08-29 07:55:40,15.0,12-20m,fleet_no_live_midgap=13/99; subnet_no_live_midgap=5/10
+595,10.118.101.10,10.118.0.0/16,Ban Khaek Juncion,2026-08-29,2026-08-29 07:40:40,2026-08-29 07:55:40,15.0,12-20m,fleet_no_live_midgap=13/99; subnet_no_live_midgap=0/2
+546,10.102.102.58,10.102.0.0/16,Panichayakarn junction,2026-08-29,2026-08-29 07:40:43,2026-08-29 07:55:43,15.0,12-20m,fleet_no_live_midgap=16/99; subnet_no_live_midgap=3/13
+1368,10.102.102.57,10.102.0.0/16,Lan Phra Rup Intersection,2026-08-29,2026-08-29 07:40:43,2026-08-29 07:55:43,15.0,12-20m,fleet_no_live_midgap=16/99; subnet_no_live_midgap=3/13
+1815,10.156.102.69,10.156.0.0/16,Rama 9 Intersection,2026-08-29,2026-08-29 07:40:43,2026-08-29 07:55:43,15.0,12-20m,fleet_no_live_midgap=16/99; subnet_no_live_midgap=0/4
+1103,10.116.128.40,10.116.0.0/16,17/5000 Ratchada-Ratchaphruek Intersection,2026-08-29,2026-08-29 07:40:46,2026-08-29 07:55:46,15.0,12-20m,fleet_no_live_midgap=17/99; subnet_no_live_midgap=1/6
+36,10.116.128.42,10.116.0.0/16,Near the police box and BRT Ratchapruek Station on Ratchapruek Road,2026-08-29,2026-08-29 07:40:48,2026-08-29 07:55:48,15.0,12-20m,fleet_no_live_midgap=21/99; subnet_no_live_midgap=2/6
+118,10.117.128.30,10.117.0.0/16,Ratchada-Sutthisan Intersection,2026-08-29,2026-08-29 07:40:48,2026-08-29 07:55:48,15.0,12-20m,fleet_no_live_midgap=21/99; subnet_no_live_midgap=3/16
+119,10.117.128.36,10.117.0.0/16,Ratchada-Sutthisan Intersection,2026-08-29,2026-08-29 07:40:48,2026-08-29 07:55:48,15.0,12-20m,fleet_no_live_midgap=21/99; subnet_no_live_midgap=3/16
+123,10.117.128.40,10.117.0.0/16,Central barrier near the police box on Ratchadaphisek Road,2026-08-29,2026-08-29 07:40:48,2026-08-29 07:55:48,15.0,12-20m,fleet_no_live_midgap=21/99; subnet_no_live_midgap=3/16
+556,10.102.102.15,10.102.0.0/16,Vajira Intersection,2026-08-29,2026-08-29 07:40:51,2026-08-29 07:55:51,15.0,12-20m,fleet_no_live_midgap=22/99; subnet_no_live_midgap=4/13
+395,10.101.101.104,10.101.0.0/16,Sao Chingcha Intersection,2026-08-29,2026-08-29 07:40:56,2026-08-29 07:55:56,15.0,12-20m,fleet_no_live_midgap=24/99; subnet_no_live_midgap=6/10
+1362,10.102.101.224,10.102.0.0/16,Nakhon Chai Si Intersection,2026-08-29,2026-08-29 07:40:56,2026-08-29 07:55:56,15.0,12-20m,fleet_no_live_midgap=24/99; subnet_no_live_midgap=5/13
+158,10.116.129.123,10.116.0.0/16,Footbridge near Soi Charoen Nakhon 46 on Charoen Nakhon Road,2026-08-29,2026-08-29 07:41:03,2026-08-29 07:56:03,15.0,12-20m,fleet_no_live_midgap=26/99; subnet_no_live_midgap=3/6
+206,10.128.129.131,10.128.0.0/16,Footbridge near Soi Narathiwas 20 on Narathiwas Road,2026-08-29,2026-08-29 07:41:03,2026-08-29 07:56:03,15.0,12-20m,fleet_no_live_midgap=26/99; subnet_no_live_midgap=0/3
+219,10.117.129.128,10.117.0.0/16,Footbridge near Soi Ratchadaphisek 14 on Ratchadaphisek Road,2026-08-29,2026-08-29 07:41:06,2026-08-29 07:56:06,15.0,12-20m,fleet_no_live_midgap=28/99; subnet_no_live_midgap=4/16
+1070,10.114.129.125,10.114.0.0/16,Footbridge near Soi Phahon Yothin 18/2 on Phahon Yothin Road,2026-08-29,2026-08-29 07:41:06,2026-08-29 07:56:06,15.0,12-20m,fleet_no_live_midgap=28/99; subnet_no_live_midgap=0/6
+215,10.117.129.126,10.117.0.0/16,Footbridge near Soi Ratchadaphisek 7 on Ratchadaphisek Road,2026-08-29,2026-08-29 07:41:08,2026-08-29 07:56:08,15.0,12-20m,fleet_no_live_midgap=30/99; subnet_no_live_midgap=5/16
+136,10.130.129.125,10.130.0.0/16,Footbridge near Big C Extra Entrance to Soi Lat Phrao 7 on Lat Phrao Road,2026-08-29,2026-08-29 07:41:11,2026-08-29 07:56:11,15.0,12-20m,fleet_no_live_midgap=31/99; subnet_no_live_midgap=0/3
+127,10.117.128.48,10.117.0.0/16,Near Soi Lat Phrao 30 on Lat Phrao Road,2026-08-29,2026-08-29 07:41:13,2026-08-29 07:56:13,15.0,12-20m,fleet_no_live_midgap=32/99; subnet_no_live_midgap=6/16
+135,10.117.129.138,10.117.0.0/16,Footbridge in front of Toyota Sure on  Ratchadaphisek Road,2026-08-29,2026-08-29 07:41:14,2026-08-29 07:56:14,15.0,12-20m,fleet_no_live_midgap=33/99; subnet_no_live_midgap=7/16
+139,10.130.129.128,10.130.0.0/16,Footbridge in front of Horwang School on Phahon Yothin Road,2026-08-29,2026-08-29 07:41:16,2026-08-29 07:56:16,15.0,12-20m,fleet_no_live_midgap=38/99; subnet_no_live_midgap=2/3
+141,10.130.129.130,10.130.0.0/16,Footbridge in front of PTT Public Company Limited near Soi Vibhavadi Rangsit 11 on Vibhavadi Rangsit Road,2026-08-29,2026-08-29 07:41:16,2026-08-29 07:56:16,15.0,12-20m,fleet_no_live_midgap=38/99; subnet_no_live_midgap=2/3
+176,10.114.129.127,10.114.0.0/16,Footbridge in front of Chatuchak Park on Phahon Yothin Road,2026-08-29,2026-08-29 07:41:16,2026-08-29 07:56:16,15.0,12-20m,fleet_no_live_midgap=38/99; subnet_no_live_midgap=1/6
+196,10.128.129.129,10.128.0.0/16,Footbridge in front of Makro on Narathiwas Road,2026-08-29,2026-08-29 07:41:16,2026-08-29 07:56:16,15.0,12-20m,fleet_no_live_midgap=38/99; subnet_no_live_midgap=1/3
+1132,10.118.128.22,10.118.0.0/16,The flyover in front of Wat Suwan,2026-08-29,2026-08-29 07:41:16,2026-08-29 07:56:16,15.0,12-20m,fleet_no_live_midgap=38/99; subnet_no_live_midgap=1/2
+228,10.151.129.124,10.151.0.0/16,In front of Klang Hospital on Luang Road,2026-08-29,2026-08-29 07:41:18,2026-08-29 07:56:18,15.0,12-20m,fleet_no_live_midgap=39/99; subnet_no_live_midgap=0/6
+619,10.107.101.41,10.107.0.0/16,Pathum Wan  Intersection,2026-08-29,2026-08-29 07:45:23,2026-08-29 08:00:25,15.03,12-20m,fleet_no_live_midgap=53/99; subnet_no_live_midgap=2/3
+413,10.101.102.190,10.101.0.0/16,Tanao Road,2026-08-29,2026-08-29 07:45:25,2026-08-29 08:00:26,15.02,12-20m,fleet_no_live_midgap=54/99; subnet_no_live_midgap=7/10
+414,10.101.102.200,10.101.0.0/16,Below/Under Phra Phuttha Yodfa Bridge (Memorial Bridge),2026-08-29,2026-08-29 07:45:28,2026-08-29 08:00:30,15.03,12-20m,fleet_no_live_midgap=55/99; subnet_no_live_midgap=8/10
+230,10.102.129.126,10.102.0.0/16,Entrance to Soi Ranong 2 on Rama 5 Road,2026-08-29,2026-08-29 07:45:30,2026-08-29 08:00:31,15.02,12-20m,fleet_no_live_midgap=56/99; subnet_no_live_midgap=7/13
+1804,10.134.116.85,10.134.0.0/16,On Nut Road,2026-08-29,2026-08-29 07:45:30,2026-08-29 08:00:33,15.05,12-20m,fleet_no_live_midgap=56/99; subnet_no_live_midgap=0/0
+1071,10.114.128.42,10.114.0.0/16,Central barrier near Soi Phahon Yothin 18  on Kamphaeng Phet Road,2026-08-29,2026-08-29 07:45:31,2026-08-29 08:00:33,15.03,12-20m,fleet_no_live_midgap=57/99; subnet_no_live_midgap=2/6
+88,10.128.128.34,10.128.0.0/16,Chan-Sathu Pradit Intersection Intersection,2026-08-29,2026-08-29 07:45:36,2026-08-29 08:00:38,15.03,12-20m,fleet_no_live_midgap=57/99; subnet_no_live_midgap=2/3
+1408,10.117.128.21,10.117.0.0/16,Central barrier in front of Cyber World Tower on Thiam Ruam Mit Road,2026-08-29,2026-08-29 07:45:40,2026-08-29 08:00:38,14.97,12-20m,fleet_no_live_midgap=58/99; subnet_no_live_midgap=9/16
+32,10.116.128.34,10.116.0.0/16,Bang Yi Rue Intersection  on Phetkasem Road,2026-08-29,2026-08-29 07:45:43,2026-08-29 08:00:44,15.02,12-20m,fleet_no_live_midgap=57/99; subnet_no_live_midgap=4/6
+26,10.116.128.22,10.116.0.0/16,Near Pao Leng Pharmacy on Mahai Sawan Road (Inbound),2026-08-29,2026-08-29 07:45:44,2026-08-29 08:00:45,15.02,12-20m,fleet_no_live_midgap=58/99; subnet_no_live_midgap=5/6
+1195,10.116.128.28,10.116.0.0/16,Near the police box on Mahai Sawan Road (Inbound),2026-08-29,2026-08-29 07:45:44,2026-08-29 08:00:45,15.02,12-20m,fleet_no_live_midgap=58/99; subnet_no_live_midgap=5/6
+1589,10.108.102.43,10.108.0.0/16,,2026-08-29,2026-08-29 07:45:48,2026-08-29 08:00:50,15.03,12-20m,fleet_no_live_midgap=57/99; subnet_no_live_midgap=0/0
+75,10.112.128.26,10.112.0.0/16,Under the overpass on Narathiwas Road,2026-08-29,2026-08-29 07:45:49,2026-08-29 08:00:50,15.02,12-20m,fleet_no_live_midgap=58/99; subnet_no_live_midgap=1/2
+120,10.117.128.33,10.117.0.0/16,Ratchada-Sutthisan Intersection,2026-08-29,2026-08-29 07:45:51,2026-08-29 08:00:52,15.02,12-20m,fleet_no_live_midgap=59/99; subnet_no_live_midgap=11/16
+124,10.117.128.42,10.117.0.0/16,Central barrier near the police box on Ratchadaphisek Road,2026-08-29,2026-08-29 07:45:51,2026-08-29 08:00:52,15.02,12-20m,fleet_no_live_midgap=59/99; subnet_no_live_midgap=11/16
+125,10.117.128.44,10.117.0.0/16,Central barrier near the police box on Ratchadaphisek Road,2026-08-29,2026-08-29 07:45:51,2026-08-29 08:00:52,15.02,12-20m,fleet_no_live_midgap=59/99; subnet_no_live_midgap=11/16
+332,10.102.101.105,10.102.0.0/16,Rat Cha Wat Intersection,2026-08-29,2026-08-29 07:45:53,2026-08-29 08:00:55,15.03,12-20m,fleet_no_live_midgap=57/99; subnet_no_live_midgap=8/13
+18,10.102.128.36,10.102.0.0/16,Saphan Daeng Intersection,2026-08-29,2026-08-29 07:45:57,2026-08-29 08:00:58,15.02,12-20m,fleet_no_live_midgap=58/99; subnet_no_live_midgap=9/13
+1028,10.102.128.34,10.102.0.0/16,Red Bridge Intersection,2026-08-29,2026-08-29 07:45:57,2026-08-29 08:00:58,15.02,12-20m,fleet_no_live_midgap=58/99; subnet_no_live_midgap=9/13
+604,10.104.101.35,10.104.0.0/16,Silom-Naradhiwas Intersection,2026-08-29,2026-08-29 07:45:58,2026-08-29 08:01:00,15.03,12-20m,fleet_no_live_midgap=57/99; subnet_no_live_midgap=1/2
+599,10.104.101.51,10.104.0.0/16,Surasak Intersection,2026-08-29,2026-08-29 07:45:59,2026-08-29 08:01:01,15.03,12-20m,fleet_no_live_midgap=58/99; subnet_no_live_midgap=1/2
+1112,10.126.128.108,10.126.0.0/16,Sutthisan Intersection,2026-08-29,2026-08-29 07:45:59,2026-08-29 08:01:01,15.03,12-20m,fleet_no_live_midgap=58/99; subnet_no_live_midgap=1/1
+301,10.102.101.53,10.102.0.0/16,Aoo Tong Nok Intersection,2026-08-29,2026-08-29 07:46:03,2026-08-29 08:01:05,15.03,12-20m,fleet_no_live_midgap=57/99; subnet_no_live_midgap=8/13
+239,10.107.129.128,10.107.0.0/16,Footbridge near Triamudomsuksa School on Phayathai Road,2026-08-29,2026-08-29 07:46:04,2026-08-29 08:01:06,15.03,12-20m,fleet_no_live_midgap=57/99; subnet_no_live_midgap=3/3
+150,10.102.129.123,10.102.0.0/16,Footbridge near Samsenwittayalai School on Rama 6 Road,2026-08-29,2026-08-29 07:46:05,2026-08-29 08:01:07,15.03,12-20m,fleet_no_live_midgap=57/99; subnet_no_live_midgap=8/13
+188,10.112.129.129,10.112.0.0/16,Footbridge near Soi Rama 3 Soi68 on Rama 3 Road,2026-08-29,2026-08-29 07:46:08,2026-08-29 08:01:10,15.03,12-20m,fleet_no_live_midgap=57/99; subnet_no_live_midgap=1/2
+211,10.117.129.122,10.117.0.0/16,Footbridge near Soi Ratchadaphisek 3 on Ratchadaphisek Road,2026-08-29,2026-08-29 07:46:10,2026-08-29 08:01:11,15.02,12-20m,fleet_no_live_midgap=58/99; subnet_no_live_midgap=9/16
+250,10.137.129.123,10.137.0.0/16,Footbridge near Soi Phetchaburi 38 on Phetchaburi Road,2026-08-29,2026-08-29 07:46:10,2026-08-29 08:01:11,15.02,12-20m,fleet_no_live_midgap=58/99; subnet_no_live_midgap=3/5
+256,10.137.129.130,10.137.0.0/16,Footbridge near Soi Phetchaburi 27 on Phetchaburi Road,2026-08-29,2026-08-29 07:46:10,2026-08-29 08:01:10,15.0,12-20m,fleet_no_live_midgap=60/99; subnet_no_live_midgap=4/5
+137,10.130.129.126,10.130.0.0/16,Footbridge near Big C Extra Entrance to Soi Lat Phrao 7 on Lat Phrao Road,2026-08-29,2026-08-29 07:46:13,2026-08-29 08:01:15,15.03,12-20m,fleet_no_live_midgap=57/99; subnet_no_live_midgap=3/3
+212,10.117.129.123,10.117.0.0/16,Footbridge near Big C Ratchadaphisek on Ratchadaphisek Road,2026-08-29,2026-08-29 07:46:13,2026-08-29 08:01:15,15.03,12-20m,fleet_no_live_midgap=57/99; subnet_no_live_midgap=9/16
+170,10.114.129.121,10.114.0.0/16,Footbridge near  Nawati Somdet Ya Hospital on Phahon Yothin Road,2026-08-29,2026-08-29 07:46:15,2026-08-29 08:01:16,15.02,12-20m,fleet_no_live_midgap=58/99; subnet_no_live_midgap=3/6
+194,10.128.129.127,10.128.0.0/16,Footbridge near Entrance to Soi Convent on  South Sathorn Road,2026-08-29,2026-08-29 07:46:15,2026-08-29 08:01:15,15.0,12-20m,fleet_no_live_midgap=61/99; subnet_no_live_midgap=2/3
+225,10.117.129.136,10.117.0.0/16,Footbridge near The Criminal Court on  Ratchadaphisek Road,2026-08-29,2026-08-29 07:46:15,2026-08-29 08:01:16,15.02,12-20m,fleet_no_live_midgap=58/99; subnet_no_live_midgap=9/16
+251,10.137.129.124,10.137.0.0/16,Footbridge near Dishongsaram Temple on Phetchaburi Road,2026-08-29,2026-08-29 07:46:15,2026-08-29 08:01:16,15.02,12-20m,fleet_no_live_midgap=58/99; subnet_no_live_midgap=2/5
+178,10.114.129.129,10.114.0.0/16,Footbridge in front of  PHYATHAI HOSPITAL 2 on Phahon Yothin Road,2026-08-29,2026-08-29 07:46:18,2026-08-29 08:01:19,15.02,12-20m,fleet_no_live_midgap=57/99; subnet_no_live_midgap=4/6
+179,10.114.129.130,10.114.0.0/16,Footbridge in front of  PHYATHAI HOSPITAL 2 on Phahon Yothin Road,2026-08-29,2026-08-29 07:46:18,2026-08-29 08:01:19,15.02,12-20m,fleet_no_live_midgap=57/99; subnet_no_live_midgap=4/6
+1078,10.118.128.24,10.118.0.0/16,The flyover in front of Wat Suwan,2026-08-29,2026-08-29 07:46:20,2026-08-29 08:01:21,15.02,12-20m,fleet_no_live_midgap=56/99; subnet_no_live_midgap=2/2
+169,10.125.129.126,10.125.0.0/16,Footbridge in front of Wat Sao  Hin  Near Soi Wong Sawang 3 on Wong Sawang Road,2026-08-29,2026-08-29 07:46:21,2026-08-29 08:01:21,15.0,12-20m,fleet_no_live_midgap=58/99; subnet_no_live_midgap=0/0
+177,10.114.129.128,10.114.0.0/16,Footbridge in front of Chatuchak Park on Phahon Yothin Road,2026-08-29,2026-08-29 07:46:21,2026-08-29 08:01:22,15.02,12-20m,fleet_no_live_midgap=56/99; subnet_no_live_midgap=3/6
+363,10.102.102.73,10.102.0.0/16,Khatdusit Intersection,2026-08-29,2026-08-29 08:25:33,2026-08-29 08:40:33,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/13
+1112,10.126.128.108,10.126.0.0/16,Sutthisan Intersection,2026-08-29,2026-08-29 08:31:01,2026-08-29 08:45:58,14.95,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/1
+604,10.104.101.35,10.104.0.0/16,Silom-Naradhiwas Intersection,2026-08-29,2026-08-29 08:40:56,2026-08-29 08:55:56,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/2
+112,10.117.128.25,10.117.0.0/16,near the police box on Thiam Ruam Mit Road,2026-08-29,2026-08-29 08:55:38,2026-08-29 09:10:38,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/16
+395,10.101.101.104,10.101.0.0/16,Sao Chingcha Intersection,2026-08-29,2026-08-29 08:55:56,2026-08-29 09:10:56,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/10
+215,10.117.129.126,10.117.0.0/16,Footbridge near Soi Ratchadaphisek 7 on Ratchadaphisek Road,2026-08-29,2026-08-29 08:56:08,2026-08-29 09:11:08,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/16
+1589,10.108.102.43,10.108.0.0/16,,2026-08-29,2026-08-29 09:10:46,2026-08-29 09:25:46,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/0
+239,10.107.129.128,10.107.0.0/16,Footbridge near Triamudomsuksa School on Phayathai Road,2026-08-29,2026-08-29 09:31:03,2026-08-29 09:46:03,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/3
+913,10.156.102.13,10.156.0.0/16,connect BMAcctv,2026-08-29,2026-08-29 09:55:05,2026-08-29 10:10:05,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/4
+123,10.117.128.40,10.117.0.0/16,Central barrier near the police box on Ratchadaphisek Road,2026-08-29,2026-08-29 09:55:48,2026-08-29 10:10:48,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/16
+230,10.102.129.126,10.102.0.0/16,Entrance to Soi Ranong 2 on Rama 5 Road,2026-08-29,2026-08-29 10:20:31,2026-08-29 10:35:31,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/13
+363,10.102.102.73,10.102.0.0/16,Khatdusit Intersection,2026-08-29,2026-08-29 10:50:33,2026-08-29 11:05:33,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/13
+26,10.116.128.22,10.116.0.0/16,Near Pao Leng Pharmacy on Mahai Sawan Road (Inbound),2026-08-29,2026-08-29 10:50:41,2026-08-29 11:05:42,15.02,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+1078,10.118.128.24,10.118.0.0/16,The flyover in front of Wat Suwan,2026-08-29,2026-08-29 10:51:16,2026-08-29 11:06:19,15.05,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/2
+36,10.116.128.42,10.116.0.0/16,Near the police box and BRT Ratchapruek Station on Ratchapruek Road,2026-08-29,2026-08-29 10:55:49,2026-08-29 11:10:48,14.98,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/6
+118,10.117.128.30,10.117.0.0/16,Ratchada-Sutthisan Intersection,2026-08-29,2026-08-29 10:55:49,2026-08-29 11:10:48,14.98,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/16
+119,10.117.128.36,10.117.0.0/16,Ratchada-Sutthisan Intersection,2026-08-29,2026-08-29 11:05:49,2026-08-29 11:20:49,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/16
+1132,10.118.128.22,10.118.0.0/16,The flyover in front of Wat Suwan,2026-08-29,2026-08-29 11:36:18,2026-08-29 11:51:18,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/2
+1195,10.116.128.28,10.116.0.0/16,Near the police box on Mahai Sawan Road (Inbound),2026-08-29,2026-08-29 11:40:41,2026-08-29 11:55:41,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+332,10.102.101.105,10.102.0.0/16,Rat Cha Wat Intersection,2026-08-29,2026-08-29 11:40:51,2026-08-29 11:55:51,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/13
+186,10.112.129.127,10.112.0.0/16,Directional sign to Rama 3 Bridge on Ratchadaphisek Road,2026-08-29,2026-08-29 11:45:10,2026-08-29 12:00:10,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/2
+137,10.130.129.126,10.130.0.0/16,Footbridge near Big C Extra Entrance to Soi Lat Phrao 7 on Lat Phrao Road,2026-08-29,2026-08-29 11:51:11,2026-08-29 12:06:11,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/3
+230,10.102.129.126,10.102.0.0/16,Entrance to Soi Ranong 2 on Rama 5 Road,2026-08-29,2026-08-29 11:55:31,2026-08-29 12:10:31,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/13
+412,10.101.102.134,10.101.0.0/16,Phra Athit Road,2026-08-29,2026-08-29 12:05:28,2026-08-29 12:20:29,15.02,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/10
+1112,10.126.128.108,10.126.0.0/16,Sutthisan Intersection,2026-08-29,2026-08-29 12:45:57,2026-08-29 13:00:57,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/1
+150,10.102.129.123,10.102.0.0/16,Footbridge near Samsenwittayalai School on Rama 6 Road,2026-08-29,2026-08-29 12:51:06,2026-08-29 13:06:07,15.02,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/13
+124,10.117.128.42,10.117.0.0/16,Central barrier near the police box on Ratchadaphisek Road,2026-08-29,2026-08-29 13:30:53,2026-08-29 13:45:49,14.93,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/16
+1076,10.116.129.125,10.116.0.0/16,Footbridge near Soi Thoet Thai 21 on Ratchaphruek Road,2026-08-29,2026-08-29 13:36:07,2026-08-29 13:51:07,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+196,10.128.129.129,10.128.0.0/16,Footbridge in front of Makro on Narathiwas Road,2026-08-29,2026-08-29 13:36:19,2026-08-29 13:51:19,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=1/3
+36,10.116.128.42,10.116.0.0/16,Near the police box and BRT Ratchapruek Station on Ratchapruek Road,2026-08-29,2026-08-29 14:30:49,2026-08-29 14:45:49,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+70,10.101.128.24,10.101.0.0/16,"Near Thanachart Bank Public Company Limited,Branch Bang Khunphrom on Sam Sen Road",2026-08-29,2026-08-29 15:06:23,2026-08-29 15:21:23,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/10
+1103,10.116.128.40,10.116.0.0/16,17/5000 Ratchada-Ratchaphruek Intersection,2026-08-29,2026-08-29 15:15:49,2026-08-29 15:30:50,15.02,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+529,10.151.101.91,10.151.0.0/16,Henri Dunant Intersection,2026-08-29,2026-08-29 15:20:12,2026-08-29 15:35:11,14.98,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+1408,10.117.128.21,10.117.0.0/16,Central barrier in front of Cyber World Tower on Thiam Ruam Mit Road,2026-08-29,2026-08-29 15:20:40,2026-08-29 15:35:41,15.02,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/16
+230,10.102.129.126,10.102.0.0/16,Entrance to Soi Ranong 2 on Rama 5 Road,2026-08-29,2026-08-29 15:30:32,2026-08-29 15:45:31,14.98,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/13
+1078,10.118.128.24,10.118.0.0/16,The flyover in front of Wat Suwan,2026-08-29,2026-08-29 15:36:22,2026-08-29 15:51:20,14.97,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/2
+432,10.107.101.53,10.107.0.0/16,Pathum Wan  Intersection,2026-08-29,2026-08-29 15:45:21,2026-08-29 16:00:22,15.02,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/3
+228,10.151.129.124,10.151.0.0/16,In front of Klang Hospital on Luang Road,2026-08-29,2026-08-29 15:46:20,2026-08-29 16:01:21,15.02,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+178,10.114.129.129,10.114.0.0/16,Footbridge in front of  PHYATHAI HOSPITAL 2 on Phahon Yothin Road,2026-08-29,2026-08-29 15:51:17,2026-08-29 16:06:18,15.02,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+126,10.117.128.46,10.117.0.0/16,Near Soi Lat Phrao 30 on Lat Phrao Road,2026-08-29,2026-08-29 16:10:00,2026-08-29 16:25:00,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/16
+1076,10.116.129.125,10.116.0.0/16,Footbridge near Soi Thoet Thai 21 on Ratchaphruek Road,2026-08-29,2026-08-29 16:11:06,2026-08-29 16:26:05,14.98,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+603,10.104.101.29,10.104.0.0/16,Silom-Naradhiwas Intersection,2026-08-29,2026-08-29 16:15:00,2026-08-29 16:30:00,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/2
+169,10.125.129.126,10.125.0.0/16,Footbridge in front of Wat Sao  Hin  Near Soi Wong Sawang 3 on Wong Sawang Road,2026-08-29,2026-08-29 16:21:20,2026-08-29 16:36:21,15.02,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/0
+569,10.101.102.68,10.101.0.0/16,Jor Por Ror  Intersection,2026-08-29,2026-08-29 16:25:34,2026-08-29 16:40:36,15.03,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/10
+1028,10.102.128.34,10.102.0.0/16,Red Bridge Intersection,2026-08-29,2026-08-29 16:30:56,2026-08-29 16:45:55,14.98,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/13
+125,10.117.128.44,10.117.0.0/16,Central barrier near the police box on Ratchadaphisek Road,2026-08-29,2026-08-29 16:40:51,2026-08-29 16:55:49,14.97,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/16
+36,10.116.128.42,10.116.0.0/16,Near the police box and BRT Ratchapruek Station on Ratchapruek Road,2026-08-29,2026-08-29 17:15:49,2026-08-29 17:30:49,15.0,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/6
+938,10.156.102.38,10.156.0.0/16,connect BMAcctv,2026-08-29,2026-08-29 17:20:06,2026-08-29 17:35:06,15.0,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/4
+414,10.101.102.200,10.101.0.0/16,Below/Under Phra Phuttha Yodfa Bridge (Memorial Bridge),2026-08-29,2026-08-29 17:20:29,2026-08-29 17:35:29,15.0,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/10
+194,10.128.129.127,10.128.0.0/16,Footbridge near Entrance to Soi Convent on  South Sathorn Road,2026-08-29,2026-08-29 17:21:15,2026-08-29 17:36:14,14.98,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=1/3
+36,10.116.128.42,10.116.0.0/16,Near the police box and BRT Ratchapruek Station on Ratchapruek Road,2026-08-29,2026-08-29 17:30:49,2026-08-29 17:45:49,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+1815,10.156.102.69,10.156.0.0/16,Rama 9 Intersection,2026-08-29,2026-08-29 17:35:44,2026-08-29 17:50:44,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/4
+595,10.118.101.10,10.118.0.0/16,Ban Khaek Juncion,2026-08-29,2026-08-29 18:25:41,2026-08-29 18:40:41,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/2
+572,10.151.101.56,10.151.0.0/16,Jor Por Ror  Intersection,2026-08-29,2026-08-29 18:35:14,2026-08-29 18:50:14,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+177,10.114.129.128,10.114.0.0/16,Footbridge in front of Chatuchak Park on Phahon Yothin Road,2026-08-29,2026-08-29 18:41:19,2026-08-29 18:56:19,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+224,10.117.129.135,10.117.0.0/16,Footbridge near The Criminal Court on  Ratchadaphisek Road,2026-08-29,2026-08-29 18:45:01,2026-08-29 19:00:01,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/16
+135,10.117.129.138,10.117.0.0/16,Footbridge in front of Toyota Sure on  Ratchadaphisek Road,2026-08-29,2026-08-29 18:46:15,2026-08-29 19:01:17,15.03,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/16
+176,10.114.129.127,10.114.0.0/16,Footbridge in front of Chatuchak Park on Phahon Yothin Road,2026-08-29,2026-08-29 18:46:18,2026-08-29 19:01:19,15.02,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+432,10.107.101.53,10.107.0.0/16,Pathum Wan  Intersection,2026-08-29,2026-08-29 18:50:21,2026-08-29 19:05:21,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/3
+125,10.117.128.44,10.117.0.0/16,Central barrier near the police box on Ratchadaphisek Road,2026-08-29,2026-08-29 19:05:49,2026-08-29 19:20:49,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/16
+136,10.130.129.125,10.130.0.0/16,Footbridge near Big C Extra Entrance to Soi Lat Phrao 7 on Lat Phrao Road,2026-08-29,2026-08-29 19:16:12,2026-08-29 19:31:12,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/3
+1195,10.116.128.28,10.116.0.0/16,Near the police box on Mahai Sawan Road (Inbound),2026-08-29,2026-08-29 19:25:44,2026-08-29 19:40:44,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+1804,10.134.116.85,10.134.0.0/16,On Nut Road,2026-08-29,2026-08-29 19:30:32,2026-08-29 19:45:32,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/0
+118,10.117.128.30,10.117.0.0/16,Ratchada-Sutthisan Intersection,2026-08-29,2026-08-29 19:50:50,2026-08-29 20:05:49,14.98,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/16
+1076,10.116.129.125,10.116.0.0/16,Footbridge near Soi Thoet Thai 21 on Ratchaphruek Road,2026-08-29,2026-08-29 20:36:04,2026-08-29 20:51:05,15.02,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+120,10.117.128.33,10.117.0.0/16,Ratchada-Sutthisan Intersection,2026-08-29,2026-08-29 20:40:52,2026-08-29 20:55:52,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/16
+124,10.117.128.42,10.117.0.0/16,Central barrier near the police box on Ratchadaphisek Road,2026-08-29,2026-08-29 20:45:49,2026-08-29 21:00:49,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/16
+939,10.156.102.39,10.156.0.0/16,connect BMAcctv,2026-08-30,2026-08-30 06:20:05,2026-08-30 06:35:05,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/4
+126,10.117.128.46,10.117.0.0/16,Near Soi Lat Phrao 30 on Lat Phrao Road,2026-08-30,2026-08-30 06:35:00,2026-08-30 06:50:00,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/16
+179,10.114.129.130,10.114.0.0/16,Footbridge in front of  PHYATHAI HOSPITAL 2 on Phahon Yothin Road,2026-08-30,2026-08-30 06:36:14,2026-08-30 06:51:17,15.05,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+82,10.137.128.42,10.137.0.0/16,Footbridge near Soi Ratchaprarop 3 on Ratchaprarop Road,2026-08-30,2026-08-30 06:51:12,2026-08-30 07:06:10,14.97,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/5
+395,10.101.101.104,10.101.0.0/16,Sao Chingcha Intersection,2026-08-30,2026-08-30 06:55:56,2026-08-30 07:10:56,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/10
+26,10.116.128.22,10.116.0.0/16,Near Pao Leng Pharmacy on Mahai Sawan Road (Inbound),2026-08-30,2026-08-30 07:00:46,2026-08-30 07:15:45,14.98,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+186,10.112.129.127,10.112.0.0/16,Directional sign to Rama 3 Bridge on Ratchadaphisek Road,2026-08-30,2026-08-30 07:05:10,2026-08-30 07:20:10,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/2
+939,10.156.102.39,10.156.0.0/16,connect BMAcctv,2026-08-30,2026-08-30 07:45:05,2026-08-30 08:00:05,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/4
+913,10.156.102.13,10.156.0.0/16,connect BMAcctv,2026-08-30,2026-08-30 07:55:05,2026-08-30 08:10:05,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/4
+1362,10.102.101.224,10.102.0.0/16,Nakhon Chai Si Intersection,2026-08-30,2026-08-30 07:55:56,2026-08-30 08:10:56,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/13
+32,10.116.128.34,10.116.0.0/16,Bang Yi Rue Intersection  on Phetkasem Road,2026-08-30,2026-08-30 08:00:41,2026-08-30 08:15:40,14.98,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+26,10.116.128.22,10.116.0.0/16,Near Pao Leng Pharmacy on Mahai Sawan Road (Inbound),2026-08-30,2026-08-30 08:05:43,2026-08-30 08:20:41,14.97,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+1112,10.126.128.108,10.126.0.0/16,Sutthisan Intersection,2026-08-30,2026-08-30 08:26:06,2026-08-30 08:40:56,14.83,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/1
+604,10.104.101.35,10.104.0.0/16,Silom-Naradhiwas Intersection,2026-08-30,2026-08-30 08:50:56,2026-08-30 09:05:57,15.02,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/2
+595,10.118.101.10,10.118.0.0/16,Ban Khaek Juncion,2026-08-30,2026-08-30 09:35:41,2026-08-30 09:50:42,15.02,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/2
+118,10.117.128.30,10.117.0.0/16,Ratchada-Sutthisan Intersection,2026-08-30,2026-08-30 09:35:49,2026-08-30 09:50:50,15.02,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/16
+211,10.117.129.122,10.117.0.0/16,Footbridge near Soi Ratchadaphisek 3 on Ratchadaphisek Road,2026-08-30,2026-08-30 09:36:09,2026-08-30 09:51:09,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/16
+36,10.116.128.42,10.116.0.0/16,Near the police box and BRT Ratchapruek Station on Ratchapruek Road,2026-08-30,2026-08-30 09:50:49,2026-08-30 10:05:49,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+1076,10.116.129.125,10.116.0.0/16,Footbridge near Soi Thoet Thai 21 on Ratchaphruek Road,2026-08-30,2026-08-30 10:16:05,2026-08-30 10:31:05,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+1132,10.118.128.22,10.118.0.0/16,The flyover in front of Wat Suwan,2026-08-30,2026-08-30 10:41:17,2026-08-30 10:56:17,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/2
+500,10.137.102.27,10.137.0.0/16,Pra Tu Num Intersection,2026-08-30,2026-08-30 10:45:18,2026-08-30 11:00:18,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/5
+413,10.101.102.190,10.101.0.0/16,Tanao Road,2026-08-30,2026-08-30 11:10:26,2026-08-30 11:25:26,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/10
+414,10.101.102.200,10.101.0.0/16,Below/Under Phra Phuttha Yodfa Bridge (Memorial Bridge),2026-08-30,2026-08-30 11:25:28,2026-08-30 11:40:29,15.02,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/10
+123,10.117.128.40,10.117.0.0/16,Central barrier near the police box on Ratchadaphisek Road,2026-08-30,2026-08-30 11:45:49,2026-08-30 12:00:49,15.0,12-20m,fleet_no_live_midgap=6/99; subnet_no_live_midgap=0/16
+158,10.116.129.123,10.116.0.0/16,Footbridge near Soi Charoen Nakhon 46 on Charoen Nakhon Road,2026-08-30,2026-08-30 11:46:04,2026-08-30 12:01:05,15.02,12-20m,fleet_no_live_midgap=6/99; subnet_no_live_midgap=0/6
+1195,10.116.128.28,10.116.0.0/16,Near the police box on Mahai Sawan Road (Inbound),2026-08-30,2026-08-30 11:50:43,2026-08-30 12:05:43,15.0,12-20m,fleet_no_live_midgap=6/99; subnet_no_live_midgap=0/6
+120,10.117.128.33,10.117.0.0/16,Ratchada-Sutthisan Intersection,2026-08-30,2026-08-30 11:50:51,2026-08-30 12:05:51,15.0,12-20m,fleet_no_live_midgap=6/99; subnet_no_live_midgap=0/16
+1028,10.102.128.34,10.102.0.0/16,Red Bridge Intersection,2026-08-30,2026-08-30 12:20:57,2026-08-30 12:36:27,15.5,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/13
+188,10.112.129.129,10.112.0.0/16,Footbridge near Soi Rama 3 Soi68 on Rama 3 Road,2026-08-30,2026-08-30 12:26:06,2026-08-30 12:41:06,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/2
+915,10.156.102.15,10.156.0.0/16,connect BMAcctv,2026-08-30,2026-08-30 12:30:06,2026-08-30 12:45:05,14.98,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/4
+619,10.107.101.41,10.107.0.0/16,Pathum Wan  Intersection,2026-08-30,2026-08-30 12:30:24,2026-08-30 12:45:23,14.98,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/3
+26,10.116.128.22,10.116.0.0/16,Near Pao Leng Pharmacy on Mahai Sawan Road (Inbound),2026-08-30,2026-08-30 12:30:42,2026-08-30 12:45:41,14.98,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+1078,10.118.128.24,10.118.0.0/16,The flyover in front of Wat Suwan,2026-08-30,2026-08-30 12:56:17,2026-08-30 13:16:17,20.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/2
+88,10.128.128.34,10.128.0.0/16,Chan-Sathu Pradit Intersection Intersection,2026-08-30,2026-08-30 13:00:36,2026-08-30 13:20:36,20.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/3
+595,10.118.101.10,10.118.0.0/16,Ban Khaek Juncion,2026-08-30,2026-08-30 13:00:41,2026-08-30 13:15:41,15.0,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=1/2
+1195,10.116.128.28,10.116.0.0/16,Near the police box on Mahai Sawan Road (Inbound),2026-08-30,2026-08-30 13:05:41,2026-08-30 13:20:41,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+1195,10.116.128.28,10.116.0.0/16,Near the police box on Mahai Sawan Road (Inbound),2026-08-30,2026-08-30 13:30:43,2026-08-30 13:45:41,14.97,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+228,10.151.129.124,10.151.0.0/16,In front of Klang Hospital on Luang Road,2026-08-30,2026-08-30 13:31:21,2026-08-30 13:46:19,14.97,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+1078,10.118.128.24,10.118.0.0/16,The flyover in front of Wat Suwan,2026-08-30,2026-08-30 13:46:17,2026-08-30 14:01:17,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/2
+158,10.116.129.123,10.116.0.0/16,Footbridge near Soi Charoen Nakhon 46 on Charoen Nakhon Road,2026-08-30,2026-08-30 13:51:04,2026-08-30 14:06:05,15.02,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+332,10.102.101.105,10.102.0.0/16,Rat Cha Wat Intersection,2026-08-30,2026-08-30 14:00:52,2026-08-30 14:15:52,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/13
+1078,10.118.128.24,10.118.0.0/16,The flyover in front of Wat Suwan,2026-08-30,2026-08-30 14:01:17,2026-08-30 14:16:18,15.02,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/2
+225,10.117.129.136,10.117.0.0/16,Footbridge near The Criminal Court on  Ratchadaphisek Road,2026-08-30,2026-08-30 14:06:13,2026-08-30 14:21:13,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/16
+546,10.102.102.58,10.102.0.0/16,Panichayakarn junction,2026-08-30,2026-08-30 15:45:49,2026-08-30 16:00:53,15.07,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/13
+1195,10.116.128.28,10.116.0.0/16,Near the police box on Mahai Sawan Road (Inbound),2026-08-30,2026-08-30 16:05:48,2026-08-30 16:20:46,14.97,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+119,10.117.128.36,10.117.0.0/16,Ratchada-Sutthisan Intersection,2026-08-30,2026-08-30 16:05:56,2026-08-30 16:20:52,14.93,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/16
+26,10.116.128.22,10.116.0.0/16,Near Pao Leng Pharmacy on Mahai Sawan Road (Inbound),2026-08-30,2026-08-30 16:15:47,2026-08-30 16:30:47,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+196,10.128.129.129,10.128.0.0/16,Footbridge in front of Makro on Narathiwas Road,2026-08-30,2026-08-30 16:16:39,2026-08-30 16:31:25,14.77,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/3
+1188,10.151.101.88,10.151.0.0/16,Ratchathewi Intersection,2026-08-30,2026-08-30 16:20:12,2026-08-30 16:35:13,15.02,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+413,10.101.102.190,10.101.0.0/16,Tanao Road,2026-08-30,2026-08-30 16:25:43,2026-08-30 16:40:29,14.77,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/10
+1589,10.108.102.43,10.108.0.0/16,,2026-08-30,2026-08-30 16:45:49,2026-08-30 17:00:47,14.97,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/0
+75,10.112.128.26,10.112.0.0/16,Under the overpass on Narathiwas Road,2026-08-30,2026-08-30 16:45:51,2026-08-30 17:00:48,14.95,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/2
+363,10.102.102.73,10.102.0.0/16,Khatdusit Intersection,2026-08-30,2026-08-30 16:50:36,2026-08-30 17:05:34,14.97,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/13
+1408,10.117.128.21,10.117.0.0/16,Central barrier in front of Cyber World Tower on Thiam Ruam Mit Road,2026-08-30,2026-08-30 16:50:42,2026-08-30 17:05:39,14.95,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/16
+123,10.117.128.40,10.117.0.0/16,Central barrier near the police box on Ratchadaphisek Road,2026-08-30,2026-08-30 16:50:53,2026-08-30 17:05:50,14.95,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=1/16
+124,10.117.128.42,10.117.0.0/16,Central barrier near the police box on Ratchadaphisek Road,2026-08-30,2026-08-30 16:50:53,2026-08-30 17:05:50,14.95,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=1/16
+500,10.137.102.27,10.137.0.0/16,Pra Tu Num Intersection,2026-08-30,2026-08-30 17:10:19,2026-08-30 17:25:21,15.03,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/5
+228,10.151.129.124,10.151.0.0/16,In front of Klang Hospital on Luang Road,2026-08-30,2026-08-30 17:16:22,2026-08-30 17:31:22,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+179,10.114.129.130,10.114.0.0/16,Footbridge in front of  PHYATHAI HOSPITAL 2 on Phahon Yothin Road,2026-08-30,2026-08-30 17:31:19,2026-08-30 17:46:20,15.02,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+1195,10.116.128.28,10.116.0.0/16,Near the police box on Mahai Sawan Road (Inbound),2026-08-30,2026-08-30 17:50:42,2026-08-30 18:05:42,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+136,10.130.129.125,10.130.0.0/16,Footbridge near Big C Extra Entrance to Soi Lat Phrao 7 on Lat Phrao Road,2026-08-30,2026-08-30 17:51:12,2026-08-30 18:06:12,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/3
+179,10.114.129.130,10.114.0.0/16,Footbridge in front of  PHYATHAI HOSPITAL 2 on Phahon Yothin Road,2026-08-30,2026-08-30 18:16:19,2026-08-30 18:31:19,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+363,10.102.102.73,10.102.0.0/16,Khatdusit Intersection,2026-08-30,2026-08-30 18:45:34,2026-08-30 19:00:34,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/13
+36,10.116.128.42,10.116.0.0/16,Near the police box and BRT Ratchapruek Station on Ratchapruek Road,2026-08-30,2026-08-30 18:45:51,2026-08-30 19:00:51,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+215,10.117.129.126,10.117.0.0/16,Footbridge near Soi Ratchadaphisek 7 on Ratchadaphisek Road,2026-08-30,2026-08-30 18:51:10,2026-08-30 19:06:09,14.98,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/16
+169,10.125.129.126,10.125.0.0/16,Footbridge in front of Wat Sao  Hin  Near Soi Wong Sawang 3 on Wong Sawang Road,2026-08-30,2026-08-30 19:01:21,2026-08-30 19:16:21,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/0
+224,10.117.129.135,10.117.0.0/16,Footbridge near The Criminal Court on  Ratchadaphisek Road,2026-08-30,2026-08-30 19:25:01,2026-08-30 19:40:01,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/16
+82,10.137.128.42,10.137.0.0/16,Footbridge near Soi Ratchaprarop 3 on Ratchaprarop Road,2026-08-30,2026-08-30 19:36:10,2026-08-30 19:51:09,14.98,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/5
+595,10.118.101.10,10.118.0.0/16,Ban Khaek Juncion,2026-08-30,2026-08-30 19:45:42,2026-08-30 20:00:47,15.08,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/2
+913,10.156.102.13,10.156.0.0/16,connect BMAcctv,2026-08-30,2026-08-30 20:10:06,2026-08-30 20:25:06,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/4
+412,10.101.102.134,10.101.0.0/16,Phra Athit Road,2026-08-30,2026-08-30 20:20:26,2026-08-30 20:35:26,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/10
+1132,10.118.128.22,10.118.0.0/16,The flyover in front of Wat Suwan,2026-08-31,2026-08-31 06:01:25,2026-08-31 06:16:21,14.93,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/2
+432,10.107.101.53,10.107.0.0/16,Pathum Wan  Intersection,2026-08-31,2026-08-31 06:05:21,2026-08-31 06:20:25,15.07,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/3
+196,10.128.129.129,10.128.0.0/16,Footbridge in front of Makro on Narathiwas Road,2026-08-31,2026-08-31 06:36:20,2026-08-31 06:51:17,14.95,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/3
+1132,10.118.128.22,10.118.0.0/16,The flyover in front of Wat Suwan,2026-08-31,2026-08-31 06:56:18,2026-08-31 07:11:16,14.97,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/2
+186,10.112.129.127,10.112.0.0/16,Directional sign to Rama 3 Bridge on Ratchadaphisek Road,2026-08-31,2026-08-31 07:05:10,2026-08-31 07:20:10,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/2
+250,10.137.129.123,10.137.0.0/16,Footbridge near Soi Phetchaburi 38 on Phetchaburi Road,2026-08-31,2026-08-31 07:06:06,2026-08-31 07:21:06,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/5
+1078,10.118.128.24,10.118.0.0/16,The flyover in front of Wat Suwan,2026-08-31,2026-08-31 07:21:16,2026-08-31 07:36:17,15.02,12-20m,fleet_no_live_midgap=21/99; subnet_no_live_midgap=0/2
+1078,10.118.128.24,10.118.0.0/16,The flyover in front of Wat Suwan,2026-08-31,2026-08-31 07:36:17,2026-08-31 07:51:16,14.98,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/2
+1028,10.102.128.34,10.102.0.0/16,Red Bridge Intersection,2026-08-31,2026-08-31 07:40:53,2026-08-31 07:55:53,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/13
+913,10.156.102.13,10.156.0.0/16,connect BMAcctv,2026-08-31,2026-08-31 07:50:05,2026-08-31 08:05:05,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/4
+1071,10.114.128.42,10.114.0.0/16,Central barrier near Soi Phahon Yothin 18  on Kamphaeng Phet Road,2026-08-31,2026-08-31 07:50:30,2026-08-31 08:05:31,15.02,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+542,10.107.101.83,10.107.0.0/16,Chit Lom Intersection,2026-08-31,2026-08-31 08:10:20,2026-08-31 08:25:20,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/3
+1589,10.108.102.43,10.108.0.0/16,,2026-08-31,2026-08-31 08:20:46,2026-08-31 08:35:46,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/0
+301,10.102.101.53,10.102.0.0/16,Aoo Tong Nok Intersection,2026-08-31,2026-08-31 08:31:03,2026-08-31 08:46:03,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/13
+70,10.101.128.24,10.101.0.0/16,"Near Thanachart Bank Public Company Limited,Branch Bang Khunphrom on Sam Sen Road",2026-08-31,2026-08-31 08:31:22,2026-08-31 08:46:22,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/10
+411,10.101.102.132,10.101.0.0/16,Phra Athit Road,2026-08-31,2026-08-31 08:55:25,2026-08-31 09:10:25,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/10
+395,10.101.101.104,10.101.0.0/16,Sao Chingcha Intersection,2026-08-31,2026-08-31 09:25:57,2026-08-31 09:40:56,14.98,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/10
+1078,10.118.128.24,10.118.0.0/16,The flyover in front of Wat Suwan,2026-08-31,2026-08-31 09:41:16,2026-08-31 09:56:16,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/2
+239,10.107.129.128,10.107.0.0/16,Footbridge near Triamudomsuksa School on Phayathai Road,2026-08-31,2026-08-31 09:51:02,2026-08-31 10:06:02,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/3
+212,10.117.129.123,10.117.0.0/16,Footbridge near Big C Ratchadaphisek on Ratchadaphisek Road,2026-08-31,2026-08-31 10:01:13,2026-08-31 10:16:13,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/16
+1078,10.118.128.24,10.118.0.0/16,The flyover in front of Wat Suwan,2026-08-31,2026-08-31 10:36:17,2026-08-31 10:51:17,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/2
+225,10.117.129.136,10.117.0.0/16,Footbridge near The Criminal Court on  Ratchadaphisek Road,2026-08-31,2026-08-31 10:56:11,2026-08-31 11:11:12,15.02,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/16
+411,10.101.102.132,10.101.0.0/16,Phra Athit Road,2026-08-31,2026-08-31 11:00:26,2026-08-31 11:15:26,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/10
+1070,10.114.129.125,10.114.0.0/16,Footbridge near Soi Phahon Yothin 18/2 on Phahon Yothin Road,2026-08-31,2026-08-31 11:21:06,2026-08-31 11:36:07,15.02,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+211,10.117.129.122,10.117.0.0/16,Footbridge near Soi Ratchadaphisek 3 on Ratchadaphisek Road,2026-08-31,2026-08-31 11:31:09,2026-08-31 11:46:08,14.98,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/16
+206,10.128.129.131,10.128.0.0/16,Footbridge near Soi Narathiwas 20 on Narathiwas Road,2026-08-31,2026-08-31 11:56:04,2026-08-31 12:11:04,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/3
+215,10.117.129.126,10.117.0.0/16,Footbridge near Soi Ratchadaphisek 7 on Ratchadaphisek Road,2026-08-31,2026-08-31 12:46:09,2026-08-31 13:01:09,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/16
+1071,10.114.128.42,10.114.0.0/16,Central barrier near Soi Phahon Yothin 18  on Kamphaeng Phet Road,2026-08-31,2026-08-31 12:55:31,2026-08-31 13:10:31,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+301,10.102.101.53,10.102.0.0/16,Aoo Tong Nok Intersection,2026-08-31,2026-08-31 13:16:02,2026-08-31 13:31:01,14.98,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/13
+1804,10.134.116.85,10.134.0.0/16,On Nut Road,2026-08-31,2026-08-31 13:40:31,2026-08-31 13:55:33,15.03,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/0
+595,10.118.101.10,10.118.0.0/16,Ban Khaek Juncion,2026-08-31,2026-08-31 13:45:42,2026-08-31 14:00:41,14.98,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/2
+1195,10.116.128.28,10.116.0.0/16,Near the police box on Mahai Sawan Road (Inbound),2026-08-31,2026-08-31 13:50:44,2026-08-31 14:05:49,15.08,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+938,10.156.102.38,10.156.0.0/16,connect BMAcctv,2026-08-31,2026-08-31 14:00:05,2026-08-31 14:15:05,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/4
+196,10.128.129.129,10.128.0.0/16,Footbridge in front of Makro on Narathiwas Road,2026-08-31,2026-08-31 14:01:17,2026-08-31 14:16:17,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/3
+1076,10.116.129.125,10.116.0.0/16,Footbridge near Soi Thoet Thai 21 on Ratchaphruek Road,2026-08-31,2026-08-31 14:36:07,2026-08-31 14:51:06,14.98,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+1589,10.108.102.43,10.108.0.0/16,,2026-08-31,2026-08-31 14:45:47,2026-08-31 15:00:46,14.98,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/0
+529,10.151.101.91,10.151.0.0/16,Henri Dunant Intersection,2026-08-31,2026-08-31 14:50:11,2026-08-31 15:05:11,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+228,10.151.129.124,10.151.0.0/16,In front of Klang Hospital on Luang Road,2026-08-31,2026-08-31 15:11:20,2026-08-31 15:26:33,15.22,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+224,10.117.129.135,10.117.0.0/16,Footbridge near The Criminal Court on  Ratchadaphisek Road,2026-08-31,2026-08-31 15:15:00,2026-08-31 15:30:00,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/16
+179,10.114.129.130,10.114.0.0/16,Footbridge in front of  PHYATHAI HOSPITAL 2 on Phahon Yothin Road,2026-08-31,2026-08-31 15:21:17,2026-08-31 15:37:56,16.65,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+1078,10.118.128.24,10.118.0.0/16,The flyover in front of Wat Suwan,2026-08-31,2026-08-31 15:21:20,2026-08-31 15:37:59,16.65,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/2
+11,10.126.128.34,10.126.0.0/16,Traffic Lights near Soi Rajavithi  6 on Rajavithi  Road,2026-08-31,2026-08-31 15:30:21,2026-08-31 15:45:13,14.87,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/1
+26,10.116.128.22,10.116.0.0/16,Near Pao Leng Pharmacy on Mahai Sawan Road (Inbound),2026-08-31,2026-08-31 15:36:32,2026-08-31 15:50:42,14.17,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+233,10.102.129.137,10.102.0.0/16,Opposite Chitralada Palace on Rama 5 Road,2026-08-31,2026-08-31 15:40:19,2026-08-31 15:55:13,14.9,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/13
+206,10.128.129.131,10.128.0.0/16,Footbridge near Soi Narathiwas 20 on Narathiwas Road,2026-08-31,2026-08-31 15:41:22,2026-08-31 15:56:08,14.77,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/3
+125,10.117.128.44,10.117.0.0/16,Central barrier near the police box on Ratchadaphisek Road,2026-08-31,2026-08-31 16:05:49,2026-08-31 16:20:49,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/16
+188,10.112.129.129,10.112.0.0/16,Footbridge near Soi Rama 3 Soi68 on Rama 3 Road,2026-08-31,2026-08-31 16:11:07,2026-08-31 16:26:07,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/2
+542,10.107.101.83,10.107.0.0/16,Chit Lom Intersection,2026-08-31,2026-08-31 16:15:21,2026-08-31 16:30:21,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/3
+1112,10.126.128.108,10.126.0.0/16,Sutthisan Intersection,2026-08-31,2026-08-31 16:25:57,2026-08-31 16:40:57,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/1
+206,10.128.129.131,10.128.0.0/16,Footbridge near Soi Narathiwas 20 on Narathiwas Road,2026-08-31,2026-08-31 16:26:05,2026-08-31 16:41:05,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/3
+135,10.117.129.138,10.117.0.0/16,Footbridge in front of Toyota Sure on  Ratchadaphisek Road,2026-08-31,2026-08-31 16:36:17,2026-08-31 16:51:18,15.02,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/16
+75,10.112.128.26,10.112.0.0/16,Under the overpass on Narathiwas Road,2026-08-31,2026-08-31 16:45:47,2026-08-31 17:00:47,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/2
+212,10.117.129.123,10.117.0.0/16,Footbridge near Big C Ratchadaphisek on Ratchadaphisek Road,2026-08-31,2026-08-31 16:46:12,2026-08-31 17:01:12,15.0,12-20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/16
+186,10.112.129.127,10.112.0.0/16,Directional sign to Rama 3 Bridge on Ratchadaphisek Road,2026-08-31,2026-08-31 17:20:11,2026-08-31 17:35:11,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/2
+939,10.156.102.39,10.156.0.0/16,connect BMAcctv,2026-08-31,2026-08-31 17:30:06,2026-08-31 17:45:06,15.0,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/4
+179,10.114.129.130,10.114.0.0/16,Footbridge in front of  PHYATHAI HOSPITAL 2 on Phahon Yothin Road,2026-08-31,2026-08-31 17:46:15,2026-08-31 18:01:16,15.02,12-20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/6
+136,10.130.129.125,10.130.0.0/16,Footbridge near Big C Extra Entrance to Soi Lat Phrao 7 on Lat Phrao Road,2026-08-31,2026-08-31 17:56:15,2026-08-31 18:11:13,14.97,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/3
+230,10.102.129.126,10.102.0.0/16,Entrance to Soi Ranong 2 on Rama 5 Road,2026-08-31,2026-08-31 18:00:32,2026-08-31 18:15:32,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=1/13
+36,10.116.128.42,10.116.0.0/16,Near the police box and BRT Ratchapruek Station on Ratchapruek Road,2026-08-31,2026-08-31 18:10:50,2026-08-31 18:30:50,20.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+120,10.117.128.33,10.117.0.0/16,Ratchada-Sutthisan Intersection,2026-08-31,2026-08-31 18:20:51,2026-08-31 18:35:50,14.98,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/16
+1076,10.116.129.125,10.116.0.0/16,Footbridge near Soi Thoet Thai 21 on Ratchaphruek Road,2026-08-31,2026-08-31 19:11:06,2026-08-31 19:26:07,15.02,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+179,10.114.129.130,10.114.0.0/16,Footbridge in front of  PHYATHAI HOSPITAL 2 on Phahon Yothin Road,2026-08-31,2026-08-31 19:41:17,2026-08-31 19:56:17,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+169,10.125.129.126,10.125.0.0/16,Footbridge in front of Wat Sao  Hin  Near Soi Wong Sawang 3 on Wong Sawang Road,2026-08-31,2026-08-31 19:51:18,2026-08-31 20:06:18,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/0
+1195,10.116.128.28,10.116.0.0/16,Near the police box on Mahai Sawan Road (Inbound),2026-08-31,2026-08-31 19:55:44,2026-08-31 20:10:44,15.0,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+177,10.114.129.128,10.114.0.0/16,Footbridge in front of Chatuchak Park on Phahon Yothin Road,2026-08-31,2026-08-31 20:06:20,2026-08-31 20:21:19,14.98,12-20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+1195,10.116.128.28,10.116.0.0/16,Near the police box on Mahai Sawan Road (Inbound),2026-08-25,2026-08-25 08:15:41,2026-08-25 08:35:43,20.03,>20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+36,10.116.128.42,10.116.0.0/16,Near the police box and BRT Ratchapruek Station on Ratchapruek Road,2026-08-25,2026-08-25 10:15:48,2026-08-25 10:40:48,25.0,>20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/6
+1060,10.151.128.21,10.151.0.0/16,"In front of Sai Panya School, Krung Kasem Road",2026-08-25,2026-08-25 17:51:23,2026-08-25 18:11:24,20.02,>20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/6
+224,10.117.129.135,10.117.0.0/16,Footbridge near The Criminal Court on  Ratchadaphisek Road,2026-08-26,2026-08-26 06:15:00,2026-08-26 06:45:00,30.0,>20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/16
+603,10.104.101.29,10.104.0.0/16,Silom-Naradhiwas Intersection,2026-08-26,2026-08-26 06:15:00,2026-08-26 06:40:00,25.0,>20m,fleet_no_live_midgap=3/99; subnet_no_live_midgap=0/2
+938,10.156.102.38,10.156.0.0/16,connect BMAcctv,2026-08-26,2026-08-26 06:15:07,2026-08-26 06:40:05,24.97,>20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=1/4
+939,10.156.102.39,10.156.0.0/16,connect BMAcctv,2026-08-26,2026-08-26 06:15:08,2026-08-26 06:40:05,24.95,>20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=1/4
+913,10.156.102.13,10.156.0.0/16,connect BMAcctv,2026-08-26,2026-08-26 06:25:05,2026-08-26 06:45:06,20.02,>20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=2/4
+18,10.102.128.36,10.102.0.0/16,Saphan Daeng Intersection,2026-08-26,2026-08-26 06:25:56,2026-08-26 06:45:58,20.03,>20m,fleet_no_live_midgap=2/99; subnet_no_live_midgap=0/13
+36,10.116.128.42,10.116.0.0/16,Near the police box and BRT Ratchapruek Station on Ratchapruek Road,2026-08-28,2026-08-28 11:10:54,2026-08-28 11:30:55,20.02,>20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+1076,10.116.129.125,10.116.0.0/16,Footbridge near Soi Thoet Thai 21 on Ratchaphruek Road,2026-08-29,2026-08-29 15:01:05,2026-08-29 15:21:07,20.03,>20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/6
+603,10.104.101.29,10.104.0.0/16,Silom-Naradhiwas Intersection,2026-08-29,2026-08-29 17:20:00,2026-08-29 17:40:01,20.02,>20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/2
+88,10.128.128.34,10.128.0.0/16,Chan-Sathu Pradit Intersection Intersection,2026-08-30,2026-08-30 11:25:36,2026-08-30 12:20:36,55.0,>20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=1/3
+196,10.128.129.129,10.128.0.0/16,Footbridge in front of Makro on Narathiwas Road,2026-08-30,2026-08-30 11:31:17,2026-08-30 12:26:17,55.0,>20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/3
+363,10.102.102.73,10.102.0.0/16,Khatdusit Intersection,2026-08-30,2026-08-30 15:20:33,2026-08-30 15:40:39,20.1,>20m,fleet_no_live_midgap=0/99; subnet_no_live_midgap=0/13
+206,10.128.129.131,10.128.0.0/16,Footbridge near Soi Narathiwas 20 on Narathiwas Road,2026-08-31,2026-08-31 17:51:05,2026-08-31 18:11:07,20.03,>20m,fleet_no_live_midgap=1/99; subnet_no_live_midgap=0/3
+11,10.126.128.34,10.126.0.0/16,Traffic Lights near Soi Rajavithi  6 on Rajavithi  Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:55:09,175.15,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:25:11
+18,10.102.128.36,10.102.0.0/16,Saphan Daeng Intersection,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:55:55,175.92,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:25:57
+26,10.116.128.22,10.116.0.0/16,Near Pao Leng Pharmacy on Mahai Sawan Road (Inbound),2026-08-27,2026-08-27 06:00:00,2026-08-27 08:55:42,175.7,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:25:44
+32,10.116.128.34,10.116.0.0/16,Bang Yi Rue Intersection  on Phetkasem Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:50:41,170.68,thu27_am,zero_morning: 0 captures before 08:50
+36,10.116.128.42,10.116.0.0/16,Near the police box and BRT Ratchapruek Station on Ratchapruek Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:55:49,175.82,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:25:50
+68,10.151.128.30,10.151.0.0/16,In front of bangkokbank Worachak Branch on Worachak Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:56:21,176.35,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:26:22
+70,10.101.128.24,10.101.0.0/16,"Near Thanachart Bank Public Company Limited,Branch Bang Khunphrom on Sam Sen Road",2026-08-27,2026-08-27 06:00:00,2026-08-27 08:51:19,171.32,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:21:19
+75,10.112.128.26,10.112.0.0/16,Under the overpass on Narathiwas Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:50:46,170.77,thu27_am,zero_morning: 0 captures before 08:50
+82,10.137.128.42,10.137.0.0/16,Footbridge near Soi Ratchaprarop 3 on Ratchaprarop Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:56:10,176.17,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:26:12
+88,10.128.128.34,10.128.0.0/16,Chan-Sathu Pradit Intersection Intersection,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:50:36,170.6,thu27_am,zero_morning: 0 captures before 08:50
+112,10.117.128.25,10.117.0.0/16,near the police box on Thiam Ruam Mit Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:50:38,170.63,thu27_am,zero_morning: 0 captures before 08:50
+118,10.117.128.30,10.117.0.0/16,Ratchada-Sutthisan Intersection,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:50:48,170.8,thu27_am,zero_morning: 0 captures before 08:50
+119,10.117.128.36,10.117.0.0/16,Ratchada-Sutthisan Intersection,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:50:48,170.8,thu27_am,zero_morning: 0 captures before 08:50
+120,10.117.128.33,10.117.0.0/16,Ratchada-Sutthisan Intersection,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:50:48,170.8,thu27_am,zero_morning: 0 captures before 08:50
+123,10.117.128.40,10.117.0.0/16,Central barrier near the police box on Ratchadaphisek Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:50:48,170.8,thu27_am,zero_morning: 0 captures before 08:50
+124,10.117.128.42,10.117.0.0/16,Central barrier near the police box on Ratchadaphisek Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:55:49,175.82,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:25:52
+125,10.117.128.44,10.117.0.0/16,Central barrier near the police box on Ratchadaphisek Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:50:48,170.8,thu27_am,zero_morning: 0 captures before 08:50
+126,10.117.128.46,10.117.0.0/16,Near Soi Lat Phrao 30 on Lat Phrao Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:55:00,175.0,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:25:00
+127,10.117.128.48,10.117.0.0/16,Near Soi Lat Phrao 30 on Lat Phrao Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:51:14,171.23,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:21:13
+135,10.117.129.138,10.117.0.0/16,Footbridge in front of Toyota Sure on  Ratchadaphisek Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:56:17,176.28,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:26:18
+136,10.130.129.125,10.130.0.0/16,Footbridge near Big C Extra Entrance to Soi Lat Phrao 7 on Lat Phrao Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:51:11,171.18,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:21:11
+137,10.130.129.126,10.130.0.0/16,Footbridge near Big C Extra Entrance to Soi Lat Phrao 7 on Lat Phrao Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:51:11,171.18,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:21:11
+139,10.130.129.128,10.130.0.0/16,Footbridge in front of Horwang School on Phahon Yothin Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:51:17,171.28,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:21:16
+141,10.130.129.130,10.130.0.0/16,Footbridge in front of PTT Public Company Limited near Soi Vibhavadi Rangsit 11 on Vibhavadi Rangsit Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:51:16,171.27,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:21:16
+150,10.102.129.123,10.102.0.0/16,Footbridge near Samsenwittayalai School on Rama 6 Road,2026-08-27,2026-08-27 06:00:00,2026-08-28 06:21:03,1461.05,thu27_am,"full_morning_pseudo: 0 live frames; 17 pseudo frames (frozen_jpeg,white_png)"
+158,10.116.129.123,10.116.0.0/16,Footbridge near Soi Charoen Nakhon 46 on Charoen Nakhon Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:51:04,171.07,thu27_am,zero_morning: 0 captures before 08:50
+169,10.125.129.126,10.125.0.0/16,Footbridge in front of Wat Sao  Hin  Near Soi Wong Sawang 3 on Wong Sawang Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:56:18,176.3,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:26:20
+170,10.114.129.121,10.114.0.0/16,Footbridge near  Nawati Somdet Ya Hospital on Phahon Yothin Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:51:11,171.18,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:21:11
+176,10.114.129.127,10.114.0.0/16,Footbridge in front of Chatuchak Park on Phahon Yothin Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:56:19,176.32,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:26:21
+177,10.114.129.128,10.114.0.0/16,Footbridge in front of Chatuchak Park on Phahon Yothin Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:56:20,176.33,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:26:21
+178,10.114.129.129,10.114.0.0/16,Footbridge in front of  PHYATHAI HOSPITAL 2 on Phahon Yothin Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:56:15,176.25,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:26:17
+179,10.114.129.130,10.114.0.0/16,Footbridge in front of  PHYATHAI HOSPITAL 2 on Phahon Yothin Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:51:14,171.23,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:21:14
+186,10.112.129.127,10.112.0.0/16,Directional sign to Rama 3 Bridge on Ratchadaphisek Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:55:11,175.18,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:25:12
+188,10.112.129.129,10.112.0.0/16,Footbridge near Soi Rama 3 Soi68 on Rama 3 Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:56:07,176.12,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:26:08
+194,10.128.129.127,10.128.0.0/16,Footbridge near Entrance to Soi Convent on  South Sathorn Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:51:11,171.18,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:21:11
+196,10.128.129.129,10.128.0.0/16,Footbridge in front of Makro on Narathiwas Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:56:17,176.28,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:26:20
+206,10.128.129.131,10.128.0.0/16,Footbridge near Soi Narathiwas 20 on Narathiwas Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:51:04,171.07,thu27_am,zero_morning: 0 captures before 08:50
+211,10.117.129.122,10.117.0.0/16,Footbridge near Soi Ratchadaphisek 3 on Ratchadaphisek Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:56:08,176.13,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:26:11
+212,10.117.129.123,10.117.0.0/16,Footbridge near Big C Ratchadaphisek on Ratchadaphisek Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:51:11,171.18,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:21:11
+215,10.117.129.126,10.117.0.0/16,Footbridge near Soi Ratchadaphisek 7 on Ratchadaphisek Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:51:09,171.15,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:21:08
+219,10.117.129.128,10.117.0.0/16,Footbridge near Soi Ratchadaphisek 14 on Ratchadaphisek Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:56:08,176.13,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:26:10
+224,10.117.129.135,10.117.0.0/16,Footbridge near The Criminal Court on  Ratchadaphisek Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:55:00,175.0,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:25:00
+225,10.117.129.136,10.117.0.0/16,Footbridge near The Criminal Court on  Ratchadaphisek Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:56:13,176.22,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:26:15
+228,10.151.129.124,10.151.0.0/16,In front of Klang Hospital on Luang Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:51:19,171.32,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:21:18
+230,10.102.129.126,10.102.0.0/16,Entrance to Soi Ranong 2 on Rama 5 Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:55:31,175.52,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:25:33
+233,10.102.129.137,10.102.0.0/16,Opposite Chitralada Palace on Rama 5 Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 09:00:13,180.22,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:25:15
+239,10.107.129.128,10.107.0.0/16,Footbridge near Triamudomsuksa School on Phayathai Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:56:03,176.05,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:26:05
+250,10.137.129.123,10.137.0.0/16,Footbridge near Soi Phetchaburi 38 on Phetchaburi Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:51:06,171.1,thu27_am,zero_morning: 0 captures before 08:50
+251,10.137.129.124,10.137.0.0/16,Footbridge near Dishongsaram Temple on Phetchaburi Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:56:13,176.22,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:26:15
+256,10.137.129.130,10.137.0.0/16,Footbridge near Soi Phetchaburi 27 on Phetchaburi Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:51:06,171.1,thu27_am,zero_morning: 0 captures before 08:50
+277,10.137.101.27,10.137.0.0/16,Footbridge near Soi Rang Nam on Phayathai Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:55:24,175.4,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:25:25
+301,10.102.101.53,10.102.0.0/16,Aoo Tong Nok Intersection,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:56:02,176.03,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:26:03
+332,10.102.101.105,10.102.0.0/16,Rat Cha Wat Intersection,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:55:52,175.87,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:25:54
+363,10.102.102.73,10.102.0.0/16,Khatdusit Intersection,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:55:34,175.57,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:25:35
+370,10.101.101.13,10.101.0.0/16,Thewet Intersection,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:55:38,175.63,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:25:40
+371,10.101.101.12,10.101.0.0/16,Thewet Intersection,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:50:36,170.6,thu27_am,zero_morning: 0 captures before 08:50
+395,10.101.101.104,10.101.0.0/16,Sao Chingcha Intersection,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:55:58,175.97,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:26:00
+411,10.101.102.132,10.101.0.0/16,Phra Athit Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:50:25,170.42,thu27_am,zero_morning: 0 captures before 08:50
+412,10.101.102.134,10.101.0.0/16,Phra Athit Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:55:27,175.45,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:25:29
+413,10.101.102.190,10.101.0.0/16,Tanao Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:55:26,175.43,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:25:28
+414,10.101.102.200,10.101.0.0/16,Below/Under Phra Phuttha Yodfa Bridge (Memorial Bridge),2026-08-27,2026-08-27 06:00:00,2026-08-27 08:55:29,175.48,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:25:31
+432,10.107.101.53,10.107.0.0/16,Pathum Wan  Intersection,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:50:20,170.33,thu27_am,"full_morning_pseudo: 0 live frames; 17 pseudo frames (frozen_jpeg,gst_bars)"
+500,10.137.102.27,10.137.0.0/16,Pra Tu Num Intersection,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:55:19,175.32,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:25:21
+529,10.151.101.91,10.151.0.0/16,Henri Dunant Intersection,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:50:10,170.17,thu27_am,zero_morning: 0 captures before 08:50
+542,10.107.101.83,10.107.0.0/16,Chit Lom Intersection,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:50:20,170.33,thu27_am,zero_morning: 0 captures before 08:50
+546,10.102.102.58,10.102.0.0/16,Panichayakarn junction,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:55:46,175.77,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:25:48
+556,10.102.102.15,10.102.0.0/16,Vajira Intersection,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:55:52,175.87,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:25:54
+569,10.101.102.68,10.101.0.0/16,Jor Por Ror  Intersection,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:50:33,170.55,thu27_am,zero_morning: 0 captures before 08:50
+572,10.151.101.56,10.151.0.0/16,Jor Por Ror  Intersection,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:55:14,175.23,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:25:16
+576,10.101.102.10,10.101.0.0/16,Bang Lamphu Intersection,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:50:41,170.68,thu27_am,zero_morning: 0 captures before 08:50
+595,10.118.101.10,10.118.0.0/16,Ban Khaek Juncion,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:55:42,175.7,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:25:44
+599,10.104.101.51,10.104.0.0/16,Surasak Intersection,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:50:56,170.93,thu27_am,zero_morning: 0 captures before 08:50
+603,10.104.101.29,10.104.0.0/16,Silom-Naradhiwas Intersection,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:55:00,175.0,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:25:00
+604,10.104.101.35,10.104.0.0/16,Silom-Naradhiwas Intersection,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:55:57,175.95,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:25:59
+619,10.107.101.41,10.107.0.0/16,Pathum Wan  Intersection,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:55:24,175.4,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:25:27
+630,10.102.102.68,10.102.0.0/16,Gesagomon Intersection,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:55:32,175.53,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:25:34
+913,10.156.102.13,10.156.0.0/16,connect BMAcctv,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:55:07,175.12,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:25:09
+915,10.156.102.15,10.156.0.0/16,connect BMAcctv,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:55:06,175.1,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:25:09
+938,10.156.102.38,10.156.0.0/16,connect BMAcctv,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:55:06,175.1,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:25:09
+939,10.156.102.39,10.156.0.0/16,connect BMAcctv,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:55:06,175.1,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:25:09
+1028,10.102.128.34,10.102.0.0/16,Red Bridge Intersection,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:50:53,170.88,thu27_am,zero_morning: 0 captures before 08:50
+1039,10.151.128.28,10.151.0.0/16,Near the police box on Rama 4 Road (Inbound),2026-08-27,2026-08-27 06:00:00,2026-08-27 08:50:08,170.13,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:30:08
+1060,10.151.128.21,10.151.0.0/16,"In front of Sai Panya School, Krung Kasem Road",2026-08-27,2026-08-27 06:00:00,2026-08-27 08:51:22,171.37,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:21:21
+1063,10.102.129.138,10.102.0.0/16,Opposite Chitralada Palace,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:50:13,170.22,thu27_am,zero_morning: 0 captures before 08:50
+1070,10.114.129.125,10.114.0.0/16,Footbridge near Soi Phahon Yothin 18/2 on Phahon Yothin Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:51:06,171.1,thu27_am,zero_morning: 0 captures before 08:50
+1071,10.114.128.42,10.114.0.0/16,Central barrier near Soi Phahon Yothin 18  on Kamphaeng Phet Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:55:32,175.53,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:25:34
+1076,10.116.129.125,10.116.0.0/16,Footbridge near Soi Thoet Thai 21 on Ratchaphruek Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:51:04,171.07,thu27_am,zero_morning: 0 captures before 08:50
+1078,10.118.128.24,10.118.0.0/16,The flyover in front of Wat Suwan,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:56:18,176.3,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:26:20
+1103,10.116.128.40,10.116.0.0/16,17/5000 Ratchada-Ratchaphruek Intersection,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:50:46,170.77,thu27_am,zero_morning: 0 captures before 08:50
+1112,10.126.128.108,10.126.0.0/16,Sutthisan Intersection,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:50:56,170.93,thu27_am,zero_morning: 0 captures before 08:50
+1132,10.118.128.22,10.118.0.0/16,The flyover in front of Wat Suwan,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:51:17,171.28,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:21:16
+1188,10.151.101.88,10.151.0.0/16,Ratchathewi Intersection,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:50:10,170.17,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:30:10
+1195,10.116.128.28,10.116.0.0/16,Near the police box on Mahai Sawan Road (Inbound),2026-08-27,2026-08-27 06:00:00,2026-08-27 08:55:42,175.7,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:25:44
+1361,10.101.128.22,10.101.0.0/16,In front of The Bank of Thailand: BOT on Sam Sen Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:56:22,176.37,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:26:23
+1362,10.102.101.224,10.102.0.0/16,Nakhon Chai Si Intersection,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:50:56,170.93,thu27_am,zero_morning: 0 captures before 08:50
+1368,10.102.102.57,10.102.0.0/16,Lan Phra Rup Intersection,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:55:45,175.75,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:25:48
+1408,10.117.128.21,10.117.0.0/16,Central barrier in front of Cyber World Tower on Thiam Ruam Mit Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:55:39,175.65,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:25:40
+1589,10.108.102.43,10.108.0.0/16,,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:55:47,175.78,thu27_am,partial_white_png: 0 live frames; 1 white_png probe at 07:25:49
+1804,10.134.116.85,10.134.0.0/16,On Nut Road,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:55:31,175.52,thu27_am,"full_morning_pseudo: 0 live frames; 17 pseudo frames (frozen_jpeg,gst_bars,white_png)"
+1815,10.156.102.69,10.156.0.0/16,Rama 9 Intersection,2026-08-27,2026-08-27 06:00:00,2026-08-27 08:50:43,170.72,thu27_am,zero_morning: 0 captures before 08:50

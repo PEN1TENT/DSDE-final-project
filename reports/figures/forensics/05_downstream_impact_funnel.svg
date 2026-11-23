@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="680" viewBox="0 0 1240 680" role="img">
+  <style>text { font-family: Segoe UI, Inter, Arial, Helvetica, sans-serif; fill: #0b0b0b; } .mono { font-family: Consolas, Courier New, monospace; }</style>
+  <rect x="0" y="0" width="1240" height="680" fill="#fcfcfb" />
+  <text x="36" y="36" font-size="19" font-weight="700" fill="#0b0b0b">Downstream Impact: Forensic Data Cleansing Funnel &amp; QC Bug Remediation</text>
+  <text x="36" y="58" font-size="12" fill="#52514e">Stripping ASP.NET HTML tails, placeholders, and incomplete (&lt;3) cells turns 61,319 raw files into 60,227 live frames (59,774 in complete hours)</text>
+  <line x1="36" y1="70" x2="1204" y2="70" stroke="#e4e3df" stroke-width="1" />
+  <text x="55" y="104" font-size="12.5" font-weight="700">Corpus Cleansing Funnel (Raw Files → Complete-Hour Live Snapshots)</text>
+  <rect x="55" y="118" width="560" height="475" fill="#ffffff" stroke="#e4e3df" stroke-width="1" />
+  <text x="71" y="143.0" font-size="11.2" font-weight="700" fill="#0b0b0b">1. Raw corpus files</text>
+  <rect x="71" y="150.0" width="340.0" height="22" fill="#2a78d6" rx="3" />
+  <text x="419.0" y="165.0" font-size="11.2" font-weight="700" fill="#0b0b0b">61,319 (100.00%)</text>
+  <text x="71" y="186.0" font-size="10.0" fill="#52514e">100.0% · 61,319/61,319 carry ASP.NET HTML tail</text>
+  <text x="71" y="222.16666666666669" font-size="11.2" font-weight="700" fill="#0b0b0b">2. Valid non-PNG containers</text>
+  <rect x="71" y="229.16666666666669" width="337.2" height="22" fill="#3b82f6" rx="3" />
+  <text x="416.20543387856947" y="244.16666666666669" font-size="11.2" font-weight="700" fill="#0b0b0b">60,815 (99.18%)</text>
+  <text x="71" y="265.1666666666667" font-size="10.0" fill="#d63638">-504 white 400×266 PNGs (07:15–08:45 bursts)</text>
+  <text x="71" y="301.33333333333337" font-size="11.2" font-weight="700" fill="#0b0b0b">3. Valid EOI-complete JPEGs</text>
+  <rect x="71" y="308.33333333333337" width="337.2" height="22" fill="#2563eb" rx="3" />
+  <text x="416.19434433046854" y="323.33333333333337" font-size="11.2" font-weight="700" fill="#0b0b0b">60,813 (99.17%)</text>
+  <text x="71" y="344.33333333333337" font-size="10.0" fill="#52514e">-2 truncated JPEGs (cam 595, 26 Aug 15:30–40)</text>
+  <text x="71" y="380.5" font-size="11.2" font-weight="700" fill="#0b0b0b">4. Genuine camera JPEGs</text>
+  <rect x="71" y="387.5" width="337.0" height="22" fill="#1baf7a" rx="3" />
+  <text x="416.0113667868034" y="402.5" font-size="11.2" font-weight="700" fill="#0b0b0b">60,780 (99.12%)</text>
+  <text x="71" y="423.5" font-size="10.0" fill="#52514e">-33 GStreamer 246×205 bars (432, 1804 Thu 27 AM)</text>
+  <text x="71" y="459.6666666666667" font-size="11.2" font-weight="700" fill="#0b0b0b">5. Non-frozen live JPEGs</text>
+  <rect x="71" y="466.6666666666667" width="333.9" height="22" fill="#0d9488" rx="3" />
+  <text x="412.94510673690047" y="481.6666666666667" font-size="11.2" font-weight="700" fill="#0b0b0b">60,227 (98.22%)</text>
+  <text x="71" y="502.6666666666667" font-size="10.0" fill="#d63638">-553 non-placeholder frozen repeats (20 cams)</text>
+  <text x="71" y="538.8333333333334" font-size="11.2" font-weight="700" fill="#0b0b0b">6. Complete-hour (&gt;=3) frames</text>
+  <rect x="71" y="545.8333333333334" width="331.4" height="22" fill="#0f766e" rx="3" />
+  <text x="410.4333240920432" y="560.8333333333334" font-size="11.2" font-weight="700" fill="#0b0b0b">59,774 (97.48%)</text>
+  <text x="71" y="581.8333333333334" font-size="10.0" fill="#d63638">-453 in &lt;3 cells (102 in 375 06–20h + 351 in 354 21h)</text>
+  <text x="650" y="104" font-size="12.5" font-weight="700">Legacy vs. Patched `inventory.py` Defect Detection</text>
+  <rect x="650" y="118" width="550" height="222" fill="#ffffff" stroke="#e4e3df" stroke-width="1" />
+  <text x="845" y="138" font-size="10.2" font-weight="700" fill="#7a7872">Legacy (unpatched)</text>
+  <text x="985" y="138" font-size="10.2" font-weight="700" fill="#0b0b0b">Patched (core_md5 + QC flags)</text>
+  <text x="664" y="166.0" font-size="10.8" font-weight="600">Frozen live repeats (20 cams)</text>
+  <text x="664" y="181.0" font-size="9.3" fill="#52514e">HTML tail hid 553 live (584 w/ GSt)</text>
+  <text x="870" y="169.0" font-size="11.5" font-weight="700" fill="#d63638">0</text>
+  <rect x="985" y="157.0" width="165.0" height="16" fill="#d63638" rx="2" />
+  <text x="1156.0" y="169.0" font-size="11" font-weight="700" fill="#0b0b0b">553</text>
+  <text x="664" y="212.0" font-size="10.8" font-weight="600">400×266 white PNGs</text>
+  <text x="664" y="227.0" font-size="9.3" fill="#52514e">Decoded by cv2 as brightness=255, sharpness=0</text>
+  <text x="870" y="215.0" font-size="11.5" font-weight="700" fill="#d63638">0</text>
+  <rect x="985" y="203.0" width="150.4" height="16" fill="#f59e0b" rx="2" />
+  <text x="1141.379746835443" y="215.0" font-size="11" font-weight="700" fill="#0b0b0b">504</text>
+  <text x="664" y="258.0" font-size="10.8" font-weight="600">246×205 GStreamer bars</text>
+  <text x="664" y="273.0" font-size="9.3" fill="#52514e">Decoded as valid JPEGs; 0 vehicles detected</text>
+  <text x="870" y="261.0" font-size="11.5" font-weight="700" fill="#d63638">0</text>
+  <rect x="985" y="249.0" width="9.8" height="16" fill="#7b4dbb" rx="2" />
+  <text x="1000.8462929475588" y="261.0" font-size="11" font-weight="700" fill="#0b0b0b">33</text>
+  <text x="664" y="304.0" font-size="10.8" font-weight="600">Truncated JPEGs (595)</text>
+  <text x="664" y="319.0" font-size="9.3" fill="#52514e">Missing 0xFFD9 EOI; identical 21,900B buffer</text>
+  <text x="870" y="307.0" font-size="11.5" font-weight="700" fill="#52514e">2</text>
+  <rect x="985" y="295.0" width="6.0" height="16" fill="#be185d" rx="2" />
+  <text x="997.0" y="307.0" font-size="11" font-weight="700" fill="#0b0b0b">2</text>
+  <text x="650" y="368" font-size="12.5" font-weight="700">`rain.py` Pre-Baseline Cell Completeness (10,500 Active 06–20h Cells)</text>
+  <rect x="650" y="382" width="550" height="211" fill="#ffffff" stroke="#e4e3df" stroke-width="1" />
+  <rect x="670.0" y="416" width="491.8" height="34" fill="#1baf7a" />
+  <rect x="1161.8" y="416" width="14.6" height="34" fill="#d63638" />
+  <rect x="1176.4" y="416" width="3.6" height="34" fill="#eb6834" />
+  <text x="670" y="406" font-size="11" font-weight="700" fill="#0b0b0b">10,500 (camera, date, hour) cells in 06–20h: 10,125 kept · 375 dropped</text>
+  <rect x="670" y="469" width="11" height="11" fill="#1baf7a" rx="2" />
+  <text x="688" y="478" font-size="10.5" fill="#52514e">10,125 complete cells (&gt;=3 live JPEGs) -&gt; 59,774 clean snapshots</text>
+  <rect x="670" y="495" width="11" height="11" fill="#d63638" rx="2" />
+  <text x="688" y="504" font-size="10.5" fill="#52514e">300 Thu 27 AM cells (06–08h) dropped before weekday baseline (avoids 3-cam bias)</text>
+  <rect x="670" y="521" width="11" height="11" fill="#eb6834" rx="2" />
+  <text x="688" y="530" font-size="10.5" fill="#52514e">75 freeze/gap cells dropped (cams 150, 206, 395, 938, 939, 1195)</text>
+  <rect x="670" y="547" width="11" height="11" fill="#a3a29d" rx="2" />
+  <text x="688" y="556" font-size="10.5" fill="#52514e">+ 354 trailing 21:00–21:01 single-sweep boundary cells excluded</text>
+  <line x1="36" y1="648" x2="1204" y2="648" stroke="#e4e3df" stroke-width="1" />
+  <text x="36" y="667" font-size="10.5" fill="#7a7872">Source: reports/forensics/corpus_summary.json, hourly_coverage.csv; remediated in src/cctv/inventory.py &amp; src/cctv/rain.py.</text>
+</svg>

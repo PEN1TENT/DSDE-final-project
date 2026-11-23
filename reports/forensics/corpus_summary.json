@@ -1,0 +1,118 @@
+{
+  "cameras": 100,
+  "total_files": 61319,
+  "valid_jpegs": 60813,
+  "valid_live_jpegs": 60780,
+  "non_frozen_live_jpegs": 60227,
+  "white_pngs": 504,
+  "nonwhite_pngs": 0,
+  "truncated_jpegs": 2,
+  "no_eoi_total": 506,
+  "gst_color_bars": 33,
+  "strict_frozen": 579,
+  "bridged_frozen": 584,
+  "strict_frozen_cameras": 21,
+  "bridged_frozen_cameras": 21,
+  "exif_count": 0,
+  "jpeg_dimensions": {
+    "352x288": 60172,
+    "348x261": 608,
+    "246x205": 33
+  },
+  "png_dimensions": {
+    "400x266": 504
+  },
+  "image_count_mismatches": 0,
+  "unparseable_filenames": 0,
+  "phase_a_frames": 30663,
+  "phase_b_frames": 30656,
+  "batch_split": {
+    "phase_a_frames": 30663,
+    "phase_b_frames": 30656,
+    "modal_a_strict": 52,
+    "modal_tie": 1,
+    "modal_b_strict": 47,
+    "modal_a_with_tie": 53,
+    "modal_b": 47,
+    "same_day_switches": 749,
+    "overnight_switches": 314,
+    "mixed_cameras": 100,
+    "always_a_cameras": 0,
+    "always_b_cameras": 0
+  },
+  "thu_27_am_split": {
+    "full_morning_pseudo": 3,
+    "partial_white_png": 69,
+    "zero_morning": 28,
+    "live_traffic_frames": 0,
+    "full_morning_cameras": [
+      "150",
+      "432",
+      "1804"
+    ],
+    "zero_morning_cameras": [
+      "32",
+      "75",
+      "88",
+      "112",
+      "118",
+      "119",
+      "120",
+      "123",
+      "125",
+      "158",
+      "206",
+      "250",
+      "256",
+      "371",
+      "411",
+      "529",
+      "542",
+      "569",
+      "576",
+      "599",
+      "1028",
+      "1063",
+      "1070",
+      "1076",
+      "1103",
+      "1112",
+      "1362",
+      "1815"
+    ]
+  },
+  "date_range": {
+    "min_ts": "2026-08-25 06:00:00",
+    "max_ts": "2026-08-31 21:01:19",
+    "days": [
+      "2026-08-25",
+      "2026-08-26",
+      "2026-08-27",
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30",
+      "2026-08-31"
+    ]
+  },
+  "daily_window": {
+    "min_time": "06:00:00",
+    "max_time": "21:01:23",
+    "before_0600": 0,
+    "between_2100_2101": 354,
+    "after_2101": 0
+  },
+  "html_tail": {
+    "files_with_tail": 61319,
+    "files_with_epoch_ms": 61319,
+    "epoch_minus_filename_sec_min": 2.514,
+    "epoch_minus_filename_sec_median": 3.03,
+    "epoch_minus_filename_sec_max": 81.548
+  },
+  "gaps_summary": {
+    "same_day_gt20m_non_thu27_am": 16,
+    "same_day_12_20m": 797,
+    "thu27_am_events": 100
+  },
+  "subnets_count": 18,
+  "osd_verified_samples": 12
+}
