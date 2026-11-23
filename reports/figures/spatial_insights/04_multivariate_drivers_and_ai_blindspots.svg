@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 620" width="1240" height="620">
+<style>text { font-family: 'Segoe UI', 'Noto Sans Thai', Tahoma, Arial, sans-serif; }</style>
+<rect width="1240" height="620" fill="#faf9f5" />
+<text x="36.0" y="40.0" font-size="20" fill="#111827" font-weight="bold" text-anchor="start" >OLS Controls Reveal Spatial Confounding, While YOLO Missed Traffic on 92.9% of Zero-Count Frames</text>
+<text x="36.0" y="63.0" font-size="13" fill="#4b5563" font-weight="normal" text-anchor="start" >Standardized OLS drivers of per-camera traffic (n = 100 cameras, R² = 0.27) &amp; top day/model_zero frames where humans counted up to 40 vehicles</text>
+<rect x="36.0" y="92.0" width="600.0" height="480.0" fill="#ffffff" stroke="#e2dfd7" stroke-width="1.4" rx="10.0" />
+<text x="56.0" y="120.0" font-size="14.5" fill="#111827" font-weight="bold" text-anchor="start" >A. Standardized OLS Betas (±95% CI): Base vs. Spatial-Controlled</text>
+<text x="56.0" y="139.0" font-size="11" fill="#6b7280" font-weight="normal" text-anchor="start" >Base R²=0.250 (8 predictors) → Spatial-Controlled R²=0.265 (+Old City &amp; DEM elevation)</text>
+<circle cx="416.0" cy="160.0" r="5.0" fill="#94a3b8"/>
+<text x="426.0" y="164.0" font-size="10.5" fill="#4b5563" font-weight="normal" text-anchor="start" >Base Model</text>
+<circle cx="514.0" cy="160.0" r="5.0" fill="#2563eb"/>
+<text x="524.0" y="164.0" font-size="10.5" fill="#4b5563" font-weight="normal" text-anchor="start" >Spatial-Controlled</text>
+<line x1="273.8" y1="178.0" x2="273.8" y2="524.0" stroke="#e5e7eb" stroke-width="1.0" stroke-dasharray="3,3"/>
+<text x="273.8" y="540.0" font-size="10.5" fill="#6b7280" font-weight="normal" text-anchor="middle" >-4</text>
+<line x1="344.1" y1="178.0" x2="344.1" y2="524.0" stroke="#e5e7eb" stroke-width="1.0" stroke-dasharray="3,3"/>
+<text x="344.1" y="540.0" font-size="10.5" fill="#6b7280" font-weight="normal" text-anchor="middle" >-2</text>
+<line x1="414.5" y1="178.0" x2="414.5" y2="524.0" stroke="#111827" stroke-width="1.5"/>
+<text x="414.5" y="540.0" font-size="10.5" fill="#6b7280" font-weight="normal" text-anchor="middle" >0</text>
+<line x1="484.9" y1="178.0" x2="484.9" y2="524.0" stroke="#e5e7eb" stroke-width="1.0" stroke-dasharray="3,3"/>
+<text x="484.9" y="540.0" font-size="10.5" fill="#6b7280" font-weight="normal" text-anchor="middle" >+2</text>
+<line x1="555.2" y1="178.0" x2="555.2" y2="524.0" stroke="#e5e7eb" stroke-width="1.0" stroke-dasharray="3,3"/>
+<text x="555.2" y="540.0" font-size="10.5" fill="#6b7280" font-weight="normal" text-anchor="middle" >+4</text>
+<text x="414.5" y="558.0" font-size="10.5" fill="#4b5563" font-weight="normal" text-anchor="middle" >Standardized beta (vehicles/frame per 1-SD predictor change)</text>
+<text x="54.0" y="200.0" font-size="11" fill="#111827" font-weight="bold" text-anchor="start" >Major Road (Primary+)</text>
+<line x1="426.3" y1="191.0" x2="571.2" y2="191.0" stroke="#94a3b8" stroke-width="1.8"/>
+<circle cx="498.7" cy="191.0" r="4.2" fill="#94a3b8"/>
+<line x1="396.1" y1="201.0" x2="556.0" y2="201.0" stroke="#2563eb" stroke-width="2.2"/>
+<circle cx="476.0" cy="201.0" r="4.8" fill="#2563eb" stroke="#ffffff" stroke-width="0.8"/>
+<text x="54.0" y="233.0" font-size="11" fill="#111827" font-weight="normal" text-anchor="start" >Intersection (3+ Way)</text>
+<line x1="390.1" y1="224.0" x2="510.1" y2="224.0" stroke="#94a3b8" stroke-width="1.8"/>
+<circle cx="450.1" cy="224.0" r="4.2" fill="#94a3b8"/>
+<line x1="387.3" y1="234.0" x2="508.6" y2="234.0" stroke="#2563eb" stroke-width="2.2"/>
+<circle cx="448.0" cy="234.0" r="4.8" fill="#2563eb" stroke="#ffffff" stroke-width="0.8"/>
+<text x="54.0" y="266.0" font-size="11" fill="#111827" font-weight="normal" text-anchor="start" >Overpass / Bridge (60m)</text>
+<line x1="333.1" y1="257.0" x2="466.1" y2="257.0" stroke="#94a3b8" stroke-width="1.8"/>
+<circle cx="399.6" cy="257.0" r="4.2" fill="#94a3b8"/>
+<line x1="344.0" y1="267.0" x2="484.0" y2="267.0" stroke="#0284c7" stroke-width="2.2"/>
+<circle cx="414.0" cy="267.0" r="4.8" fill="#0284c7" stroke="#ffffff" stroke-width="0.8"/>
+<text x="54.0" y="299.0" font-size="11" fill="#111827" font-weight="normal" text-anchor="start" >log(1 + Malls in 500m)</text>
+<line x1="384.0" y1="290.0" x2="520.5" y2="290.0" stroke="#94a3b8" stroke-width="1.8"/>
+<circle cx="452.2" cy="290.0" r="4.2" fill="#94a3b8"/>
+<line x1="380.9" y1="300.0" x2="521.9" y2="300.0" stroke="#2563eb" stroke-width="2.2"/>
+<circle cx="451.4" cy="300.0" r="4.8" fill="#2563eb" stroke="#ffffff" stroke-width="0.8"/>
+<text x="54.0" y="332.0" font-size="11" fill="#111827" font-weight="normal" text-anchor="start" >BTS/MRT Station (500m)</text>
+<line x1="342.9" y1="323.0" x2="475.0" y2="323.0" stroke="#94a3b8" stroke-width="1.8"/>
+<circle cx="408.9" cy="323.0" r="4.2" fill="#94a3b8"/>
+<line x1="334.8" y1="333.0" x2="468.9" y2="333.0" stroke="#0284c7" stroke-width="2.2"/>
+<circle cx="401.8" cy="333.0" r="4.8" fill="#0284c7" stroke="#ffffff" stroke-width="0.8"/>
+<text x="54.0" y="365.0" font-size="11" fill="#111827" font-weight="normal" text-anchor="start" >Hospital Nearby (500m)</text>
+<line x1="405.8" y1="356.0" x2="530.7" y2="356.0" stroke="#94a3b8" stroke-width="1.8"/>
+<circle cx="468.3" cy="356.0" r="4.2" fill="#94a3b8"/>
+<line x1="406.2" y1="366.0" x2="531.6" y2="366.0" stroke="#2563eb" stroke-width="2.2"/>
+<circle cx="468.9" cy="366.0" r="4.8" fill="#2563eb" stroke="#ffffff" stroke-width="0.8"/>
+<text x="54.0" y="398.0" font-size="11" fill="#111827" font-weight="bold" text-anchor="start" >log(1 + Schools in 500m)</text>
+<line x1="282.5" y1="389.0" x2="423.2" y2="389.0" stroke="#94a3b8" stroke-width="1.8"/>
+<circle cx="352.9" cy="389.0" r="4.2" fill="#94a3b8"/>
+<line x1="296.2" y1="399.0" x2="448.6" y2="399.0" stroke="#0284c7" stroke-width="2.2"/>
+<circle cx="372.4" cy="399.0" r="4.8" fill="#0284c7" stroke="#ffffff" stroke-width="0.8"/>
+<text x="54.0" y="431.0" font-size="11" fill="#111827" font-weight="normal" text-anchor="start" >Distance from Siam (km)</text>
+<line x1="323.3" y1="422.0" x2="473.1" y2="422.0" stroke="#94a3b8" stroke-width="1.8"/>
+<circle cx="398.2" cy="422.0" r="4.2" fill="#94a3b8"/>
+<line x1="330.1" y1="432.0" x2="482.6" y2="432.0" stroke="#0284c7" stroke-width="2.2"/>
+<circle cx="406.4" cy="432.0" r="4.8" fill="#0284c7" stroke="#ffffff" stroke-width="0.8"/>
+<text x="54.0" y="464.0" font-size="11" fill="#111827" font-weight="bold" text-anchor="start" >Old City Zone (Control)</text>
+<line x1="271.2" y1="465.0" x2="445.0" y2="465.0" stroke="#0284c7" stroke-width="2.2"/>
+<circle cx="358.1" cy="465.0" r="4.8" fill="#0284c7" stroke="#ffffff" stroke-width="0.8"/>
+<text x="54.0" y="497.0" font-size="11" fill="#111827" font-weight="normal" text-anchor="start" >Ground Elevation (DEM m)</text>
+<line x1="345.6" y1="498.0" x2="472.4" y2="498.0" stroke="#0284c7" stroke-width="2.2"/>
+<circle cx="409.0" cy="498.0" r="4.8" fill="#0284c7" stroke="#ffffff" stroke-width="0.8"/>
+<rect x="656.0" y="92.0" width="548.0" height="480.0" fill="#ffffff" stroke="#e2dfd7" stroke-width="1.4" rx="10.0" />
+<text x="676.0" y="120.0" font-size="14.5" fill="#111827" font-weight="bold" text-anchor="start" >B. The 92.9% AI Blind-Spot: YOLO = 0 vs. Human Count</text>
+<text x="676.0" y="139.0" font-size="11" fill="#6b7280" font-weight="normal" text-anchor="start" >91 of 98 usable &#x27;model_zero&#x27; frames had cars (mean 6.79, max 40)</text>
+<text x="674.0" y="178.0" font-size="11" fill="#111827" font-weight="bold" text-anchor="start" >Cam 1815 · Rama 9 Intersection</text>
+<text x="674.0" y="191.0" font-size="9.5" fill="#6b7280" font-weight="normal" text-anchor="start" >08-29 13:05 · 4-way crossroad</text>
+<rect x="871.0" y="167.0" width="127.4" height="18.0" fill="#2563eb" />
+<rect x="998.4" y="167.0" width="134.1" height="18.0" fill="#ea580c" />
+<rect x="1132.5" y="167.0" width="6.7" height="18.0" fill="#0d9488" />
+<text x="1145.2" y="181.0" font-size="11.5" fill="#dc2626" font-weight="bold" text-anchor="start" >40</text>
+<text x="674.0" y="222.0" font-size="11" fill="#111827" font-weight="bold" text-anchor="start" >Cam 1815 · Rama 9 Intersection</text>
+<text x="674.0" y="235.0" font-size="9.5" fill="#6b7280" font-weight="normal" text-anchor="start" >08-30 14:50 · 4-way crossroad</text>
+<rect x="871.0" y="211.0" width="174.3" height="18.0" fill="#2563eb" />
+<rect x="1045.3" y="211.0" width="46.9" height="18.0" fill="#ea580c" />
+<rect x="1092.2" y="211.0" width="13.4" height="18.0" fill="#0d9488" />
+<text x="1111.7" y="225.0" font-size="11.5" fill="#111827" font-weight="bold" text-anchor="start" >35</text>
+<text x="674.0" y="266.0" font-size="11" fill="#111827" font-weight="bold" text-anchor="start" >Cam 1815 · Rama 9 Intersection</text>
+<text x="674.0" y="279.0" font-size="9.5" fill="#6b7280" font-weight="normal" text-anchor="start" >08-29 09:35 · 4-way crossroad</text>
+<rect x="871.0" y="255.0" width="147.5" height="18.0" fill="#2563eb" />
+<rect x="1018.5" y="255.0" width="80.5" height="18.0" fill="#ea580c" />
+<rect x="1099.0" y="255.0" width="3.4" height="18.0" fill="#0d9488" />
+<text x="1108.3" y="269.0" font-size="11.5" fill="#111827" font-weight="bold" text-anchor="start" >34</text>
+<text x="674.0" y="310.0" font-size="11" fill="#111827" font-weight="normal" text-anchor="start" >Cam 123 · Central barrier near…</text>
+<text x="674.0" y="323.0" font-size="9.5" fill="#6b7280" font-weight="normal" text-anchor="start" >08-27 08:50 · 4-way crossroad</text>
+<rect x="871.0" y="299.0" width="60.3" height="18.0" fill="#2563eb" />
+<rect x="931.3" y="299.0" width="120.7" height="18.0" fill="#ea580c" />
+<rect x="1052.0" y="299.0" width="6.7" height="18.0" fill="#0d9488" />
+<text x="1064.7" y="313.0" font-size="11.5" fill="#111827" font-weight="bold" text-anchor="start" >28</text>
+<text x="674.0" y="354.0" font-size="11" fill="#111827" font-weight="normal" text-anchor="start" >Cam 125 · Central barrier near…</text>
+<text x="674.0" y="367.0" font-size="9.5" fill="#6b7280" font-weight="normal" text-anchor="start" >08-26 07:50 · 4-way crossroad</text>
+<rect x="871.0" y="343.0" width="100.6" height="18.0" fill="#2563eb" />
+<rect x="971.6" y="343.0" width="53.6" height="18.0" fill="#ea580c" />
+<text x="1031.2" y="357.0" font-size="11.5" fill="#111827" font-weight="bold" text-anchor="start" >23</text>
+<text x="674.0" y="398.0" font-size="11" fill="#111827" font-weight="normal" text-anchor="start" >Cam 88 · Chan-Sathu Pradit Int…</text>
+<text x="674.0" y="411.0" font-size="9.5" fill="#6b7280" font-weight="normal" text-anchor="start" >08-31 10:40 · 4-way crossroad</text>
+<rect x="871.0" y="387.0" width="46.9" height="18.0" fill="#2563eb" />
+<rect x="917.9" y="387.0" width="93.9" height="18.0" fill="#ea580c" />
+<text x="1017.8" y="401.0" font-size="11.5" fill="#111827" font-weight="bold" text-anchor="start" >21</text>
+<text x="674.0" y="442.0" font-size="11" fill="#111827" font-weight="normal" text-anchor="start" >Cam 123 · Central barrier near…</text>
+<text x="674.0" y="455.0" font-size="9.5" fill="#6b7280" font-weight="normal" text-anchor="start" >08-29 12:50 · 4-way crossroad</text>
+<rect x="871.0" y="431.0" width="73.8" height="18.0" fill="#2563eb" />
+<rect x="944.8" y="431.0" width="67.0" height="18.0" fill="#ea580c" />
+<text x="1017.8" y="445.0" font-size="11.5" fill="#111827" font-weight="bold" text-anchor="start" >21</text>
+<text x="674.0" y="486.0" font-size="11" fill="#111827" font-weight="normal" text-anchor="start" >Cam 572 · Jor Por Ror  Intersec…</text>
+<text x="674.0" y="499.0" font-size="9.5" fill="#6b7280" font-weight="normal" text-anchor="start" >08-26 16:25 · 3-way / junction</text>
+<rect x="871.0" y="475.0" width="120.7" height="18.0" fill="#2563eb" />
+<rect x="991.7" y="475.0" width="0.0" height="18.0" fill="#ea580c" />
+<text x="997.7" y="489.0" font-size="11.5" fill="#111827" font-weight="bold" text-anchor="start" >18</text>
+<rect x="676.0" y="526.0" width="508.0" height="32.0" fill="#fef2f2" stroke="#fecaca" stroke-width="1.0" rx="6.0" />
+<text x="688.0" y="546.0" font-size="11" fill="#991b1b" font-weight="bold" text-anchor="start" >Proof of why naive raw YOLO (37% recall) cannot be trusted without human calibration!</text>
+<text x="36.0" y="600.0" font-size="10.5" fill="#6b7280" font-weight="normal" text-anchor="start" >Source: Standardized OLS across 100 cameras (elevation_100cams.json + osm_roads/pois); day/model_zero golden stratum (n = 98 usable).</text>
+</svg>

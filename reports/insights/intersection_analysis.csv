@@ -1,0 +1,13 @@
+group_type,segment,cameras,busy_cameras,busy_pct,frames,mean_total,ci_low,ci_high,mean_car,mean_motorcycle,mean_bus,mean_truck,frozen_frames
+junction_topology,mid-block,29,4,13.8,254,13.49,12.14,14.95,9.26,3.98,0.17,0.08,9
+junction_topology,3-way / junction,21,10,47.6,185,16.76,15.0,18.59,12.15,4.09,0.46,0.06,140
+junction_topology,4-way crossroad,40,14,35.0,362,15.19,13.98,16.38,9.87,5.04,0.17,0.11,312
+junction_topology,5+-way mega,10,5,50.0,90,19.57,17.14,22.28,14.37,4.88,0.27,0.06,123
+compound_friction_2x2,Intersection + Mall/Rail,43,19,44.2,383,18.15,16.9,19.49,12.21,5.52,0.35,0.06,187
+compound_friction_2x2,"Intersection, No Mall/Rail",28,10,35.7,254,13.43,12.28,14.7,9.59,3.56,0.13,0.14,388
+compound_friction_2x2,Mid-block + Mall/Rail,13,4,30.8,116,15.79,13.69,18.11,10.51,4.98,0.24,0.06,3
+compound_friction_2x2,"Mid-block, No Mall/Rail",16,0,0.0,138,11.56,9.82,13.31,8.2,3.15,0.1,0.1,6
+two_bangkoks_zone,Old City (All),29,7,24.1,268,9.62,8.77,10.53,6.65,2.72,0.12,0.12,80
+two_bangkoks_zone,Modern CBD / Arterial (All),71,26,36.6,623,18.0,17.02,19.02,12.33,5.3,0.29,0.07,504
+two_bangkoks_zone,Old City (4-way Crossroads),14,4,28.6,128,9.72,8.43,11.02,6.52,2.84,0.14,0.21,80
+two_bangkoks_zone,Modern CBD (4-way Crossroads),26,10,38.5,234,18.19,16.59,19.82,11.7,6.24,0.18,0.06,232

@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 640" width="1240" height="640">
+<style>text { font-family: 'Segoe UI', 'Noto Sans Thai', Tahoma, Arial, sans-serif; }</style>
+<rect width="1240" height="640" fill="#faf9f5" />
+<text x="36.0" y="40.0" font-size="20" fill="#111827" font-weight="bold" text-anchor="start" >The Camera Health Paradox: Busy Cameras Freeze 3.1× More &amp; 98.5% of Freezes Hit Intersections</text>
+<text x="36.0" y="63.0" font-size="13" fill="#4b5563" font-weight="normal" text-anchor="start" >Freeze failure rate by site class (perm p = 0.019 busy vs quiet, p = 0.023 intersection vs mid-block) &amp; Top 10 Upgrade-First blueprint</text>
+<rect x="36.0" y="92.0" width="510.0" height="500.0" fill="#ffffff" stroke="#e2dfd7" stroke-width="1.4" rx="10.0" />
+<text x="56.0" y="120.0" font-size="14.5" fill="#111827" font-weight="bold" text-anchor="start" >A. Share of Cameras Experiencing Frozen Streams (%)</text>
+<text x="56.0" y="139.0" font-size="11" fill="#6b7280" font-weight="normal" text-anchor="start" >Total 584 bridged frozen frames across 21/100 cameras</text>
+<text x="56.0" y="183.0" font-size="11.5" fill="#111827" font-weight="bold" text-anchor="start" >Busy tercile</text>
+<text x="56.0" y="196.0" font-size="9.5" fill="#6b7280" font-weight="normal" text-anchor="start" >12/33 cams</text>
+<rect x="186.0" y="170.0" width="265.0" height="22.0" fill="#f1f5f9" rx="4.0" />
+<rect x="186.0" y="170.0" width="214.4" height="22.0" fill="#dc2626" rx="4.0" />
+<text x="408.4" y="185.0" font-size="11" fill="#dc2626" font-weight="bold" text-anchor="start" >36.4% (256 fr)</text>
+<text x="56.0" y="231.0" font-size="11.5" fill="#111827" font-weight="normal" text-anchor="start" >Medium tercile</text>
+<text x="56.0" y="244.0" font-size="9.5" fill="#6b7280" font-weight="normal" text-anchor="start" >5/33 cams</text>
+<rect x="186.0" y="218.0" width="265.0" height="22.0" fill="#f1f5f9" rx="4.0" />
+<rect x="186.0" y="218.0" width="89.5" height="22.0" fill="#d97706" rx="4.0" />
+<text x="283.5" y="233.0" font-size="11" fill="#111827" font-weight="bold" text-anchor="start" >15.2% (130 fr)</text>
+<text x="56.0" y="279.0" font-size="11.5" fill="#111827" font-weight="normal" text-anchor="start" >Quiet tercile</text>
+<text x="56.0" y="292.0" font-size="9.5" fill="#6b7280" font-weight="normal" text-anchor="start" >4/34 cams</text>
+<rect x="186.0" y="266.0" width="265.0" height="22.0" fill="#f1f5f9" rx="4.0" />
+<rect x="186.0" y="266.0" width="69.5" height="22.0" fill="#0d9488" rx="4.0" />
+<text x="263.5" y="281.0" font-size="11" fill="#111827" font-weight="bold" text-anchor="start" >11.8% (198 fr)</text>
+<line x1="56.0" y1="306.0" x2="526.0" y2="306.0" stroke="#e2dfd7" stroke-width="1.0" stroke-dasharray="4,3"/>
+<text x="56.0" y="327.0" font-size="11.5" fill="#111827" font-weight="bold" text-anchor="start" >Intersection</text>
+<text x="56.0" y="340.0" font-size="9.5" fill="#6b7280" font-weight="normal" text-anchor="start" >19/71 cams</text>
+<rect x="186.0" y="314.0" width="265.0" height="22.0" fill="#f1f5f9" rx="4.0" />
+<rect x="186.0" y="314.0" width="157.8" height="22.0" fill="#dc2626" rx="4.0" />
+<text x="351.8" y="329.0" font-size="11" fill="#dc2626" font-weight="bold" text-anchor="start" >26.8% (575 fr)</text>
+<text x="56.0" y="375.0" font-size="11.5" fill="#111827" font-weight="normal" text-anchor="start" >Mid-block</text>
+<text x="56.0" y="388.0" font-size="9.5" fill="#6b7280" font-weight="normal" text-anchor="start" >2/29 cams</text>
+<rect x="186.0" y="362.0" width="265.0" height="22.0" fill="#f1f5f9" rx="4.0" />
+<rect x="186.0" y="362.0" width="40.6" height="22.0" fill="#0d9488" rx="4.0" />
+<text x="234.6" y="377.0" font-size="11" fill="#111827" font-weight="bold" text-anchor="start" >6.9% (9 fr)</text>
+<line x1="56.0" y1="402.0" x2="526.0" y2="402.0" stroke="#e2dfd7" stroke-width="1.0" stroke-dasharray="4,3"/>
+<text x="56.0" y="423.0" font-size="11.5" fill="#111827" font-weight="bold" text-anchor="start" >Near Mall (&gt;=1)</text>
+<text x="56.0" y="436.0" font-size="9.5" fill="#6b7280" font-weight="normal" text-anchor="start" >12/41 cams</text>
+<rect x="186.0" y="410.0" width="265.0" height="22.0" fill="#f1f5f9" rx="4.0" />
+<rect x="186.0" y="410.0" width="172.5" height="22.0" fill="#dc2626" rx="4.0" />
+<text x="366.5" y="425.0" font-size="11" fill="#dc2626" font-weight="bold" text-anchor="start" >29.3% (187 fr)</text>
+<text x="56.0" y="471.0" font-size="11.5" fill="#111827" font-weight="normal" text-anchor="start" >No Mall</text>
+<text x="56.0" y="484.0" font-size="9.5" fill="#6b7280" font-weight="normal" text-anchor="start" >9/59 cams</text>
+<rect x="186.0" y="458.0" width="265.0" height="22.0" fill="#f1f5f9" rx="4.0" />
+<rect x="186.0" y="458.0" width="90.1" height="22.0" fill="#d97706" rx="4.0" />
+<text x="284.1" y="473.0" font-size="11" fill="#111827" font-weight="bold" text-anchor="start" >15.3% (397 fr)</text>
+<rect x="56.0" y="514.0" width="470.0" height="62.0" fill="#fff7ed" stroke="#fdba74" stroke-width="1.2" rx="8.0" />
+<text x="68.0" y="536.0" font-size="11.5" fill="#9a3412" font-weight="bold" text-anchor="start" >Infrastructure Policy Takeaway:</text>
+<text x="68.0" y="554.0" font-size="10.5" fill="#4b5563" font-weight="normal" text-anchor="start" >575 of 584 frozen frames (98.5%) occurred at intersections (vs 9 mid-block).</text>
+<text x="68.0" y="569.0" font-size="10.5" fill="#111827" font-weight="bold" text-anchor="start" >Fix broken encoders at busy mega-junctions BEFORE buying outer-ring hardware.</text>
+<rect x="566.0" y="92.0" width="638.0" height="500.0" fill="#ffffff" stroke="#e2dfd7" stroke-width="1.4" rx="10.0" />
+<text x="586.0" y="120.0" font-size="14.5" fill="#111827" font-weight="bold" text-anchor="start" >B. Top 10 &#x27;Upgrade First&#x27; Priority Cameras (Weighted Score)</text>
+<text x="586.0" y="139.0" font-size="11" fill="#6b7280" font-weight="normal" text-anchor="start" >Score = 0.40·z(traffic) + 0.25·z(mall+rail+junction) + 0.35·z(freeze/whitePNG/AI-miss)</text>
+<text x="586.0" y="178.0" font-size="11" fill="#111827" font-weight="bold" text-anchor="start" >#1 Cam 150: Footbridge near Samsenwitta…</text>
+<text x="586.0" y="191.0" font-size="9.5" fill="#6b7280" font-weight="normal" text-anchor="start" >3-way / junction · 1 malls · 36.3 veh</text>
+<rect x="831.0" y="166.0" width="250.5" height="20.0" fill="#e11d48" rx="4.0" />
+<text x="1089.5" y="180.0" font-size="10.5" fill="#111827" font-weight="bold" text-anchor="start" >2.16 (124 frz)</text>
+<text x="586.0" y="218.0" font-size="11" fill="#111827" font-weight="bold" text-anchor="start" >#2 Cam 938: TF-KP-03-รามคำแหง-พระราม-9</text>
+<text x="586.0" y="231.0" font-size="9.5" fill="#6b7280" font-weight="normal" text-anchor="start" >5+-way mega · 0 malls · 29.9 veh</text>
+<rect x="831.0" y="206.0" width="197.9" height="20.0" fill="#e11d48" rx="4.0" />
+<text x="1036.9" y="220.0" font-size="10.5" fill="#111827" font-weight="bold" text-anchor="start" >1.71 (98 frz)</text>
+<text x="586.0" y="258.0" font-size="11" fill="#111827" font-weight="bold" text-anchor="start" >#3 Cam 500: Pra Tu Num Intersection</text>
+<text x="586.0" y="271.0" font-size="9.5" fill="#6b7280" font-weight="normal" text-anchor="start" >5+-way mega · 14 malls · 25.2 veh</text>
+<rect x="831.0" y="246.0" width="178.1" height="20.0" fill="#d97706" rx="4.0" />
+<text x="1017.1" y="260.0" font-size="10.5" fill="#111827" font-weight="bold" text-anchor="start" >1.54 (0 frz)</text>
+<text x="586.0" y="298.0" font-size="11" fill="#111827" font-weight="normal" text-anchor="start" >#4 Cam 939: TF-KP-04-แยกมหาดไทย</text>
+<text x="586.0" y="311.0" font-size="9.5" fill="#6b7280" font-weight="normal" text-anchor="start" >4-way crossroad · 0 malls · 20.3 veh</text>
+<rect x="831.0" y="286.0" width="152.1" height="20.0" fill="#e11d48" rx="4.0" />
+<text x="991.1" y="300.0" font-size="10.5" fill="#111827" font-weight="bold" text-anchor="start" >1.31 (95 frz)</text>
+<text x="586.0" y="338.0" font-size="11" fill="#111827" font-weight="normal" text-anchor="start" >#5 Cam 277: Footbridge near Soi Rang Na…</text>
+<text x="586.0" y="351.0" font-size="9.5" fill="#6b7280" font-weight="normal" text-anchor="start" >3-way / junction · 4 malls · 39.6 veh</text>
+<rect x="831.0" y="326.0" width="145.7" height="20.0" fill="#d97706" rx="4.0" />
+<text x="984.7" y="340.0" font-size="10.5" fill="#111827" font-weight="bold" text-anchor="start" >1.26 (0 frz)</text>
+<text x="586.0" y="378.0" font-size="11" fill="#111827" font-weight="normal" text-anchor="start" >#6 Cam 26: Near Pao Leng Pharmacy on M…</text>
+<text x="586.0" y="391.0" font-size="9.5" fill="#6b7280" font-weight="normal" text-anchor="start" >4-way crossroad · 1 malls · 35.5 veh</text>
+<rect x="831.0" y="366.0" width="140.5" height="20.0" fill="#2563eb" rx="4.0" />
+<text x="979.5" y="380.0" font-size="10.5" fill="#111827" font-weight="bold" text-anchor="start" >1.21 (5 frz)</text>
+<text x="586.0" y="418.0" font-size="11" fill="#111827" font-weight="normal" text-anchor="start" >#7 Cam 1078: The flyover in front of Wat…</text>
+<text x="586.0" y="431.0" font-size="9.5" fill="#6b7280" font-weight="normal" text-anchor="start" >3-way / junction · 4 malls · 22.4 veh</text>
+<rect x="831.0" y="406.0" width="125.6" height="20.0" fill="#d97706" rx="4.0" />
+<text x="964.6" y="420.0" font-size="10.5" fill="#111827" font-weight="bold" text-anchor="start" >1.08 (6 frz)</text>
+<text x="586.0" y="458.0" font-size="11" fill="#111827" font-weight="normal" text-anchor="start" >#8 Cam 395: Sao Chingcha Intersection</text>
+<text x="586.0" y="471.0" font-size="9.5" fill="#6b7280" font-weight="normal" text-anchor="start" >4-way crossroad · 0 malls · 17.8 veh</text>
+<rect x="831.0" y="446.0" width="125.4" height="20.0" fill="#e11d48" rx="4.0" />
+<text x="964.4" y="460.0" font-size="10.5" fill="#111827" font-weight="bold" text-anchor="start" >1.08 (72 frz)</text>
+<text x="586.0" y="498.0" font-size="11" fill="#111827" font-weight="normal" text-anchor="start" >#9 Cam 432: Pathum Wan  Intersection</text>
+<text x="586.0" y="511.0" font-size="9.5" fill="#6b7280" font-weight="normal" text-anchor="start" >5+-way mega · 3 malls · 16.9 veh</text>
+<rect x="831.0" y="486.0" width="118.0" height="20.0" fill="#d97706" rx="4.0" />
+<text x="957.0" y="500.0" font-size="10.5" fill="#111827" font-weight="bold" text-anchor="start" >1.02 (16 frz)</text>
+<text x="586.0" y="538.0" font-size="11" fill="#111827" font-weight="normal" text-anchor="start" >#10 Cam 82: Footbridge near Soi Ratchap…</text>
+<text x="586.0" y="551.0" font-size="9.5" fill="#6b7280" font-weight="normal" text-anchor="start" >mid-block · 9 malls · 24.6 veh</text>
+<rect x="831.0" y="526.0" width="116.4" height="20.0" fill="#d97706" rx="4.0" />
+<text x="955.4" y="540.0" font-size="10.5" fill="#111827" font-weight="bold" text-anchor="start" >1.00 (0 frz)</text>
+<text x="36.0" y="622.0" font-size="10.5" fill="#6b7280" font-weight="normal" text-anchor="start" >Source: Forensic frozen frames (reports/forensics/camera_forensics.csv) joined with golden traffic &amp; OSM landmarks (reports/insights/).</text>
+</svg>

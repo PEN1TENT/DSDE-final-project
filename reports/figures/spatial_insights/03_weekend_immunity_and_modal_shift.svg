@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 620" width="1240" height="620">
+<style>text { font-family: 'Segoe UI', 'Noto Sans Thai', Tahoma, Arial, sans-serif; }</style>
+<rect width="1240" height="620" fill="#faf9f5" />
+<text x="36.0" y="40.0" font-size="20" fill="#111827" font-weight="bold" text-anchor="start" >Mega-Mall Hubs Never Sleep on Weekends (-5.6% vs -33.5% Elsewhere) &amp; Rain Drives Moto Exodus</text>
+<text x="36.0" y="63.0" font-size="13" fill="#4b5563" font-weight="normal" text-anchor="start" >Weekday vs weekend human vehicle counts by urban landmark (left) and 4-period modal composition + evening rain effect (right)</text>
+<rect x="36.0" y="92.0" width="600.0" height="480.0" fill="#ffffff" stroke="#e2dfd7" stroke-width="1.4" rx="10.0" />
+<text x="56.0" y="120.0" font-size="15" fill="#111827" font-weight="bold" text-anchor="start" >A. Weekday vs. Weekend Traffic Retention by Landmark</text>
+<text x="56.0" y="139.0" font-size="11" fill="#6b7280" font-weight="normal" text-anchor="start" >Circles show mean vehicles/frame; badge shows Weekend vs Weekday change</text>
+<circle cx="446.0" cy="116.0" r="6.0" fill="#dc2626"/>
+<text x="458.0" y="120.0" font-size="11" fill="#4b5563" font-weight="normal" text-anchor="start" >Weekday</text>
+<circle cx="528.0" cy="116.0" r="6.0" fill="#0d9488"/>
+<text x="540.0" y="120.0" font-size="11" fill="#4b5563" font-weight="normal" text-anchor="start" >Weekend</text>
+<line x1="287.4" y1="164.0" x2="287.4" y2="524.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="287.4" y="540.0" font-size="11" fill="#6b7280" font-weight="normal" text-anchor="middle" >10</text>
+<line x1="330.9" y1="164.0" x2="330.9" y2="524.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="330.9" y="540.0" font-size="11" fill="#6b7280" font-weight="normal" text-anchor="middle" >12</text>
+<line x1="374.3" y1="164.0" x2="374.3" y2="524.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="374.3" y="540.0" font-size="11" fill="#6b7280" font-weight="normal" text-anchor="middle" >14</text>
+<line x1="417.7" y1="164.0" x2="417.7" y2="524.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="417.7" y="540.0" font-size="11" fill="#6b7280" font-weight="normal" text-anchor="middle" >16</text>
+<line x1="461.1" y1="164.0" x2="461.1" y2="524.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="461.1" y="540.0" font-size="11" fill="#6b7280" font-weight="normal" text-anchor="middle" >18</text>
+<line x1="504.6" y1="164.0" x2="504.6" y2="524.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="504.6" y="540.0" font-size="11" fill="#6b7280" font-weight="normal" text-anchor="middle" >20</text>
+<text x="396.0" y="558.0" font-size="11" fill="#4b5563" font-weight="normal" text-anchor="middle" >Mean vehicles per frame (stratified golden set)</text>
+<rect x="48.0" y="168.0" width="576.0" height="34.0" fill="#fff1f2" stroke="#fda4af" stroke-width="1.0" rx="6.0" />
+<text x="54.0" y="189.0" font-size="11.5" fill="#111827" font-weight="bold" text-anchor="start" >Mega-Mall Hub (&gt;=3 malls)</text>
+<text x="54.0" y="201.0" font-size="9.5" fill="#6b7280" font-weight="normal" text-anchor="start" >14 cams · bus 0.61</text>
+<line x1="455.3" y1="186.0" x2="478.1" y2="186.0" stroke="#d97706" stroke-width="3.2"/>
+<circle cx="455.3" cy="186.0" r="6.5" fill="#0d9488" stroke="#ffffff" stroke-width="1.0"/>
+<circle cx="478.1" cy="186.0" r="6.5" fill="#dc2626" stroke="#ffffff" stroke-width="1.0"/>
+<rect x="560.0" y="175.0" width="62.0" height="22.0" fill="#d97706" rx="5.0" />
+<text x="591.0" y="190.0" font-size="11" fill="#ffffff" font-weight="bold" text-anchor="middle" >-5.6%</text>
+<text x="54.0" y="233.0" font-size="11.5" fill="#111827" font-weight="normal" text-anchor="start" >Near Mall (1-2 malls)</text>
+<text x="54.0" y="245.0" font-size="9.5" fill="#6b7280" font-weight="normal" text-anchor="start" >27 cams · bus 0.26</text>
+<line x1="341.3" y1="230.0" x2="477.9" y2="230.0" stroke="#94a3b8" stroke-width="3.2"/>
+<circle cx="341.3" cy="230.0" r="6.5" fill="#0d9488" stroke="#ffffff" stroke-width="1.0"/>
+<circle cx="477.9" cy="230.0" r="6.5" fill="#dc2626" stroke="#ffffff" stroke-width="1.0"/>
+<rect x="560.0" y="219.0" width="62.0" height="22.0" fill="#475569" rx="5.0" />
+<text x="591.0" y="234.0" font-size="11" fill="#ffffff" font-weight="bold" text-anchor="middle" >-33.5%</text>
+<text x="54.0" y="277.0" font-size="11.5" fill="#111827" font-weight="normal" text-anchor="start" >No Mall (0 malls)</text>
+<text x="54.0" y="289.0" font-size="9.5" fill="#6b7280" font-weight="normal" text-anchor="start" >59 cams · bus 0.13</text>
+<line x1="309.6" y1="274.0" x2="401.2" y2="274.0" stroke="#94a3b8" stroke-width="3.2"/>
+<circle cx="309.6" cy="274.0" r="6.5" fill="#0d9488" stroke="#ffffff" stroke-width="1.0"/>
+<circle cx="401.2" cy="274.0" r="6.5" fill="#dc2626" stroke="#ffffff" stroke-width="1.0"/>
+<rect x="560.0" y="263.0" width="62.0" height="22.0" fill="#475569" rx="5.0" />
+<text x="591.0" y="278.0" font-size="11" fill="#ffffff" font-weight="bold" text-anchor="middle" >-27.7%</text>
+<text x="54.0" y="321.0" font-size="11.5" fill="#111827" font-weight="normal" text-anchor="start" >Near BTS/MRT (&gt;=1 rail)</text>
+<text x="54.0" y="333.0" font-size="9.5" fill="#6b7280" font-weight="normal" text-anchor="start" >39 cams · bus 0.34</text>
+<line x1="404.7" y1="318.0" x2="482.0" y2="318.0" stroke="#94a3b8" stroke-width="3.2"/>
+<circle cx="404.7" cy="318.0" r="6.5" fill="#0d9488" stroke="#ffffff" stroke-width="1.0"/>
+<circle cx="482.0" cy="318.0" r="6.5" fill="#dc2626" stroke="#ffffff" stroke-width="1.0"/>
+<rect x="560.0" y="307.0" width="62.0" height="22.0" fill="#475569" rx="5.0" />
+<text x="591.0" y="322.0" font-size="11" fill="#ffffff" font-weight="bold" text-anchor="middle" >-18.8%</text>
+<text x="54.0" y="365.0" font-size="11.5" fill="#111827" font-weight="normal" text-anchor="start" >No Rail within 500m</text>
+<text x="54.0" y="377.0" font-size="9.5" fill="#6b7280" font-weight="normal" text-anchor="start" >61 cams · bus 0.17</text>
+<line x1="299.6" y1="362.0" x2="404.9" y2="362.0" stroke="#94a3b8" stroke-width="3.2"/>
+<circle cx="299.6" cy="362.0" r="6.5" fill="#0d9488" stroke="#ffffff" stroke-width="1.0"/>
+<circle cx="404.9" cy="362.0" r="6.5" fill="#dc2626" stroke="#ffffff" stroke-width="1.0"/>
+<rect x="560.0" y="351.0" width="62.0" height="22.0" fill="#475569" rx="5.0" />
+<text x="591.0" y="366.0" font-size="11" fill="#ffffff" font-weight="bold" text-anchor="middle" >-31.5%</text>
+<text x="54.0" y="409.0" font-size="11.5" fill="#111827" font-weight="normal" text-anchor="start" >Near Hospital (&gt;=1 hosp)</text>
+<text x="54.0" y="421.0" font-size="9.5" fill="#6b7280" font-weight="normal" text-anchor="start" >51 cams · bus 0.31</text>
+<line x1="389.9" y1="406.0" x2="483.1" y2="406.0" stroke="#94a3b8" stroke-width="3.2"/>
+<circle cx="389.9" cy="406.0" r="6.5" fill="#0d9488" stroke="#ffffff" stroke-width="1.0"/>
+<circle cx="483.1" cy="406.0" r="6.5" fill="#dc2626" stroke="#ffffff" stroke-width="1.0"/>
+<rect x="560.0" y="395.0" width="62.0" height="22.0" fill="#475569" rx="5.0" />
+<text x="591.0" y="410.0" font-size="11" fill="#ffffff" font-weight="bold" text-anchor="middle" >-22.5%</text>
+<text x="54.0" y="453.0" font-size="11.5" fill="#111827" font-weight="normal" text-anchor="start" >School-Heavy (&gt;=3 schools)</text>
+<text x="54.0" y="465.0" font-size="9.5" fill="#6b7280" font-weight="normal" text-anchor="start" >36 cams · bus 0.18</text>
+<line x1="305.7" y1="450.0" x2="343.2" y2="450.0" stroke="#94a3b8" stroke-width="3.2"/>
+<circle cx="305.7" cy="450.0" r="6.5" fill="#0d9488" stroke="#ffffff" stroke-width="1.0"/>
+<circle cx="343.2" cy="450.0" r="6.5" fill="#dc2626" stroke="#ffffff" stroke-width="1.0"/>
+<rect x="560.0" y="439.0" width="62.0" height="22.0" fill="#475569" rx="5.0" />
+<text x="591.0" y="454.0" font-size="11" fill="#ffffff" font-weight="bold" text-anchor="middle" >-13.8%</text>
+<text x="54.0" y="497.0" font-size="11.5" fill="#111827" font-weight="normal" text-anchor="start" >4+ Way Intersection</text>
+<text x="54.0" y="509.0" font-size="9.5" fill="#6b7280" font-weight="normal" text-anchor="start" >50 cams · bus 0.19</text>
+<line x1="348.0" y1="494.0" x2="448.8" y2="494.0" stroke="#94a3b8" stroke-width="3.2"/>
+<circle cx="348.0" cy="494.0" r="6.5" fill="#0d9488" stroke="#ffffff" stroke-width="1.0"/>
+<circle cx="448.8" cy="494.0" r="6.5" fill="#dc2626" stroke="#ffffff" stroke-width="1.0"/>
+<rect x="560.0" y="483.0" width="62.0" height="22.0" fill="#475569" rx="5.0" />
+<text x="591.0" y="498.0" font-size="11" fill="#ffffff" font-weight="bold" text-anchor="middle" >-26.6%</text>
+<rect x="656.0" y="92.0" width="548.0" height="480.0" fill="#ffffff" stroke="#e2dfd7" stroke-width="1.4" rx="10.0" />
+<text x="676.0" y="120.0" font-size="15" fill="#111827" font-weight="bold" text-anchor="start" >B. Bangkok&#x27;s Dual Identity &amp; Evening Rain Moto Exodus</text>
+<text x="676.0" y="139.0" font-size="11" fill="#6b7280" font-weight="normal" text-anchor="start" >Morning 34.2% moto commuter wave vs weekend midday car takeover (+6.6%)</text>
+<line x1="710.0" y1="395.0" x2="1180.0" y2="395.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="704.0" y="399.0" font-size="10.5" fill="#6b7280" font-weight="normal" text-anchor="end" >0</text>
+<line x1="710.0" y1="348.1" x2="1180.0" y2="348.1" stroke="#e5e7eb" stroke-width="1"/>
+<text x="704.0" y="352.1" font-size="10.5" fill="#6b7280" font-weight="normal" text-anchor="end" >5</text>
+<line x1="710.0" y1="301.2" x2="1180.0" y2="301.2" stroke="#e5e7eb" stroke-width="1"/>
+<text x="704.0" y="305.2" font-size="10.5" fill="#6b7280" font-weight="normal" text-anchor="end" >10</text>
+<line x1="710.0" y1="254.4" x2="1180.0" y2="254.4" stroke="#e5e7eb" stroke-width="1"/>
+<text x="704.0" y="258.4" font-size="10.5" fill="#6b7280" font-weight="normal" text-anchor="end" >15</text>
+<line x1="710.0" y1="207.5" x2="1180.0" y2="207.5" stroke="#e5e7eb" stroke-width="1"/>
+<text x="704.0" y="211.5" font-size="10.5" fill="#6b7280" font-weight="normal" text-anchor="end" >20</text>
+<rect x="731.8" y="292.8" width="34.0" height="102.2" fill="#2563eb" />
+<rect x="731.8" y="237.6" width="34.0" height="55.2" fill="#ea580c" />
+<rect x="731.8" y="234.7" width="34.0" height="2.9" fill="#0d9488" />
+<text x="748.8" y="229.7" font-size="10" fill="#111827" font-weight="bold" text-anchor="middle" >17.2</text>
+<text x="748.8" y="408.0" font-size="9.5" fill="#4b5563" font-weight="normal" text-anchor="middle" >WD</text>
+<rect x="771.8" y="334.8" width="34.0" height="60.2" fill="#60a5fa" />
+<rect x="771.8" y="310.9" width="34.0" height="23.9" fill="#fb923c" />
+<rect x="771.8" y="309.5" width="34.0" height="1.4" fill="#0d9488" />
+<text x="788.8" y="304.5" font-size="10" fill="#111827" font-weight="bold" text-anchor="middle" >9.2</text>
+<text x="788.8" y="408.0" font-size="9.5" fill="#4b5563" font-weight="normal" text-anchor="middle" >WE</text>
+<text x="768.8" y="423.0" font-size="11" fill="#111827" font-weight="bold" text-anchor="middle" >Morning</text>
+<rect x="849.2" y="292.2" width="34.0" height="102.8" fill="#2563eb" />
+<rect x="849.2" y="249.7" width="34.0" height="42.6" fill="#ea580c" />
+<rect x="849.2" y="247.2" width="34.0" height="2.5" fill="#0d9488" />
+<text x="866.2" y="242.2" font-size="10" fill="#111827" font-weight="bold" text-anchor="middle" >15.9</text>
+<text x="866.2" y="408.0" font-size="9.5" fill="#4b5563" font-weight="normal" text-anchor="middle" >WD</text>
+<rect x="889.2" y="285.5" width="34.0" height="109.5" fill="#60a5fa" />
+<rect x="889.2" y="250.9" width="34.0" height="34.6" fill="#fb923c" />
+<rect x="889.2" y="248.6" width="34.0" height="2.3" fill="#0d9488" />
+<text x="906.2" y="243.6" font-size="10" fill="#111827" font-weight="bold" text-anchor="middle" >15.7</text>
+<text x="906.2" y="408.0" font-size="9.5" fill="#4b5563" font-weight="normal" text-anchor="middle" >WE</text>
+<text x="886.2" y="423.0" font-size="11" fill="#111827" font-weight="bold" text-anchor="middle" >Midday</text>
+<rect x="966.8" y="263.9" width="34.0" height="131.1" fill="#2563eb" />
+<rect x="966.8" y="208.4" width="34.0" height="55.5" fill="#ea580c" />
+<rect x="966.8" y="205.7" width="34.0" height="2.7" fill="#0d9488" />
+<text x="983.8" y="200.7" font-size="10" fill="#111827" font-weight="bold" text-anchor="middle" >20.3</text>
+<text x="983.8" y="408.0" font-size="9.5" fill="#4b5563" font-weight="normal" text-anchor="middle" >WD</text>
+<rect x="1006.8" y="282.9" width="34.0" height="112.1" fill="#60a5fa" />
+<rect x="1006.8" y="244.4" width="34.0" height="38.4" fill="#fb923c" />
+<rect x="1006.8" y="242.7" width="34.0" height="1.8" fill="#0d9488" />
+<text x="1023.8" y="237.7" font-size="10" fill="#111827" font-weight="bold" text-anchor="middle" >16.3</text>
+<text x="1023.8" y="408.0" font-size="9.5" fill="#4b5563" font-weight="normal" text-anchor="middle" >WE</text>
+<text x="1003.8" y="423.0" font-size="11" fill="#111827" font-weight="bold" text-anchor="middle" >Evening</text>
+<rect x="1084.2" y="309.1" width="34.0" height="85.9" fill="#2563eb" />
+<rect x="1084.2" y="271.5" width="34.0" height="37.6" fill="#ea580c" />
+<rect x="1084.2" y="269.8" width="34.0" height="1.7" fill="#0d9488" />
+<text x="1101.2" y="264.8" font-size="10" fill="#111827" font-weight="bold" text-anchor="middle" >13.4</text>
+<text x="1101.2" y="408.0" font-size="9.5" fill="#4b5563" font-weight="normal" text-anchor="middle" >WD</text>
+<rect x="1124.2" y="334.2" width="34.0" height="60.8" fill="#60a5fa" />
+<rect x="1124.2" y="312.6" width="34.0" height="21.6" fill="#fb923c" />
+<rect x="1124.2" y="311.7" width="34.0" height="0.9" fill="#0d9488" />
+<text x="1141.2" y="306.7" font-size="10" fill="#111827" font-weight="bold" text-anchor="middle" >9.0</text>
+<text x="1141.2" y="408.0" font-size="9.5" fill="#4b5563" font-weight="normal" text-anchor="middle" >WE</text>
+<text x="1121.2" y="423.0" font-size="11" fill="#111827" font-weight="bold" text-anchor="middle" >Night</text>
+<rect x="676.0" y="438.0" width="508.0" height="114.0" fill="#f0f9ff" stroke="#7dd3fc" stroke-width="1.4" rx="8.0" />
+<text x="690.0" y="460.0" font-size="12" fill="#0c4a6e" font-weight="bold" text-anchor="start" >Open-Meteo Evening Rush (17:00–18:59): Rain Drops Motorcycles by 31.9%</text>
+<text x="690.0" y="479.0" font-size="11" fill="#111827" font-weight="normal" text-anchor="start" >Dry Evening (n=110): 13.92 cars · 6.42 motorcycles (31.0% share)</text>
+<text x="690.0" y="497.0" font-size="11" fill="#111827" font-weight="normal" text-anchor="start" >Wet Evening (n=115): 12.84 cars · 4.37 motorcycles (25.0% share)</text>
+<text x="690.0" y="517.0" font-size="11" fill="#2563eb" font-weight="bold" text-anchor="start" >Human-verified motorcycle shift = -2.06/frame (95% CI -3.30 to -0.77) — zero detector bias!</text>
+<text x="690.0" y="536.0" font-size="10.5" fill="#4b5563" font-weight="normal" text-anchor="start" >Cars change -7.8% while motorcycles flee rain (-31.9%), explaining city-wide wet-evening patterns.</text>
+<text x="36.0" y="600.0" font-size="10.5" fill="#6b7280" font-weight="normal" text-anchor="start" >Source: Golden hand counts (n = 891), OSM POIs (osm_pois.json), Open-Meteo Archive Aug 2026 (open_meteo_aug2026.json).</text>
+</svg>

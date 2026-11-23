@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-11-23T07:00:24+00:00",
+  "cameras": 100,
+  "sources": {
+    "open_meteo_aug2026": {
+      "status": "fetched_live",
+      "path": "data\\raw\\external\\open_meteo_aug2026.json",
+      "records": 11,
+      "updated_at": "2026-11-23T07:00:28+00:00",
+      "error": null
+    },
+    "elevation_100cams": {
+      "status": "fetched_live",
+      "path": "data\\raw\\external\\elevation_100cams.json",
+      "records": 100,
+      "updated_at": "2026-11-23T07:00:30+00:00",
+      "error": null
+    },
+    "osm_extended": {
+      "status": "unavailable",
+      "path": "data\\raw\\external\\osm_extended.json",
+      "records": 0,
+      "updated_at": "2026-11-23T07:02:34+00:00",
+      "error": "https://overpass-api.de/api/interpreter: HTTPError: HTTP Error 502: Bad Gateway; https://overpass.kumi.systems/api/interpreter: TimeoutError: The read operation timed out; https://overpass.private.coffee/api/interpreter: TimeoutError: The read operation timed out"
+    },
+    "traffy_bangkok": {
+      "status": "unavailable",
+      "path": "data\\raw\\external\\traffy_bangkok.json",
+      "records": 0,
+      "updated_at": "2026-11-23T07:03:09+00:00",
+      "error": "TimeoutError: The read operation timed out"
+    }
+  }
+}
