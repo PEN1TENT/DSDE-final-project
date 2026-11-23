@@ -15,33 +15,33 @@
   body { font-family: -apple-system, "Helvetica Neue", Arial, sans-serif; color: var(--ink); }
   .slide {
     width: 1280px; height: 720px; background: var(--surface); position: relative;
-    padding: 56px 72px 48px; overflow: hidden; page-break-after: always; break-after: page;
+    padding: 52px 72px 46px; overflow: hidden; page-break-after: always; break-after: page;
     margin: 0 auto 24px; display: flex; flex-direction: column;
   }
   @media print { html, body { background: none; } .slide { margin: 0; } }
-  .kicker { font-size: 15px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--blue); margin-bottom: 10px; }
+  .kicker { font-size: 15px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--blue); margin-bottom: 8px; }
   h1 { font-size: 40px; line-height: 1.15; font-weight: 700; letter-spacing: -.01em; }
-  h2 { font-size: 32px; line-height: 1.2; font-weight: 700; margin-bottom: 26px; letter-spacing: -.01em; }
+  h2 { font-size: 31px; line-height: 1.2; font-weight: 700; margin-bottom: 22px; letter-spacing: -.01em; }
   h3 { font-size: 19px; font-weight: 700; margin-bottom: 8px; }
-  p, li { font-size: 20px; line-height: 1.45; color: var(--ink2); }
+  p, li { font-size: 19.5px; line-height: 1.44; color: var(--ink2); }
   ul { padding-left: 24px; }
   li { margin-bottom: 10px; }
   li::marker { color: var(--muted); }
   b, strong { color: var(--ink); }
   .num { font-variant-numeric: tabular-nums; }
-  .page { position: absolute; right: 40px; bottom: 22px; font-size: 13px; color: var(--muted); }
-  .foot { position: absolute; left: 72px; bottom: 22px; font-size: 13px; color: var(--muted); }
-  .row { display: flex; gap: 40px; flex: 1; min-height: 0; }
+  .page { position: absolute; right: 40px; bottom: 20px; font-size: 13px; color: var(--muted); }
+  .foot { position: absolute; left: 72px; bottom: 20px; font-size: 13px; color: var(--muted); }
+  .row { display: flex; gap: 36px; flex: 1; min-height: 0; }
   .col { flex: 1; min-width: 0; display: flex; flex-direction: column; }
   .fig { width: 100%; height: 100%; object-fit: contain; object-position: center top; min-height: 0; }
   .figbox { flex: 1; min-height: 0; display: flex; }
   .cap { font-size: 14px; color: var(--muted); margin-top: 6px; }
   .card { background: var(--card); border-radius: 12px; padding: 18px 22px; }
-  .stats { display: flex; gap: 18px; margin-bottom: 28px; }
+  .stats { display: flex; gap: 18px; margin-bottom: 24px; }
   .stat { flex: 1; background: var(--card); border-radius: 12px; padding: 16px 20px; }
-  .stat .v { font-size: 38px; font-weight: 700; letter-spacing: -.02em; }
-  .stat .l { font-size: 15px; color: var(--ink2); margin-top: 2px; }
-  table { border-collapse: collapse; width: 100%; font-size: 17px; }
+  .stat .v { font-size: 36px; font-weight: 700; letter-spacing: -.02em; }
+  .stat .l { font-size: 14.5px; color: var(--ink2); margin-top: 3px; line-height: 1.35; }
+  table { border-collapse: collapse; width: 100%; font-size: 16.5px; }
   th { text-align: left; font-size: 13px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); font-weight: 600; padding: 0 12px 8px 0; border-bottom: 1px solid var(--line); }
   td { padding: 11px 12px 11px 0; border-bottom: 1px solid var(--line); color: var(--ink2); vertical-align: top; line-height: 1.35; }
   td:first-child { color: var(--ink); font-weight: 600; }
@@ -50,6 +50,15 @@
   .pill.o { background: #fbe9e1; color: #c24f1f; }
   .pill.g { background: #ddf3ea; color: #12875d; }
   .big { font-size: 64px; font-weight: 800; letter-spacing: -.03em; line-height: 1; }
+
+  /* wide 2-panel chart + 3 takeaway cards */
+  .wide-h2 { margin-bottom: 12px; font-size: 29px; }
+  .widefig { flex: 1; min-height: 0; display: flex; align-items: center; justify-content: center; }
+  .widefig img { max-width: 100%; max-height: 100%; object-fit: contain; }
+  .takeaways { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 12px; flex: 0 0 auto; }
+  .takeaways .card { padding: 14px 18px; }
+  .takeaways .card h3 { font-size: 16px; margin-bottom: 4px; }
+  .takeaways .card p { font-size: 14.5px; line-height: 1.38; }
 
   /* title */
   .title { background: #10161f; color: #fff; justify-content: center; padding: 72px 88px; }
@@ -66,32 +75,31 @@
   /* section divider */
   .divider { background: #10161f; justify-content: center; }
   .divider h1 { color: #fff; font-size: 48px; }
-  .divider p { color: #b9c2cf; margin-top: 14px; font-size: 22px; max-width: 860px; }
+  .divider p { color: #b9c2cf; margin-top: 14px; font-size: 22px; max-width: 900px; }
   .divider .kicker { color: #7fb2ef; }
   .divider .page { color: #6b778a; }
 
   /* architecture diagram */
-  .arch { display: grid; grid-template-columns: 210px 34px 1fr 34px 210px; align-items: stretch; flex: 1; min-height: 0; }
-  .lane { display: flex; flex-direction: column; gap: 10px; }
-  .lane-t { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin-bottom: 2px; }
-  .box { border: 1.5px solid var(--line); background: #fff; border-radius: 10px; padding: 9px 12px; font-size: 15px; line-height: 1.3; color: var(--ink2); }
-  .box b { display: block; font-size: 16px; color: var(--ink); }
+  .arch { display: grid; grid-template-columns: 210px 32px 1fr 32px 210px; align-items: stretch; flex: 1; min-height: 0; }
+  .lane { display: flex; flex-direction: column; gap: 9px; }
+  .lane-t { font-size: 12.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin-bottom: 2px; }
+  .box { border: 1.5px solid var(--line); background: #fff; border-radius: 10px; padding: 8px 12px; font-size: 14px; line-height: 1.28; color: var(--ink2); }
+  .box b { display: block; font-size: 15.5px; color: var(--ink); margin-bottom: 1px; }
   .box.src { border-color: #b8d1f0; background: #f2f7fd; }
   .box.de { border-color: #c7e9da; background: #f1faf6; }
   .box.ds { border-color: #f4cdbd; background: #fdf4f0; }
   .box.bi { border-color: #d6c8f0; background: #f6f2fd; }
   .lane > .box.src { flex: 1; display: flex; flex-direction: column; justify-content: center; }
-  .de-grid { flex: 1; grid-auto-rows: 1fr; }
-  .arrow { display: flex; align-items: center; justify-content: center; font-size: 26px; color: var(--muted); }
-  .de-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-  .orch { margin-top: 10px; border: 1.5px dashed var(--aqua); border-radius: 10px; padding: 8px 12px; font-size: 14.5px; color: #12875d; }
-  .flow { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; font-size: 14px; color: var(--ink2); margin-top: 6px; }
-  .flow span { background: #fff; border: 1px solid #c7e9da; padding: 3px 9px; border-radius: 6px; }
+  .de-grid { flex: 1; grid-auto-rows: 1fr; display: grid; grid-template-columns: 1fr 1fr; gap: 9px; }
+  .arrow { display: flex; align-items: center; justify-content: center; font-size: 24px; color: var(--muted); }
+  .orch { margin-top: 9px; border: 1.5px dashed var(--aqua); border-radius: 10px; padding: 8px 12px; font-size: 13.5px; color: #12875d; }
+  .flow { display: flex; align-items: center; gap: 4px; flex-wrap: wrap; font-size: 12px; color: var(--ink2); margin-top: 6px; }
+  .flow span { background: #fff; border: 1px solid #c7e9da; padding: 2px 6px; border-radius: 5px; }
   .flow i { color: var(--muted); font-style: normal; }
 
   .formula { font-family: "SF Mono", Menlo, monospace; font-size: 18px; background: #10161f; color: #e9eef5; padding: 18px 22px; border-radius: 10px; line-height: 1.6; margin: 6px 0 18px; }
   .formula em { color: #7fb2ef; font-style: normal; }
-  .callout { border-left: 4px solid var(--orange); padding: 10px 16px; background: #fdf4f0; border-radius: 0 10px 10px 0; font-size: 18px; color: var(--ink2); line-height: 1.45; }
+  .callout { border-left: 4px solid var(--orange); padding: 10px 16px; background: #fdf4f0; border-radius: 0 10px 10px 0; font-size: 17.5px; color: var(--ink2); line-height: 1.42; }
   .callout.b { border-color: var(--blue); background: #f2f7fd; }
   .shot { border-radius: 10px; border: 1px solid var(--line); width: 100%; height: 100%; object-fit: cover; object-position: left top; }
 </style>
@@ -107,7 +115,7 @@
   <div class="inner">
     <div class="kicker">2110403 DSDE · Final project 2026/1</div>
     <h1>Does rain make Bangkok roads look more congested?</h1>
-    <p style="margin-top:18px">A one-week study of 61,143 CCTV snapshots from 100 BMA traffic cameras</p>
+    <p style="margin-top:18px">A one-week study of 61,319 CCTV snapshots (60,053 audited) from 100 BMA traffic cameras</p>
     <div class="meta">
       <div><span>Group</span>Jarn Touz</div>
       <div><span>Members</span>[name 1] · [name 2] · [name 3]<br>[name 4] · [name 5] · [name 6]</div>
@@ -118,17 +126,17 @@
 <!-- 2 Answer first -->
 <section class="slide">
   <div class="kicker">The short answer</div>
-  <h2>Heavy rain comes with about 4% more vehicles in view, during the downpour only</h2>
+  <h2>Heavy rain adds +5.6 pts of vehicles — and auditing the feeds unlocks 5 insights</h2>
   <div class="stats">
-    <div class="stat"><div class="v num">+3.7 pts</div><div class="l">heavy rain (&gt;5 mm/h) vs dry hours, same camera &amp; hour</div></div>
-    <div class="stat"><div class="v num">+2.5 to +4.9</div><div class="l">range when any one day is left out</div></div>
-    <div class="stat"><div class="v num">0</div><div class="l">effect from rain 1–2 hours earlier</div></div>
-    <div class="stat"><div class="v num">37% → 100%</div><div class="l">vehicles found by detector, first run → calibrated</div></div>
+    <div class="stat"><div class="v num">+5.6 pts</div><div class="l">heavy rain (&gt;5 mm/h) vs dry hours, same camera &amp; hour</div></div>
+    <div class="stat"><div class="v num">1,086</div><div class="l">corrupted frames removed: 507 blank + 579 frozen</div></div>
+    <div class="stat"><div class="v num">7 / 21</div><div class="l">co-located pairs with AM↔PM tidal flip (FDR q &lt; 0.05)</div></div>
+    <div class="stat"><div class="v num">≤ 1 km</div><div class="l">local spatial spillover radius (Mantel p = 0.0005)</div></div>
   </div>
   <ul>
-    <li><b>Light rain</b> comes with slightly <i>fewer</i> vehicles (about −2%), close to zero.</li>
-    <li>The apparent <b>drop on wet evenings</b> comes from one day (Mon 31 Aug); without it the sign flips.</li>
-    <li>Much of the work was making the counts trustworthy: <b>1,000 frames counted by hand</b> to pick and correct the detector.</li>
+    <li><b>Traffic DNA (k=3)</b> splits Bangkok into all-day retail (n=44), morning-commute arterial (n=43), and evening-peak office (n=13) cameras (bootstrap ARI 0.92, OSM p = 0.011).</li>
+    <li><b>Only heavy rain in the same hour</b> raises counts (+6.6% vs +1.0% dry); signalized intersections (+10.1 pts) and surface roads (+6.6 pts) absorb the hit.</li>
+    <li><b>Trustworthy counts first:</b> 1,000 hand labels calibrated the detector, and feed audit isolated Monday 31 Aug's citywide evening anomaly (−17.8%).</li>
   </ul>
   <div class="page">2</div>
 </section>
@@ -138,27 +146,27 @@
   <div class="kicker">1 · Data</div>
   <h2>One CCTV dataset plus three outside sources and our own labels</h2>
   <table>
-    <tr><th style="width:230px">Source</th><th style="width:220px">How we got it</th><th>What it adds</th></tr>
-    <tr><td>BMA CCTV images</td><td>Provided (scraped)</td><td>100 cameras, 25–31 Aug 2026, ~1 image / 10 min, 352×288 px, ~611 images per camera</td></tr>
-    <tr><td>Open-Meteo archive</td><td>REST API</td><td>Hourly modelled rainfall at each camera's coordinates → rain level per snapshot</td></tr>
-    <tr><td>OpenStreetMap</td><td>Overpass API (QL)</td><td>Nearest road: class, lanes, speed limit, one-way; schools, hospitals, malls, rail stations within 500 m</td></tr>
+    <tr><th style="width:230px">Source</th><th style="width:210px">How we got it</th><th>What it adds</th></tr>
+    <tr><td>BMA CCTV images</td><td>Provided (scraped)</td><td>100 cameras, 25–31 Aug 2026, 61,319 raw → 60,053 audited snapshots (~1 / 10 min, 352×288 px)</td></tr>
+    <tr><td>Open-Meteo archive</td><td>REST API</td><td>Hourly modelled rainfall at each camera's coordinates → rain level per snapshot (lag 0, 1 h, 2 h)</td></tr>
+    <tr><td>OpenStreetMap</td><td>Overpass API (QL)</td><td>Nearest road: class, lanes, speed limit, one-way, bridge; traffic signals (100 m / 500 m), schools, hospitals, malls, rail stations &amp; bus stops within 500 m</td></tr>
     <tr><td>sunrise-sunset.org</td><td>REST API</td><td>Sunrise, sunset, civil twilight per day → day / twilight / night label per snapshot</td></tr>
-    <tr><td>Team hand labels</td><td>Our labelling web app</td><td>1,000 frames counted by 5 people (199 counted twice) → ground truth for the detector</td></tr>
+    <tr><td>Team hand labels</td><td>Our labelling web app</td><td>1,000 frames counted by 5 people (199 counted twice) → ground truth for detector selection &amp; calibration</td></tr>
   </table>
-  <p style="margin-top:20px; font-size:17px">All API responses are cached in <code>data/raw/external/</code>, so the whole pipeline re-runs offline.</p>
+  <p style="margin-top:18px; font-size:17px">All API responses are cached in <code>data/raw/external/</code>, so the whole 12-step pipeline re-runs offline.</p>
   <div class="page">3</div>
 </section>
 
 <!-- 4 Architecture -->
 <section class="slide">
   <div class="kicker">2 · How the components connect</div>
-  <h2 style="margin-bottom:18px">From raw images to a dashboard in one command</h2>
+  <h2 style="margin-bottom:14px">From raw images to insight models &amp; an 8-tab dashboard in one command</h2>
   <div class="arch">
     <div class="lane">
       <div class="lane-t">Sources</div>
-      <div class="box src"><b>CCTV images</b>61k JPEGs, 100 cameras</div>
-      <div class="box src"><b>Open-Meteo</b>hourly rain</div>
-      <div class="box src"><b>OpenStreetMap</b>road context</div>
+      <div class="box src"><b>CCTV images</b>61.3k JPEGs, 100 cams</div>
+      <div class="box src"><b>Open-Meteo</b>hourly rain grid</div>
+      <div class="box src"><b>OpenStreetMap</b>roads, signals, POIs</div>
       <div class="box src"><b>sunrise-sunset</b>light phase</div>
       <div class="box src"><b>Hand labels</b>1,000 frames</div>
     </div>
@@ -166,22 +174,22 @@
     <div class="lane">
       <div class="lane-t">Component 1 · Data engineering &nbsp;<span style="color:#c24f1f">· Component 2 · Data science</span></div>
       <div class="de-grid">
-        <div class="box de"><b>inventory</b>timestamps, readability, brightness, frozen-frame flag</div>
+        <div class="box de"><b>inventory &amp; audit</b>timestamps, blank/whiteout &amp; watermark-frozen feed check</div>
         <div class="box de"><b>detect</b>YOLO11-L vehicle boxes &amp; counts per class</div>
         <div class="box de"><b>weather · osm · daylight</b>fetch, cache, join to camera &amp; hour</div>
-        <div class="box de"><b>mart</b>clean tables for the dashboard</div>
-        <div class="box ds"><b>bake-off &amp; evaluate</b>pick detector, measure error vs hand counts</div>
-        <div class="box ds"><b>rain</b>calibrate, excess over usual, bootstrap CIs</div>
+        <div class="box de"><b>mart</b>clean parquet tables for dashboard &amp; insights</div>
+        <div class="box ds"><b>bake-off &amp; rain</b>calibration, excess over usual, DiD &amp; LODO checks</div>
+        <div class="box ds"><b>dna · shocks · insights</b>clustering, |z|≥2.5 shocks, tidal flow, Mantel sync</div>
       </div>
-      <div class="orch"><b>cctv.pipeline</b> runs the steps in order and skips any whose outputs are newer than their inputs
-        <div class="flow"><span>inventory</span><i>→</i><span>detect</span><i>→</i><span>weather</span><i>→</i><span>osm</span><i>→</i><span>daylight</span><i>→</i><span>rain</span><i>→</i><span>charts</span><i>→</i><span>mart</span></div>
+      <div class="orch"><b>cctv.pipeline</b> runs 12 incremental steps in order and skips any whose outputs are newer than their inputs
+        <div class="flow"><span>inventory</span><i>→</i><span>audit</span><i>→</i><span>detect</span><i>→</i><span>weather</span><i>→</i><span>osm</span><i>→</i><span>daylight</span><i>→</i><span>rain</span><i>→</i><span>dna</span><i>→</i><span>shocks</span><i>→</i><span>insights</span><i>→</i><span>charts</span><i>→</i><span>mart</span></div>
       </div>
     </div>
     <div class="arrow">→</div>
     <div class="lane">
       <div class="lane-t">Component 3 &amp; 4</div>
-      <div class="box bi" style="flex:1"><b>Streamlit dashboard</b>overview · camera map · rain vs congestion · road context · camera explorer</div>
-      <div class="box bi" style="flex:1"><b>Insights</b>report + charts: rain effect, timing, robustness</div>
+      <div class="box bi" style="flex:1"><b>8-tab Streamlit dashboard</b>overview · map · rain · OSM · DNA · corridors · audit · explorer</div>
+      <div class="box bi" style="flex:1"><b>Insights</b>8 figures + report: DNA, rain DiD, tidal pairs, spillover, shocks</div>
     </div>
   </div>
   <div class="page">4</div>
@@ -189,22 +197,21 @@
 
 <!-- 5 DE -->
 <section class="slide">
-  <div class="kicker">Component 1 · Data engineering</div>
-  <h2>Cleaning the images before counting anything</h2>
+  <div class="kicker">Component 1 · Data engineering &amp; feed audit</div>
+  <h2>Two-stage image auditing catches corrupted feeds missed by MD5 hashes</h2>
   <div class="row">
     <div class="col">
       <ul>
-        <li><b>Timestamps</b> parsed from the filename, then EXIF; images with neither kept and flagged.</li>
-        <li><b>Frozen frames</b> (camera stuck on the same picture) detected and removed.</li>
-        <li><b>Readability, brightness, sharpness</b> stored per image, so dark or blurred frames can be filtered.</li>
-        <li>Camera/hour cells with <b>fewer than 3 snapshots</b> dropped before comparing.</li>
-        <li>Outside data joined on <b>camera location + hour</b>; road attributes on the nearest OSM way.</li>
+        <li><b>Timestamps</b> parsed from the filename, then EXIF; camera/hour cells with <b>&lt; 3 snapshots</b> dropped.</li>
+        <li><b>Stage-1 Feed Audit</b> removed <b>1,086 bad frames</b> from 61,319: <b>507 blank</b> (504 morning whiteouts) + <b>579 frozen</b> whose moving watermark tricked MD5 (center MAD &lt; 1.0).</li>
+        <li><b>Audit payoff:</b> cleaned heavy-rain gap strengthens from <b>+3.7 → +5.6 pts</b>, DNA ARI improves <b>0.85 → 0.92</b>, and Camera 206's weekend slump corrects cleanly (95 frozen frames dropped).</li>
+        <li><b>Outside data</b> joined on camera coordinates + hour; road attributes, bridges and signal proximity from OSM.</li>
       </ul>
     </div>
     <div class="col" style="gap:14px">
-      <div class="card"><h3>Reproducible</h3><p style="font-size:17px"><code>uv run python -m cctv.pipeline</code> rebuilds only what is out of date; <code>--dry-run</code> shows the plan.</p></div>
-      <div class="card"><h3>Resumable detection</h3><p style="font-size:17px">YOLO runs at ~10 images/s on an Apple GPU and picks up where it stopped.</p></div>
-      <div class="card"><h3>Tested</h3><p style="font-size:17px">20 pytest tests cover timestamp parsing, OSM road matching, light phases and the labelling app.</p></div>
+      <div class="card"><h3>Reproducible</h3><p style="font-size:16.5px"><code>uv run python -m cctv.pipeline</code> runs the 12-step DAG and rebuilds only what is out of date; <code>--dry-run</code> previews the plan.</p></div>
+      <div class="card"><h3>Resumable detection</h3><p style="font-size:16.5px">YOLO runs at ~10 images/s on an Apple GPU and resumes from checkpoints cleanly.</p></div>
+      <div class="card"><h3>Tested (30 tests)</h3><p style="font-size:16.5px">30 pytest tests cover timestamps, OSM, daylight, labelling, DNA stability, blank/frozen detection, shocks, DiD, tidal flips &amp; Mantel sync.</p></div>
     </div>
   </div>
   <div class="page">5</div>
@@ -269,9 +276,9 @@
   <h2>Compare each snapshot with what is usual for that camera and hour</h2>
   <div class="formula">excess = log(1 + count) − mean log(1 + count) in <em>(camera, hour, weekday/weekend)</em><br>exp(excess) − 1 ≈ “% above usual”</div>
   <div class="row" style="gap:24px">
-    <div class="card col"><h3>Why a baseline?</h3><p style="font-size:17px">Rush hour, camera zoom and road size differ far more than rain does. Subtracting the camera-hour mean removes them.</p></div>
-    <div class="card col"><h3>Rain levels</h3><p style="font-size:17px">dry · light 0.1–2 · moderate 2–5 · heavy &gt;5 mm/h, for the same hour and 1 or 2 hours before.</p></div>
-    <div class="card col"><h3>Honest uncertainty</h3><p style="font-size:17px">95% CIs from resampling whole camera-days, since snapshots from one camera on one day are not independent.</p></div>
+    <div class="card col"><h3>Why a zoom-free baseline?</h3><p style="font-size:16.5px">Rush hour, camera zoom and road size differ far more than rain does. Subtracting the camera-hour mean isolates within-camera shifts cleanly.</p></div>
+    <div class="card col"><h3>Rain levels &amp; timing</h3><p style="font-size:16.5px">dry · light 0.1–2 · moderate 2–5 · heavy &gt;5 mm/h, tested at lag 0 h, 1 h earlier, and 2 h earlier across OSM &amp; DNA groups.</p></div>
+    <div class="card col"><h3>Honest uncertainty</h3><p style="font-size:16.5px">2,000 camera-day cluster bootstraps (for rain &amp; DiD), 5,000 tidal / 2,000 Mantel &amp; day-block permutations, and Benjamini-Hochberg FDR.</p></div>
   </div>
   <div class="page">9</div>
 </section>
@@ -280,7 +287,7 @@
 <section class="slide divider">
   <div class="kicker">Component 4</div>
   <h1>What we found</h1>
-  <p>Traffic patterns first, then the rain effect and the checks behind it.</p>
+  <p>Traffic DNA archetypes, rain impact &amp; road vulnerability, tidal corridors, spatial spillover, and anomaly audit.</p>
   <div class="page">10</div>
 </section>
 
@@ -290,7 +297,7 @@
   <h2>Clear weekday rush hours; cars dominate what the cameras see</h2>
   <div class="row" style="gap:28px">
     <div class="col"><div class="figbox"><img class="fig" src="fig/hourly_profile.png" alt="Vehicles per frame by hour"></div>
-      <p style="font-size:16px; margin-top:8px">Weekday evening peak at <b>17:00</b> (~23 vehicles per frame), morning peak at 08:00. Weekends are lower and flatter.</p></div>
+      <p style="font-size:16px; margin-top:8px">Weekday evening peak at <b>17:00</b> (~23.0 vehicles/frame), morning peak at 08:00 (~19.1). Weekends are lower (−22%) and flatter.</p></div>
     <div class="col"><div class="figbox"><img class="fig" src="fig/vehicle_mix.png" alt="Detected vehicles by class"></div>
       <p style="font-size:16px; margin-top:8px">Motorcycles are under-detected (small, often hidden), which is why calibration is done per class.</p></div>
   </div>
@@ -304,69 +311,121 @@
   <div class="row" style="gap:28px">
     <div class="col" style="flex:1.25"><div class="figbox"><img class="fig" src="fig/weekend_map.png" alt="Map of weekend traffic as a share of weekday traffic per camera"></div></div>
     <div class="col">
-      <div class="figbox" style="flex:0 0 auto; height:230px"><img class="fig" src="fig/weekend_by_mall.png" alt="Weekend share by number of malls nearby"></div>
-      <ul style="font-size:16px; margin-top:14px">
-        <li>Weekends carry <b>about a quarter less</b> traffic (−23%). The 06–08 commute peak is gone; middays are as busy as weekdays.</li>
-        <li>Cameras with 3+ malls nearby keep <b>80%</b> vs <b>72%</b> with none (permutation p ≈ 0.01).</li>
-        <li>Sathorn offices keep only <b>19%</b>; Phra Athit and Sao Chingcha in the old town keep <b>98–106%</b>.</li>
+      <div class="figbox" style="flex:0 0 auto; height:225px"><img class="fig" src="fig/weekend_by_mall.png" alt="Weekend share by number of malls nearby"></div>
+      <ul style="font-size:16px; margin-top:12px">
+        <li>Weekends carry <b>22% less</b> traffic (13.1 vs 16.7 vehicles/frame). The 06–08 commute peak vanishes; middays match weekdays.</li>
+        <li>Cameras with 3+ malls nearby keep <b>81%</b> vs <b>72%</b> with none (permutation <b>p = 0.005</b>).</li>
+        <li>Narathiwas &amp; Sathorn offices keep <b>35–38%</b> and Chitralada <b>39%</b>; Phra Athit keeps <b>117%</b> and Pratunam <b>100%</b>.</li>
       </ul>
-      <div class="callout b" style="font-size:14px">One weekend only. Compared hour by hour, so missing hours don't bias a camera.</div>
+      <div class="callout b" style="font-size:14px">One weekend only. Compared hour by hour after removing 95 frozen frames on Cam 206.</div>
     </div>
   </div>
   <div class="page">12</div>
 </section>
 
-<!-- 13 Rain levels -->
+<!-- 13 NEW: Finding 1 - Traffic DNA -->
 <section class="slide">
-  <div class="kicker">Finding 1 · Rain level and timing</div>
+  <div class="kicker">Finding 1 · Traffic DNA clustering</div>
+  <h2 class="wide-h2">Unsupervised rhythms split Bangkok into 3 distinct road archetypes</h2>
+  <div class="widefig"><img src="../figures/traffic_dna.png" alt="Traffic DNA clusters and external OSM validation"></div>
+  <div class="takeaways">
+    <div class="card"><h3>All-day retail (n=44)</h3><p>Keeps <b>86%</b> weekend volume (77% on weekend mornings). Highest mall density (<b>3.02</b> / 500 m) and dense urban core POIs (4.89).</p></div>
+    <div class="card"><h3>Commute arterials (n=43 + 13)</h3><p><b>Morning arterials (n=43)</b> peak at 07–08 h (1.15×) in lower-POI corridors (2.58). <b>Evening/office (n=13)</b> surge 1.45× at PM near hospitals (1.92).</p></div>
+    <div class="card"><h3>Validated structure &amp; land use</h3><p>k=3 structure is non-random (<b>R²=0.44, p=0.003, ARI=0.92</b>); held-out OSM <code>urban_core_pois</code> differs across clusters (<b>KW H=8.43, p=0.011</b>).</p></div>
+  </div>
+  <div class="page">13</div>
+</section>
+
+<!-- 14 Rain levels -->
+<section class="slide">
+  <div class="kicker">Finding 2 · Rain level and timing</div>
   <h2>Only heavy rain, in the same hour, comes with more vehicles</h2>
   <div class="row">
     <div class="col" style="flex:1.45"><div class="figbox"><img class="fig" src="../figures/rain_levels.png" alt="Percent vs usual by rain level"></div></div>
     <div class="col">
       <ul style="font-size:18px">
-        <li><b>Heavy rain now: +5.8%</b> vs usual; dry hours +2.0% → <b>+3.7 points</b>.</li>
-        <li>Light and moderate rain sit slightly below usual.</li>
-        <li>Rain <b>1 hour earlier</b>: nothing. Traffic builds up during the downpour, not after it.</li>
-        <li>Heavy rain 2 h earlier hints at <i>fewer</i> vehicles (−4.8%), but only 454 snapshots.</li>
+        <li><b>Heavy rain now (&gt;5 mm/h): +6.6%</b> vs usual (95% CI [+2.9, +10.0]); dry hours +1.0% → <b>+5.6 points</b> (n=445).</li>
+        <li>Light (−1.0%) and moderate rain (−1.3%) sit within noise of zero.</li>
+        <li>Rain <b>1 hour earlier</b>: −1.2% (zero). Traffic builds during the downpour, not after it.</li>
+        <li>Heavy rain 2 h earlier (−4.9%, n=454) hints at clearing afterward.</li>
       </ul>
-      <div class="callout b" style="font-size:16px">Same answer without calibration: raw counts give +6.2% for heavy rain.</div>
+      <div class="callout b" style="font-size:16px">Same conclusion without calibration: raw counts give +7.0% (+3.2 to +10.5%) for heavy rain.</div>
     </div>
-  </div>
-  <div class="page">13</div>
-</section>
-
-<!-- 14 Time of day + LODO -->
-<section class="slide">
-  <div class="kicker">Finding 2 · Does it hold up?</div>
-  <h2>The heavy-rain effect survives dropping any day; the evening dip does not</h2>
-  <div class="row" style="gap:28px">
-    <div class="col"><div class="figbox"><img class="fig" src="../figures/wet_dry_by_hour.png" alt="Wet vs dry by hour"></div>
-      <p style="font-size:16px; margin-top:6px">Wet and dry hours track each other until 19–20 h, where wet hours fall to about −10%.</p></div>
-    <div class="col"><div class="figbox"><img class="fig" src="../figures/leave_one_day_out.png" alt="Leave one day out"></div>
-      <p style="font-size:16px; margin-top:6px">Heavy rain stays <b>+2.5 to +4.9</b>. Dropping Mon 31 Aug flips wet evenings from <b>−7.1 to +1.6</b>.</p></div>
   </div>
   <div class="page">14</div>
 </section>
 
-<!-- 15 Map -->
+<!-- 15 Time of day + LODO -->
 <section class="slide">
-  <div class="kicker">Finding 3 · Where</div>
-  <h2>Per camera, “any rain” looks negative because most rain is light</h2>
-  <div class="row">
-    <div class="col" style="flex:1.3"><div class="figbox"><img class="fig" src="fig/camera_map.png" alt="Map of rain effect per camera"></div></div>
-    <div class="col">
-      <p style="font-size:18px; margin-bottom:14px">The map compares <b>all wet hours</b> with dry hours at each camera. Average: <b>−3.9%</b>, and 74 of 100 cameras are below zero.</p>
-      <p style="font-size:18px; margin-bottom:14px">That is not a contradiction of +3.7. Of the 31k wet snapshots, <b>26k are light rain</b> and only <b>450 are heavy</b>, so the map is mostly the light-rain effect.</p>
-      <div class="callout" style="font-size:16px">Lesson: the rain effect depends on how hard it rains. Splitting by level is what reveals the heavy-rain increase.</div>
-    </div>
+  <div class="kicker">Finding 3 · Does it hold up?</div>
+  <h2>Heavy rain survives leaving out any day; wet evenings collapse to Mon 31 Aug</h2>
+  <div class="row" style="gap:28px">
+    <div class="col"><div class="figbox"><img class="fig" src="../figures/wet_dry_by_hour.png" alt="Wet vs dry by hour"></div>
+      <p style="font-size:16px; margin-top:6px">Wet and dry track each other until 18–20 h, where wet hours plunge — driven by 100% light-wet Mon 31 Aug evening (−17.8% vs usual).</p></div>
+    <div class="col"><div class="figbox"><img class="fig" src="../figures/leave_one_day_out.png" alt="Leave one day out"></div>
+      <p style="font-size:16px; margin-top:6px">Heavy rain stays <b>+4.3 to +6.9 pts</b> across all 7 drops. Dropping Mon 31 Aug flips wet evenings from <b>−6.5 to +3.0 pts</b>.</p></div>
   </div>
   <div class="page">15</div>
 </section>
 
-<!-- 16 Dashboard -->
+<!-- 16 Map -->
+<section class="slide">
+  <div class="kicker">Finding 4 · Where</div>
+  <h2>Per camera, “any rain” looks negative because 85% of wet hours are light rain</h2>
+  <div class="row">
+    <div class="col" style="flex:1.3"><div class="figbox"><img class="fig" src="fig/camera_map.png" alt="Map of rain effect per camera"></div></div>
+    <div class="col">
+      <p style="font-size:18px; margin-bottom:14px">The map compares <b>all wet hours</b> with dry hours at each camera. Average: <b>−1.9%</b>, with <b>59 of 100 cameras</b> below zero.</p>
+      <p style="font-size:18px; margin-bottom:14px">That is not a contradiction of +5.6 pts. Of 30,570 wet snapshots, <b>25,924 are light rain</b> (−1.0%) and only <b>445 are heavy</b> (+6.6%), so “any wet” blends away heavy storms.</p>
+      <div class="callout" style="font-size:16px">Lesson: rain impact depends nonlinearly on intensity — pooling light drizzle with downpours hides the congestion spike.</div>
+    </div>
+  </div>
+  <div class="page">16</div>
+</section>
+
+<!-- 17 NEW: Finding 5 - Infrastructure Rain Vulnerability (DiD) -->
+<section class="slide">
+  <div class="kicker">Finding 5 · Infrastructure rain vulnerability (DiD)</div>
+  <h2 class="wide-h2">Signalized intersections &amp; surface roads take 2× the heavy-rain hit</h2>
+  <div class="widefig"><img src="../figures/rain_vulnerability.png" alt="Rain vulnerability DiD forest plot across OSM infrastructure splits"></div>
+  <div class="takeaways">
+    <div class="card"><h3>Signalized &amp; surface hotspots</h3><p>Signals (≤100 m): <b>+10.1 pts</b> [+4.5, +15.7] vs Mid-block +4.3 pts (DiD +5.8). Surface roads: <b>+6.6 pts</b> [+2.6, +10.7] vs Bridges −1.3 pts (DiD +7.9).</p></div>
+    <div class="card"><h3>Nulls that protect rigor</h3><p>BTS/MRT proximity shows zero protection (<b>+5.8 vs +5.5 pts, p=0.958</b>); primary highways (+5.3) vs secondary roads (+7.0) do not differ (p=0.648).</p></div>
+    <div class="card"><h3>DNA split &amp; statistical power</h3><p><b>Morning-commute arterials</b> spike +6.7 pts vs All-day retail +5.3 pts. Interaction DiD CIs cross zero (p=0.112, 0.157) with 445 heavy frames.</p></div>
+  </div>
+  <div class="page">17</div>
+</section>
+
+<!-- 18 NEW: Finding 6 - Tidal Flow -->
+<section class="slide">
+  <div class="kicker">Finding 6 · Tidal flow &amp; directional asymmetry</div>
+  <h2 class="wide-h2">Opposite-direction cameras reveal statistically significant reversible-lane corridors</h2>
+  <div class="widefig"><img src="../figures/tidal_flow.png" alt="AM-to-PM tidal asymmetry curves and top co-located camera pairs"></div>
+  <div class="takeaways">
+    <div class="card"><h3>Consistent citywide reversal</h3><p>Among <b>21 co-located pairs (≤100 m)</b>, <b>14 flip sign</b> between AM (06–09 h) and PM (16–19 h), and <b>7 survive BH FDR q &lt; 0.05</b> (5,000 permutations).</p></div>
+    <div class="card"><h3>Ratchadaphisek Flagships</h3><p><b>224–225</b> (Criminal Court, 22 m): <b>swing 0.270</b> (4/5 weekdays, <b>q=0.004</b>). <b>124–125</b> (Police Box, 40 m): <b>swing 0.238</b>, flips <b>5/5 weekdays (q=0.004)</b>.</p></div>
+    <div class="card"><h3>CBD &amp; river-bridge candidates</h3><p><b>603–604 Silom–Naradhiwas</b> (25 m, swing 0.225, <b>q=0.019</b>), <b>1132–1078 Wat Suwan</b> (q=0.019), <b>1368–546 Lan Phra Rup</b> (q=0.033) &amp; <b>26–1195 Mahai Sawan</b> (q=0.047).</p></div>
+  </div>
+  <div class="page">18</div>
+</section>
+
+<!-- 19 NEW: Finding 7 - Spatial Spillover & Feed Audit -->
+<section class="slide">
+  <div class="kicker">Finding 7 · Spatial spillover &amp; anomaly audit</div>
+  <h2 class="wide-h2">Local congestion decays within 1 km; 262 shocks isolate Mon 31 Aug</h2>
+  <div class="widefig"><img src="../figures/spatial_and_audit.png" alt="Spatial distance decay Mantel test and hourly CCTV outage audit"></div>
+  <div class="takeaways">
+    <div class="card"><h3>True spillover radius ≤ 1 km</h3><p>Removing citywide hours shrinks raw r (0.093 at &gt;10 km) to local residual r: <b>+0.065</b> (&lt;0.5 km) → <b>+0.042</b> (0.5–1 km) → <b>+0.003</b> (1–2 km). <b>Mantel p = 0.0005</b>.</p></div>
+    <div class="card"><h3>Honest pairwise FDR limit</h3><p>Nearest neighbors (≤2 km, n=95) show median local lag-0 r=0.057, lag-1h=0.039; <b>0/442 individual links</b> clear day-block FDR &lt;0.05 (top: 119–1112 r=0.46, q=0.32).</p></div>
+    <div class="card"><h3>262 traffic shocks (|z| ≥ 2.5)</h3><p><b>207 localized surges</b> (e.g. Triam Udom 239 z=+4.87), <b>18 corridor</b>, and <b>37 citywide shocks</b> led by Mon 31 Aug evening (−17.8%; 414 z=−7.36).</p></div>
+  </div>
+  <div class="page">19</div>
+</section>
+
+<!-- 20 Dashboard -->
 <section class="slide">
   <div class="kicker">Component 3 · BI dashboard</div>
-  <h2>Explore every camera, hour and rain level yourself</h2>
+  <h2>Explore every camera, DNA archetype, tidal pair and snapshot yourself</h2>
   <div class="row" style="gap:20px">
     <div class="col" style="flex:1.2"><div class="figbox"><img class="shot" src="fig/dash_overview_crop.png" alt="Dashboard overview tab"></div><div class="cap">Overview: KPIs and traffic vs rain through the week</div></div>
     <div class="col" style="gap:12px">
@@ -375,42 +434,42 @@
       <div class="cap">Camera map and camera explorer (raw image for any snapshot)</div>
     </div>
   </div>
-  <p style="font-size:15px; margin-top:10px">Tabs: overview · map · rain vs congestion · road context (OSM) · camera explorer. Filters: dates, weekday/weekend, light phase, road class. <code>uv run streamlit run src/cctv/dashboard.py</code></p>
-  <div class="page">16</div>
+  <p style="font-size:14.5px; margin-top:10px"><b>8 Tabs:</b> overview · map · rain vs congestion · road context (OSM) · traffic DNA · vulnerability &amp; corridors · anomalies &amp; CCTV audit · camera explorer. Filters: dates, day type, light phase, road class. <code>uv run streamlit run src/cctv/dashboard.py</code></p>
+  <div class="page">20</div>
 </section>
 
-<!-- 17 Limitations -->
+<!-- 21 Limitations -->
 <section class="slide">
   <div class="kicker">Limits</div>
-  <h2>A well-checked case study, not a general law</h2>
+  <h2>A well-checked case study — honest about sample size &amp; power</h2>
   <div class="row">
     <div class="col">
-      <ul style="font-size:19px">
-        <li><b>One week</b>, 450 heavy-rain snapshots. Scraping more in Nov–Dec wouldn't help: it's the dry season.</li>
-        <li><b>Rain is area-level and hourly</b>: modelled on a grid, and a 20-minute storm spreads over its hour.</li>
-        <li><b>Counts ≠ congestion.</b> More vehicles in view can mean slower traffic or just more traffic; snapshots 10 min apart can't measure speed.</li>
-        <li><b>Hand labels are imperfect</b> (2.7 vehicles between people), and rain on the lens blurs single frames.</li>
+      <ul style="font-size:18.5px">
+        <li><b>One week (445 heavy-rain snapshots):</b> sufficient for the main +5.6 pt effect and Mantel test, but widens interaction DiD CIs (signal/bridge p=0.11–0.16) and restricts per-link day-block FDR power (7 blocks).</li>
+        <li><b>Area-level hourly rain:</b> Open-Meteo is gridded and averages short downpours over the full hour.</li>
+        <li><b>Counts ≠ speed:</b> more vehicles can signal slower queues or higher throughput; 10-min snapshots cannot measure speed directly.</li>
+        <li><b>Imperfect human labels &amp; lens blur:</b> human disagreement averages 2.7 vehicles/frame.</li>
       </ul>
     </div>
     <div class="col" style="flex:.85; gap:14px">
-      <div class="card"><h3>Next steps</h3><p style="font-size:17px">Repeat over a full rainy season; use rain-gauge data; track vehicles across consecutive frames for a speed proxy; use OSM context to see which road types react most.</p></div>
+      <div class="card"><h3>Next steps</h3><p style="font-size:16.5px">Extend scraping across a full monsoon season with TMD rain gauges to unlock per-corridor FDR power; pilot AM/PM reversible-lane &amp; signal-timing adjustments on Ratchadaphisek (224–225, 124–125) and Silom–Naradhiwas (603–604).</p></div>
     </div>
   </div>
-  <div class="page">17</div>
+  <div class="page">21</div>
 </section>
 
-<!-- 18 Wrap-up -->
+<!-- 22 Wrap-up -->
 <section class="slide">
   <div class="kicker">Summary</div>
   <h2>What we built and what we learned</h2>
-  <div class="row" style="gap:22px">
-    <div class="card col"><h3>Data engineering</h3><p style="font-size:17px">Inventory and cleaning of 61k images, YOLO detection, 3 outside sources, one incremental pipeline.</p></div>
-    <div class="card col"><h3>Data science</h3><p style="font-size:17px">1,000 hand labels, detector bake-off, cross-fitted calibration, baseline-adjusted rain effect with bootstrap CIs.</p></div>
-    <div class="card col"><h3>Dashboard</h3><p style="font-size:17px">Streamlit app with five tabs and filters, down to the raw image of any snapshot.</p></div>
-    <div class="card col"><h3>Insight</h3><p style="font-size:17px"><b>Heavy rain → ~4% more vehicles</b> in the same hour. Weekends: office areas empty, shopping areas stay busy.</p></div>
+  <div class="row" style="gap:20px">
+    <div class="card col"><h3>Data engineering</h3><p style="font-size:16px">Audited 61.3k frames down to 60,053 usable snapshots (−1,086 blank/frozen), YOLO11-L + 3 APIs in a 12-step pipeline with 30 pytest tests.</p></div>
+    <div class="card col"><h3>Data science</h3><p style="font-size:16px">1,000 hand labels, cross-fitted calibration, Traffic DNA (ARI 0.92), cluster-bootstrap DiD, 5,000-perm tidal asymmetry, Mantel sync &amp; FDR.</p></div>
+    <div class="card col"><h3>Dashboard</h3><p style="font-size:16px">8-tab Streamlit app covering maps, OSM context, DNA clusters, tidal pairs, spatial links, shocks and raw frame inspection.</p></div>
+    <div class="card col"><h3>Key insights</h3><p style="font-size:16px"><b>Heavy rain → +5.6 pts</b> (signals +10.1, surface +6.6). <b>3 road archetypes.</b> <b>7/21 FDR tidal corridors</b> (5/5 days on Ratchada). <b>≤1 km</b> spillover. <b>262 shocks</b>.</p></div>
   </div>
   <p style="margin-top:28px; font-size:17px">Code, slides and video: see the Google Drive link on myCourseVille. Thank you!</p>
-  <div class="page">18</div>
+  <div class="page">22</div>
 </section>
 
 </body>

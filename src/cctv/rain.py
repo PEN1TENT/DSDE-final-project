@@ -62,12 +62,23 @@ def calibrate(df: pd.DataFrame, labels: Path, labelled: Path) -> tuple[pd.DataFr
     return df, table
 
 
-def load(images: Path, counts: Path, weather: Path) -> pd.DataFrame:
-    img = pd.read_parquet(images, columns=["path", "camera_id", "timestamp", "brightness", "sharpness", "frozen"])
+def load(images: Path, counts: Path, weather: Path, audit: Path | None = None) -> pd.DataFrame:
+    img = pd.read_parquet(
+        images, columns=["path", "camera_id", "timestamp", "brightness", "contrast", "sharpness", "frozen"]
+    )
     cnt = pd.read_parquet(counts, columns=["path", "n_vehicles", "covered_fraction",
                                            "n_motorcycle", "n_car", "n_truck", "n_bus", "n_bicycle"])
     df = img.merge(cnt, on="path").dropna(subset=["timestamp"])
-    df = df[~df["frozen"]]
+    if audit is not None and audit.exists():
+        fa = pd.read_parquet(audit, columns=["path", "blank", "visual_frozen", "usable"])
+        df = df.merge(fa, on="path", how="left")
+        n_before = len(df)
+        n_blank = int(df["blank"].fillna(False).sum())
+        n_vfrozen = int(df["visual_frozen"].fillna(False).sum())
+        df = df[df["usable"].fillna(True)].copy()
+        print(f"frame audit filter: {n_before} -> {len(df)} usable (dropped blank={n_blank}, visual_frozen={n_vfrozen})")
+    else:
+        df = df[(~df["frozen"]) & (df["contrast"] >= 10.0)].copy()
     df["camera_id"] = df["camera_id"].astype(int)
 
     w = pd.read_parquet(weather)
@@ -137,13 +148,14 @@ def main() -> None:
     parser.add_argument("--images", type=Path, default=Path("data/interim/images.parquet"))
     parser.add_argument("--counts", type=Path, default=Path("data/interim/image_counts.parquet"))
     parser.add_argument("--weather", type=Path, default=Path("data/interim/weather.parquet"))
+    parser.add_argument("--audit", type=Path, default=Path("data/interim/frame_audit.parquet"))
     parser.add_argument("--out", type=Path, default=Path("data/processed"))
     parser.add_argument("--labels", type=Path, default=Path("data/labels"))
     parser.add_argument("--labelled", type=Path, default=Path("export.csv"), help="hand labels file in --labels")
     parser.add_argument("--boot", type=int, default=500)
     args = parser.parse_args()
 
-    df, factors = calibrate(load(args.images, args.counts, args.weather), args.labels, args.labelled)
+    df, factors = calibrate(load(args.images, args.counts, args.weather, args.audit), args.labels, args.labelled)
     pd.set_option("display.float_format", "{:.2f}".format)
     print("calibration factors (hand / model) by condition:")
     print(factors.to_string())

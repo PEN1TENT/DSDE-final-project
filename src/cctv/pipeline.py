@@ -3,11 +3,15 @@
 Steps (each is also a module you can run on its own):
 
   inventory  images -> data/interim/images.parquet
+  audit      frame audit (whiteouts + watermark-frozen) -> data/interim/frame_audit.parquet
   detect     YOLO11-L @640 -> data/interim/l640/image_counts.parquet   (slow; resumes)
   weather    Open-Meteo rain -> data/interim/weather.parquet
-  osm        OpenStreetMap road context -> data/interim/osm_context.parquet
+  osm        OpenStreetMap road & traffic context -> data/interim/osm_context.parquet
   daylight   sunrise-sunset.org -> data/interim/daylight.parquet
   rain       rain vs congestion -> data/processed/l640/
+  dna        Traffic DNA clustering & significance tests -> data/processed/dna/
+  shocks     traffic shock detection & Mon 31 Aug audit -> data/processed/audit/
+  insights   rain vulnerability, tidal flow & spatial sync -> data/processed/insights/
   charts     report figures -> reports/figures/
   mart       dashboard tables -> data/processed/dashboard/
 
@@ -42,8 +46,11 @@ class Step:
 
 STEPS = [
     Step("inventory", ["cctv.inventory", "--raw", RAW], [RAW], ["data/interim/images.parquet"]),
-    Step("detect", ["cctv.detect", "--raw", RAW, "--model", "yolo11l.pt", "--imgsz", "640", "--out", "data/interim/l640",
-                    "--inventory", "data/interim/images.parquet"],
+    Step("audit", ["cctv.audit", "--stage", "frames"],
+         ["data/interim/images.parquet"],
+         ["data/interim/frame_audit.parquet", "data/processed/audit/camera_health.csv"]),
+    Step("detect", ["cctv.detect", "--raw", RAW, "--model", "yolo11l.pt", "--imgsz", "640", "--conf", "0.05",
+                    "--out", "data/interim/l640", "--inventory", "data/interim/images.parquet"],
          ["data/interim/images.parquet"], ["data/interim/l640/image_counts.parquet"]),
     Step("weather", ["cctv.weather"], ["data/raw/cctv_info.csv", "data/interim/images.parquet"],
          ["data/interim/weather.parquet"]),
@@ -51,12 +58,30 @@ STEPS = [
     Step("daylight", ["cctv.daylight"], ["data/raw/cctv_info.csv", "data/interim/images.parquet"],
          ["data/interim/daylight.parquet"]),
     Step("rain", ["cctv.rain", "--counts", "data/interim/l640/image_counts.parquet", "--out", "data/processed/l640"],
-         ["data/interim/l640/image_counts.parquet", "data/interim/weather.parquet", "data/labels/export.csv"],
+         ["data/interim/l640/image_counts.parquet", "data/interim/weather.parquet",
+          "data/interim/frame_audit.parquet", "data/labels/export.csv"],
          ["data/processed/l640/rain_snapshots.parquet", "data/processed/l640/rain_effect.csv"]),
-    Step("charts", ["cctv.charts"], ["data/processed/l640/rain_snapshots.parquet"], ["reports/figures/rain_levels.png"]),
+    Step("dna", ["cctv.dna"],
+         ["data/processed/l640/rain_snapshots.parquet", "data/interim/osm_context.parquet", "data/raw/cctv_info.csv"],
+         ["data/processed/dna/camera_dna.parquet", "data/processed/dna/significance_tests.csv"]),
+    Step("shocks", ["cctv.audit", "--stage", "shocks"],
+         ["data/processed/l640/rain_snapshots.parquet", "data/raw/cctv_info.csv"],
+         ["data/processed/audit/traffic_shocks.csv", "data/processed/audit/daily_evening_audit.csv"]),
+    Step("insights", ["cctv.insights"],
+         ["data/processed/l640/rain_snapshots.parquet", "data/interim/osm_context.parquet",
+          "data/processed/dna/camera_dna.parquet", "data/raw/cctv_info.csv"],
+         ["data/processed/insights/rain_vulnerability.csv", "data/processed/insights/tidal_pairs.csv",
+          "data/processed/insights/distance_decay.csv", "data/processed/insights/corridor_links.csv"]),
+    Step("charts", ["cctv.charts"],
+         ["data/processed/l640/rain_snapshots.parquet", "data/processed/dna/camera_dna.parquet",
+          "data/processed/insights/rain_vulnerability.csv", "data/processed/audit/camera_health.csv"],
+         ["reports/figures/rain_levels.png", "reports/figures/traffic_dna.png",
+          "reports/figures/rain_vulnerability.png", "reports/figures/tidal_flow.png",
+          "reports/figures/spatial_and_audit.png"]),
     Step("mart", ["cctv.mart"],
          ["data/processed/l640/rain_snapshots.parquet", "data/interim/osm_context.parquet",
-          "data/interim/daylight.parquet", "data/raw/cctv_info.csv"],
+          "data/interim/daylight.parquet", "data/processed/dna/camera_dna.parquet",
+          "data/processed/audit/camera_health.csv", "data/raw/cctv_info.csv"],
          ["data/processed/dashboard/snapshots.parquet", "data/processed/dashboard/cameras.parquet"]),
 ]
 

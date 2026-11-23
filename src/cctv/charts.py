@@ -1,15 +1,15 @@
-"""Step 7: report charts for the rain analysis.
+"""Step 7: report charts for rain, Traffic DNA, OSM vulnerability, tidal flow, and audit.
 
-Reads the outputs of `cctv.rain` and the hand labels, writes four PNGs:
+Reads the outputs of `cctv.rain`, `cctv.dna`, `cctv.insights`, `cctv.audit`, and hand labels:
 
-    rain_levels.png        % vs usual by rain level (95% CI), rain now / 1 h / 2 h before
-    wet_dry_by_hour.png    % vs usual by hour of day, wet vs dry hours (95% CI)
-    leave_one_day_out.png  the two headline numbers with each day dropped in turn
-    detector_error.png     model / hand count by condition: first run, yolo11l 640, calibrated
-
-The calibrated bars in detector_error are cross-fitted: each person's frames are
-scaled with factors learned from the other people's frames, so they are not
-calibrated against themselves.
+    rain_levels.png         % vs usual by rain level (95% CI), rain now / 1 h / 2 h before
+    wet_dry_by_hour.png     % vs usual by hour of day, wet vs dry hours (95% CI)
+    leave_one_day_out.png   the two headline numbers with each day dropped in turn
+    detector_error.png      model / hand count by condition: first run, yolo11l 640, calibrated
+    traffic_dna.png         Traffic DNA archetypes (06-20h curves) & OSM permutation validation
+    rain_vulnerability.png  Heavy-rain impact across OSM infrastructure splits (95% CI & DiD)
+    tidal_flow.png          AM-to-PM directional asymmetry across co-located camera pairs
+    spatial_and_audit.png   Local distance decay (Mantel test) & daily 07:00 CCTV outage audit
 
     uv run python -m cctv.charts
 """
@@ -233,9 +233,202 @@ def detector_error(images: Path, counts: Path, first_counts: Path, weather: Path
     return t
 
 
+def traffic_dna(dna_dir: Path, out: Path) -> None:
+    """Plot Traffic DNA hourly rhythms (left) and OSM permutation validation (right)."""
+    hourly = pd.read_parquet(dna_dir / "hourly_archetypes.parquet")
+    sig = pd.read_csv(dna_dir / "significance_tests.csv")
+    profs = pd.read_csv(dna_dir / "cluster_profiles.csv").sort_values("cluster_id")
+    sel = pd.read_csv(dna_dir / "model_selection.csv")
+
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(11, 4.4), gridspec_kw={"width_ratios": [1.3, 1.0]})
+    palette = {0: BLUE, 1: ORANGE, 2: AQUA}
+
+    for row in profs.itertuples():
+        cid, arch, n_cam = int(row.cluster_id), row.archetype, int(row.n_cameras)
+        c = palette.get(cid, NEUTRAL)
+        sub = hourly[hourly["cluster_id"] == cid]
+        wd = sub[sub["daytype"] == "weekday"].sort_values("hour")
+        we = sub[sub["daytype"] == "weekend"].sort_values("hour")
+        ax1.fill_between(wd["hour"], wd["rel_lo"], wd["rel_hi"], color=c, alpha=0.12, linewidth=0)
+        ax1.plot(wd["hour"], wd["rel_traffic"], color=c, linewidth=2.2, label=f"{arch} (n={n_cam})")
+        ax1.plot(we["hour"], we["rel_traffic"], color=c, linewidth=1.6, linestyle="--", alpha=0.85)
+
+    ax1.axhline(1.0, color=INK2, linewidth=0.9, linestyle=":")
+    ax1.set_xticks(range(6, 21, 2))
+    ax1.set_xlabel("hour of day (solid = weekday, dashed = weekend)")
+    ax1.set_ylabel("traffic / camera weekday mean")
+    ax1.set_title("Normalized weekday & weekend rhythms (06–20h)")
+    ax1.legend(loc="upper left", fontsize=8)
+
+    feats = [
+        ("urban_core_pois_500m", "Urban core POIs / 500 m\n(malls + hospitals + rail)"),
+        ("n_mall_market_500m", "Malls & markets / 500 m"),
+        ("n_hospital_500m", "Hospitals & clinics / 500 m"),
+    ]
+    sig_idx = sig[sig["test_type"] == "external_kw"].set_index("feature")
+    y_base = np.arange(len(feats))[::-1]
+    bar_h = 0.24
+    for i, row in enumerate(profs.itertuples()):
+        cid, arch = int(row.cluster_id), row.archetype
+        vals = [sig_idx.at[f, {0: "mean_all_day", 1: "mean_evening", 2: "mean_morning"}[cid]] for f, _ in feats]
+        ys = y_base + (1 - i) * (bar_h + 0.02)
+        ax2.barh(ys, vals, height=bar_h, color=palette.get(cid, NEUTRAL), label=arch, zorder=2)
+        for yi, v in zip(ys, vals):
+            ax2.text(v + 0.08, yi, f"{v:.2f}", va="center", ha="left", fontsize=8, color=INK)
+
+    ylabels = []
+    for f, lbl in feats:
+        p = sig_idx.at[f, "p_value"]
+        q = sig_idx.at[f, "fdr_q"]
+        ylabels.append(f"{lbl}\nKW p={p:.3f}, q={q:.3f}")
+    ax2.set_yticks(y_base, ylabels, fontsize=8)
+    ax2.set_xlabel("mean count within 500 m (held-out OSM)")
+    ax2.set_title("External OSM validation (held-out)")
+    ax2.grid(axis="y", visible=False)
+    ax2.set_xlim(0, max(sig_idx.loc[[f for f, _ in feats], ["mean_all_day", "mean_evening", "mean_morning"]].to_numpy().max() * 1.22, 1.0))
+
+    r2 = sig.loc[sig["feature"] == "cluster_r2", "statistic"].iloc[0]
+    p_r2 = sig.loc[sig["feature"] == "cluster_r2", "p_value"].iloc[0]
+    sil = sig.loc[sig["feature"] == "cluster_silhouette", "statistic"].iloc[0]
+    ari = sel.loc[sel["k"] == len(profs), "boot_ari"].iloc[0]
+    fig.suptitle("Traffic DNA clustering separates urban retail corridors from commuter arterials",
+                 x=0.01, ha="left", fontsize=12, fontweight="bold", color=INK)
+    fig.text(0.01, 0.005,
+             f"6 zoom-invariant DNA features across 100 cameras (k={len(profs)}). "
+             f"Structure test: R²={r2:.2f} (perm p={p_r2:.4f}), Silhouette={sil:.2f}, bootstrap ARI={ari:.2f}.",
+             fontsize=8, color=INK2)
+    fig.tight_layout(rect=(0, 0.04, 1, 0.94))
+    fig.savefig(out, dpi=200)
+    plt.close(fig)
+
+
+def rain_vulnerability_chart(insights_dir: Path, out: Path) -> None:
+    """Plot heavy-rain (>5 mm/h) minus dry 95% CIs across OSM infrastructure splits."""
+    vuln = pd.read_csv(insights_dir / "rain_vulnerability.csv")
+    inter = vuln[vuln["row_type"] == "interaction"].copy()
+    fig, ax = plt.subplots(figsize=(9.5, 4.4))
+
+    y_pos = []
+    y_labels = []
+    cur = 0
+    for idx, row in enumerate(inter.iloc[::-1].itertuples()):
+        y_b = cur
+        y_a = cur + 0.85
+        ax.errorbar(
+            row.pts_b, y_b,
+            xerr=[[max(0.0, row.pts_b - row.lo_b)], [max(0.0, row.hi_b - row.pts_b)]],
+            fmt="o", color=NEUTRAL, ecolor=NEUTRAL, elinewidth=2, capsize=4, markersize=7, zorder=3,
+        )
+        ax.errorbar(
+            row.pts_a, y_a,
+            xerr=[[max(0.0, row.pts_a - row.lo_a)], [max(0.0, row.hi_a - row.pts_a)]],
+            fmt="o", color=BLUE, ecolor=BLUE, elinewidth=2, capsize=4, markersize=7, zorder=3,
+        )
+        ax.annotate(f"{row.pts_b:+.1f} pts (n={int(row.n_heavy_b)})", (row.hi_b, y_b), xytext=(6, 0),
+                    textcoords="offset points", va="center", fontsize=8, color=INK2)
+        ax.annotate(f"{row.pts_a:+.1f} pts (n={int(row.n_heavy_a)})  | DiD {row.did_pts:+.1f}, p={row.boot_p:.3f}",
+                    (row.hi_a, y_a), xytext=(6, 0), textcoords="offset points", va="center", fontsize=8, color=INK)
+        y_pos.extend([y_b, y_a])
+        y_labels.extend([row.group_b, row.group_a])
+        if idx < len(inter) - 1:
+            ax.axhline(cur + 1.55, color=GRID, linewidth=1.0)
+        cur += 2.25
+
+    _zero_line(ax, "x")
+    ax.set_yticks(y_pos, y_labels, fontsize=9)
+    ax.set_xlabel("heavy rain (>5 mm/h) minus dry (% vs usual, 95% camera-day CI)")
+    ax.set_title("Where heavy rain hits hardest: signalized intersections & surface roads")
+    ax.grid(axis="y", visible=False)
+    lo, hi = ax.get_xlim()
+    ax.set_xlim(min(lo, -20), max(hi + 11, 22))
+    fig.tight_layout()
+    fig.savefig(out, dpi=200)
+    plt.close(fig)
+
+
+def tidal_flow_chart(insights_dir: Path, out: Path) -> None:
+    """Plot hourly directional asymmetry curves (left) and top 10 tidal swings (right)."""
+    pairs = pd.read_csv(insights_dir / "tidal_pairs.csv")
+    hourly = pd.read_parquet(insights_dir / "tidal_hourly.parquet")
+
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(11, 4.4), gridspec_kw={"width_ratios": [1.15, 1.0]})
+    top_rev = pairs[pairs["reverses_sign"]].head(4)
+    if top_rev.empty:
+        top_rev = pairs.head(4)
+    colors = [BLUE, ORANGE, AQUA, "#8a5cd6"]
+    for idx, row in enumerate(top_rev.itertuples()):
+        sub = hourly[hourly["pair_id"] == row.pair_id].sort_values("hour")
+        short = row.name_a.replace("Footbridge near ", "").replace("Central barrier near the police box on ", "")[:24]
+        ax1.plot(sub["hour"], sub["asymmetry"], marker="o", ms=3.5, linewidth=2.0,
+                 color=colors[idx % len(colors)], label=f"{row.pair_id} · {short}")
+    _zero_line(ax1, "y")
+    ax1.set_xticks(range(6, 21, 2))
+    ax1.set_xlabel("hour of day (weekday normalized)")
+    ax1.set_ylabel("asymmetry (cam A − cam B) / (A + B)")
+    ax1.set_title("AM-to-PM tidal flow reversal (<=100 m pairs)")
+    ax1.legend(loc="best", fontsize=7.5)
+
+    top10 = pairs.head(10).iloc[::-1]
+    bar_cols = [BLUE if r else NEUTRAL for r in top10["reverses_sign"]]
+    y = np.arange(len(top10))
+    ax2.barh(y, top10["tidal_swing"], color=bar_cols, height=0.65, zorder=2)
+    labels = [f"{r.pair_id} ({r.dist_m:.0f}m)" for r in top10.itertuples()]
+    ax2.set_yticks(y, labels, fontsize=8)
+    for yi, r in zip(y, top10.itertuples()):
+        ax2.text(r.tidal_swing + 0.005, yi, f"{r.tidal_swing:.2f} (q={r.fdr_q:.3f})",
+                 va="center", ha="left", fontsize=7.5, color=INK)
+    ax2.set_xlabel("weekday AM–PM asymmetry swing")
+    ax2.set_title("Top 10 co-located pairs (blue = sign flips)")
+    ax2.grid(axis="y", visible=False)
+    ax2.set_xlim(0, max(top10["tidal_swing"].max() * 1.45, 0.3))
+    fig.tight_layout()
+    fig.savefig(out, dpi=200)
+    plt.close(fig)
+
+
+def spatial_and_audit_chart(insights_dir: Path, audit_dir: Path, out: Path) -> None:
+    """Plot local spatial distance decay (left) and daily CCTV outage hours (right)."""
+    decay = pd.read_csv(insights_dir / "distance_decay.csv")
+    stests = pd.read_csv(insights_dir / "spatial_tests.csv").set_index("test_name")
+    outages = pd.read_csv(audit_dir / "hourly_outages.csv")
+
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(10.5, 4.1))
+    x = np.arange(len(decay))
+    ax1.plot(x, decay["mean_raw_r"], marker="s", ms=4, color=NEUTRAL, linestyle="--", linewidth=1.6,
+             label="Raw hourly excess (incl. citywide)")
+    ax1.plot(x, decay["mean_local_r"], marker="o", ms=5, color=BLUE, linewidth=2.2,
+             label="Local residual (citywide removed)")
+    _zero_line(ax1, "y")
+    ax1.set_xticks(x, decay["band"], fontsize=8)
+    ax1.set_xlabel("distance between cameras")
+    ax1.set_ylabel("mean hourly correlation (r)")
+    p_nf = stests.at["mantel_near_vs_far", "p_value"]
+    p_dec = stests.at["mantel_dist_decay_r", "p_value"]
+    ax1.set_title(f"Local distance decay (Mantel p={p_nf:.4f})")
+    ax1.legend(loc="upper right", fontsize=8)
+    ax1.text(0.02, 0.05, f"log-distance Mantel r={stests.at['mantel_dist_decay_r', 'observed']:.3f} (p={p_dec:.4f})",
+             transform=ax1.transAxes, fontsize=8, color=INK2)
+
+    by_hr = outages.groupby("hour")[["blank_frames", "visual_frozen_frames"]].sum()
+    hrs = by_hr.index.to_numpy()
+    ax2.bar(hrs - 0.18, by_hr["blank_frames"], width=0.36, color=ORANGE, label="Blank / whiteout", zorder=2)
+    ax2.bar(hrs + 0.18, by_hr["visual_frozen_frames"], width=0.36, color=BLUE, label="Watermark-frozen", zorder=2)
+    ax2.set_xticks(range(6, 22, 2))
+    ax2.set_xlabel("hour of day")
+    ax2.set_ylabel("bad frames across 7 days")
+    ax2.set_title("CCTV outages: 07:00 whiteouts & frozen feeds")
+    ax2.legend(loc="upper right", fontsize=8)
+    fig.tight_layout()
+    fig.savefig(out, dpi=200)
+    plt.close(fig)
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--processed", type=Path, default=Path("data/processed/l640"))
+    parser.add_argument("--dna", type=Path, default=Path("data/processed/dna"))
+    parser.add_argument("--insights", type=Path, default=Path("data/processed/insights"))
+    parser.add_argument("--audit", type=Path, default=Path("data/processed/audit"))
     parser.add_argument("--images", type=Path, default=Path("data/interim/images.parquet"))
     parser.add_argument("--counts", type=Path, default=Path("data/interim/l640/image_counts.parquet"))
     parser.add_argument("--first-counts", type=Path, default=Path("data/interim/image_counts.parquet"))
@@ -255,7 +448,20 @@ def main() -> None:
     print(leave_one_day_out(snaps, args.out / "leave_one_day_out.png").to_string(index=False))
     print(detector_error(args.images, args.counts, args.first_counts, args.weather, args.labels,
                          args.out / "detector_error.png").to_string())
-    print(f"wrote 4 charts to {args.out}")
+    n_charts = 4
+    if (args.dna / "hourly_archetypes.parquet").exists():
+        traffic_dna(args.dna, args.out / "traffic_dna.png")
+        n_charts += 1
+    if (args.insights / "rain_vulnerability.csv").exists():
+        rain_vulnerability_chart(args.insights, args.out / "rain_vulnerability.png")
+        n_charts += 1
+    if (args.insights / "tidal_pairs.csv").exists():
+        tidal_flow_chart(args.insights, args.out / "tidal_flow.png")
+        n_charts += 1
+    if (args.insights / "distance_decay.csv").exists() and (args.audit / "hourly_outages.csv").exists():
+        spatial_and_audit_chart(args.insights, args.audit, args.out / "spatial_and_audit.png")
+        n_charts += 1
+    print(f"wrote {n_charts} charts to {args.out}")
 
 
 if __name__ == "__main__":

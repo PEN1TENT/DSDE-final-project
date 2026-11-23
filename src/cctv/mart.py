@@ -1,12 +1,12 @@
 """Step 8: join every source into the tables the dashboard reads.
 
 Inputs: rain snapshots (detections + Open-Meteo rain, from cctv.rain), camera metadata
-(cctv_info.csv), OpenStreetMap road context (cctv.osm) and daylight (cctv.daylight).
-The OSM and daylight inputs are optional; their columns are left empty when missing.
+(cctv_info.csv), OpenStreetMap road context (cctv.osm), daylight (cctv.daylight), and
+Traffic DNA clusters (cctv.dna). Optional context inputs are left empty when missing.
 
 Writes data/processed/dashboard/:
-  snapshots.parquet  one row per usable image, with rain level, light phase and road class
-  cameras.parquet    one row per camera: location, road context, traffic level, rain effect
+  snapshots.parquet  one row per usable image, with rain level, light phase, road class & archetype
+  cameras.parquet    one row per camera: location, road context, Traffic DNA, rain effect
 
     uv run python -m cctv.mart
 """
@@ -22,12 +22,26 @@ import pandas as pd
 from cctv.daylight import light_phase
 from cctv.rain import BINS, LEVELS
 
-SNAP_COLS = ["camera_id", "timestamp", "hour", "daytype", "period", "rain_now", "wet", "n_vehicles",
-             "n_calibrated", "covered_fraction", "n_car", "n_motorcycle", "n_truck", "n_bus", "n_bicycle",
-             "excess_vehicles", "excess_calibrated", "excess_covered", "brightness", "path"]
+SNAP_COLS = [
+    "camera_id", "timestamp", "hour", "daytype", "period", "rain_now", "wet",
+    "n_vehicles", "n_calibrated", "covered_fraction", "n_car", "n_motorcycle",
+    "n_truck", "n_bus", "n_bicycle", "excess_vehicles", "excess_calibrated",
+    "excess_covered", "brightness", "sharpness", "path",
+]
+DNA_COLS = [
+    "camera_id", "cluster_id", "archetype", "am_ratio", "midday_ratio", "pm_ratio",
+    "night_ratio", "weekend_keep", "we_am_keep", "pca1", "pca2", "silhouette",
+]
 
 
-def build(snaps: pd.DataFrame, info: pd.DataFrame, osm: pd.DataFrame | None, daylight: pd.DataFrame | None):
+def build(
+    snaps: pd.DataFrame,
+    info: pd.DataFrame,
+    osm: pd.DataFrame | None,
+    daylight: pd.DataFrame | None,
+    dna: pd.DataFrame | None = None,
+    health: pd.DataFrame | None = None,
+):
     s = snaps[[c for c in SNAP_COLS if c in snaps.columns]].copy()
     s["date"] = s["timestamp"].dt.normalize()
     s["weekday"] = s["timestamp"].dt.day_name().str[:3]
@@ -40,7 +54,19 @@ def build(snaps: pd.DataFrame, info: pd.DataFrame, osm: pd.DataFrame | None, day
                             cams["location"], cams["location_en"])
     if osm is not None:
         cams = cams.merge(osm, on="camera_id", how="left")
-    s = s.merge(cams[["camera_id", "name"] + (["road_class"] if osm is not None else [])], on="camera_id", how="left")
+    if dna is not None:
+        cols = [c for c in DNA_COLS if c in dna.columns]
+        cams = cams.merge(dna[cols], on="camera_id", how="left")
+    if health is not None:
+        h_cols = [c for c in ["camera_id", "blank_frames", "visual_frozen_frames", "bad_pct"] if c in health.columns]
+        cams = cams.merge(health[h_cols], on="camera_id", how="left")
+
+    snap_cam_cols = ["camera_id", "name"]
+    if osm is not None and "road_class" in cams.columns:
+        snap_cam_cols.append("road_class")
+    if dna is not None and "archetype" in cams.columns:
+        snap_cam_cols.append("archetype")
+    s = s.merge(cams[snap_cam_cols], on="camera_id", how="left")
 
     g = s.groupby("camera_id")
     stats = pd.DataFrame({
@@ -86,11 +112,21 @@ def main() -> None:
     parser.add_argument("--cameras", type=Path, default=Path("data/raw/cctv_info.csv"))
     parser.add_argument("--osm", type=Path, default=Path("data/interim/osm_context.parquet"))
     parser.add_argument("--daylight", type=Path, default=Path("data/interim/daylight.parquet"))
+    parser.add_argument("--dna", type=Path, default=Path("data/processed/dna/camera_dna.parquet"))
+    parser.add_argument("--health", type=Path, default=Path("data/processed/audit/camera_health.csv"))
     parser.add_argument("--out", type=Path, default=Path("data/processed/dashboard"))
     args = parser.parse_args()
 
-    load = lambda p: pd.read_parquet(p) if p.exists() else print(f"  (missing {p}, columns left empty)")
-    snaps, cams = build(pd.read_parquet(args.snapshots), pd.read_csv(args.cameras), load(args.osm), load(args.daylight))
+    load_pq = lambda p: pd.read_parquet(p) if p.exists() else print(f"  (missing {p}, columns left empty)")
+    load_csv = lambda p: pd.read_csv(p) if p.exists() else print(f"  (missing {p}, columns left empty)")
+    snaps, cams = build(
+        pd.read_parquet(args.snapshots),
+        pd.read_csv(args.cameras),
+        load_pq(args.osm),
+        load_pq(args.daylight),
+        load_pq(args.dna),
+        load_csv(args.health),
+    )
     args.out.mkdir(parents=True, exist_ok=True)
     snaps.to_parquet(args.out / "snapshots.parquet", index=False)
     cams.to_parquet(args.out / "cameras.parquet", index=False)

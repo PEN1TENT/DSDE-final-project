@@ -83,7 +83,7 @@ The write-up is [`reports/report.md`](reports/report.md).
 | Source | How | Module | Output |
 |---|---|---|---|
 | Open-Meteo archive | REST API | `cctv.weather` | hourly rain per camera |
-| OpenStreetMap | Overpass API (QL queries) | `cctv.osm` | road class, lanes, speed limit, schools / hospitals / malls / rail stations within 500 m |
+| OpenStreetMap | Overpass API (QL queries) | `cctv.osm` | road class, lanes, speed limit, bridge, traffic signals (100 m / 500 m), schools / hospitals / malls / rail stations / bus stops within 500 m |
 | sunrise-sunset.org | REST API | `cctv.daylight` | sunrise, sunset, civil twilight per day → day / twilight / night per snapshot |
 
 Raw API responses are cached in `data/raw/external/` (committed), so these steps re-run offline.
@@ -96,8 +96,10 @@ uv run python -m cctv.pipeline --dry-run   # show what would run
 uv run python -m cctv.pipeline --force --from rain
 ```
 
-Order: inventory → detect → weather → osm → daylight → rain → charts → mart. `cctv.mart` joins
-everything into `data/processed/dashboard/` for the dashboard.
+Order: `inventory → audit → detect → weather → osm → daylight → rain → dna → shocks → insights → charts → mart`.
+`cctv.audit` detects blank/whiteout and watermark-frozen frames before `rain`, and detects `|z| ≥ 2.5` traffic shocks afterward.
+`cctv.dna` clusters camera rhythms into 3 Traffic DNA archetypes (`k=3`); `cctv.insights` runs rain-vulnerability DiD, AM↔PM tidal asymmetry, and Mantel spatial spillover tests.
+`cctv.mart` joins everything into `data/processed/dashboard/` for the dashboard.
 
 ## Dashboard
 
@@ -105,7 +107,8 @@ everything into `data/processed/dashboard/` for the dashboard.
 uv run streamlit run src/cctv/dashboard.py
 ```
 
-Tabs: overview (KPIs, week timeline, rush-hour profile, vehicle mix), camera map (traffic, rain
+8 Tabs: overview (KPIs, week timeline, rush-hour profile, vehicle mix), camera map (traffic, rain
 effect or peak hour), rain vs congestion (with confidence intervals; wet vs dry by time of day and
-daylight), road context (OpenStreetMap), and a camera explorer that shows the raw image for any
-snapshot. Sidebar filters: dates, weekday/weekend, light phase, road class.
+daylight), road context (OpenStreetMap), traffic DNA (clusters & OSM validation), vulnerability & corridors
+(rain DiD, tidal pairs, spatial links), anomalies & CCTV audit (feed health, morning whiteouts, shocks),
+and a camera explorer that shows the raw image for any snapshot. Sidebar filters: dates, weekday/weekend, light phase, road class.

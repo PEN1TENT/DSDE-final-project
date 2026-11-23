@@ -1,10 +1,11 @@
 """Step 6: road and neighbourhood context for every camera from OpenStreetMap (Overpass API).
 
-For each camera this finds the nearest mapped road (class, lanes, one-way, speed limit) and
-counts places that generate traffic within RADIUS metres: schools/universities, hospitals,
-malls/markets and rail (BTS/MRT/SRT) stations.
+For each camera this finds the nearest mapped road (class, lanes, one-way, speed limit, bridge)
+and counts places that generate or control traffic within RADIUS metres: schools/universities,
+hospitals, malls/markets, rail (BTS/MRT/SRT) stations, bus stops, and traffic signals (within
+both 100 m and 500 m).
 
-Two Overpass queries cover all 100 cameras (unions of `around:` filters). The raw JSON
+Overpass queries cover all 100 cameras (unions of `around:` filters). The raw JSON
 responses are cached in data/raw/external/ so re-runs work offline; pass --refresh to
 fetch again. The public servers are often busy, so each query retries with backoff and
 falls back to a mirror.
@@ -32,6 +33,7 @@ ENDPOINTS = [
     "https://overpass.private.coffee/api/interpreter",
 ]
 ROAD_RADIUS = 80  # metres: cameras sit on footbridges/poles right above the road
+SIGNAL_RADIUS = 100  # metres: traffic signals at the camera's immediate intersection
 RADIUS = 500  # metres for points of interest
 ROAD_CLASSES = ["motorway", "trunk", "primary", "secondary", "tertiary", "unclassified", "residential", "service"]
 ROAD_RANK = {name: rank for rank, name in enumerate(ROAD_CLASSES)}
@@ -41,6 +43,10 @@ POI = {
     "mall_market": '["shop"="mall"]',
     "market": '["amenity"="marketplace"]',
     "rail_station": '["railway"="station"]',
+}
+TRAFFIC_POI = {
+    "traffic_signals": '["highway"="traffic_signals"]',
+    "bus_stop": '["highway"="bus_stop"]',
 }
 
 
@@ -77,6 +83,12 @@ def poi_query(cams: pd.DataFrame) -> str:
     return "[out:json][timeout:180];(" + "".join(parts) + ");out tags center;"
 
 
+def traffic_query(cams: pd.DataFrame) -> str:
+    parts = [f'node(around:{RADIUS},{r.latitude},{r.longitude})["highway"~"^(traffic_signals|bus_stop)$"];'
+             for r in cams.itertuples()]
+    return "[out:json][timeout:180];(" + "".join(parts) + ");out tags center;"
+
+
 def to_xy(lat, lon, lat0: float) -> tuple[np.ndarray, np.ndarray]:
     """Local equirectangular metres; accurate to <0.1% across Bangkok."""
     k = 111_320.0
@@ -94,6 +106,7 @@ def segment_distance(px: float, py: float, xs: np.ndarray, ys: np.ndarray) -> fl
 
 def poi_category(tags: dict) -> str | None:
     amenity = tags.get("amenity", "")
+    highway = tags.get("highway", "")
     if amenity in {"school", "university", "college", "kindergarten"}:
         return "school"
     if amenity in {"hospital", "clinic"}:
@@ -102,6 +115,10 @@ def poi_category(tags: dict) -> str | None:
         return "mall_market"
     if tags.get("railway") == "station":
         return "rail_station"
+    if highway == "traffic_signals":
+        return "traffic_signals"
+    if highway == "bus_stop":
+        return "bus_stop"
     return None
 
 
@@ -112,7 +129,7 @@ def number(value: str | None) -> float:
         return np.nan
 
 
-def build(cams: pd.DataFrame, roads: dict, pois: dict) -> pd.DataFrame:
+def build(cams: pd.DataFrame, roads: dict, pois: dict, traffic: dict | None = None) -> pd.DataFrame:
     lat0 = float(cams["latitude"].mean())
     ways = []
     for el in roads.get("elements", []):
@@ -121,7 +138,8 @@ def build(cams: pd.DataFrame, roads: dict, pois: dict) -> pd.DataFrame:
         xs, ys = to_xy([g["lat"] for g in el["geometry"]], [g["lon"] for g in el["geometry"]], lat0)
         ways.append((el["tags"], xs, ys))
     points = []
-    for el in pois.get("elements", []):
+    all_poi_elements = list(pois.get("elements", [])) + list((traffic or {}).get("elements", []))
+    for el in all_poi_elements:
         loc = el.get("center") or ({"lat": el["lat"], "lon": el["lon"]} if "lat" in el else None)
         cat = poi_category(el.get("tags", {}))
         if loc and cat:
@@ -147,11 +165,13 @@ def build(cams: pd.DataFrame, roads: dict, pois: dict) -> pd.DataFrame:
                 "lanes": number(tags.get("lanes")),
                 "oneway": tags.get("oneway") == "yes",
                 "maxspeed_kmh": number(tags.get("maxspeed")),
+                "is_bridge": bool(tags.get("bridge") and tags.get("bridge") != "no"),
                 "road_distance_m": round(dist, 1),
             })
         d = np.hypot(poi["x"] - px, poi["y"] - py)
-        for cat in ["school", "hospital", "mall_market", "rail_station"]:
+        for cat in ["school", "hospital", "mall_market", "rail_station", "traffic_signals", "bus_stop"]:
             row[f"n_{cat}_{RADIUS}m"] = int(((poi["cat"] == cat) & (d <= RADIUS)).sum())
+        row[f"n_traffic_signals_{SIGNAL_RADIUS}m"] = int(((poi["cat"] == "traffic_signals") & (d <= SIGNAL_RADIUS)).sum())
         rows.append(row)
     return pd.DataFrame(rows)
 
@@ -170,8 +190,14 @@ def main() -> None:
     print(f"  roads: {len(roads.get('elements', []))} ways")
     pois = overpass(poi_query(cams), args.cache / "osm_pois.json", args.refresh)
     print(f"  points of interest: {len(pois.get('elements', []))} elements")
+    try:
+        traffic = overpass(traffic_query(cams), args.cache / "osm_traffic.json", args.refresh)
+        print(f"  traffic nodes (signals / bus stops): {len(traffic.get('elements', []))} elements")
+    except Exception as exc:
+        print(f"  (traffic nodes skipped: {exc})")
+        traffic = None
 
-    out = build(cams, roads, pois)
+    out = build(cams, roads, pois, traffic)
     out.to_parquet(args.out, index=False)
     print(f"wrote {args.out}: {len(out)} cameras, {out['road_class'].notna().sum()} matched to a road")
     print(out["road_class"].value_counts(dropna=False).to_string())
