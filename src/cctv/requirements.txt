@@ -1,0 +1,8 @@
+# Lightweight dependencies for Streamlit Community Cloud (entrypoint: src/cctv/dashboard.py).
+# Placed next to dashboard.py so Streamlit Cloud uses this instead of root uv.lock
+# (which includes heavy pipeline-only packages like ultralytics/torch and playwright).
+streamlit>=1.67.0
+plotly>=7.1.0
+pandas>=2.2
+numpy>=2.0
+pyarrow>=18.0

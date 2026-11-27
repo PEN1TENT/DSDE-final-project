@@ -1,0 +1,4 @@
+test_name,observed,null_mean,p_value,detail
+mantel_near_vs_far,0.061629208307646774,-0.00019408366940805306,0.0004997501249375312,near<=1km mean +0.0498 vs far>2km -0.0118
+mantel_dist_decay_r,-0.07381116577977384,-0.00033664617052249756,0.0004997501249375312,"corr(local_r, log_dist_km)"
+nn_sync_summary,0.056719958753269545,0.038819743706340885,,"NN<=2km (n=95): raw lag0 median=0.180, local lag0=0.057, local lag1h=0.039"

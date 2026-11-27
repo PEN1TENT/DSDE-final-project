@@ -4,8 +4,9 @@ Check: `uv run pytest`
 Updated: 2026-11-27
 
 ## Next
-Just done: Added Playwright interactive web scraper for Longdo Traffic (`src/cctv/longdo.py`), statistical cross-validation (`dry ρ=0.88 → wet 0.44`, Mon 31 Aug glare proof `CCTV −17.7%` vs `Longdo +11.1%`, Bridges `3.1×` accidents `p<0.001`, Traffic DNA `KW p=0.027`, `11` shock-incident matches), `reports/figures/longdo_validation.png`, and expanded the slide deck to 23 slides (`slides.html`, `slides.pptx`, `slides.pdf`) on branch `insights-and-slides`.
-1. Fill in team member names on Slide 1 (`slides.html` / `build_pptx.py`), open PR / merge `insights-and-slides`, and record the presentation video.
+Just done: Prepared repo for one-click Streamlit Community Cloud deployment (`src/cctv/requirements.txt` alongside `dashboard.py` + un-ignored ~4.5 MB precomputed dashboard tables in `data/processed/{dashboard,dna,insights,audit,l640/rain_effect.csv}`), pushed to `origin/insights-and-slides`.
+1. Deploy on https://share.streamlit.io (repo `PEN1TENT/DSDE-final-project`, branch `insights-and-slides`, main file `src/cctv/dashboard.py`).
+2. Fill in team member names on Slide 1 (`slides.html` / `build_pptx.py`), open PR / merge `insights-and-slides`, and record the presentation video.
 Blocked: none
 
 ## Rules

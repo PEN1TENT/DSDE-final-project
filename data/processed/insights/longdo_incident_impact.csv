@@ -1,0 +1,5 @@
+radius,incident_group,n_exposed_cam_hours,n_cameras_exposed,mean_excess_incident,mean_excess_control,diff_log,pct_effect,perm_p
+within_500m,all_road_incidents,125,32,-0.0112,-0.0007,-0.0106,-1.05,0.6375
+within_500m,accidents_only,80,23,0.0058,-0.0011,0.0069,0.69,0.795
+within_1km,all_road_incidents,413,73,-0.0159,0.0002,-0.016,-1.59,0.217
+within_1km,accidents_only,254,53,-0.0189,0.0001,-0.019,-1.88,0.219

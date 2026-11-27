@@ -1,0 +1,2 @@
+metric,n_hours,pearson_r,spearman_r,perm_p,dry_n_hours,dry_pearson_r,dry_spearman_r,wet_n_hours,wet_pearson_r,wet_spearman_r,dry_eve_longdo_index,wet_eve_longdo_index,mon31_eve_cctv_pct,mon31_eve_longdo_index,other_weekday_eve_longdo_index,mon31_eve_longdo_pct
+hourly_cctv_vs_longdo_index,110,0.5973,0.5583,0.0,22,0.7845,0.878,88,0.4997,0.4399,5.0,5.61,-17.71,6.15,5.53,11.14

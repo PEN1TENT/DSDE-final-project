@@ -11,6 +11,16 @@ data/*
 !data/raw/
 data/raw/*
 !data/raw/external/
+# ...and the compact precomputed dashboard tables (~4.5 MB) for Streamlit Community Cloud
+!data/processed/
+data/processed/*
+!data/processed/dashboard/
+!data/processed/dna/
+!data/processed/insights/
+!data/processed/audit/
+!data/processed/l640/
+data/processed/l640/*
+!data/processed/l640/rain_effect.csv
 # secret per-person keys and the homelab bundle (holds keys + images) never go in git
 data/labels/tokens.csv
 deploy/build/
