@@ -169,15 +169,16 @@ bullets(s, 72, 296, 1136, 330, [
 
 # 3 Data ------------------------------------------------------------------
 s = new_slide(page=3)
-header(s, "1 · Data", "One CCTV dataset plus three outside sources and our own labels")
+header(s, "1 · Data", "One CCTV dataset plus four outside sources (3 APIs + Playwright) & labels", title_size=21)
 rows = [("Source", "How we got it", "What it adds"),
         ("BMA CCTV images", "Provided (scraped)", "100 cameras, 25–31 Aug 2026, 61,319 raw → 60,053 audited snapshots (~1 / 10 min, 352×288 px)"),
+        ("Longdo Traffic", "Playwright (headless)", "Interactive SPA road events + 2026 archive (416 BKK study-week events, 228 accidents) & 5-min Bangkok Traffic Index"),
         ("Open-Meteo archive", "REST API", "Hourly modelled rainfall at each camera's coordinates → rain level per snapshot (lag 0, 1 h, 2 h)"),
-        ("OpenStreetMap", "Overpass API (QL)", "Nearest road: class, lanes, speed limit, one-way, bridge; signals (100 m / 500 m), schools, hospitals, malls, rail stations & bus stops within 500 m"),
+        ("OpenStreetMap", "Overpass API (QL)", "Nearest road class, lanes, bridges; signals (100 m / 500 m), schools, hospitals, malls & rail stations within 500 m"),
         ("sunrise-sunset.org", "REST API", "Sunrise, sunset, civil twilight per day → day / twilight / night label per snapshot"),
         ("Team hand labels", "Our labelling web app", "1,000 frames counted by 5 people (199 counted twice) → ground truth for detector selection & calibration")]
-tbl = s.shapes.add_table(len(rows), 3, px(72), px(146), px(1136), px(440)).table
-for j, w in enumerate([230, 210, 696]):
+tbl = s.shapes.add_table(len(rows), 3, px(72), px(142), px(1136), px(452)).table
+for j, w in enumerate([225, 205, 706]):
     tbl.columns[j].width = px(w)
 for i, row in enumerate(rows):
     for j, val in enumerate(row):
@@ -187,19 +188,20 @@ for i, row in enumerate(rows):
         c.text = val
         for p in c.text_frame.paragraphs:
             for r in p.runs:
-                r.font.size, r.font.name = Pt(12 if i == 0 else 13.5), FONT
+                r.font.size, r.font.name = Pt(11.5 if i == 0 else 12.5), FONT
                 r.font.bold = i == 0 or j == 0
                 r.font.color.rgb = rgb(MUTED if i == 0 else (INK if j == 0 else INK2))
-text(s, 72, 608, 1136, 26, [[("All API responses are cached in ", False), ("data/raw/external/", True),
-                              (", so the whole 12-step pipeline re-runs offline.", False)]], 14)
+text(s, 72, 610, 1136, 26, [[("All external responses & Playwright caches live in ", False), ("data/raw/external/", True),
+                              (", so the 14-step pipeline re-runs offline.", False)]], 13.5)
 
 # 4 Architecture ----------------------------------------------------------
 s = new_slide(page=4)
 header(s, "2 · How the components connect", "From raw images to insight models & an 8-tab dashboard in one command")
 for x, t, c in [(72, "SOURCES", MUTED), (316, "COMPONENT 1 · DATA ENGINEERING", MUTED), (620, "· COMPONENT 2 · DATA SCIENCE", "#c24f1f"), (998, "COMPONENT 3 & 4", MUTED)]:
     text(s, x, 134, 210 if x == 998 else 300, 18, t, 10, c, bold=True)
-srcs = [("CCTV images", "61.3k JPEGs, 100 cams"), ("Open-Meteo", "hourly rain grid"), ("OpenStreetMap", "roads, signals, POIs"),
-        ("sunrise-sunset", "light phase"), ("Hand labels", "1,000 frames")]
+srcs = [("CCTV images", "61.3k JPEGs, 100 cams"), ("Longdo Traffic", "Playwright events & index"),
+        ("Open-Meteo & sun", "hourly rain & light phase"), ("OpenStreetMap", "roads, signals, POIs"),
+        ("Hand labels", "1,000 frames")]
 for i, (t, d) in enumerate(srcs):
     y = 158 + i * 100
     box(s, 72, y, 210, 88, fill="#f2f7fd", line="#b8d1f0")
@@ -207,24 +209,24 @@ for i, (t, d) in enumerate(srcs):
 text(s, 284, 396, 30, 30, "→", 22, MUTED, align=PP_ALIGN.CENTER)
 cells = [("inventory & audit", "timestamps, blank/whiteout & watermark-frozen feed check", "de"),
          ("detect", "YOLO11-L vehicle boxes & counts per class", "de"),
-         ("weather · osm · daylight", "fetch, cache, join to camera & hour", "de"),
+         ("weather · osm · daylight · longdo", "3 APIs + Playwright SPA scrape, cache & join", "de"),
          ("mart", "clean parquet tables for dashboard & insights", "de"),
          ("bake-off & rain", "calibration, excess over usual, DiD & LODO checks", "ds"),
-         ("dna · shocks · insights", "clustering, |z|≥2.5 shocks, tidal flow, Mantel sync", "ds")]
+         ("dna · shocks · insights · longdo_val", "clustering, shocks, tidal, Mantel & Longdo validation", "ds")]
 for i, (t, d, k) in enumerate(cells):
     x, y = 316 + (i % 2) * 330, 158 + (i // 2) * 116
     fill, line = ("#f1faf6", "#c7e9da") if k == "de" else ("#fdf4f0", "#f4cdbd")
     box(s, x, y, 320, 106, fill=fill, line=line)
-    text(s, x + 14, y + 12, 292, 84, [[(t, True)], d], 12.5, INK2, spacing=2)
+    text(s, x + 14, y + 12, 292, 84, [[(t, True)], d], 12, INK2, spacing=2)
 box(s, 316, 514, 650, 140, fill=SURFACE, line="#1baf7a", dash=True)
-text(s, 332, 526, 620, 118, [
-    [("cctv.pipeline", True), (" runs 12 incremental steps and skips any whose outputs are newer than their inputs:", False)],
-    "inventory → audit → detect → weather → osm → daylight →",
-    "rain → dna → shocks → insights → charts → mart",
-], 12, GREEN, spacing=4)
+text(s, 332, 524, 620, 120, [
+    [("cctv.pipeline", True), (" runs 14 incremental steps and skips any whose outputs are newer than their inputs:", False)],
+    "inventory → audit → detect → weather → osm → daylight → longdo →",
+    "rain → dna → shocks → insights → longdo_val → charts → mart",
+], 11.5, GREEN, spacing=4)
 text(s, 966, 396, 30, 30, "→", 22, MUTED, align=PP_ALIGN.CENTER)
 for i, (t, d) in enumerate([("8-tab Streamlit dashboard", "overview · map · rain · OSM · DNA · corridors · audit · explorer"),
-                            ("Insights", "8 figures + report: DNA, rain DiD, tidal pairs, spillover, shocks")]):
+                            ("Insights", "9 figures + report: DNA, rain DiD, tidal, spillover, shocks & Longdo")]):
     y = 158 + i * 252
     box(s, 998, y, 210, 240, fill="#f6f2fd", line="#d6c8f0")
     text(s, 1012, y + 14, 182, 210, [[(t, True)], d], 12.5, INK2, spacing=4)
@@ -236,11 +238,11 @@ bullets(s, 72, 152, 564, 500, [
     [("Timestamps", True), (" parsed from filename, then EXIF; camera/hour cells with ", False), ("< 3 snapshots", True), (" dropped.", False)],
     [("Stage-1 Feed Audit", True), (" removed ", False), ("1,086 bad frames", True), (" from 61,319: ", False), ("507 blank", True), (" (504 morning whiteouts) + ", False), ("579 frozen", True), (" whose moving watermark tricked MD5 (center MAD < 1.0).", False)],
     [("Audit payoff:", True), (" cleaned heavy-rain gap strengthens from ", False), ("+3.7 → +5.6 pts", True), (", DNA ARI improves ", False), ("0.85 → 0.92", True), (", and Cam 206's weekend slump corrects (95 frozen frames removed).", False)],
-    [("Outside data", True), (" joined on camera coordinates + hour; road attributes, bridges and signal proximity from OSM.", False)],
+    [("Outside data", True), (" combines 3 REST/Overpass APIs plus a headless ", False), ("Playwright", True), (" scraper for Longdo Traffic road incidents & 5-min Bangkok Traffic Index.", False)],
 ], 15)
-for i, (t, b) in enumerate([("Reproducible", "uv run python -m cctv.pipeline runs the 12-step DAG and rebuilds only what is out of date; --dry-run previews the plan."),
+for i, (t, b) in enumerate([("Reproducible", "uv run python -m cctv.pipeline runs the 14-step DAG and rebuilds only what is out of date; --dry-run previews the plan."),
                             ("Resumable detection", "YOLO runs at ~10 images/s on an Apple GPU and resumes from checkpoints cleanly."),
-                            ("Tested (30 tests)", "30 pytest tests cover timestamps, OSM, daylight, labelling, DNA stability, blank/frozen detection, shocks, DiD, tidal flips & Mantel sync.")]):
+                            ("Tested (32 tests)", "32 pytest tests cover timestamps, OSM, daylight, Playwright Longdo parsing, DNA stability, blank/frozen detection, shocks, DiD, tidal flips & Mantel sync.")]):
     card(s, 672, 152 + i * 156, 536, 140, t, b, size=13.5)
 
 # 6 Detection examples ----------------------------------------------------
@@ -384,8 +386,18 @@ takeaway_cards(s, [
     ("262 traffic shocks (|z| ≥ 2.5)", "207 localized surges (Triam Udom 239 z=+4.87), 18 corridor, and 37 citywide shocks led by Mon 31 Aug evening (−17.8%; Cam 414 z=−7.36)."),
 ])
 
-# 20 Dashboard ------------------------------------------------------------
+# 20 NEW: Finding 8 - Longdo Traffic Cross-Validation ---------------------
 s = new_slide(page=20)
+header(s, "Finding 8 · Longdo Traffic cross-validation (Playwright)", "Longdo probes prove wet-night glare & expose 3.1× accident risk on bridges", title_size=21)
+image(s, REP / "longdo_validation.png", 72, 138, 1136, 384)
+takeaway_cards(s, [
+    ("Dry vs. wet sensor proof", "CCTV tracks Longdo's GPS-probe index strongly in dry hours (ρ=0.88) but halves in rain (ρ=0.44). On Mon 31 Aug eve, Longdo rises +11.1% (6.15) while CCTV drops −17.7% — proving glare."),
+    ("Bridges = 3.1× accident risk", "Bridges average 64.9 accidents/yr (≤500 m) vs 21.0 on surface (ρ=0.34, p<0.001). Traffic DNA separates 2026 road events (KW p=0.027); Mahai Sawan (167/yr) & Wat Suwan (66/yr) are also tidal corridors."),
+    ("11 shock–incident matches", "11 CCTV shocks (|z|≥2.5) match Longdo incidents ≤1 km, ±1 h — Rama 9 (76 m, −48.8%), Phayathai (109 m, −48.5%), Phyathai 2 (671 m, +82.2%); signed means cancel (−1.1%, p=0.64)."),
+])
+
+# 21 Dashboard ------------------------------------------------------------
+s = new_slide(page=21)
 header(s, "Component 3 · BI dashboard", "Explore every camera, DNA archetype, tidal pair and snapshot yourself")
 image(s, FIG / "dash_overview_crop.png", 72, 150, 640, 425, crop_top=True)
 image(s, FIG / "dash_map_crop.png", 740, 150, 468, 205, crop_top=True)
@@ -394,24 +406,24 @@ cap(s, 72, 582, 640, "Overview: KPIs and traffic vs rain through the week")
 cap(s, 740, 582, 468, "Camera map and camera explorer (raw image for any snapshot)")
 text(s, 72, 616, 1136, 56, "8 Tabs: overview · map · rain vs congestion · road context (OSM) · traffic DNA · vulnerability & corridors · anomalies & CCTV audit · camera explorer. Filters: dates, day type, light phase, road class. Run: uv run streamlit run src/cctv/dashboard.py", 11.5)
 
-# 21 Limits ---------------------------------------------------------------
-s = new_slide(page=21)
+# 22 Limits ---------------------------------------------------------------
+s = new_slide(page=22)
 header(s, "Limits", "A well-checked case study — honest about sample size & power")
 bullets(s, 72, 156, 650, 490, [
-    [("One week (445 heavy-rain snapshots):", True), (" sufficient for the main +5.6 pt effect and Mantel test, but widens interaction DiD CIs (signal/bridge p=0.11–0.16) and restricts per-link day-block FDR power (7 blocks).", False)],
+    [("One week (445 heavy-rain snapshots):", True), (" sufficient for the main +5.6 pt effect, Mantel test, and Longdo index validation, but widens interaction DiD CIs (p=0.11–0.16) and restricts per-link day-block FDR power.", False)],
     [("Area-level hourly rain:", True), (" Open-Meteo is gridded and averages short downpours over the full hour.", False)],
-    [("Counts ≠ speed:", True), (" more vehicles can signal slower queues or higher throughput; 10-min snapshots cannot measure speed directly.", False)],
+    [("Counts ≠ speed & wet-night glare:", True), (" Longdo probes confirm YOLO loses recall in wet evening glare; 10-min snapshots cannot measure speed directly.", False)],
     [("Imperfect human labels & lens blur:", True), (" human disagreement averages 2.7 vehicles/frame.", False)],
 ], 15)
-card(s, 756, 156, 452, 265, "Next steps", "Extend scraping across a full monsoon season with TMD rain gauges to unlock per-corridor FDR power; pilot AM/PM reversible-lane & signal-timing adjustments on Ratchadaphisek (224–225, 124–125) and Silom–Naradhiwas (603–604).", 14)
+card(s, 756, 156, 452, 265, "Next steps", "Extend scraping across a full monsoon season with TMD rain gauges; fuse Longdo GPS probes with CCTV to correct wet-night glare; pilot tidal lanes on Ratchadaphisek & Mahai Sawan.", 14)
 
-# 22 Summary --------------------------------------------------------------
-s = new_slide(page=22)
+# 23 Summary --------------------------------------------------------------
+s = new_slide(page=23)
 header(s, "Summary", "What we built and what we learned")
-for i, (t, b) in enumerate([("Data engineering", "Audited 61.3k frames down to 60,053 usable snapshots (−1,086 blank/frozen), YOLO11-L + 3 APIs in a 12-step pipeline with 30 pytest tests."),
-                            ("Data science", "1,000 hand labels, cross-fitted calibration, Traffic DNA (ARI 0.92), cluster-bootstrap DiD, 5,000-perm tidal asymmetry, Mantel sync & FDR."),
+for i, (t, b) in enumerate([("Data engineering", "Audited 61.3k frames down to 60,053 usable snapshots (−1,086 blank/frozen), YOLO11-L + 3 APIs + Playwright Longdo scraper in a 14-step DAG (32 pytest tests)."),
+                            ("Data science", "1,000 hand labels, cross-fitted calibration, Traffic DNA (ARI 0.92), cluster-bootstrap DiD, 5,000-perm tidal asymmetry, Mantel sync & Longdo validation."),
                             ("Dashboard", "8-tab Streamlit app covering maps, OSM context, DNA clusters, tidal pairs, spatial links, shocks and raw frame inspection."),
-                            ("Key insights", "Heavy rain → +5.6 pts (signals +10.1, surface +6.6). 3 road archetypes. 7/21 FDR tidal corridors (5/5 days on Ratchada). ≤1 km spillover. 262 shocks.")]):
+                            ("Key insights", "Heavy rain → +5.6 pts (signals +10.1). 3 DNA archetypes. 7/21 FDR tidal corridors. ≤1 km spillover. Longdo: dry ρ=0.88 → wet 0.44; bridges 3.1× accidents.")]):
     card(s, 72 + i * 289, 156, 271, 290, t, b, 13.5)
 text(s, 72, 480, 1136, 30, "Code, slides and video: see the Google Drive link on myCourseVille. Thank you!", 15)
 

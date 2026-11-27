@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "name": "รถเสีย",
+    "name_en": "Car Break Down",
+    "icon": "carbreakdown",
+    "severity": 1
+  },
+  {
+    "id": 2,
+    "name": "ก่อสร้าง",
+    "name_en": "Construction",
+    "icon": "construction",
+    "severity": 1
+  },
+  {
+    "id": 3,
+    "name": "อุบัติเหตุ",
+    "name_en": "Accident",
+    "icon": "accident",
+    "severity": 3
+  },
+  {
+    "id": 5,
+    "name": "ฝนตก",
+    "name_en": "Rain",
+    "icon": "rain",
+    "severity": 3
+  },
+  {
+    "id": 6,
+    "name": "น้ำท่วม",
+    "name_en": "Flood",
+    "icon": "flood",
+    "severity": 3
+  },
+  {
+    "id": 7,
+    "name": "การชุมนุม",
+    "name_en": "Crowd",
+    "icon": "crowd",
+    "severity": 3
+  },
+  {
+    "id": 8,
+    "name": "ประกาศ",
+    "name_en": "Information",
+    "icon": "information",
+    "severity": 3
+  },
+  {
+    "id": 9,
+    "name": "ด่านตรวจ",
+    "name_en": "Check Point",
+    "icon": "checkpoint",
+    "severity": 1
+  },
+  {
+    "id": 10,
+    "name": "รถติด",
+    "name_en": "Trafficjam",
+    "icon": "trafficjam",
+    "severity": 1
+  },
+  {
+    "id": 11,
+    "name": "จิปาถะ",
+    "name_en": "MISC",
+    "icon": "misc",
+    "severity": 1
+  },
+  {
+    "id": 12,
+    "name": "ระวัง",
+    "name_en": "Warning",
+    "icon": "warning",
+    "severity": 3
+  },
+  {
+    "id": 13,
+    "name": "การจัดงาน",
+    "name_en": "Event",
+    "icon": "event",
+    "severity": 3
+  },
+  {
+    "id": 14,
+    "name": "ลดราคา",
+    "name_en": "Sale",
+    "icon": "sale",
+    "severity": 1
+  },
+  {
+    "id": 15,
+    "name": "เพลิงไหม้",
+    "name_en": "Fire",
+    "icon": "fire",
+    "severity": 3
+  },
+  {
+    "id": 16,
+    "name": "ร้องเรียน",
+    "name_en": "Complaint",
+    "icon": "complaint",
+    "severity": 1
+  },
+  {
+    "id": 18,
+    "name": "เบี่ยงจราจร",
+    "name_en": "Diversion",
+    "icon": "diversion",
+    "severity": 1
+  },
+  {
+    "id": 19,
+    "name": "ถนนปิด",
+    "name_en": "Road Closed",
+    "icon": "roadclosed",
+    "severity": 3
+  },
+  {
+    "id": 20,
+    "name": "แผ่นดินไหว",
+    "name_en": "Earthquake",
+    "icon": "earthquake",
+    "severity": 3
+  }
+]

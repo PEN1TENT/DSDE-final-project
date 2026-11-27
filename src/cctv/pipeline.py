@@ -8,10 +8,12 @@ Steps (each is also a module you can run on its own):
   weather    Open-Meteo rain -> data/interim/weather.parquet
   osm        OpenStreetMap road & traffic context -> data/interim/osm_context.parquet
   daylight   sunrise-sunset.org -> data/interim/daylight.parquet
+  longdo     Playwright Longdo Traffic incidents & index -> data/interim/longdo_*.parquet
   rain       rain vs congestion -> data/processed/l640/
   dna        Traffic DNA clustering & significance tests -> data/processed/dna/
   shocks     traffic shock detection & Mon 31 Aug audit -> data/processed/audit/
   insights   rain vulnerability, tidal flow & spatial sync -> data/processed/insights/
+  longdo_val Longdo incident matching & Traffic Index validation -> data/processed/insights/longdo_*.csv
   charts     report figures -> reports/figures/
   mart       dashboard tables -> data/processed/dashboard/
 
@@ -57,6 +59,10 @@ STEPS = [
     Step("osm", ["cctv.osm"], ["data/raw/cctv_info.csv"], ["data/interim/osm_context.parquet"]),
     Step("daylight", ["cctv.daylight"], ["data/raw/cctv_info.csv", "data/interim/images.parquet"],
          ["data/interim/daylight.parquet"]),
+    Step("longdo", ["cctv.longdo", "--stage", "scrape"],
+         ["data/raw/cctv_info.csv", "data/interim/images.parquet"],
+         ["data/interim/longdo_events.parquet", "data/interim/longdo_live_events.parquet",
+          "data/interim/longdo_traffic_index.parquet", "data/interim/longdo_camera_risk.parquet"]),
     Step("rain", ["cctv.rain", "--counts", "data/interim/l640/image_counts.parquet", "--out", "data/processed/l640"],
          ["data/interim/l640/image_counts.parquet", "data/interim/weather.parquet",
           "data/interim/frame_audit.parquet", "data/labels/export.csv"],
@@ -72,12 +78,20 @@ STEPS = [
           "data/processed/dna/camera_dna.parquet", "data/raw/cctv_info.csv"],
          ["data/processed/insights/rain_vulnerability.csv", "data/processed/insights/tidal_pairs.csv",
           "data/processed/insights/distance_decay.csv", "data/processed/insights/corridor_links.csv"]),
+    Step("longdo_val", ["cctv.longdo", "--stage", "analyze"],
+         ["data/processed/l640/rain_snapshots.parquet", "data/processed/audit/traffic_shocks.csv",
+          "data/interim/longdo_events.parquet", "data/interim/longdo_traffic_index.parquet",
+          "data/interim/longdo_camera_risk.parquet", "data/interim/osm_context.parquet",
+          "data/processed/dna/camera_dna.parquet", "data/raw/cctv_info.csv"],
+         ["data/processed/insights/longdo_validation.csv", "data/processed/insights/longdo_incident_impact.csv",
+          "data/processed/insights/longdo_shock_matches.csv", "data/processed/insights/longdo_accident_risk.csv"]),
     Step("charts", ["cctv.charts"],
          ["data/processed/l640/rain_snapshots.parquet", "data/processed/dna/camera_dna.parquet",
-          "data/processed/insights/rain_vulnerability.csv", "data/processed/audit/camera_health.csv"],
+          "data/processed/insights/rain_vulnerability.csv", "data/processed/audit/camera_health.csv",
+          "data/processed/insights/longdo_validation.csv"],
          ["reports/figures/rain_levels.png", "reports/figures/traffic_dna.png",
           "reports/figures/rain_vulnerability.png", "reports/figures/tidal_flow.png",
-          "reports/figures/spatial_and_audit.png"]),
+          "reports/figures/spatial_and_audit.png", "reports/figures/longdo_validation.png"]),
     Step("mart", ["cctv.mart"],
          ["data/processed/l640/rain_snapshots.parquet", "data/interim/osm_context.parquet",
           "data/interim/daylight.parquet", "data/processed/dna/camera_dna.parquet",

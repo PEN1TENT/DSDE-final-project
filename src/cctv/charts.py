@@ -423,6 +423,95 @@ def spatial_and_audit_chart(insights_dir: Path, audit_dir: Path, out: Path) -> N
     plt.close(fig)
 
 
+def longdo_validation_chart(insights_dir: Path, interim_dir: Path, cameras_path: Path, out: Path) -> None:
+    """Plot CCTV vs Longdo Traffic Index (left) and 2026 bridge/hotspot accident risk (right)."""
+    hourly = pd.read_csv(insights_dir / "longdo_hourly_comparison.csv")
+    val = pd.read_csv(insights_dir / "longdo_validation.csv").iloc[0]
+    risk = pd.read_parquet(interim_dir / "longdo_camera_risk.parquet")
+    risk["camera_id"] = risk["camera_id"].astype(str)
+    osm = pd.read_parquet(interim_dir / "osm_context.parquet")
+    osm["camera_id"] = osm["camera_id"].astype(str)
+    cams = pd.read_csv(cameras_path)
+    cams["camera_id"] = cams["camera_id"].astype(str)
+    rm = risk.merge(osm[["camera_id", "is_bridge"]], on="camera_id", how="left").merge(
+        cams[["camera_id", "location_en"]], on="camera_id", how="left"
+    )
+
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(11.2, 4.3), gridspec_kw={"width_ratios": [1.15, 1.0]})
+
+    # Left: CCTV calibrated volume vs Longdo Traffic Index (Dry vs Wet vs Mon 31 Aug Eve)
+    is_mon_eve = (hourly["date_str"] == "2026-08-31") & (hourly["hour"].between(17, 20))
+    is_wet = (hourly["rain_mm"] > 0) & (~is_mon_eve)
+    is_dry = (hourly["rain_mm"] <= 0) & (~is_mon_eve)
+
+    ax1.scatter(hourly.loc[is_wet, "longdo_index"], hourly.loc[is_wet, "cctv_mean_cal"],
+                c=BLUE, alpha=0.55, s=36, label=f"Wet hours (ρ={val['wet_spearman_r']:.2f})", zorder=2)
+    ax1.scatter(hourly.loc[is_dry, "longdo_index"], hourly.loc[is_dry, "cctv_mean_cal"],
+                c=AQUA, edgecolors=INK, linewidths=0.6, s=52,
+                label=f"Dry hours (ρ={val['dry_spearman_r']:.2f})", zorder=3)
+    ax1.scatter(hourly.loc[is_mon_eve, "longdo_index"], hourly.loc[is_mon_eve, "cctv_mean_cal"],
+                c=ORANGE, edgecolors=INK, linewidths=0.8, marker="D", s=64,
+                label="Mon 31 Aug 17–20h (glare drop)", zorder=4)
+
+    # Dry-hour OLS trendline
+    dsub = hourly.loc[is_dry]
+    if len(dsub) >= 3:
+        m, b = np.polyfit(dsub["longdo_index"], dsub["cctv_mean_cal"], 1)
+        xs = np.linspace(hourly["longdo_index"].min(), hourly["longdo_index"].max(), 50)
+        ax1.plot(xs, m * xs + b, color=AQUA, linestyle="--", linewidth=1.6, zorder=1)
+
+    ax1.annotate(
+        f"Mon 31 Aug 17–20h:\nLongdo +11.1% (6.15)\nCCTV −17.7%",
+        xy=(hourly.loc[is_mon_eve, "longdo_index"].mean(), hourly.loc[is_mon_eve, "cctv_mean_cal"].mean()),
+        xytext=(4.45, 2.2),
+        arrowprops={"arrowstyle": "->", "color": ORANGE, "lw": 1.3},
+        fontsize=8, fontweight="bold", color=ORANGE,
+        bbox={"boxstyle": "round,pad=0.3", "fc": "#fff7f2", "ec": ORANGE, "lw": 0.9},
+    )
+    ax1.set_xlabel("Longdo Bangkok Traffic Index (GPS probes, hourly mean)")
+    ax1.set_ylabel("CCTV calibrated vehicles / camera")
+    ax1.set_title(f"CCTV vs. Longdo Index (all r={val['pearson_r']:.2f}, p<0.001)", fontsize=11)
+    ax1.legend(loc="upper left", fontsize=8)
+
+    # Right: 2026 annual Longdo accidents within 500m (Bridge vs Surface + Top 5 hotspots)
+    top5 = rm.nlargest(5, "longdo_accidents_500m_2026").copy()
+    short_names = []
+    for r in top5.itertuples():
+        nm = str(r.location_en)
+        if "Mahai Sawan" in nm:
+            nm = f"Cam {r.camera_id} · Mahai Sawan"
+        elif "Ratchada-Ratchaphruek" in nm:
+            nm = f"Cam {r.camera_id} · Ratchada–Ratchaphruek"
+        elif "Ratchapruek" in nm:
+            nm = f"Cam {r.camera_id} · BRT Ratchaphruek"
+        elif "Ban Khaek" in nm:
+            nm = f"Cam {r.camera_id} · Ban Khaek Jct"
+        else:
+            nm = f"Cam {r.camera_id} · {nm[:22]}"
+        short_names.append(nm)
+
+    br_mean = float(rm.loc[rm["is_bridge"] == True, "longdo_accidents_500m_2026"].mean())
+    sf_mean = float(rm.loc[rm["is_bridge"] == False, "longdo_accidents_500m_2026"].mean())
+    labels = ["Surface avg (n=89)", "Bridge/Flyover avg (n=11)"] + short_names[::-1]
+    vals = [sf_mean, br_mean] + top5["longdo_accidents_500m_2026"].to_list()[::-1]
+    colors = [NEUTRAL, ORANGE] + [BLUE] * len(top5)
+    y = np.arange(len(labels))
+    ax2.barh(y, vals, color=colors, height=0.62, zorder=2)
+    for yi, v in zip(y, vals):
+        ax2.text(v + 2.5, yi, f"{v:.0f}" if yi >= 2 else f"{v:.1f}", va="center", ha="left", fontsize=8, color=INK,
+                 fontweight="bold" if yi == 1 else "normal")
+    ax2.axhline(1.5, color=INK2, linewidth=0.9, linestyle=":")
+    ax2.set_yticks(y, labels, fontsize=8)
+    ax2.set_xlabel("Longdo 2026 accidents within 500 m")
+    ax2.set_title("Bridges: 3.1× accidents (p<0.001)", fontsize=11)
+    ax2.set_xlim(0, max(vals) * 1.18)
+    ax2.grid(axis="y", visible=False)
+
+    fig.tight_layout()
+    fig.savefig(out, dpi=200)
+    plt.close(fig)
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--processed", type=Path, default=Path("data/processed/l640"))
@@ -460,6 +549,10 @@ def main() -> None:
         n_charts += 1
     if (args.insights / "distance_decay.csv").exists() and (args.audit / "hourly_outages.csv").exists():
         spatial_and_audit_chart(args.insights, args.audit, args.out / "spatial_and_audit.png")
+        n_charts += 1
+    if (args.insights / "longdo_hourly_comparison.csv").exists() and Path("data/interim/longdo_camera_risk.parquet").exists():
+        longdo_validation_chart(args.insights, Path("data/interim"), Path("data/raw/cctv_info.csv"),
+                                args.out / "longdo_validation.png")
         n_charts += 1
     print(f"wrote {n_charts} charts to {args.out}")
 

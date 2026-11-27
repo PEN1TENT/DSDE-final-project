@@ -1,0 +1,2025 @@
+eid,title,title_en,description,description_en,latitude,longitude,type,start,stop,contributor
+965236,อุบัติเหตุ บางหว้า,Accident at Phet Kasem Rd.,"เกิดอุบัติเหตุไม่ใช่รถจักรยานยนต์ ที่ ถนนเพชรเกษม แขวงบางหว้า เขตภาษีเจริญ กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Accident at Phet Kasem Rd., Bang Wa, Phasi Charoen, Bangkok.
+
+Cr.RVP",13.716358198303,100.44791355729,3,2026-08-25 02:25:00,2026-08-25 03:25:00,RVP
+965237,เหตุไฟฟ้าลัดวงจรภายในบ้าน ซอยมังกร 2,Short circuit at Soi Mangkorn 2,"เหตุไฟฟ้าลัดวงจรภายในบ้าน ซอยมังกร 2 ถนนมังกร แขวงป้อมปราบ เขตป้อมปราบศัตรูพ่าย เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยสวนมะลิ กำลังไปที่เกิดเหตุ
+
+Cr.ศูนย์วิทยุพระราม199","A short circuit inside a house in Soi Mangkorn 2 on Mangkon Rd.,  Pom Prap Sattru Phai Pom Prap Sattru Phai Bangkok.
+
+Cr. Radio Center Rama 199",13.744556868393,100.51417082548,15,2026-08-25 03:22:57,2026-08-25 04:22:57,itic.nirat
+965238,คืบหน้าเหตุไฟฟ้าลัดวงจรภายในบ้าน ซอยมังกร 2,Short circuit at Soi Mangkorn 2,"เหตุไฟฟ้าลัดวงจรภายในบ้าน ซอยมังกร 2 เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยสวนมะลิ ถึงที่เกิดเหตุ ขณะนี้เพลิงสงบ เป็นไฟฟ้าลัดวงจรที่แผงควบคุมไฟฟ้า ประสานเจ้าหน้าที่การไฟฟ้านครหลวงเข้ารับดำเนินการแก้ไขต่อไป
+
+Cr.ศูนย์วิทยุพระราม199","Update now fireman can control electrical short circuit inside a house in Soi Mangkorn 2 on Mangkon Rd.,  Pom Prap Sattru Phai Pom Prap Sattru Phai Bangkok.
+
+Cr. Radio Center Rama 199",13.744556868393,100.51416277885,15,2026-08-25 03:25:56,2026-08-25 04:25:56,itic.nirat
+965240,อุบัติเหตุ ถนนเสรีไทย,Accident at Seri Thai Rd.,"เกิดอุบัติเหตุรถจักรยานยนต์ ที่ -  แขวงคลองกุ่ม เขตบึงกุ่ม กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Motorcycle accident blocking traffic lane on Seri Thai Rd. Khlong Kum Bueng Kum Bangkok.
+
+Cr.RVP",13.78169263904,100.67099556327,3,2026-08-25 06:26:00,2026-08-25 07:26:00,RVP
+965241,เหตุสั่นสะเทือนระดับปานกลางในพื้นที่ แขวงบางนาใต้,Moderate Seismic Event on Bangna,"ตรวจพบเหตุสั่นสะเทือนปานกลาง (แผ่นดินไหวหรือเหตุการณ์ที่คล้ายคลึงกัน) ในพื้นที่ แขวงบางนาใต้, เขตบางนา, กรุงเทพมหานคร โดยมีค่าความเร่งสูงสุดอยู่ที่ 0.777690 m/s²
+            
+            ที่มา: RUGON","Detected a moderate shaking event (earthquake or similar) on Bangna, Tai, Bang, Na, Bangkok, with a peak acceleration of 0.777690 m/s².
+            
+            Source: RUGON",13.67,100.6,20,2026-08-25 07:10:02,2026-08-25 08:10:02,rugon
+965242,เหตุสั่นสะเทือนระดับปานกลางในพื้นที่ แขวงทุ่งสองห้อง,Moderate Seismic Event on Thung,"ตรวจพบเหตุสั่นสะเทือนปานกลาง (แผ่นดินไหวหรือเหตุการณ์ที่คล้ายคลึงกัน) ในพื้นที่ แขวงทุ่งสองห้อง, เขตหลักสี่, กรุงเทพมหานคร โดยมีค่าความเร่งสูงสุดอยู่ที่ 1.013869 m/s²
+            
+            ที่มา: RUGON","Detected a moderate shaking event (earthquake or similar) on Thung, Song, Hong, Lak, Si, Bangkok, with a peak acceleration of 1.013869 m/s².
+            
+            Source: RUGON",13.87,100.57,20,2026-08-25 07:10:09,2026-08-25 08:10:09,rugon
+965244,อุบัติเหตุ ถนนงามวงศ์วาน ขาเข้า,Accident at Ngamwongwan Rd.,"ถนนงามวงศ์วาน ขาเข้า กลางแยกพงษ์เพชร มีอุบัติเหตุ กีดขวางเลนกลาง  รถเริ่มติดแล้ว 
+
+Cr. FM91trafficpro","Cars accident blocking the middle lane at Phongphet Intersection on inbound Ngam Wong Wan Rd.
+
+Cr. FM91trafficpro",13.856368330448,100.54478153586,3,2026-08-25 07:37:18,2026-08-25 08:37:18,itic.pacharasrung
+965249,อุบัติเหตุ จตุจักร,Accident at Chatuchak,"เกิดอุบัติเหตุรถจักรยานยนต์ ที่ พหลโยธิน19 ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Motorcycle accident blocking traffic lane in Chatuchak Chatuchak Bangkok.
+
+Cr.RVP",13.816745349148,100.54930105805,3,2026-08-25 08:20:00,2026-08-25 09:20:00,RVP
+965259,อุบัติเหตุ ถนนราชพฤกษ์ ขาเข้า,Accident at Ratchaphruek Rd.,"ถนนราชพฤกษ์ ขาเข้า บริเวณภายในอุโมงค์บางขุนกอง มีล้อรถยนต์หล่น แล้วมีรถปิคอัพไปชนล้อ ล่าสุดจนท.เคลื่อนย้ายแล้ว 
+
+Cr. JS100","Update cars accident was moved out of locale on Bang Khun Kong Tunnel on inbound Ratchaphruek Rd.
+
+Cr. JS100",13.824862437445,100.44855594635,3,2026-08-25 10:11:04,2026-08-25 11:11:04,itic.pacharasrung
+965261,อุบัติเหตุ ทางพิเศษบูรพาวิถี ขาออก,Accident at Burapha Withi Exp.,"ทางพิเศษบูรพาวิถี ขาออก จากด่านบางนาตราด กม.6 มุ่งหน้า ด่านบางแก้ว ที่ กม.9+400 รถแท็กซี่กับรถปิคอัพ ชนกัน กีดขวางช่องทางขวา จนท.กำลังดำเนินการ การจราจรเคลื่อนตัวช้า 
+
+Cr. JS100","Cars accident blocking the right lane at Km.9+400 on outbound Burapha Withi Exp.
+
+Cr. JS100",13.65341260372,100.67577391863,3,2026-08-25 10:34:58,2026-08-25 11:34:58,itic.pacharasrung
+965262,อุบัติเหตุ ถนนเทพรัตน,Accident at Debaratna Frontage Rd.,"เกิดอุบัติเหตุไม่ใช่รถจักรยานยนต์ ที่ ทางคู่ขนานถนนเทพรัตน ต.บางแก้ว อ.บางพลี จ.สมุทรปราการ ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Cars accident blocking traffic lane on Debaratna Frontage Rd. Bang Kaeo Bang Phli Samut Prakan.
+
+Cr.RVP",13.657590647505,100.66747784615,3,2026-08-25 10:41:00,2026-08-25 11:41:00,RVP
+965268,อุบัติเหตุ ทางพิเศษเฉลิมมหานคร,Accident at Chaloem Mahanakhon Exp.,"ทางพิเศษเฉลิมมหานคร จาก ท่าเรือ มุ่งหน้า เนินเพลินจิต ช่วงราบบ่อนไก่ รถชนกัน 5 คันขวางช่องทางขวา จนท.อยู่ระหว่างดำเนินการ การจราจรเคลื่อนตัวช้า
+
+Cr. JS100","Cars accident blocking the right lane at Rab Bon Kai area on outbound Chaloem Mahanakhon Expressway.
+
+Cr. JS100",13.734600109238,100.55135965347,3,2026-08-25 11:39:20,2026-08-25 12:39:20,itic.pacharasrung
+965270,อุบัติเหตุ ซอยรามอินทรา 39 แยก 24,Accident at Soi Rarm Intra 39 Yeak 24,"รถจยย.ชนเสาฯ ภายใน ซ.รามอินทรา 39 บริเวณแยก 24 ขวางช่องทางซ้าย บาดเจ็บ 1 คน จนท.อยู่ระหว่างดำเนินการ
+
+Cr. พลวัฒน์ ก.","Motorcycle accident blocking traffic lane on Soi Rarm Intra 39 Yeak 24.
+
+Cr. พลวัฒน์ ก.",13.866469625742,100.62750086188,3,2026-08-25 11:42:54,2026-08-25 12:42:54,itic.pacharasrung
+965271,อุบัติเหตุ ถนนรัตนาธิเบศร์ ขาเข้า,Accident at Rattanathibet Rd.,"ถนนรัตนาธิเบศร์ ขาเข้า บริเวณหน้าโรงแรมแกรนด์ริชมอนด์ รถเก๋งกับรถSUVชนกัน กีดขวางช่องทางซ้าย ของทางหลัก พ้นกีดขวางการจราจรแล้ว การจราจรเคลื่อนตัวช้า
+
+Cr. JS100","Update cars accident was moved out of locale in front of Grand Richmond Hotel on inbound Rattanathibet Rd.
+
+Cr. JS100",13.861462000635,100.50625696778,3,2026-08-25 11:45:42,2026-08-25 12:45:42,itic.pacharasrung
+965274,อุบัติเหตุ ซอยจอมทอง 14,Accident at Chom Thong 14,เกิดอุบัติเหตุรถจักรยานยนต์ ที่ ซอยจอมทอง 14 (ซอยเลิศพัฒนาเหนือ) แขวงบางค้อ เขตจอมทอง กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด,"Motorcycle accident in Chom Thong 14.
+
+Cr.RVP",13.698465365495,100.47135204077,3,2026-08-25 11:30:00,2026-08-25 12:30:00,RVP
+965275,รถเสีย สะพานพระราม 8 ขาออก,Car breakdown at Rama VIII Bridge,"สะพานพระราม 8 ขาออก มีรถนั่งส่วนบุคคล จอดเสีย กีดขวางการจราจร เลนซ้าย
+
+Cr.FM91trafficpro","Car breakdown blocking the left lane on outbound Rama VIII Bridge.
+
+Cr.FM91trafficpro",13.768947380725,100.49709185958,1,2026-08-25 12:38:15,2026-08-25 13:38:15,itic.rattanakit
+965276,อุบัติเหตุ ถนนพหลโยธิน ขาเข้า,Accident at Phahon Yothin Rd.,"ถนนพหลโยธิน ขาเข้า ตรงข้าม รพ.สัตว์ มีอุบัติเหตุ รถจยย. ไม่ทราบคู่กรณี กีดขวางการจราจร เลนขวา
+
+Cr.น้าเดช แล้วงัย","Motorcycle accident blocking the right lane opposite Animal Hospital on inbound Phahon Yothin Rd.
+
+Cr.น้าเดช แล้วงัย",13.844288646172,100.57836815715,3,2026-08-25 12:39:26,2026-08-25 13:39:26,itic.rattanakit
+965277,อุบัติเหตุ หัวหมาก,Accident at Ramkhamhaeng Rd.,เกิดอุบัติเหตุรถจักรยานยนต์ ที่ ถนนรามคำแหง แขวงหัวหมาก เขตบางกะปิ กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด,"Motorcycle accident on Ramkhamhaeng Rd., Hua Mak, Bang Kapi, Bangkok.
+
+Cr.RVP",13.759894373583,100.6221216917,3,2026-08-25 11:47:00,2026-08-25 12:47:00,RVP
+965282,อุบัติเหตุ ซอยสุขุมวิท 89,Accident at Soi Sukhumvit 89,เกิดอุบัติเหตุรถจักรยานยนต์ ที่ ซอยสุขุมวิท 89 (ซอยทองอยู่) แขวงบางจาก เขตพระโขนง กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด,"Motorcycle accident in Soi Sukhumvit 89.
+
+Cr.RVP",13.700970939242,100.60351252556,3,2026-08-25 12:45:00,2026-08-25 13:45:00,RVP
+965286,อุบัติเหตุ ถนนเพชรบุรี ขาเข้า,Accident at Phetchaburi Rd.,"ถนนเพชรบุรี ขาเข้า เลยแยกอาคารวานิช 100 ม. มีอุบัติเหตุ รถแท็กซี่ ชนกับ รถจยย. กีดขวางการจราจร เลนซ้าย
+
+Cr.FM91trafficpro","Cars accident blocking the left lane , 100 M. past Vanit Building Intersection on inbound Phetchaburi Rd.
+
+Cr.FM91trafficpro",13.749531832603,100.54641768336,3,2026-08-25 13:52:40,2026-08-25 14:52:40,itic.rattanakit
+965294,อุบัติเหตุ ซอยสาทร 7,Accident at Nang Linchi Rd.,เกิดอุบัติเหตุรถจักรยานยนต์ ที่ ซอยสาทร 7 ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด,"Motorcycle accident in Soi Sathon 7.
+
+Cr.RVP",13.716054632154,100.53892090917,3,2026-08-25 15:20:00,2026-08-25 16:20:00,RVP
+965295,อุบัติเหตุ ถนนเชื่อมต่อพัฒนาการ - เฉลิมพระเกียรติร.9,Accident at Phatthanakan - Chaloem Phra Kiat Ratchakan Thi 9 Rd.,เกิดอุบัติเหตุรถจักรยานยนต์ ที่ ถนนเชื่อมต่อพัฒนาการ - เฉลิมพระเกียรติร.9 แขวงดอกไม้ เขตประเวศ กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด,"Motorcycle accident on Phatthanakan - Chaloem Phra Kiat Ratchakan Thi 9 Rd., Dok Mai, Prawet, Bangkok.
+
+Cr.RVP",13.700092753668,100.6755566597,3,2026-08-25 15:10:00,2026-08-25 16:10:00,RVP
+965296,ฝนตก ถนนนราธิวาสราชนครินทร์,Raining at Narathiwat Ratchanakharin Rd.,"ถนนนราธิวาสราชนครินทร์ ฝนตก
+
+Cr.FM91trafficpro","Raining on Naradhiwas Rajanagarindra Rd.
+
+Cr.FM91trafficpro",13.717004415065,100.53249835968,5,2026-08-25 15:48:53,2026-08-25 16:48:53,itic.rattanakit
+965297,ฝนตก ถนนพระราม 4,Raining at Rama IV Rd.,"ถนนพระราม 4 ฝนตก
+
+Cr.FM91trafficpro","Raining on Rama IV Rd.
+
+Cr.FM91trafficpro",13.720558575452,100.55839642882,5,2026-08-25 15:50:34,2026-08-25 16:50:34,itic.rattanakit
+965299,อุบัติเหตุ ถนนรัชดาท่าพระ ขาออก,Accident at Ratchada Phisek Rd.,"ถนนรัชดาท่าพระ ขาออก เลยกสะพานพระราม 3 ประมาณ 200 ม. มีอุบัติเหตุ รถจยย. 2 คัน ชนกัน กีดขวางการจราจร เลนขวา
+
+Cr.JS100","Motorcycles accident blocking the right lane , 200 M. past Rama III Bridge on outbound Ratchada-Tha Phra Rd.
+
+Cr.JS100",13.707179383105,100.48176169395,3,2026-08-25 16:42:50,2026-08-25 17:42:50,itic.rattanakit
+965301,อุบัติเหตุ นวมินทร์,Accident at Prasoet Manukit Rd,เกิดอุบัติเหตุรถจักรยานยนต์ ที่ ถนนประเสริฐมนูกิจ (ถนนเกษตรนวมินทร์) แขวงนวมินทร์ เขตบึงกุ่ม กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด,"Motorcycle accident on Prasert-Manukitch Rd. (Kaset Nawamin Rd.) (Kaset Nawamin Rd.) Nawamin, Bueng Kum, Bangkok.
+
+Cr.RVP",13.813298138166,100.64585387707,3,2026-08-25 16:30:00,2026-08-25 17:30:00,RVP
+965307,รถเสีย ถนนราชดำเนินนอก,Car breakdown at Ratchadamnoen Nok Rd.,"ถนนราชดำเนินนอก หน้ากระทรวงเกษตรและสหกรณ์ มีรถนั่งส่วนบุคคล จอดเสีย กีดขวางการจราจร เลนซ้าย
+
+Cr.FM91trafficpro","Car breakdown blocking the left lane in front of Ministry of Agriculture and Cooperatives on Ratchadamnoen Nok Rd.
+
+Cr.FM91trafficpro",13.759219617438,100.50704419613,1,2026-08-25 17:08:40,2026-08-25 18:08:40,itic.rattanakit
+965308,อุบัติเหตุ ถนนรัชดาภิเษก ขาออก,Accident at Ratchada Phisek Rd.,"ถนนรัชดาภิเษก ขาออก หน้าสำนักงานอัยการสูงสุด มีอุบัติเหตุ รถชนกัน  คัน กีดขวางการจราจร เลนซ้าย
+
+Cr.FM91trafficpro","Cars accident blocking the left lane in front of Office of the Attorney General on outbound Ratchadaphisek Rd.
+
+Cr.FM91trafficpro",13.819753640438,100.57516157627,3,2026-08-25 17:11:20,2026-08-25 18:11:20,itic.rattanakit
+965309,อุบัติเหตุ บางปะกอก,Accident at Suk Sawat Rd.,เกิดอุบัติเหตุไม่ใช่รถจักรยานยนต์ ที่ ถนนสุขสวัสดิ์ แขวงบางปะกอก เขตราษฎร์บูรณะ กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด,"Cars accident blocking traffic lane on Suk Sawat Rd.
+
+Cr.RVP",13.678271264581,100.4983471334,3,2026-08-25 16:36:00,2026-08-25 17:36:00,RVP
+965310,อุบัติเหตุ บางปะกอก,Accident at Suk Sawat Rd.,เกิดอุบัติเหตุไม่ใช่รถจักรยานยนต์ ที่ ถนนสุขสวัสดิ์ แขวงบางปะกอก เขตราษฎร์บูรณะ กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด,"Cars accident blocking traffic lane on Suk Sawat Rd.
+
+Cr.RVP",13.678182655855,100.49842089415,3,2026-08-25 16:50:00,2026-08-25 17:50:00,RVP
+965311,อุบัติเหตุ บางปะกอก,Accident at Suk Sawat 25/1,เกิดอุบัติเหตุไม่ใช่รถจักรยานยนต์ ที่ ซอยสุขสวัสดิ์ 25/1 แขวงบางปะกอก เขตราษฎร์บูรณะ กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด,"Cars accident in Soi Suk Sawat 25/1.
+
+Cr.RVP",13.678217838736,100.49841284752,3,2026-08-25 16:50:00,2026-08-25 17:50:00,RVP
+965313,รถเสีย ถนนงามวงศ์วาน ขาออก,Car breakdown at Ngamwongwan Rd.,"ถนนงามวงศ์วาน ขาออก ก่อนถึงเรือนจำกลางคลองเปรม เล็กน้อย มีรถกระบะ จอดเสีย กีดขวางการจราจร เลนซ้าย
+
+Cr.FM91trafficpro","Car breakdown blocking the left lane before Khlong Prem Central Prison on outbound Ngam Wong Wan Rd.
+
+Cr.FM91trafficpro",13.849619566246,100.55758371949,1,2026-08-25 17:51:03,2026-08-25 18:51:03,itic.rattanakit
+965314,รถเสีย ถนนพญาไท,Car breakdown at Phayathai Rd.,"ถนนพญาไท ก่อนถึงแยกสามย่าน เล็กน้อย มีรถนั่งส่วนบุคคล จอดเสีย กีดขวางการจราจร
+
+Cr.FM91trafficpro","Car breakdown blocking traffic lane before Sam Yan Intersection on Phaya Thai Rd.
+
+Cr.FM91trafficpro",13.733926582976,100.5290222168,1,2026-08-25 17:52:31,2026-08-25 18:52:31,itic.rattanakit
+965317,อุบัติเหตุ ถนนพหลโยธิน ขาออก,Accident at Phahon Yothin Rd.,"ถนนพหลโยธิน ขาออก หน้าเมเจอร์ รัชโยธิน มีอุบัติเหตุ กีดขวางการจราจร รถติด
+
+Cr. FM91trafficpro","Cars accident blocking traffic lane in front of Major Ratchayothin on outbound Phahon Yothin Rd.
+
+Cr. FM91trafficpro",13.828332917485,100.56876182556,3,2026-08-25 18:23:40,2026-08-25 19:23:40,itic.pacharasrung
+965318,อุบัติเหตุ ถนนพหลโยธิน ขาออก,Accident at Phahon Yothin Rd.,"ถนนพหลโยธิน ขาออก ปากซอยพหลโยธิน 35 มีอุบัติเหตุ กีดขวางการจราจร รถติด
+
+Cr. FM91trafficpro","Cars accident blocking traffic lane at the entrance of Soi Phahon Yothin  35 on outbound Phahon Yothin Rd.
+
+Cr. FM91trafficpro",13.831341059072,100.57050660253,3,2026-08-25 18:24:59,2026-08-25 19:24:59,itic.pacharasrung
+965319,อุบัติเหตุ เอกชัย 8,Accident at Ekkachai 8,"เกิดอุบัติเหตุรถจักรยานยนต์ ที่ เอกชัย 8 (ซอยวิสุทธิ์จิตร) แขวงบางขุนเทียน เขตจอมทอง กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Motorcycle accident blocking traffic lane on Ekkachai 8. Bang Khun Thian Chom Thong Bangkok.
+
+Cr.RVP",13.700160506975,100.46107381582,3,2026-08-25 17:44:00,2026-08-25 18:44:00,RVP
+965324,เพลิงไหม้ ถนนบางกรวย-ไทรน้อย,Fire at Bang Kruai-Sai Noi Rd.,"เหตุเพลิงไหม้บ้านเรือนประชาชน ซึ่งเป็นบ้านไม้ทรงไทยหลังใหญ่ ภายในซอยวิทยาไกรกุล ถนนบางกรวย-ไทรน้อย ม.4 ต.บางบัวทอง จ.นนทบุรี เจ้าหน้าที่ได้ระดมฉีดน้ำเพื่อสกัดแสงเพลิง ใช้เวลาประมาณ 1 ชั่วโมง เพลิงจึงสงบ เบื้องต้นไม่มีผู้ได้รับบาดเจ็บหรือเสียชีวิต
+
+Cr. FM91trafficpro","Fireman can control fire on Soi Witthaya Kraikun on Bang Kruai-Sai Noi Rd. Bang Len Bang Yai Nonthaburi.
+
+Cr. FM91trafficpro",13.85668603707,100.43908640742,15,2026-08-25 19:40:42,2026-08-25 20:40:42,itic.pacharasrung
+965328,เพลิงไหม้ ถนนพรานนก-พุทธมณฑลสาย 4 (ถนนพระเทพตัดใหม่),Fire at Prannok - Phuttha Monthon Sai 4 Rd.,"เหตุเพลิงไหม้หญ้าและกองขยะ ตรงข้ามตลาดวงศ์เจริญ ถนนพรานนก-พุทธมณฑลสาย 4 (ถนนพระเทพตัดใหม่) แขวงทวีวัฒนา เขตทวีวัฒนา เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยบางแค ถึงที่เกิดเหตุ อยู่ระหว่างใช้น้ำทำการดับ 
+
+Cr.ศูนย์วิทยุพระราม199","Fire opposite Wong Charoen Market on Prannok - Phuttha Monthon Sai 4 Rd., Thawi Watthana, Bangkok.
+
+Cr.ศูนย์วิทยุพระราม199",13.757427205565,100.38113594055,15,2026-08-25 20:22:39,2026-08-25 21:22:39,itic.pacharasrung
+965332,อุบัติเหตุ บางแก้ว,Accident at Debaratna Frontage Rd.,"เกิดอุบัติเหตุไม่ใช่รถจักรยานยนต์ ที่ ทางคู่ขนานถนนเทพรัตน ต.บางแก้ว อ.บางพลี จ.สมุทรปราการ ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Cars accident blocking traffic lane on Debaratna Frontage Rd., Bang Kaeo, Bang Phli, Samut Prakan.
+
+Cr.RVP",13.657092830826,100.66802233458,3,2026-08-25 20:54:00,2026-08-25 21:54:00,RVP
+965333,อุบัติเหตุ สำโรงเหนือ,Accident at Soi Bearing 22,"เกิดอุบัติเหตุรถจักรยานยนต์ ที่ ซอยแบริ่ง 22 ต.สำโรงเหนือ อ.เมืองสมุทรปราการ จ.สมุทรปราการ ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Motorcycle accident in Soi Bearing 22, Samrong Nuea, Mueang Samut Prakan. Information from The Central Accident Victims Protection Company Limited.
+
+Cr.RVP",13.654208861691,100.61192661524,3,2026-08-25 21:02:00,2026-08-25 22:02:00,RVP
+965335,อุบัติเหตุ ถนนจอมทอง ขาออก,Accident at Chom Thong Rd.,"ถนนจอมทอง ขาออก เลย `แยกดาวคะนอง` 100 เมตร มีอุบัติเหตุ (รถนั่งส่วนบุคคล ชนกัน) กีดขวางการจราจร เลนซ้าย 
+
+Cr.@Traffic_1197","Cars accident blocking the left lane, 100 m. past Dao Khanong Intersection on outbound Chom Thong Rd. 
+
+Cr.@Traffic_1197",13.694061328195,100.48047557473,3,2026-08-25 21:15:41,2026-08-25 22:15:41,itic.kittaya@gmail.com
+965336,อุบัติเหตุ ถนนวิภาวดีรังสิต ขาออก,Accident at Vibhavadi Rangsit Rd.,"ถนนวิภาวดีรังสิต ขาออก เลย `แยกบางเขน` 500 เมตร มีอุบัติเหตุ (รถนั่งส่วนบุคคล ชนกัน) กีดขวางการจราจร เลนซ้าย ในช่องคู่ขนาน 
+
+Cr.@Traffic_1197","Cars accident blocking the left lane, 500 m. past Bang Khen Intersection on outbound Vibhavadi Rangsit Rd. 
+
+Cr.@Traffic_1197",13.852559723388,100.56390434504,3,2026-08-25 21:17:39,2026-08-25 22:17:39,itic.kittaya@gmail.com
+965337,อุบัติเหตุ พระโขนงใต้,Accident at Atnarong Rd.,"เกิดอุบัติเหตุรถจักรยานยนต์ ที่ ถนนอาจณรงค์ แขวงพระโขนงใต้ เขตพระโขนง กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Motorcycle accident on At Narong Rd., Phra Khanong Tai, Phra Khanong, Bangkok.
+
+Cr.RVP",13.697159798544,100.58953687549,3,2026-08-25 21:46:00,2026-08-25 22:46:00,RVP
+965342,คืบหน้าอุบัติเหตุ ถนนวิภาวดีรังสิต ขาออก,Accident at Vibhavadi Rangsit Rd.,"ถนนวิภาวดีรังสิต ขาออก เลย `แยกบางเขน` 500 เมตร ก่อนหน้านี้ มีอุบัติเหตุ (รถนั่งส่วนบุคคล ชนกัน) ล่าสุด จนท.เคลื่อนย้ายพ้นกีดขวางแล้ว
+
+Cr.@Traffic_1197","Update car accident was moved out of locale, 500 M. past Bang Khen Intersection on outbound Vibhavadi Rangsit Rd.
+
+Cr.@Traffic_1197",13.85257534857,100.56391105056,3,2026-08-25 22:55:12,2026-08-25 23:55:12,itic.kittaya@gmail.com
+965343,คืบหน้าอุบัติเหตุ ถนนจอมทอง ขาออก,Accident at Chom Thong Rd.,"ถนนจอมทอง ขาออก เลย `แยกดาวคะนอง` 100 เมตร ก่อนหน้านี้ มีอุบัติเหตุ (รถนั่งส่วนบุคคล ชนกัน) ล่าสุด จนท.เคลื่อนย้ายพ้นกีดขวางแล้ว
+
+Cr.@Traffic_1197","Update car accident was moved out of locale, 100 m. past Dao Khanong Intersection on outbound Chom Thong Rd.
+
+Cr.@Traffic_1197",13.69407956994,100.4804353416,3,2026-08-25 22:56:30,2026-08-25 23:56:30,itic.kittaya@gmail.com
+965348,อุบัติเหตุ ถนนสาทรใต้,Accident at Sathon Tai Rd.,"ถนนสาทรใต้ บริเวณหน้า `ซีเครท การ์เด้น` มีอุบัติเหตุ (จยย.เสียหลักล้ม) กีดขวางการจราจร เลนที 2 จากขวา
+
+Cr.@Traffic_1197","Motorcycle accident blocking the 2nd right lane in front of Secret Garden on Sathon Tai Rd.
+
+Cr.@Traffic_1197",13.723173350431,100.53498879075,3,2026-08-25 23:52:32,2026-08-26 00:52:32,itic.kittaya@gmail.com
+965349,รถเสีย ถนนพหลโยธิน ขาเข้า,Car breakdown at Phahon Yothin Rd.,"ถนนพหลโยธิน ขาเข้า เลย `แยกกำแพงเพชร` เล็กน้อย มี (รถนั่งส่วนบุคคล จอดเสีย) กีดขวางการจราจร เลนขวา
+
+Cr.@Traffic_1197","Car breakdown blocking the right lane past Kamphaeng Phet Intersection on inbound Phahon Yothin Rd.
+
+Cr.@Traffic_1197",13.79695347083,100.55091574788,1,2026-08-25 23:40:42,2026-08-26 00:40:42,itic.kittaya@gmail.com
+965350,เหตุแก๊สหุงต้มรั่วไหล ซอยอ่อนนุช 70/1,Cooking gas leak at Onnut 70/1,"เหตุแก๊สหุงต้มรั่วไหล ซอยอ่อนนุช 70/1 ถนนสุขุมวิท 77 แขวงประเวศ เขตประเวศ  เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยประเวศ กำลังไปที่เกิดเหตุ
+
+Cr.ศูนย์วิทยุพระราม199","Cooking gas leak in Soi Onnut 70/1 on Sukhumvit 77 Road,  Prawet Prawet Bangkok.
+
+Cr. Radio Center Rama 199",13.715594722175,100.65436586738,15,2026-08-26 00:57:04,2026-08-26 01:57:04,itic.nirat
+965351,คืบหน้าเหตุแก๊สหุงต้มรั่วไหล ซอยอ่อนนุช 70/1,Cooking gas leak at Onnut 70/1,"เหตุแก๊สหุงต้มรั่วไหล ซอยอ่อนนุช 70/1 ถนนสุขุมวิท 77 แขวงประเวศ เขตประเวศ  เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยประเวศ ถึงที่เกิดเหตุ ลักษณะที่เกิดเหตุเป็นแก๊สปิคนิกรั่วไหล อาสาสมัครในพื้นที่ทำการปิดวาล์วแก๊สเป็นที่เรียบร้อย
+
+Cr.ศูนย์วิทยุพระราม199","Cooking gas leak in Soi Onnut 70/1 on Sukhumvit 77 Road, Prawet Fire and Rescue Station personnel arrived at the scene. The incident involved a leak of a picnic gas cylinder. Local volunteers successfully shut off the gas valve.
+
+Cr. Radio Center Rama 199",13.715730219826,100.65419957042,15,2026-08-26 00:57:20,2026-08-26 01:57:20,itic.nirat
+965354,อุบัติเหตุ วังทองหลาง,Accident at Soi Lad Phrao 74,"เกิดอุบัติเหตุรถจักรยานยนต์ ที่ ซอยลาดพร้าว 74 (ซอยสวัสดี) แขวงวังทองหลาง เขตวังทองหลาง กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Motorcycle accident in Soi Lat Phrao 74 (Soi Sawatdi). Wang Thonglang Information from The Central Accident Victims Protection Company Limited.
+
+Cr.RVP",13.789081574636,100.60368955135,3,2026-08-26 01:51:00,2026-08-26 02:51:00,RVP
+965372,อุบัติเหตุ ถนนรัชดาท่าพระ ขาออก,Accident at Ratchada-Tha Phra Rd.,"อุบัติเหตุ รถจยย. 2 คัน ชนกัน ถนนรัชดาท่าพระ ขาออก จากแยกมไหสวรรย์ ไปแยกรัชดาตัดราชพฤกษ์ ที่ลงจากสะพานพระราม 3 ประมาณ 200 ม. ขวางช่องทางขวา มีผู้บาดเจ็บ การจราจรเคลื่อนตัวช้า รถติด
+
+Cr.JS 100","Motorcycles accident blocking the right lane, 200 M. after the way down from Rama III Bridge on outbound Ratchada-Tha Phra Rd. Daokhanong Thon Buri Bangkok.
+
+Cr.JS 100",13.707069938715,100.4819226265,3,2026-08-26 05:26:21,2026-08-26 06:26:21,itic.nirat
+965373,รถติด ถนนรัชดาท่าพระ ขาออก,Heavy traffic at Ratchada-Tha Phra Rd.,"อุบัติเหตุ รถจยย. 2 คัน ชนกัน ถนนรัชดาท่าพระ ขาออก จากแยกมไหสวรรย์ ไปแยกรัชดาตัดราชพฤกษ์ ที่ลงจากสะพานพระราม 3 ประมาณ 200 ม. ขวางช่องทางขวา มีผู้บาดเจ็บ การจราจรเคลื่อนตัวช้า รถติด
+
+Cr.JS 100","Heavy traffic due to motorcycle accident blocking the right lane, 200 M. after the way down from Rama III Bridge on outbound Ratchada-Tha Phra Rd. Daokhanong Thon Buri Bangkok.
+
+Cr.JS 100",13.706929224425,100.48203527927,10,2026-08-26 05:30:43,2026-08-26 06:30:43,itic.nirat
+965374,คืบหน้าอุบัติเหตุ ถนนรัชดาท่าพระ ขาออก,Accident at Ratchada-Tha Phra Rd.,"คืบหน้าอุบัติเหตุ ถนนรัชดาท่าพระ ขาออก ที่ลงจากสะพานพระราม 3 ประมาณ 200 ม. รถจยย. 2 คัน ชนกัน  ล่าสุด จนท. เคลื่อนย้ายพ้นกีดขวางแล้ว
+
+Cr.JS 100","Update motorcycle accident was moved out of locale 200 M. after the way down from Rama III Bridge on outbound Ratchada-Tha Phra Rd. Daokhanong Thon Buri Bangkok.
+
+Cr.JS 100",13.707075150354,100.48191189766,3,2026-08-26 05:32:43,2026-08-26 06:32:43,itic.nirat
+965377,อุบัติเหตุ บางปะกอก,Accident at Suk Sawat 24,"เกิดอุบัติเหตุไม่ใช่รถจักรยานยนต์ ที่ -  แขวงบางปะกอก เขตราษฎร์บูรณะ กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Cars accident blocking traffic lane on - Bang Pa Kok, Rat Burana. Information from The Central Accident Victims Protection Company Limited.
+
+Cr.RVP",13.68165270504,100.49122720957,3,2026-08-26 06:00:00,2026-08-26 07:00:00,RVP
+965379,เหตุสั่นสะเทือนระดับปานกลางในพื้นที่ แขวงบางนาใต้,Moderate Seismic Event on Bangna,"ตรวจพบเหตุสั่นสะเทือนปานกลาง (แผ่นดินไหวหรือเหตุการณ์ที่คล้ายคลึงกัน) ในพื้นที่ แขวงบางนาใต้, เขตบางนา, กรุงเทพมหานคร โดยมีค่าความเร่งสูงสุดอยู่ที่ 0.635988 m/s²
+            
+            ที่มา: RUGON","Detected a moderate shaking event (earthquake or similar) on Bangna, Tai, Bang, Na, Bangkok, with a peak acceleration of 0.635988 m/s².
+            
+            Source: RUGON",13.67,100.6,20,2026-08-26 07:10:03,2026-08-26 08:10:03,rugon
+965380,อุบัติเหตุ ถนนวิภาวดีรังสิต ขาเข้า,Accident at Vibhavadi Rangsit Rd.,"ถนนวิภาวดีรังสิต ขาเข้า จากแยกสุทธิสาร มุ่งหน้า ใต้ทางด่วนดินแดง บริเวณหน้าสถานีโทรทัศน์แห่งประเทศไทย กรมประชาสัมพันธ์ รถตู้กับรถจยย.ชนกัน กีดขวางช่องทางกลาง ของทางขนาน การจราจรเคลื่อนตัวช้า
+
+Cr. JS100","Cars accident blocking the middle lane in front of National Broadcasting Services of Thailand (NBT) on inbound Vibhavadi Rangsit Rd.
+
+Cr. JS100",13.782722910083,100.55865257978,3,2026-08-26 07:45:11,2026-08-26 08:45:11,itic.pacharasrung
+965382,เพลิงไหม้รถ ทางพิเศษศรีรัช,Fire at Sri Rat Exp.,"ทางพิเศษศรีรัช (ทางด่วน2) ขาออก จากด่านสาทร มุ่งหน้า ต่างระดับบางโคล่ บริเวณต่างระดับบางโคล่ เพลิงไหม้รถปิคอัพ จนท.กำลังดำเนินการ รถติด  
+
+Cr. ศ.ทางด่วน","Fire on car at Bang Khlo Interchange area on outbound Sri Rat Exp.
+
+Cr. ศ.ทางด่วน",13.694913476761,100.5257794261,15,2026-08-26 07:47:38,2026-08-26 08:47:38,itic.pacharasrung
+965383,อุบัติเหตุ ถนนเจริญนคร,Accident at Charoen Nakhon Rd.,"เกิดอุบัติเหตุไม่ใช่รถจักรยานยนต์ ที่ ถนนเจริญนคร แขวงคลองต้นไทร เขตคลองสาน กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Cars accident blocking traffic lane on Charoen Nakhon Rd. Khlong Ton Sai Khlong San Bangkok.
+
+Cr.RVP",13.72005568066,100.50883993506,3,2026-08-26 07:07:00,2026-08-26 08:07:00,RVP
+965387,อุบัติเหตุ ถนนสุขสวัสดิ์ ขาเข้า,Accident at Suk Sawat Rd.,"ถนนสุขสวัสดิ์ ขาเข้า จากราษฎร์พัฒนา มุ่งหน้า บางปะแก้ว บริเวณปากซ.สุขสวัสดิ์ 36 รถจยย.ชนคน บาดเจ็บ 2 คน จนท.นำส่งรพ.แล้ว
+
+Cr. JS100","Motorcycle accident blocking traffic lane at the entrance of Soi Suk Sawat 36 on inbound Suk Sawat Rd.
+
+Cr. JS100",13.677957224679,100.49847185612,3,2026-08-26 08:32:44,2026-08-26 09:32:44,itic.pacharasrung
+965388,การชุมนุม ถนนพระราม 6,Crowd at Rama VI Rd.,"ถนนพระราม 6 หน้า กระทรวงการคลัง มีกลุ่มผู้ชุมนุม `กลุ่มสหพันธ์เกษตรแห่งประเทศไทย` ประมาณ 500 คน แนะนำหลีกเลี่ยงเส้นทาง
+
+Cr. @Traffic_1197","Use alternative due to Protestors in front of Ministry of Finance area Rama VI Rd.
+
+Cr. @Traffic_1197",13.782020867476,100.53493916988,7,2026-08-26 08:34:08,2026-08-26 09:34:08,itic.pacharasrung
+965390,รถเสีย ถนนงามวงศ์วาน ขาเข้า,Car breakdown at Ngamwongwan Rd.,"ถนนงามวงศ์วาน ขาเข้า หน้าการไฟฟ้าส่วนภูมิภาค (ก่อนถึงแยกบางเขน) มีรถประจำทาง สาย522 จอดเสียระบบเครื่องยนต์ กีดขวางการจราจรี รถติด
+
+Cr. @Traffic_1197","Car breakdown blocking traffic lane in front of Provincial Electricity Authority (Head Office) on inbound Ngamwongwan Rd.
+
+Cr. @Traffic_1197",13.849568783754,100.55802762508,1,2026-08-26 08:41:54,2026-08-26 09:41:54,itic.pacharasrung
+965391,อุบัติเหตุ ถนนนางลิ้นจี่,Accident at Nang Linchi Rd.,"เกิดอุบัติเหตุไม่ใช่รถจักรยานยนต์ ที่ ถนนนางลิ้นจี่ แขวงช่องนนทรี เขตยานนาวา กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Cars accident blocking traffic lane on Nang Linchi Rd. Chong Nonsi Yan Nawa Bangkok.
+
+Cr.RVP",13.702423716778,100.54530724883,3,2026-08-26 08:55:00,2026-08-26 09:55:00,RVP
+965394,อุบัติเหตุ ถนนเพชรบุรี ขาเข้า,Accident at Phetchaburi Rd.,"ถนนเพชรบุรี ขาเข้า บริเวณจุดกลับรถใต้สะพานข้ามแยกคลองตัน กระบะตู้ทึบความสูงเกินจอดหลังคาติด รถติดขัด
+
+Cr. @Traffic_1197","Car accident blocking traffic lane at u-turn under Khlong Tan Overpass on inbound Phetchaburi Rd.
+
+Cr. @Traffic_1197",13.741320935506,100.59959247708,3,2026-08-26 09:21:14,2026-08-26 10:21:14,itic.pacharasrung
+965395,อุบัติเหตุ ถนนกาญจนาภิเษก (ถนนวงแหวนรอบนอกด้านตะวันตก),Accident at Kanchana Phisek Rd.,"ถนนกาญจนาภิเษก ขาเข้า จากต่างระดับบางโคลัด (ตัด ถ.กัลปพฤกษ์) มุ่งหน้า ต่างระดับเอกชัย ก่อนถึงโรงเรียนเลิศหล้า ประมาณ 500 ม.รถเก๋งไม่ทราบคู่กรณี กีดขวางช่องทางขวาของทางหลัก การจราจรเคลื่อนตัวช้า
+
+Cr. JS100","Cars accident blocking the right lane, 500m. before Lertlah School on inbound Kanchana Phisek Rd.
+
+Cr. JS100",13.679016619022,100.40679126978,3,2026-08-26 10:13:59,2026-08-26 11:13:59,itic.pacharasrung
+965397,อุบัติเหตุ ถนนศรีนครินทร์ ขาเข้า,Accident at Srinagarindra Rd.,"ถนนศรีนครินทร์ ขาเข้า จากแยกพาราไดซ์พาร์ค มุ่งหน้า แยกศรีนุช บริเวณตรงข้ามซีคอนสแควร์ รถสองแถวกับรถเก๋ง ชนกัน กีดขวาง 2 ช่องทางซ้าย การจราจรเคลื่อนตัวช้า
+
+Cr. JS100","Cars accident blocking two left lanes opposite Seacon Square on inbound Srinagarindra Rd.
+
+Cr. JS100",13.694125174296,100.64722180367,3,2026-08-26 10:16:09,2026-08-26 11:16:09,itic.pacharasrung
+965398,อุบัติเหตุ ถนนจรัญสนิทวงศ์ ขาออก,Accident at Charan Sanitwong Rd.,"ถนนจรัญสนิทวงศ์ ขาออก จากแยกบางขุนนนท์ มุ่งหน้า แยกบรมราชชนนี บริเวณปาก ซ.จรัญสนิทวงศ์ 43 รถจยย.ชนท้ายรถแท็กซี่ กีดขวางช่องทางซ้าย บาดเจ็บ 1 คน มี จนท. แล้ว การจราจรชะลอตัว
+
+Cr. JS100","Cars accident blocking the left lane at the entrance of Soi Charan Sanitwong 43 on outbound Charan Sanitwong Rd.
+
+Cr. JS100",13.769420211612,100.47842770815,3,2026-08-26 10:20:05,2026-08-26 11:20:05,itic.pacharasrung
+965399,อุบัติเหตุ ถนนกรุงธนบุรี,Accident at Krung Thonburi Rd.,"เกิดอุบัติเหตุรถจักรยานยนต์ ที่ ถนนกรุงธนบุรี แขวงคลองต้นไทร เขตคลองสาน กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Motorcycle accident blocking traffic lane on Krung Thonburi Rd. Khlong Ton Sai Khlong San Bangkok.
+
+Cr.RVP",13.718754142245,100.50797492266,3,2026-08-26 10:00:00,2026-08-26 11:00:00,RVP
+965400,อุบัติเหตุ ถนนอ่อนนุช (ซอยสุขุมวิท 77),Accident at Onnut Rd.,"ถนนอ่อนนุช (ซอยสุขุมวิท 77) ขาเข้า บริเวณปากซอยอ่อนนุช 40 รถเก๋งกับรถจยย.ชนกัน บาดเจ็บ 1 คน การจราจรเคลื่อนตัวช้า
+
+Cr. JS100","Cars accident blocking traffic lane at the entrance of Soi Onnut 40 on inbound Onnut Rd.
+
+Cr. JS100",13.709931110993,100.62764301896,3,2026-08-26 11:21:12,2026-08-26 12:21:12,itic.pacharasrung
+965403,อุบัติเหตุ ทางคู่ขนานลอยฟ้าบรมราชชนนี,Accident at Elevated Borommaratchachonnani,"ทางคู่ขนานลอยฟ้าบรมราชชนนี ขาเข้า จากทางขึ้นตลิ่งชัน มุ่งหน้า สายใต้เก่า ก่อนถึงโค้งสายใต้เก่า เล็กน้อย รถเก๋ง 2 คัน ชนกัน กีดขวางช่องทางขวา การจราจรเคลื่อนตัวช้า
+
+Cr. JS100","Cars accident blocking the right lane before Southern Bus Terminal(old) on inbound Elevated Borommaratchachonnani.
+
+Cr. JS100",13.787028898901,100.46677619219,3,2026-08-26 11:31:33,2026-08-26 12:31:33,itic.pacharasrung
+965404,อุบัติเหตุ ถนนพระราม 3,Accident at Rama III Rd.,"ถนนพระราม 3 ขาเข้า ก่อนถึงหัวปลาช่องนนทรี มุ่งหน้าคลองเตย มีอุบัติเหตุรถชน กีดขวางเลนกลาง
+
+Cr. FM91trafficpro","Cars accident blocking the middle lane before Hua Pla Chong Nonsi Restaurant on inbound Rama III Rd. 
+
+Cr. FM91trafficpro",13.688915796703,100.54752677679,3,2026-08-26 11:50:11,2026-08-26 12:50:11,itic.pacharasrung
+965405,อุบัติเหตุ อ่อนนุช 17 แยก 2,Accident at Onnut 17 Yaek 2,"เกิดอุบัติเหตุรถจักรยานยนต์ ที่ อ่อนนุช 17 แยก 2 แขวงอ่อนนุช เขตสวนหลวง กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Motorcycle accident blocking traffic lane on Onnut 17 Yaek 2. On Nut Suan Luang Bangkok.
+
+Cr.RVP",13.7121290826,100.61035752296,3,2026-08-26 11:49:00,2026-08-26 12:49:00,RVP
+965407,อุบัติเหตุ ถนนรัชดาภิเษก,Accident at Ratchada Phisek Rd.,"เกิดอุบัติเหตุไม่ใช่รถจักรยานยนต์ ที่ ถนนรัชดาภิเษก แขวงดาวคะนอง เขตธนบุรี กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Cars accident blocking traffic lane on Ratchada Phisek Rd. Daokhanong Thon Buri Bangkok.
+
+Cr.RVP",13.715186925888,100.47840356827,3,2026-08-26 11:08:00,2026-08-26 12:08:00,RVP
+965409,อุบัติเหตุ ถนนวงศ์สว่าง ขาออก,Accident at Wong Sawang Rd.,"ถนนวงศ์สว่าง ขาออก หน้าบิ๊กซี วงศ์สว่าง มีอุบัติเหตุ รถชนกัน กีดขวางการจราจร
+
+Cr.FM91trafficpro","Cars accident blocking traffic lane in front of Big C Wong Sawang on outbound Wong Sawang Rd.
+
+Cr.FM91trafficpro",13.827365355456,100.52753090858,3,2026-08-26 12:52:56,2026-08-26 13:52:56,itic.rattanakit
+965410,อุบัติเหตุ พลับพลา,Accident at Ramkhamhaeng 53,"เกิดอุบัติเหตุรถจักรยานยนต์ ที่ รามคำแหง 53 (ซอยจันทร์ศรีชวาลา) แขวงพลับพลา เขตวังทองหลาง กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Motorcycle accident in Soi Ramkhamhaeng 53 (Soi Chan Si Chawala) Phlapphla, Wang Thonglang. Information from The Central Accident Victims Protection Company Limited.
+
+Cr.RVP",13.762285964632,100.61951592565,3,2026-08-26 12:41:00,2026-08-26 13:41:00,RVP
+965412,อุบัติเหตุ ถนนราชพฤกษ์ ขาออก,Accident at Ratchaphruek Rd.,"ถนนราชพฤกษ์ ขาออก บริเวณเชิงทางขึ้นอุโมงค์ลอดวงเวียนบางขุนกอง มีอุบัติเหตุ รถชนกัน 4 คัน กีดขวางการจราจร เลนซ้าย ของทางหลัก
+
+Cr.JS100","Cars accident blocking the left lane on the way up from Bang Khun Kong Circle Tunnel on outbound Ratchaphruek Rd.
+
+Cr.JS100",13.821684916923,100.44869273901,3,2026-08-26 13:54:38,2026-08-26 14:54:38,itic.rattanakit
+965413,อุบัติเหตุ ปากซอยงามดูพลี,Accident at Soi Ngam Du Phli,"ปากซอยงามดูพลี มีอุบัติเหตุ รถนั่งส่วนบุคคล ชนกับ จยย. กีดขวางการจราจร 2 เลนขวา
+
+Cr.JS100","Cars accident blocking two right lanes at the entrance of Soi Ngam Du Phli.
+
+Cr.JS100",13.724461836203,100.54846554995,3,2026-08-26 13:56:27,2026-08-26 14:56:27,itic.rattanakit
+965414,อุบัติเหตุ ปากซอยเทอดไท 21 (ซอยโรงเจ),Accident at Soi Thoet Thai 21,"ปากซอยเทอดไท 21 มีอุบัติเหตุ รถนั่งส่วนบุคคล ชนกับ รถแท็กซี่ กีดขวางการจราจร เลนขวา
+
+Cr.JS100","Cars accident blocking the right lane at the entrance of Soi Thoet Thai 21.
+
+Cr.JS100",13.718691605683,100.48337906599,3,2026-08-26 13:58:17,2026-08-26 14:58:17,itic.rattanakit
+965416,คืบหน้าอุบัติเหตุ ปากซอยเทอดไท 21 (ซอยโรงเจ),Accident at Soi Thoet Thai 21,"ปากซอยเทอดไท 21 ก่อนหน้านี้ มีอุบัติเหตุ (รถนั่งส่วนบุคคล ชนกับ รถแท็กซี่) ล่าสุด จนท.เคลื่อนย้ายพ้นกีดขวางแล้ว
+
+Cr.@Traffic_1197","Update car accident was moved out of locale at the entrance of Soi Thoet Thai 21.
+
+Cr.@Traffic_1197",13.718690302838,100.48338577151,3,2026-08-26 14:58:10,2026-08-26 15:58:10,itic.rattanakit
+965417,อุบัติเหตุ ถนนคอนแวนด์,Accident at Convent Rd.,"ถนนคอนแวนด์ บริเวณหน้า `โรงพยาบาลบีเอ็นเฮช` มีอุบัติเหตุ (จยย. เสียหลักล้ม) กีดขวางการจราจร
+
+Cr.@Traffic_1197","Motorcycle accident blocking traffic lane in front of BNH Hospital on Convent Rd.
+
+Cr.@Traffic_1197",13.724743243681,100.53470849991,3,2026-08-26 14:59:01,2026-08-26 15:59:01,itic.rattanakit
+965419,อุบัติเหตุ ถนนเพชรบุรี ขาออก,Accident at Phetchaburi Rd.,"ถนนเพชรบุรี ขาออก บน `สะพานข้ามคลองบางกะปิ` มีอุบัติเหตุ (รถนั่งส่วนบุคคล ชนกัน) กีดขวางการจราจร เลนซ้าย 
+
+Cr.@Traffic_1197","Cars accident blocking the left lane on Khlong Bang Kapi Bridge on outbound Phetchaburi Rd. 
+
+Cr.@Traffic_1197",13.748295591872,100.56933581829,3,2026-08-26 15:18:53,2026-08-26 16:18:53,itic.rattanakit
+965420,อุบัติเหตุ ถนนวิภาวดีรังสิต ขาออก,Accident at Vibhavadi Rangsit Rd.,"ถนนวิภาวดีรังสิต ขาออก บริเวณหน้า `การประปานครหลวง` มีอุบัติเหตุ (รถนั่งส่วนบุคคล ชนกัน) กีดขวางการจราจร เลนซ้าย ในช่องคู่ขนาน 
+
+Cr.@Traffic_1197","Cars accident blocking the left lane in front of MWA on outbound Vibhavadi Rangsit Rd. 
+
+Cr.@Traffic_1197",13.820004980766,100.55837631226,3,2026-08-26 15:20:24,2026-08-26 16:20:24,itic.rattanakit
+965421,ด่านตรวจ แขวงวชิรพยาบาล,Check Point at Wachira Phayaban,แขวงวชิรพยาบาล เขตดุสิต กรุงเทพมหานคร 10300 รายงานโดย Theodore Finn Johnson,Wachira Phayaban Dusit Bangkok 10300 Report by Theodore Finn Johnson,13.776232,100.506375,9,2026-08-26 15:46:00,2026-08-26 16:46:00,itic_user
+965422,อุบัติเหตุ บางมด,Accident at Suk Sawat 26,"เกิดอุบัติเหตุไม่ใช่รถจักรยานยนต์ ที่ สุขสวัสดิ์ 26 แขวงบางมด เขตจอมทอง กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Cars accident on Suk Sawat 26, Bang Mot, Chom Thong, Bangkok.
+
+Cr.RVP",13.668212658099,100.48009201884,3,2026-08-26 15:20:00,2026-08-26 16:20:00,RVP
+965425,อุบัติเหตุ ทางพิเศษเฉลิมมหานคร ขาออก,Accident at Chaloem Mahanakhon Exp.,"ทางพิเศษเฉลิมมหานคร (ด่วนขั้นที่ 1) ขาออก เชิงทางลง `ด่วนดินแดง` มีอุบัติเหตุ (รถชนกัน 3 คัน) กีดขวางการจราจร 2 เลนซ้าย 
+
+Cr.@Traffic_1197","Cars accident blocking two left lanes on the way down from Din Daeng Expressway on outbound Chaloem Mahanakhon Expressway. 
+
+Cr.@Traffic_1197",13.763085761413,100.54768100381,3,2026-08-26 16:16:19,2026-08-26 17:16:19,itic.rattanakit
+965426,อุบัติเหตุ บางโพงพาง,Accident at Ratchada Phisek Rd.,"เกิดอุบัติเหตุรถจักรยานยนต์ ที่ ถนนรัชดาภิเษก แขวงบางโพงพาง เขตยานนาวา กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Cars accident on Ratchadaphisek Rd. Information at The Central Accident Victims Protection Company Limited.
+
+Cr.RVP",13.695019017882,100.53242862225,3,2026-08-26 16:20:00,2026-08-26 17:20:00,RVP
+965429,อุบัติเหตุ,Accident at Rama III Rd.,"เกิดอุบัติเหตุรถจักรยานยนต์ ที่ ถนนพระราม 3 แขวงบางโคล่ เขตบางคอแหลม กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Motorcycle accident on Rama III Rd., Bang Khlo, Bang Kho Laem, Bangkok.
+
+Cr.RVP",13.688163958543,100.51598533988,3,2026-08-26 17:03:00,2026-08-26 18:03:00,RVP
+965431,รถเสีย ยกระดับอุตราภิมุข ขาออก,Car breakdown at Don Muang Tollway.,"ยกระดับอุตราภิมุข ขาออก ตรงข้าม `โรงแรมรามาการ์เด้นส์` มี (รถนั่งส่วนบุคคล จอดเสีย) กีดขวางการจราจร เลนซ้าย
+
+Cr.@Traffic_1197","Car breakdown blocking the left lane opposite Rama Gardens Hotel on outbound Don Muang Tollway.
+
+Cr.@Traffic_1197",13.862782274214,100.56967914104,1,2026-08-26 17:39:36,2026-08-26 18:39:36,itic.rattanakit
+965432,อุบัติเหตุ ถนนศรีนครินทร์ ขาเข้า,Accident at Srinagarindra Rd.,"ถนนศรีนครินทร์ ขาเข้า เชิงทางลง `อุโมงค์พัฒนาการ` มีอุบัติเหตุ (จยย. ชนกับ รถกระบะ) กีดขวางการจราจร เลนขวา
+
+Cr.@Traffic_1197","Cars accident blocking the right lane on the way down from Phatthanakan Tunnel on inbound Srinagarindra Rd.
+
+Cr.@Traffic_1197",13.733771554413,100.64102053642,3,2026-08-26 17:52:01,2026-08-26 18:52:01,itic.rattanakit
+965435,รถเสีย ถนนบรมราชชนนี ขาออก,Car breakdown at Boromratchachonnani Rd.,"ถนนบรมราชชนนี ขาออก เชิงทางขึ้น `สะพานข้ามทางรถไฟ` มี (รถตู้ จอดเสีย) กีดขวางการจราจร เลนขวา ในช่องคู่ขนาน
+
+Cr.@Traffic_1197","Car breakdown blocking the right lane on the way up to railway overpass on outbound Borommaratchachonnani Rd.
+
+Cr.@Traffic_1197",13.782548376496,100.45174106956,1,2026-08-26 17:54:44,2026-08-26 18:54:44,itic.rattanakit
+965439,เพลิงไหม้ ซอยสาธุประดิษฐ์ 41 (ซอยแสงสุข),Fire at Soi Sathu Pradit 41,"เหตุเพลิงไหม้ภายในร้านอาหาร ซอยสาธุประดิษฐ์ 41 ถนนสาธุประดิษฐ์ แขวงบางโพงพาง เขตยานนาวา เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยถนนจันทน์ กำลังไปที่เกิดเหตุ 
+
+Cr. ศูนย์วิทยุพระราม199","Fire on Soi Sathu Pradit 41., Chong Nonsi, Yan Nawa, Bangkok.
+
+Cr. ศูนย์วิทยุพระราม199",13.691129600829,100.53459450603,15,2026-08-26 18:47:16,2026-08-26 19:47:16,itic.pacharasrung
+965444,คืบหน้าเพลิงไหม้ ซอยสาธุประดิษฐ์ 41 (ซอยแสงสุข),Fire at Soi Sathu Pradit 41,"เหตุเพลิงไหม้ภายในร้านอาหาร ซอยสาธุประดิษฐ์ 41 รับแจ้งจากอาสาสมัครในพื้นที่ ขณะนี้เพลิงสงบ เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยถนนจันทน์ อยู่ระหว่างเข้าพื้นที่ตรวจสอบที่เกิดเหตุ 
+
+Cr. ศูนย์วิทยุพระราม199","Update now fireman can control fire on Soi Sathu Pradit 41., Chong Nonsi, Yan Nawa, Bangkok.
+
+Cr. ศูนย์วิทยุพระราม199",13.691126994833,100.53461462259,15,2026-08-26 19:31:25,2026-08-26 20:31:25,itic.pacharasrung
+965457,อุบัติเหตุ ถนนลาดพร้าว ขาเข้า,Accident at Lad Phrao Rd.,"ถนนลาดพร้าว ขาเข้า ตรงข้าม `ซอยลาดพร้าว 71` มีอุบัติเหตุ (จยย. ชนกับ รถนั่งส่วนบุคคล) กีดขวางการจราจร เลนขวา 
+
+Cr.@Traffic_1197","Cars accident blocking the right lane opposite Soi Lat Phrao 71 on inbound Lat Phrao Rd. 
+
+Cr.@Traffic_1197",13.786916886888,100.60770213604,3,2026-08-26 21:27:36,2026-08-26 22:27:36,itic.kittaya@gmail.com
+965459,รถเสีย ถนนประดิษฐ์มนูธรรม ขาเข้า,Car breakdown at Pradit Manutham Rd.,"ถนนประดิษฐ์มนูธรรม ขาเข้า บริเวณหน้า `โรงแรม เอสซี ปาร์ค` มี (รถขยะ จอดเสีย) กีดขวางการจราจร เลนขวา
+
+Cr.@Traffic_1197","Car breakdown blocking the right lane in front of SC Park Hotel on inbound Pradit Manutham Rd.
+
+Cr.@Traffic_1197",13.767682585966,100.60291305184,1,2026-08-26 21:47:09,2026-08-26 22:47:09,itic.kittaya@gmail.com
+965460,อุบัติเหตุ ถนนบางแวก ขาเข้า,Accident at Bang Waek Rd.,"ถนนบางแวก ขาเข้า บริเวณหน้า `หมู่บ้านการ์ดิเนีย วิลล์` มีอุบัติเหตุ (รถนั่งส่วนบุคคล ชนกับ จยย.) กีดขวางการจราจร เลนซ้าย 
+
+Cr.@Traffic_1197","Cars accident blocking the left lane in front of Gardenia Ville on inbound Bang Waek Rd. 
+
+Cr.@Traffic_1197",13.741546305871,100.42016074061,3,2026-08-26 22:02:29,2026-08-26 23:02:29,itic.kittaya@gmail.com
+965462,อุบัติเหตุ หนองบอน,Accident at Udom Suk 60,"เกิดอุบัติเหตุรถจักรยานยนต์ ที่ อุดมสุข 60 แขวงหนองบอน เขตประเวศ กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Motorcycle accident on Udom Suk 60, Nong Bon, Prawet, Bangkok.
+
+Cr.RVP",13.677718762565,100.64176619053,3,2026-08-26 22:11:00,2026-08-26 23:11:00,RVP
+965466,เหตุสั่นสะเทือนระดับปานกลางในพื้นที่ แขวงบางนาใต้,Moderate Seismic Event on Bangna,"ตรวจพบเหตุสั่นสะเทือนปานกลาง (แผ่นดินไหวหรือเหตุการณ์ที่คล้ายคลึงกัน) ในพื้นที่ แขวงบางนาใต้, เขตบางนา, กรุงเทพมหานคร โดยมีค่าความเร่งสูงสุดอยู่ที่ 0.659736 m/s²
+            
+            ที่มา: RUGON","Detected a moderate shaking event (earthquake or similar) on Bangna, Tai, Bang, Na, Bangkok, with a peak acceleration of 0.659736 m/s².
+            
+            Source: RUGON",13.67,100.6,20,2026-08-26 23:10:02,2026-08-27 00:10:02,rugon
+965467,คืบหน้าอุบัติเหตุ ถนนลาดพร้าว ขาเข้า,Accident at Lad Phrao Rd.,"ถนนลาดพร้าว ขาเข้า ตรงข้าม `ซอยลาดพร้าว 71` ก่อนหน้านี้ มีอุบัติเหตุ (จยย. ชนกับ รถนั่งส่วนบุคคล) ล่าสุด จนท.เคลื่อนย้ายพ้นกีดขวางแล้ว
+
+Cr.@Traffic_1197","Update car accident was moved out of locale opposite Soi Lat Phrao 71 on inbound Lat Phrao Rd.
+
+Cr.@Traffic_1197",13.786923399216,100.60769677162,3,2026-08-26 23:40:43,2026-08-27 00:40:43,itic.kittaya@gmail.com
+965468,คืบหน้าอุบัติเหตุ ถนนบางแวก ขาเข้า,Accident at Bang Waek Rd.,"ถนนบางแวก ขาเข้า บริเวณหน้า `หมู่บ้านการ์ดิเนีย วิลล์` ก่อนหน้านี้ มีอุบัติเหตุ (รถนั่งส่วนบุคคล ชนกับ จยย.) ล่าสุด จนท.เคลื่อนย้ายพ้นกีดขวางแล้ว
+
+Cr.@Traffic_1197","Update car accident was moved out of locale in front of Gardenia Ville on inbound Bang Waek Rd.
+
+Cr.@Traffic_1197",13.741543700434,100.42015135288,3,2026-08-26 23:42:01,2026-08-27 00:42:01,itic.kittaya@gmail.com
+965470,เหตุเพลิงไหม้บ้านเรือนประชาชน ซอยวัดประชาระบือธรรม,Fire at Soi Wat Pracha Rabuetham,"เหตุเพลิงไหม้บ้านเรือนประชาชน ซอยวัดประชาระบือธรรม ถนนพระรามที่ 5 แขวงถนนนครไชยศรี เขตดุสิต เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยบางโพ กำลังไปที่เกิดเหตุ
+
+Cr.ศูนย์วิทยุพระราม199","A fire has broken out in a residential area in Soi Wat Pracha Rabuetham on Rama V Road, Thanon Nakhon Chai Si Dusit Bangkok.
+
+Cr. Radio Center Rama 199",13.789810947455,100.52567750216,15,2026-08-27 00:34:27,2026-08-27 01:34:27,itic.nirat
+965471,คืบหน้าเหตุเพลิงไหม้บ้านเรือนประชาชน ซอยวัดประชาระบือธรรม,Fire at Soi Wat Pracha Rabuetham,"เหตุเพลิงไหม้บ้านเรือนประชาชน ซอยวัดประชาระบือธรรม ถนนพระรามที่ 5 แขวงถนนนครไชยศรี เขตดุสิต เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยบางโพ ถึงที่เกิดเหตุ เจ้าหน้าที่อยู่ระหว่างการใช้น้ำ
+
+Cr.ศูนย์วิทยุพระราม199","Fire in a residential area in Soi Wat Pracha Rabuetham on Rama V Road, Bang Pho Fire and Rescue Station personnel have arrived at the scene and are currently using water to extinguish the flames.
+
+Cr. Radio Center Rama 199",13.789800527859,100.52568018436,15,2026-08-27 00:36:53,2026-08-27 01:36:53,itic.nirat
+965472,คืบหน้าเหตุเพลิงไหม้บ้านเรือนประชาชน ซอยวัดประชาระบือธรรม,Fire at Soi Wat Pracha Rabuetham,"เหตุเพลิงไหม้บ้านเรือนประชาชน ซอยวัดประชาระบือธรรม ถนนพระรามที่ 5 แขวงถนนนครไชยศรี เขตดุสิต เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยบางโพ ถึงที่เกิดเหตุ ขณะนี้เพลิงสงบ ไม่มีผู้ได้รับบาดเจ็บ รายละเอียดเพิ่มเติมอยู่ระหว่างการตรวจสอบ
+
+Cr.ศูนย์วิทยุพระราม199","Update now fireman can control fire  in a residential house in Soi Wat Pracha Rabuetham on Rama V Road, Thanon Nakhon Chai Si Dusit Bangkok.
+
+Cr. Radio Center Rama 199",13.789808342556,100.52566945553,15,2026-08-27 00:40:06,2026-08-27 01:40:06,itic.nirat
+965473,อุบัติเหตุ ถนนลาดพร้าว ขาเข้า,Accident at Lad Phrao Rd.,"อุบัติเหตุ เก๋งกับจยย.ชนกัน ถนนลาดพร้าว ขาเข้า จากซอยมหาดไทย ไป ซอยลาดพร้าว71 ที่เยื้องซอยลาดพร้าว71 มีคนเจ็บ ขวางช่องทางขวา การจราจรเคลื่อนตัวช้า รถติด
+
+CrJS100","Car accident blocking the right lane opposite Soi  Lad Phrao 71 on inbound Lad Phrao Rd. Wang Thonglang Wang Thonglang Bangkok.
+
+Cr.JS 100",13.786886930178,100.60778796673,3,2026-08-27 00:45:42,2026-08-27 01:45:42,itic.nirat
+965474,คืบหน้าอุบัติเหตุ ถนนลาดพร้าว ขาเข้า,Accident at Lad Phrao Rd.,"คืบหน้าอุบัติเหตุ เก๋งกับจยย.ชนกัน ถนนลาดพร้าว ขาเข้า จากซอยมหาดไทย ไป ซอยลาดพร้าว71 เยื้องซอยลาดพร้าว71 ล่าสุด จนท. เคลื่อนย้ายพ้นกีดขวางแล้ว
+
+Cr.JS 100","Update car accident was moved out of locale opposite Soi  Lad Phrao 71 on inbound Lad Phrao Rd. Wang Thonglang Wang Thonglang Bangkok.
+
+Cr.JS 100",13.786886930178,100.60778260231,3,2026-08-27 00:45:54,2026-08-27 01:45:54,itic.nirat
+965475,รถติด ถนนลาดพร้าว ขาเข้า,Heavy traffic  at Lad Phrao Rd.,"อุบัติเหตุ เก๋งกับจยย.ชนกัน ถนนลาดพร้าว ขาเข้า จากซอยมหาดไทย ไป ซอยลาดพร้าว71 ที่เยื้องซอยลาดพร้าว71 มีคนเจ็บ ขวางช่องทางขวา การจราจรเคลื่อนตัวช้า รถติด
+
+CrJS100","Heavy traffic due to car accident blocking the right lane opposite Soi  Lad Phrao 71 on inbound Lad Phrao Rd. Wang Thonglang Wang Thonglang Bangkok.
+
+Cr.JS 100",13.786829621679,100.60789525509,10,2026-08-27 00:49:29,2026-08-27 01:49:29,itic.nirat
+965477,อุบัติเหตุ ซอยสุขุมวิท 62 แยก 1,Accident at Soi Sukhumvit 62 Yaek 1,"เก๋งกับจยย.ชนกัน ถนนในซ.สุขุมวิท62 แยก1 มีคนเจ็บ การจราจรเคลื่อนตัวช้า รถติด
+
+Cr.JS 100","Car accident blocking traffic lanes in Soi Sukhumvit 62 Yaek 1 Phra Khanong Tai Phra Khanong Bangkok.
+
+Cr.JS 100",13.694619003752,100.60449287295,3,2026-08-27 01:34:08,2026-08-27 02:34:08,itic.nirat
+965478,รถติด ซอยสุขุมวิท 62 แยก 1,Heavy traffic  at Soi Sukhumvit 62 Yaek 1,"เก๋งกับจยย.ชนกัน ถนนในซ.สุขุมวิท62 แยก1 มีคนเจ็บ การจราจรเคลื่อนตัวช้า รถติด
+
+Cr.JS 100","Heavy traffic due to car accident blocking traffic lanes in Soi Sukhumvit 62 Yaek 1 Phra Khanong Tai Phra Khanong Bangkok.
+
+Cr.JS 100",13.694665910982,100.60448750854,10,2026-08-27 01:34:32,2026-08-27 02:34:32,itic.nirat
+965479,คืบหน้าอุบัติเหตุ ซอยสุขุมวิท 62 แยก 1,Accident at Soi Sukhumvit 62 Yaek 1,"คืบหน้าอุบัติเหตุ ซอยสุขุมวิท 62 แยก 1 เก๋ง กับจยย.ชนกัน ล่าสุด จนท. เคลื่อนย้ายพ้นกีดขวางแล้ว
+
+Cr.JS 100","Update car accident was moved out of locale in Soi Sukhumvit 62 Yaek 1 Phra Khanong Tai Phra Khanong Bangkok.
+
+Cr.JS 100",13.694603368007,100.60449287295,3,2026-08-27 01:34:44,2026-08-27 02:34:44,itic.nirat
+965491,เหตุสั่นสะเทือนระดับปานกลางในพื้นที่ แขวงทุ่งสองห้อง,Moderate Seismic Event on Thung,"ตรวจพบเหตุสั่นสะเทือนปานกลาง (แผ่นดินไหวหรือเหตุการณ์ที่คล้ายคลึงกัน) ในพื้นที่ แขวงทุ่งสองห้อง, เขตหลักสี่, กรุงเทพมหานคร โดยมีค่าความเร่งสูงสุดอยู่ที่ 0.651529 m/s²
+            
+            ที่มา: RUGON","Detected a moderate shaking event (earthquake or similar) on Thung, Song, Hong, Lak, Si, Bangkok, with a peak acceleration of 0.651529 m/s².
+            
+            Source: RUGON",13.87,100.57,20,2026-08-27 07:10:02,2026-08-27 08:10:02,rugon
+965498,รถติด ถนนพระราม 2 (ทางหลวงแผ่นดินหมายเลข 35),Heavy traffic at Rama II Rd.,"ถนนพระราม 2 เข้าด่านดาวคะนอง รถติดมาก ท้ายแถวสะสมพระราม 2 ซอย 48 ปัญหาแนวก่อสร้างฯ
+
+Cr. FM91trafficpro","Heavy traffic due to construction in front of Dao Khanong Toll Plaza on inbound Rama II Rd.
+
+Cr. FM91trafficpro",13.680807023715,100.47234579921,10,2026-08-27 08:33:48,2026-08-27 09:33:48,itic.pacharasrung
+965499,อุบัติเหตุ ถนนเทอดไท,Accident at Thoet Thai Rd.,"เกิดอุบัติเหตุรถจักรยานยนต์ ที่ ถนนเทอดไท แขวงบางยี่เรือ เขตธนบุรี กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Motorcycle accident blocking traffic lane on Thoet Thai Rd. Bang Yi Ruea Thon Buri Bangkok.
+
+Cr.RVP",13.722050316616,100.48131644726,3,2026-08-27 07:50:00,2026-08-27 08:50:00,RVP
+965502,เพลิงไหม้ ซอยรามอินทรา 46/1,Fire at Soi Rarm Intra 46/1,"เหตุเพลิงไหม้บ้านเรือนประชาชน ซอยรามอินทรา 46/1 เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยบางชัน ถึงที่เกิดเหตุ ลักษณะที่เกิดเหตุเป็นอาคารพาณิชย์ เพลิงกำลังลุกไหม้ เจ้าหน้าที่อยู่ระหว่างใช้น้ำ
+
+Cr.อาสาพลเรือน, ศูนย์วิทยุพระราม199","Fire on Rarm Intra 46/1., Ramindra, Khan Na Yao, Bangkok.
+
+Cr.อาสาพลเรือน, ศูนย์วิทยุพระราม199",13.838948488635,100.65984159708,15,2026-08-27 09:11:28,2026-08-27 10:11:28,itic.pacharasrung
+965503,รถเสีย ถนนสุขุมวิท 71 (ถนนปรีดี พนมยงค์),Car Breakdown at Sukhumvit 71 Rd.,ถนนสุขุมวิท 71 (ถนนปรีดี พนมยงค์) แขวงพระโขนงเหนือ เขตวัฒนา กรุงเทพมหานคร 10110 รายงานโดย Shankar Damala,Sukhumvit 71 Rd. Phra Khanong Nuea Vadhana Bangkok 10110 Report by Shankar Damala,13.715915,100.595191,1,2026-08-27 09:13:49,2026-08-27 10:13:49,itic_user
+965506,คืบหน้าเพลิงไหม้ ซอยรามอินทรา 46/1,Fire at Soi Rarm Intra 46/1,"เหตุเพลิงไหม้บ้านเรือนประชาชน ซอยรามอินทรา 46/1 ขณะนี้เพลิงสงบ เบื้องต้นไม่มีผู้ติดค้าง และผู้ได้รับบาดเจ็บ รายละเอียดเพิ่มเติมอยู่ระหว่างการตรวจสอบ
+
+Cr.บางชัน 3-2 ,อาสาพลเรือน, ศูนย์วิทยุพระราม199","Update now fireman can control fire on Rarm Intra 46/1., Ramindra, Khan Na Yao, Bangkok.
+
+Cr.บางชัน 3-2 ,อาสาพลเรือน, ศูนย์วิทยุพระราม199",13.838964114732,100.65997034311,15,2026-08-27 09:48:47,2026-08-27 10:48:47,itic.pacharasrung
+965508,อุบัติเหตุ ทางพิเศษเฉลิมมหานคร,Accident at Chaloem Mahanakhon Exp.,"เกิดอุบัติเหตุไม่ใช่รถจักรยานยนต์ ที่ ทางพิเศษเฉลิมมหานคร แขวงช่องนนทรี เขตยานนาวา กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Cars accident blocking traffic lane on Chaloem Mahanakhon Exp. Chong Nonsi Yan Nawa Bangkok.
+
+Cr.RVP",13.704935762931,100.54516375065,3,2026-08-27 08:55:00,2026-08-27 09:55:00,RVP
+965511,อุบัติเหตุ ถนนประชาราษฎร์สาย 1,Accident at Pracharat Sai 1 Rd.,"ถนนประชาราษฎร์สาย 1 ขาเข้า บริเวณทางม้าลายใกล้แยกบางโพ จยย.ชนคนข้ามถนน กีดขวางช่องทางกลาง มีผู้บาดเจ็บ (หญิง) 1 ราย การจราจรเคลื่อนตัวช้า
+
+Cr. JS100","Motorcycle accident blocking the middle lane near Bang Pho intersection on inbound Pracharat Sai 1 Rd. 
+
+Cr. JS100",13.806578078975,100.52160724998,3,2026-08-27 10:10:47,2026-08-27 11:10:47,itic.pacharasrung
+965512,ซ้อมแผนดับเพลิงโรงเรียนเธียรประสิทธิ์ศาสตร์ ซอยสาทร 1,Information at Thienprasitsart Kindergarten,"วันนี้ (วันที่ 27 สิงหาคม 2569) เวลา 09.30 - 12.00 น. โรงเรียนเธียรประสิทธิ์ศาสตร์ ซอยสาทร 1 แขวงทุ่งมหาเมฆ เขตสาทร กรุงเทพมหานคร จะทำการซ้อมแผนดับเพลิงและซ้อมอพยพหนีไฟ
+
+Cr. ศูนย์วิทยุพระราม199","Thienprasitsart Kindergarten will be conducting a fire drill and evacuation exercise at 09.30 - 12.00 hrs. on August 27, 2026.
+
+Cr. ศูนย์วิทยุพระราม199",13.7239771892,100.5430381,8,2026-08-27 10:18:04,2026-08-27 11:18:04,itic.pacharasrung
+965514,เพลิงไหม้ ถนนสุขสวัสดิ์,Fire at Suk Sawat Rd.,"เหตุเพลิงไหม้กองวัสดุบนอาคาร ระหว่างซอยสุขสวัสดิ์ 8-10 เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยดาวคะนอง ตรวจสอบแล้วลักษณะที่เกิดเหตุเป็นอาคาร 4 ชั้น เพลิงลุกไหม้กองวัสดุบริเวณชั้นที่ 4 ไม่ส่งผลกระทบต่อตัวอาคาร
+
+Cr. ศูนย์วิทยุพระราม199","Fire between Soi Suk Sawat 8-10 on Suk Sawat Rd., Chom Thong, Chom Thong, Bangkok.
+
+Cr. ศูนย์วิทยุพระราม199",13.68904349168,100.48237591982,15,2026-08-27 11:17:46,2026-08-27 12:17:46,itic.pacharasrung
+965515,ซ้อมแผนดับเพลิงโรงเรียนอนุบาลรัศมีนานาชาติ ซอยราชวิถี 2 (ซอยอรรถวิมล),Information at RBIS International School on Ratchawithi 2,"วันนี้ (วันที่ 27 สิงหาคม 2569) ตั้งแต่เวลานี้ - 12.00 น. โรงเรียนอนุบาลรัศมีนานาชาติ ซอยราชวิถี 2 แขวงสามเสนใน เขตพญาไท กรุงเทพมหานคร จะทำการซ้อมแผนดับเพลิงและซ้อมอพยพหนีไฟ
+
+Cr. ศูนย์วิทยุพระราม199","RBIS International School will be conducting a fire drill and evacuation exercise. this time - 12.00 hrs. on August 27, 2026.
+
+Cr. ศูนย์วิทยุพระราม199",13.765866792447,100.5449102819,8,2026-08-27 11:20:07,2026-08-27 12:20:07,itic.pacharasrung
+965516,เหตุดินเลนตกหล่น ถนนอำนวยสงคราม,Warning at Aumnuai Songkhram Rd.,"เหตุดินเลนตกหล่น หน้า สน.สามเสน บริเวณ ถ.อำนวยสงครามตัดถ.ร่วมจิตต์ เขตดุสิตประสานผู้รับจ้างเร่งแก้ไขแล้ว ขณะนี้อยู่ระหว่างดำเนินการ โปรดใช้เส้นทางด้วยความระมัดระวัง  
+
+Cr. สำนักงานเขตดุสิต","Caution soil fall at intersection cut across with Ruamchit Road on Aumnuai Songkhram Rd.
+
+Cr. สำนักงานเขตดุสิต",13.787506903047,100.51757723093,12,2026-08-27 11:27:46,2026-08-27 12:27:46,itic.pacharasrung
+965517,อุบัติเหตุ ถนนจรัญสนิทวงศ์,Accident at Charan Sanitwong Rd.,"ถนนจรัญสนิทวงศ์ ขาออก จากแยกบางพลัด มุ่งหน้า สะพานพระราม 7 บริเวณปากซอยจรัญสนิทวงศ์ 81 รถปิคอัพกับรถจยย.ชนกัน กีดขวางช่องทางซ้าย การจราจรเคลื่อนตัวช้า
+
+Cr. JS100","Cars accident blocking the left lane at the entrance of Soi Charan Sanitwong 81 on outbound Charan Sanitwong Rd. 
+
+Cr. JS100",13.791695584169,100.5042989552,3,2026-08-27 11:37:19,2026-08-27 12:37:19,itic.pacharasrung
+965518,อุบัติเหตุ ถนนราชพฤกษ์ ขาออก,Accident at Ratchaphruek Rd.,"ถนนราชพฤกษ์ ขาออก จากแยกถนนเพชรเกษม มุ่งหน้า ซอยจรัญสนิทวงศ์13(บางแวก) ที่ใกล้เคียง BTS บางหว้า อุบัติเหตุ รถชนกัน 2 คัน กีดขวางช่องทางขวา บาดเจ็บ 2 คน จนท.นำส่งรพ. และเคลื่อนย้ายแล้ว
+
+Cr. ใจสั่งมา อ๋า.","Cars accident blocking the right lane near BTS Bang Wa on outbound Ratchaphruek Rd. 
+
+Cr. ใจสั่งมา อ๋า.",13.721807990749,100.4575265944,3,2026-08-27 11:40:50,2026-08-27 12:40:50,itic.pacharasrung
+965519,อุบัติเหตุ ถนนลาดพร้าว ขาเข้า,Accident at Lad Phrao Rd.,"ถนนลาดพร้าว ขาเข้า ปากซอยลาดพร้าว 120 รถ 6 ล้อชนกับรถจักรยานยนต์ ผ่านได้ 1 ช่องทางกลาง บาดเจ็บ 1 ราย รถติด
+
+Cr. FM91trafficpro","Cars accident blocking traffic lane at the entrance of Soi Lad Phrao 120 on inbound Lad Phrao Rd. 
+
+Cr. FM91trafficpro",13.778358228789,100.62302023172,3,2026-08-27 11:47:32,2026-08-27 12:47:32,itic.pacharasrung
+965520,อุบัติเหตุ ถนนบางขุนนนท์,Accident at Bang Khun Non Rd.,"ถนนบางขุนนนท์ จากแยกตัด ถ.จรัญสนิทวงศ์ มุ่งหน้า คลองชักพระ หน้าสำนักงานเขตบางกอกน้อย รถจยย.กับรถเก๋ง ชนกัน                                                                                                                                                        บาดเจ็บ 1 คน จนท.นำส่งรพ. และเคลื่อนย้ายพ้นกีดขวางแล้ว 
+
+Cr. JS100","Cars accident blocking traffic lane in front of Bangkok Noi District Office on Bang Khun Non Rd.
+
+Cr. JS100",13.770892103293,100.46837076545,3,2026-08-27 11:50:32,2026-08-27 12:50:32,itic.pacharasrung
+965525,อุบัติเหตุ บางมด,Accident at Suan Thon Soi 13,เกิดอุบัติเหตุไม่ใช่รถจักรยานยนต์ ที่ ซอยสวนธน 13 แขวงบางมด เขตทุ่งครุ กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด,"Cars accident in Soi Suan Thon 13, Bang Mot, Thung Khru, Bangkok.
+
+Cr.RVP",13.650999052499,100.5023945868,3,2026-08-27 12:52:00,2026-08-27 13:52:00,RVP
+965526,อุบัติเหตุ ถนนพระราม 4 ขาเข้า,Accident at Rama IV Rd.,"ถนนพระราม 4 ขาเข้า หน้าโรงพยาบาลเทพธารินทร์ มีอุบัติเหตุ รนถั่งส่วนบุคคล ชนกัน กีดขวางการจราจร เลนขวา
+
+Cr.JS100","Cars accident blocking the right lane in front of Theptarin Hospital on inbound Rama IV Rd.
+
+Cr.JS100",13.714730922812,100.57702034712,3,2026-08-27 13:06:45,2026-08-27 14:06:45,itic.rattanakit
+965527,อุบัติเหตุ ถนนจรัญสนิทวงศ์ ขาออก,Accident at Charan Sanitwong Rd.,"ถนนจรัญสนิทวงศ์ ขาออก หน้าตลาดบางขุนศรี มีอุบัติเหตุ รถนั่งส่วนบุคคล ชนกับ รถแท็กซี่ กีดขวางการจราจร เลนกลาง
+
+Cr.JS100","Cars accident blocking the middle lane in front of Bang Khun Si Market on outbound Charan Sanit Wong Rd.
+
+Cr.JS100",13.758867909796,100.46945974231,3,2026-08-27 13:36:37,2026-08-27 14:36:37,itic.rattanakit
+965528,อุบัติเหตุ บางมด,Accident at Bang Mot,เกิดอุบัติเหตุไม่ใช่รถจักรยานยนต์ ที่ แขวงบางมด เขตทุ่งครุ กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด,"Cars accident blocking traffic lane at Bang Mot, Thung Khru, Bangkok.
+
+Cr.RVP",13.652544666437,100.50326630473,3,2026-08-27 12:54:00,2026-08-27 13:54:00,RVP
+965530,เพลิงไหม้ ถนนพรานนก - พุทธมณฑลสาย 4,Fire at Phran Nok - Phutthamonthon Sai 4 Rd.,"เพลิงไหม้ ภายในอู่ซ่อมรถ ใกล้เคียงตลาดวงศ์เจริญ ถนนพรานนก - พุทธมณฑลสาย 4 เขตทวีวัฒนา เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยทวีวัฒนา กำลังไปที่เกิดเหตุ 
+
+Cr.ศูนย์วิทยุพระราม199","Fire near Wong Charoen Market on Phran Nok - Phutthamonthon Sai 4 Rd.
+
+Cr.ศูนย์วิทยุพระราม199",13.757394639816,100.38096830249,15,2026-08-27 14:13:10,2026-08-27 15:13:10,itic.rattanakit
+965533,เพลิงไหม้ ซอยทองหล่อ 20,Fire at Soi Thonglor 20,"เหตุเพลิงไหม้รถยนต์ ซอยทองหล่อ 20 ถนนทองหล่อ แขวงคลองตันเหนือ เขตวัฒนา เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยคลองเตย กำลังไปที่เกิดเหตุ
+
+Cr.ศูนย์วิทยุพระราม199","Fire on car in Soi Thonglor 20.
+
+Cr.ศูนย์วิทยุพระราม199",13.739301711583,100.58514609933,15,2026-08-27 15:09:10,2026-08-27 16:09:10,itic.rattanakit
+965535,อุบัติเหตุ ราษฎร์บูรณะ,Accident at Pracha Uthit Rd.,เกิดอุบัติเหตุไม่ใช่รถจักรยานยนต์ ที่ ถนนประชาอุทิศ แขวงราษฎร์บูรณะ เขตราษฎร์บูรณะ กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด,"Cars accident blocking traffic lane on Pracha Uthit Rd.
+
+Cr.RVP",13.657260941811,100.49943745136,3,2026-08-27 14:44:00,2026-08-27 15:44:00,RVP
+965536,อุบัติเหตุ ราษฎร์บูรณะ,Accident at Pracha Uthit Rd.,เกิดอุบัติเหตุไม่ใช่รถจักรยานยนต์ ที่ ถนนประชาอุทิศ แขวงราษฎร์บูรณะ เขตราษฎร์บูรณะ กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด,"Cars accident blocking traffic lane on Pracha Uthit Rd.
+
+Cr.RVP",13.657250516327,100.4994481802,3,2026-08-27 14:50:00,2026-08-27 15:50:00,RVP
+965540,เพลิงไหม้ ซอยราษฎร์บูรณะ 28,Fire at Soi Rat Burana 28,"เหตุเพลิงไหม้บ้านเรือนประชาชน ซอยราษฎร์บูรณะ 28 ถนนราษฎร์บูรณะ แขวงราษฎร์บูรณะ เขตราษฎร์บูรณะ เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยราษฎร์บูรณะ กำลังไปที่เกิดเหตุ
+
+Cr.ศูนย์วิทยุพระราม199","Fire in Soi Rat Burana 28.
+
+Cr.ศูนย์วิทยุพระราม199",13.679124773403,100.51037147641,15,2026-08-27 15:54:23,2026-08-27 16:54:23,itic.rattanakit
+965541,เพลิงไหม้ ถนนพุทธมณฑลสาย 3,Fire at Phutthamonthon Sai 3 Rd.,"เหตุเพลิงไหม้หญ้า ถนนพุทธมณฑลสาย 3 แขวงหนองค้างพลู เขตหนองแขม  เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยหนองแขม กำลังไปที่เกิดเหตุ
+
+Cr.ศูนย์วิทยุพระราม199","Fire on Phutthamonthon Sai 3 Rd.
+
+Cr.ศูนย์วิทยุพระราม199",13.718864884033,100.36409184337,15,2026-08-27 15:55:39,2026-08-27 16:55:39,itic.rattanakit
+965542,อุบัติเหตุ ถนนเพชรเกษม ขาเข้า,Accident at Phet Kasem Rd.,"ถนนเพชรเกษม ขาเข้า บนสะพานข้ามแยกท่าพระ มีอุบัติเหตุ รถจยย. ไม่ทราบคู่กรณี กีดขวางการจราจร เลนซ้าย
+
+Cr.JS100","Motorcycle accident blocking the left lane on Tha Phra Overpass on inbound Phet Kasem Rd.
+
+Cr.JS100",13.729398143397,100.4738599062,3,2026-08-27 15:57:54,2026-08-27 16:57:54,itic.rattanakit
+965546,อุบัติเหตุ ถนนพระราม 2 ขาเข้า (ทางหลวงแผ่นดินหมายเลข 35),Accident at Rama II Rd.,"ถนนพระราม 2 ขาเข้า ใกล้เคียงโรงเหล้าแสงจันทร์ มีอุบัติเหตุ รถชนกัน 4 คัน กีดขวางการจราจร เลนซ้าย ของทางหลัก บาดเจ็บ 1 คน จนท.ช่วยเหลือนำส่ง รพ.แล้ว การจราจรชะลอตัว
+
+Cr.ฝ่ายประชาสัมพันธ์ อปพร.บางบอน","Cars accident blocking the left lane near Long Lao Saeng Chan on inbound Rama II Rd.
+
+Cr.ฝ่ายประชาสัมพันธ์ อปพร.บางบอน",13.656503789838,100.42910456657,3,2026-08-27 16:39:56,2026-08-27 17:39:56,itic.rattanakit
+965547,อุบัติเหตุ ถนนเลียบคลองภาษีเจริญฝั่งเหนือ,Accident at Liap Khlong Phasi Charoen Fang Nuea Rd.,"ถนนเลียบคลองภาษีเจริญฝั่งเหนือ ขาเข้า หน้าร้านซีเจมอร์ มีอุบัติเหตุ รถนั่งส่วนบุคคล ชนกัน กีดขวางการจราจร เลนขวา
+
+Cr.JS100","Cars accident blocking the right lane in front of CJ More on inbound Liap Khlong Phasi Charoen Fang Nuea Rd.
+
+Cr.JS100",13.690280044558,100.37143707275,3,2026-08-27 17:12:40,2026-08-27 18:12:40,itic.rattanakit
+965549,อุบัติเหตุ พระโขนงใต้,Accident at Atnarong Rd.,เกิดอุบัติเหตุรถจักรยานยนต์ ที่ ถนนอาจณรงค์ แขวงพระโขนงใต้ เขตพระโขนง กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด,"Motorcycle accident on At Narong Rd., Phra Khanong Tai, Phra Khanong, Bangkok.
+
+Cr.RVP",13.697138951109,100.58956503868,3,2026-08-27 16:26:00,2026-08-27 17:26:00,RVP
+965550,อุบัติเหตุ ถนนพระราม 9 ขาออก,Accident at Rama IX Rd.,"ถนนพระราม 9 ขาออก สะพานข้ามแยกพระราม 9 มีอุบัติเหตุ รถนั่งส่วนบุคคล ชนกับ รถกระบะ กีดขวางการจราจร
+
+Cr.FM91trafficpro","Cars accident blocking traffic lane on Rama IX Overpass on outbound Rama IX Rd.
+
+Cr.FM91trafficpro",13.756142808963,100.56549623609,3,2026-08-27 17:45:33,2026-08-27 18:45:33,itic.rattanakit
+965562,รถเสีย ถนนสาธุประดิษฐ์ ขาออก,Car breakdown at Sathu Pradit Rd.,"ถนนสาธุประดิษฐ์ ขาออก บริเวณใกล้ `ปากซอยสาธุประดิษฐ์ 15` มี (รถนั่งส่วนบุคคล จอดเสีย) กีดขวางการจราจร เลนขวา
+
+Cr. JS100","Car breakdown blocking the right lane at the entrance of Soi Sathu Pradit 15 on outbound Sathu Pradit Rd.
+
+Cr. JS100",13.700204807203,100.53093999624,1,2026-08-27 19:41:27,2026-08-27 20:41:27,itic.pacharasrung
+965566,อุบัติเหตุ ถนนสมเด็จพระเจ้าตากสิน,Accident at Somdet Phrachao Taksin Rd.,"เกิดอุบัติเหตุไม่ใช่รถจักรยานยนต์ ที่ ถนนสมเด็จพระเจ้าตากสิน แขวงบุคคโล เขตธนบุรี กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Cars accident blocking traffic lane on Somdet Phrachao Taksin Rd. Bukkhalo Thon Buri Bangkok.
+
+Cr.RVP",13.720662802217,100.49117490649,3,2026-08-27 19:30:00,2026-08-27 20:30:00,RVP
+965567,อุบัติเหตุ ถนนสมเด็จพระเจ้าตากสิน,Accident at Somdet Phrachao Taksin Rd.,"เกิดอุบัติเหตุไม่ใช่รถจักรยานยนต์ ที่ ถนนสมเด็จพระเจ้าตากสิน แขวงสำเหร่ เขตธนบุรี กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Cars accident blocking traffic lane on Somdet Phrachao Taksin Rd. Samre Thon Buri Bangkok.
+
+Cr.RVP",13.720313642372,100.49118027091,3,2026-08-27 19:30:00,2026-08-27 20:30:00,RVP
+965571,อุบัติเหตุ ทางคู่ขนานลอยฟ้าบรมราชชนนี,Accident at Elevated Borommaratchachonnani,"ทางคู่ขนานลอยฟ้าบรมราชชนนี ขาออก บริเวณทางลงพุทธมณฑลสาย 3 มีอุบัติเหตุไม่สามารถเคลื่อนย้ายได้ อยู่ระหว่างรอรถยก การจราจรติดขัด 
+
+Cr.สน.ธรรมศาลา","Cars accident blocking traffic lane on the way down to Phutthamonthon Sai 3 on outbound Elevated Borommaratchachonnani.
+
+Cr.สน.ธรรมศาลา",13.786464930897,100.37432581186,3,2026-08-27 20:35:53,2026-08-27 21:35:53,itic.pacharasrung
+965573,อุบัติเหตุ ประชาอุทิศ 33,Accident at Pracha Uthit 33,"เกิดอุบัติเหตุไม่ใช่รถจักรยานยนต์ ที่ ประชาอุทิศ 33 แขวงบางมด เขตทุ่งครุ กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Cars accident blocking traffic lane on Pracha Uthit 33. Bang Mot Thung Khru Bangkok.
+
+Cr.RVP",13.649698435285,100.51219135523,3,2026-08-27 20:30:00,2026-08-27 21:30:00,RVP
+965574,คืบหน้าอุบัติเหตุ คู่ขนานลอยฟ้าบรมราชชนนี ขาออก,Accident at Elevated Borommaratchachonnani,"คู่ขนานลอยฟ้าบรมราชชนนี ขาออก ทางลง `พุทธมณฑลสาย 3` ก่อนหน้านี้ มีอุบัติเหตุ ล่าสุด จนท.เคลื่อนย้ายพ้นกีดขวางแล้ว
+
+Cr.@Traffic_1197","Update car accident was moved out of locale on the way down to Phutthamonthon Sai 3 on outbound Elevated Borommaratchachonnani.
+
+Cr.@Traffic_1197",13.786447998811,100.37432581186,3,2026-08-27 21:13:43,2026-08-27 22:13:43,itic.kittaya@gmail.com
+965575,อุบัติเหตุ ถนนบรมราชชนนี ขาออก,Accident at Boromratchachonnani Rd.,"ถนนบรมราชชนนี ขาออก บริเวณหน้า `สน.ตลิ่งชัน` มีอุบัติเหตุ (จยย. ชนกัน) กีดขวางการจราจร เลนขวา ในช่องคู่ขนาน
+
+Cr.@Traffic_1197","Cars accident blocking the right lane in front of Taling Chan Police Station on outbound Boromratchachonnani Rd.
+
+Cr.@Traffic_1197",13.780831688451,100.44610977173,3,2026-08-27 21:15:41,2026-08-27 22:15:41,itic.kittaya@gmail.com
+965576,อุบัติเหตุ บางคอแหลม,Accident at Bang Kho Laem,"เกิดอุบัติเหตุไม่ใช่รถจักรยานยนต์ ที่ แขวงบางคอแหลม เขตบางคอแหลม กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Cars accident blocking traffic lane on Bang Kho Laem, Bang Kho Laem, Bangkok.
+
+Cr.RVP",13.700762468186,100.49305379391,3,2026-08-27 20:20:00,2026-08-27 21:20:00,RVP
+965585,คืบหน้าอุบัติเหตุ ถนนบรมราชชนนี ขาออก,Accident at Boromratchachonnani Rd.,"ถนนบรมราชชนนี ขาออก บริเวณหน้า `สน.ตลิ่งชัน` ก่อนหน้านี้ มีอุบัติเหตุ (จยย. ชนกัน) ล่าสุด จนท.เคลื่อนย้ายพ้นกีดขวางแล้ว
+
+Cr.@Traffic_1197","Update motorcycle accident was moved out of locale in front of Taling Chan Police Station on outbound Boromratchachonnani Rd.
+
+Cr.@Traffic_1197",13.780848620944,100.44609770179,3,2026-08-27 22:42:43,2026-08-27 23:42:43,itic.kittaya@gmail.com
+965587,เหตุสั่นสะเทือนระดับปานกลางในพื้นที่ แขวงบางนาใต้,Moderate Seismic Event on Bangna,"ตรวจพบเหตุสั่นสะเทือนปานกลาง (แผ่นดินไหวหรือเหตุการณ์ที่คล้ายคลึงกัน) ในพื้นที่ แขวงบางนาใต้, เขตบางนา, กรุงเทพมหานคร โดยมีค่าความเร่งสูงสุดอยู่ที่ 0.772261 m/s²
+            
+            ที่มา: RUGON","Detected a moderate shaking event (earthquake or similar) on Bangna, Tai, Bang, Na, Bangkok, with a peak acceleration of 0.772261 m/s².
+            
+            Source: RUGON",13.67,100.6,20,2026-08-27 23:10:02,2026-08-28 00:10:02,rugon
+965589,รถเสีย ถนนจตุรทิศ ขาออก,Car breakdown at Chaturathit Rd.,"ถนนจตุรทิศ ขาออก ช่วง `ลียบบึงมักกะสัน` มี (รถนั่งส่วนบุคคล จอดเสีย) กีดขวางการจราจร เลนขวา 
+
+Cr.@Traffic_1197","Car breakdown blocking the right lane at Liap Bueng Makkasan area on outbound Chaturathit Rd. 
+
+Cr.@Traffic_1197",13.756816271346,100.54595500231,1,2026-08-27 23:36:06,2026-08-28 00:36:06,itic.kittaya@gmail.com
+965594,งานซ่อมผิวจราจร ถนนพระราม 4 ขาออก,Warning at Rama IV Rd.,"23.51 น. ถนนพระราม4 ขาออก จากแยกเกษมราษฎร์ ไป ที่บริเวณกลางแยกกล้วยน้ำไท มีงานซ่อมผิวจราจร ใน 2 ช่องทางซ้าย
+
+Cr.JS 100","Caution due to road surface repair in two left lanes at Kluay Nam Thai Intersection on outbound Rama IV Rd. Phra Khanong Khlong Toei Bangkok.
+
+Cr.JS 100",13.713038492221,100.58396056294,12,2026-08-28 00:26:22,2026-08-28 01:26:22,itic.nirat
+965595,รถติด ถนนพระราม 4 ขาออก,Heavy traffic  at Rama IV Rd.,"23.51 น. ถนนพระราม4 ขาออก จากแยกเกษมราษฎร์ ไป ที่บริเวณกลางแยกกล้วยน้ำไท มีงานซ่อมผิวจราจร ใน 2 ช่องทางซ้าย รถติด
+
+Cr.JS 100","Heavy traffic due to road surface repair in two left lanes at Kluay Nam Thai Intersection on outbound Rama IV Rd. Phra Khanong Khlong Toei Bangkok.
+
+Cr.JS 100",13.713030674961,100.58394446969,10,2026-08-28 00:31:25,2026-08-28 01:31:25,itic.nirat
+965601,เหตุเพลิงไหม้บ้านเรือนประชาชน ซอยสะพานขวา,Fire at Soi Saphan Khwa,"วันที่ 28 สิงหาคม 2569 เวลา 01.17 น. รับแจ้งจากสายด่วน 199 เหตุเพลิงไหม้บ้านเรือนประชาชน ซอยสะพานขวา ถนนประชาราษฎร์สาย 2 แขวงบางซื่อ เขตบางซื่อ เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยบางโพ กำลังไปที่เกิดเหตุ
+
+Cr.ศูนย์วิทยุพระราม199","A fire has broken out in a residential area in Soi Saphan Khwa on Pracha Rat Sai 2 Road, Bang Sue Bang Sue Bangkok.
+
+Cr. Radio Center Rama 199",13.805210601349,100.52849784493,15,2026-08-28 01:21:44,2026-08-28 02:21:44,itic.nirat
+965603,คืบหน้าเหตุเพลิงไหม้บ้านเรือนประชาชน ซอยสะพานขวา,Fire at Soi Saphan Khwa,"เหตุเพลิงไหม้บ้านเรือนประชาชน ซอยสะพานขวา ถนนประชาราษฎร์สาย 2 แขวงบางซื่อ เขตบางซื่อ เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยบางโพ  ถึงที่เกิดเหตุ อยู่ระหว่างใช้น้ำทำการดับ
+
+Cr.ศูนย์วิทยุพระราม199","Fire has broken out in a residential area in Soi Saphan Khwa on Pracha Rat Sai 2 Road, Bang Pho Fire and Rescue Station personnel have arrived at the scene and are currently using water to extinguish the flames.
+
+Cr. Radio Center Rama 199",13.805194972987,100.52850320935,15,2026-08-28 02:05:46,2026-08-28 03:05:46,itic.nirat
+965604,คืบหน้าเหตุเพลิงไหม้บ้านเรือนประชาชน ซอยสะพานขวา,Fire at Soi Saphan Khwa,"เหตุเพลิงไหม้บ้านเรือนประชาชน ซอยสะพานขวา ถนนประชาราษฎร์สาย 2 แขวงบางซื่อ เขตบางซื่อ เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยบางโพ  ถึงที่เกิดเหตุ ขณะนี้เพลิงสงบ รายละเอียดเพิ่มเติมอยู่ระหว่างการตรวจสอบ
+
+Cr.ศูนย์วิทยุพระราม199","Update now fireman can control fire  in a residential house in Soi Saphan Khwa on Pracha Rat Sai 2 Road, Bang Sue Bang Sue Bangkok.
+
+Cr. Radio Center Rama 199",13.805210601349,100.52849784493,15,2026-08-28 02:09:49,2026-08-28 03:09:49,itic.nirat
+965606,ถนนปิด สะพานยกระดับถนนรามคำแหง,Road Closed at Ramkhamhaeng Overpass,"มีเจ้าหน้าที่ทำงาน ปิดการจราจร สะพานข้ามแยกรามคำแหง เบี่ยงรถใช้พื้นราบ ถนนพระราม 9 ทั้งฝั่งขาเข้า และขาออก รถชะลอตัวตามสัญญาณไฟจราจร
+
+Cr.FM91trafficpro","Traffic officers are working and have closed Ramkhamhaeng Overpass, diverting vehicles to the ground level on Rama 9 Road in both inbound and outbound directions. Traffic is slowing down due to traffic lights.
+
+Cr.FM91trafficpro",13.747133597796,100.60616925359,19,2026-08-28 02:18:05,2026-08-28 03:18:05,itic.nirat
+965607,รถติด ถนนพระราม 9,Heavy traffic  at Rama IX Rd.,"มีเจ้าหน้าที่ทำงาน ปิดการจราจร สะพานข้ามแยกรามคำแหง เบี่ยงรถใช้พื้นราบ ถนนพระราม 9 ทั้งฝั่งขาเข้า และขาออก รถชะลอตัวตามสัญญาณไฟจราจร รถติด
+
+Cr.FM91trafficpro","Heavy traffic due to traffic officers are working and have closed Ramkhamhaeng Overpass, diverting vehicles to the ground level on Rama 9 Road in both inbound and outbound directions.
+
+Cr.FM91trafficpro",13.75228566889,100.59110060334,10,2026-08-28 02:30:34,2026-08-28 03:30:34,itic.nirat
+965608,อุบัติเหตุ ปากซอยลาดพร้าววังหิน 38,Accident at Lad Phrao Wang Hin 38,"อุบัติเหตุ ถนนลาดพร้าววังหิน ช่วงสะพานข้ามคลองเสือน้อย ไป สามแยกวัดลาดพร้าว ปากซอยลาดพร้าววังหิน 38 รถจักรยานยนต์เสียหลักล้ม มีผู้บาดเจ็บ จนท.กำลังดำเนินการ รถติด
+
+Cr.JS 100","Motorcycle accident blocking traffic lanes at the entrance of Soi Lad Phrao Wang Hin 38 on Lad Phrao Wang Hin Rd.,  Lat Phrao Lat Phrao Bangkok.
+
+Cr.JS 100",13.814996355012,100.59124544263,3,2026-08-28 04:56:41,2026-08-28 05:56:41,itic.nirat
+965609,รถติด ปากซอยลาดพร้าววังหิน 38,Heavy traffic  at Lad Phrao Wang Hin 38,"อุบัติเหตุ ถนนลาดพร้าววังหิน ช่วงสะพานข้ามคลองเสือน้อย ไป สามแยกวัดลาดพร้าว ปากซอยลาดพร้าววังหิน 38 รถจักรยานยนต์เสียหลักล้ม มีผู้บาดเจ็บ จนท.กำลังดำเนินการ รถติด
+
+Cr.JS 100","Heavy traffic due to motorcycle accident blocking traffic lanes at the entrance of Soi Lad Phrao Wang Hin 38 on Lad Phrao Wang Hin Rd.,  Lat Phrao Lat Phrao Bangkok.
+
+Cr.JS 100",13.815021098878,100.59124410152,10,2026-08-28 04:56:52,2026-08-28 05:56:52,itic.nirat
+965610,คืบหน้าอุบัติเหตุ ปากซอยลาดพร้าววังหิน 38,Accident at Lad Phrao Wang Hin 38,"คืบหน้าอุบัติเหตุ ถนนลาดพร้าววังหิน ช่วงสะพานข้ามคลองเสือน้อย ไป สามแยกวัดลาดพร้าว ปากซอยลาดพร้าววังหิน 38 รถจักรยานยนต์เสียหลักล้ม ล่าสุด จนท. เคลื่อนย้ายพ้นกีดขวางแล้ว
+
+Cr.JS 100","Update motorcycle accident was moved out of locale at the entrance of Soi Lad Phrao Wang Hin 38 on Lad Phrao Wang Hin Rd.,  Lat Phrao Lat Phrao Bangkok.
+
+Cr.JS 100",13.814995052703,100.59124678373,3,2026-08-28 04:57:00,2026-08-28 05:57:00,itic.nirat
+965611,อุบัติเหตุ ถนนวงศ์สว่าง ขาเข้า,Accident at Wong Sawang Rd.,"อุบัติเหตุ ถนนวงศ์สว่าง ช่วงสะพานพระราม7 ไป แยกประชานุกูล เชิงทางขึ้นสะพานข้ามแยกวงศ์สว่าง รถจักรยานยนต์เสียหลักล้ม จนท.กำลังดำเนินการ รถติด
+
+Cr.JS 100","Motorcycle accident blocking traffic lanes on the way up to Wong Sawang overpass on inbound Wong Sawang Rd. Wong Sawang Bang Sue Bangkok.
+
+Cr.JS 100",13.827390098007,100.52724659443,3,2026-08-28 04:59:27,2026-08-28 05:59:27,itic.nirat
+965612,รถติด ถนนวงศ์สว่าง ขาเข้า,Heavy traffic  at Wong Sawang Rd.,"อุบัติเหตุ ถนนวงศ์สว่าง ช่วงสะพานพระราม7 ไป แยกประชานุกูล เชิงทางขึ้นสะพานข้ามแยกวงศ์สว่าง รถจักรยานยนต์เสียหลักล้ม จนท.กำลังดำเนินการ รถติด
+
+Cr.JS 100","Heavy traffic due to motorcycle accident blocking traffic lanes on the way up to Wong Sawang overpass on inbound Wong Sawang Rd. Wong Sawang Bang Sue Bangkok.
+
+Cr.JS 100",13.827082769286,100.52689790726,10,2026-08-28 04:59:40,2026-08-28 05:59:40,itic.nirat
+965613,คืบหน้าอุบัติเหตุ ถนนวงศ์สว่าง ขาเข้า,Accident at Wong Sawang Rd.,"คืบหน้าอุบัติเหตุ ถนนวงศ์สว่าง ช่วงสะพานพระราม7 ไป แยกประชานุกูล เชิงทางขึ้นสะพานข้ามแยกวงศ์สว่าง รถจักรยานยนต์เสียหลักล้ม  ล่าสุด จนท. เคลื่อนย้ายพ้นกีดขวางแล้ว
+
+Cr.JS 100","Update motorcycle accident was moved out of locale on the way up to Wong Sawang overpass on inbound Wong Sawang Rd. Wong Sawang Bang Sue Bangkok.
+
+Cr.JS 100",13.827395306965,100.52724659443,3,2026-08-28 05:12:11,2026-08-28 06:12:11,itic.nirat
+965621,อุบัติเหตุ ดาวคะนอง,Accident at Soi Thon Nin,"เกิดอุบัติเหตุรถจักรยานยนต์ ที่ -  แขวงดาวคะนอง เขตธนบุรี กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Motorcycle accident at - Dao Khanong, Thon Buri, Bangkok.
+
+Cr.RVP",13.703221111931,100.4869812727,3,2026-08-28 06:52:00,2026-08-28 07:52:00,RVP
+965622,อุบัติเหตุ ทางพิเศษเฉลิมมหานคร,Accident at Chaloem Mahanakhon Exp.,"ทางพิเศษเฉลิมมหานคร (ทางด่วน 1) จากทางขึ้นดาวคะนอง มุ่งหน้า ทางขึ้นสุขสวัสดิ์ บริเวณเลยหน้าด่านดาวคะนอง ประมาณ 200ม. รถชนกัน 4 คัน กีดขวางช่องทางซ้าย การจราจรติดขัด
+
+Cr. JS100",Chaloem Mahanakhon Exp. Bang Mot Chom Thong Bangkok 10150,13.675128240534,100.48245102167,3,2026-08-28 07:45:53,2026-08-28 08:45:53,itic.pacharasrung
+965623,รถติด ถนนวงแหวนอุตสาหกรรม ขาเข้า,Heavy traffic at Industrial Ring Rd.,"ถนนวงแหวนอุตสาหกรรม ขาเข้า จากทางขึ้นปู่เจ้าสมิงพราย มุ่งหน้า สะพานภูมิพล2 ที่เชิงทางขึ้นปู่เจ้าสมิงพราย รถปิคอัพตู้ทึบน้ำมันหมด กีดขวางช่องทางซ้าย การจราจรเคลื่อนตัวช้า
+
+Cr. JS100",Bhumibol Bridge2 Bang Ya Phraek Phra Pradaeng Samut Prakan 10130,13.655866529236,100.54055705667,10,2026-08-28 07:49:52,2026-08-28 08:49:52,itic.pacharasrung
+965633,รถเสีย ถนนกาญจนาภิเษก (ถนนวงแหวนรอบนอกด้านตะวันตก),Car breakdown at Kanchana Phisek Rd.,"ถนนกาญจนาภิเษก (ถนนวงแหวนรอบนอกด้านตะวันตก) ขาเข้า ช่วงเลยต่างระดับบางคูเวียง 100 ม.  รถบรรทุกจอดเสีย กีดขวางช่องทางกลางของทางหลัก การจราจรติดขัด
+
+Cr. JS100","Truck breakdown blocking the middle lane, 100m. past Bang Khu Wiang Interchange on inbound Kanchanaphisek Rd.
+
+Cr. JS100",13.819163705858,100.4123622179,1,2026-08-28 09:31:12,2026-08-28 10:31:12,itic.pacharasrung
+965637,ซ้อมแผนดับเพลิงร้านที่นอนปีนัง คลองเตย ชุมชนริมทางรถไฟสายท่าเรือถนนพระราม 3,Information at TeenonPeenang Mattress Furniture on Rama III Rd.,"วันนี้ (วันที่ 28 สิงหาคม 2569) ตั้งแต่เวลานี้ - 11.00 น. ร้านที่นอนปีนัง คลองเตย ชุมชนริมทางรถไฟสายท่าเรือ ถนนพระรามที่ 3 แขวงคลองเตย เขตคลองเตย กรุงเทพมหานคร จะทำการซ้อมแผนดับเพลิงและซ้อมอพยพหนีไฟ 
+
+Cr. ศูนย์วิทยุพระราม199","TeenonPeenang Mattress Furniture will be conducting a fire drill and evacuation exercise. this time - 11.00 hrs. on August 28, 2026.
+
+Cr. ศูนย์วิทยุพระราม199",13.716350381154,100.55728197098,8,2026-08-28 10:24:37,2026-08-28 11:24:37,itic.pacharasrung
+965639,รถเสีย ถนนพหลโยธิน ขาเข้า,Car breakdown at Phahon Yothin Rd.,"ถนนพหลโยธิน ขาเข้า จากซอยอารีย์สัมพันธ์ มุ่งหน้า อนุสาวรีย์ชัยสมรภูมิ ก่อนถึงซ.พหลโยธิน 2 ประมาณ 100 ม. รถบรรทุกน้ำอัดลมจอดเสีย กีดขวางช่องทางซ้าย การจราจรเคลื่อนตัวช้า
+
+Cr. JS100","Car breakdown blocking the left lane, 100m. before Soi Phahon Yothin 2 on inbound Phahon Yothin Rd.
+
+Cr. JS100",13.776212979537,100.54346859455,1,2026-08-28 10:28:26,2026-08-28 11:28:26,itic.pacharasrung
+965643,ซ้อมแผนดับเพลิงคณะวิทยาศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย อาคารมหามกุฎ ถนนพญาไท,Information at MHMK,"วันนี้ (วันที่ 28 สิงหาคม 2569) ตั้งแต่เวลานี้ - 16.00 น. คณะวิทยาศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย อาคารมหามกุฎ ถนนพญาไท แขวงวังใหม่ เขตปทุมวัน กรุงเทพมหานคร จะทำการซ้อมแผนดับเพลิงและซ้อมอพยพหนีไฟ 
+
+Cr. ศูนย์วิทยุพระราม199","Mahamakut Building (MHMK) will be conducting a fire drill and evacuation exercise. this time - 16.00 hrs. on August 28, 2026.
+
+Cr. ศูนย์วิทยุพระราม199",13.737506541768,100.53058460355,8,2026-08-28 11:17:29,2026-08-28 16:17:29,itic.pacharasrung
+965644,โรงพยาบาลศิริราช ซ้อมแผนดับเพลิง,Information at Siriraj Hospital,"วันนี้ (วันที่ 28 สิงหาคม 2569) เวลา 13.00 - 16.00 น. โรงพยาบาลศิริราช ปิยมหาราชการุณย์ ถนนวังหลัง แขวงศิริราช เขตบางกอกน้อย กรุงเทพมหานคร จะทำการซ้อมแผนดับเพลิงและซ้อมอพยพหนีไฟ
+
+Cr. ศูนย์วิทยุพระราม199","Siriraj Piyamaharajkarun Hospital will be conducting a fire drill and evacuation exercise at 13.00 - 16.00 hrs. on August 28, 2026.
+
+Cr. ศูนย์วิทยุพระราม199",13.757621297339,100.48533439636,8,2026-08-28 11:31:59,2026-08-28 16:00:59,itic.pacharasrung
+965645,ซ้อมแผนดับเพลิงอาคาร ส.ธ. โรงพยาบาลจุฬาลงกรณ์ ถนนราชดำริ,Information at Sor Thor Building on Ratchadamri Rd.,"วันนี้ (วันที่ 28 สิงหาคม 2569) เวลา 13.00 - 16.00 น. อาคาร ส.ธ. โรงพยาบาลจุฬาลงกรณ์ ถนนราชดำริ แขวงปทุมวัน เขตปทุมวัน กรุงเทพมหานคร จะทำการซ้อมแผนดับเพลิงและซ้อมอพยพหนีไฟ 
+
+Cr. ศูนย์วิทยุพระราม199","Sor Thor Building(Sirindhorn Building) at King Chulalongkorn Memorial Hospital will be conducting a fire drill and evacuation exercise at 13.00 - 16.00 hrs. on August 28, 2026.
+
+Cr. ศูนย์วิทยุพระราม199",13.734218401168,100.53829997778,8,2026-08-28 11:34:44,2026-08-28 16:00:00,itic.pacharasrung
+965648,อุบัติเหตุ ถนนสาทรใต้,Accident at Sathon Tai Rd.,"ถนนสาทรใต้ จากซอยสวนพลู มุ่งหน้า แยกนราธิวาสฯ บริเวณปาก ซ.สาทร 7 รถจยย.ไม่ทราบคู่กรณี บาดเจ็บ 1 คน การจราจรเคลื่อนตัวช้า
+
+Cr. JS100","Motorcycle accident blocking traffic lane at the entrance of Soi Sathon 7 on Sathon Tai Rd.
+
+Cr. JS100",13.722489368759,100.53270623088,3,2026-08-28 11:57:20,2026-08-28 12:57:20,itic.pacharasrung
+965649,อุบัติเหตุ ปากซอยเพชรเกษม 41 (ซอยชูสังข์),Accident at Soi Phet Kasem 41,"ปากซอยเพชรเกษม 41 มีอุบัติเหตุ (รถแท็กซี่ ชนเกาะกลางถนน) กีดขวางการจราจร เลนขวา
+
+Cr.@Traffic_1197","Car accident blocking the right lane at the entrance of Soi Phet Kasem 41.
+
+Cr.@Traffic_1197",13.711290025327,100.41613072157,3,2026-08-28 12:29:32,2026-08-28 13:29:32,itic.rattanakit
+965650,อุบัติเหตุ ถนนราชพฤกษ์ ขาออก,Accident at Ratchaphruek Rd.,"ถนนราชพฤกษ์ ขาออก เลย `แยกรัชดา-ราชพฤกษ์` เล็กน้อย มีอุบัติเหตุ (รถชนกัน 3 คัน) กีดขวางการจราจร เลนขวา 
+
+Cr.@Traffic_1197","Cars accident blocking the right lane past Ratchada-Ratchaphruek Intersection on outbound Ratchaphruek Rd. 
+
+Cr.@Traffic_1197",13.71607547791,100.47910094261,3,2026-08-28 12:31:16,2026-08-28 13:31:16,itic.rattanakit
+965651,รถเสีย ถนนสมเด็จพระเจ้าตากสิน ขาเข้า,Car breakdown at Somdet Phrachao Taksin Rd.,"ถนนสมเด็จพระเจ้าตากสิน ขาเข้า ภายใน `อุโมงค์มไหสวรรย์` มี (รถกระบะ จอดเสีย) กีดขวางการจราจร เลนซ้าย 
+
+Cr.@Traffic_1197","Car breakdown blocking the left lane at Mahaisawan Tunnel on inbound Somdet Phra Chao Tak Sin Rd. 
+
+Cr.@Traffic_1197",13.70449276919,100.48544168472,1,2026-08-28 13:36:35,2026-08-28 14:36:35,itic.rattanakit
+965652,คืบหน้าอุบัติเหตุ ถนนราชพฤกษ์ ขาออก,Accident at Ratchaphruek Rd.,"ถนนราชพฤกษ์ ขาออก เลย `แยกรัชดา-ราชพฤกษ์` เล็กน้อย ก่อนหน้านี้ มีอุบัติเหตุ (รถชนกัน 3 คัน) ล่าสุด จนท.เคลื่อนย้ายพ้นกีดขวางแล้ว
+
+Cr.@Traffic_1197","Update car accident was moved out of locale past Ratchada-Ratchaphruek Intersection on outbound Ratchaphruek Rd.
+
+Cr.@Traffic_1197",13.71607547791,100.47906339169,3,2026-08-28 13:37:39,2026-08-28 14:37:39,itic.rattanakit
+965653,คืบหน้าอุบัติเหตุ ปากซอยเพชรเกษม 41 (ซอยชูสังข์),Accident at Soi Phet Kasem 41,"ปากซอยเพชรเกษม 41 ก่อนหน้านี้ มีอุบัติเหตุ (รถแท็กซี่ ชนเกาะกลางถนน) ล่าสุด จนท.เคลื่อนย้ายพ้นกีดขวางแล้ว
+
+Cr.@Traffic_1197","Update car accident was moved out of locale at the entrance of Soi Phet Kasem 41.
+
+Cr.@Traffic_1197",13.711290025327,100.41612535715,3,2026-08-28 13:38:14,2026-08-28 14:38:14,itic.rattanakit
+965655,รถเสีย ถนนสุขสวัสดิ์ ขาออก,Car breakdown at Suk Sawat Rd.,"ถนนสุขสวัสดิ์ ขาออก บริเวณหน้า `โลตัสบางปะกอก` มี (รถบรรทุก จอดเสีย) กีดขวางการจราจร เลนกลาง
+
+Cr.@Traffic_1197","Car breakdown blocking the middle lane in front of Lotus Bang Pa Kok on outbound Suk Sawat Rd.
+
+Cr.@Traffic_1197",13.676677605476,100.50088450313,1,2026-08-28 14:14:38,2026-08-28 15:14:38,itic.rattanakit
+965658,อุบัติเหตุ จอมทอง,Accident at Suk Sawat Rd.,"เกิดอุบัติเหตุไม่ใช่รถจักรยานยนต์ ที่ ถนนสุขสวัสดิ์ แขวงจอมทอง เขตจอมทอง กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Car accident on Suk Sawat Rd., Chom Thong, Chom Thong, Bangkok.
+
+Cr.RVP",13.693730370581,100.48191189766,3,2026-08-28 14:10:00,2026-08-28 15:10:00,RVP
+965660,เพลิงไหม้ ถนนกรุงธนบุรี,Fire at Krung Thonburi Rd.,"เพลิงไหม้รถโดยสารประจำทาง บริเวณสะพานข้ามแยกตากสิน ถนนกรุงธนบุรี แขวงบุคคโล เขตธนบุรี เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยปากคลองสาน กำลังไปที่เกิดเหตุ
+
+Cr.ศูนย์วิทยุพระราม199","Fire on car on Taksin Overpass on Krung Thonburi Rd.
+
+Cr.ศูนย์วิทยุพระราม199",13.721004144548,100.4914739728,15,2026-08-28 15:53:33,2026-08-28 16:53:33,itic.rattanakit
+965661,อุบัติเหตุ ปากซอยอ่อนนุช 19,Accident at Soi Onnut 19,"ปากซอยอ่อนนุช 19 มีอุบัติเหตุ (รถนั่งส่วนบุคคล ชนกัน) กีดขวางการจราจร เลนซ้าย 
+
+Cr.@Traffic_1197","Cars accident blocking the left lane at the entrance of Soi On Nut 19. 
+
+Cr.@Traffic_1197",13.710087458201,100.61246976256,3,2026-08-28 15:54:51,2026-08-28 16:54:51,itic.rattanakit
+965665,อุบัติเหตุ ถนนพระราม 9 ขาเข้า,Accident at Rama IX Rd.,"ถนนพระราม 9 ขาเข้า เลย `แยกผังเมือง` เล็กน้อย มีอุบัติเหตุ (รถนั่งส่วนบุคคล ชนกับ รถตู้) กีดขวางการจราจร เลนขวา 
+
+Cr.@Traffic_1197","Cars accident blocking the right lane past Phang Mueang Intersection on inbound Rama IX Rd. 
+
+Cr.@Traffic_1197",13.755417239004,100.5722540617,3,2026-08-28 16:30:58,2026-08-28 17:30:58,itic.rattanakit
+965666,อุบัติเหตุ ปากซอยจรัญสนิทวงศ์ 28,Accident at Soi Charan Sanitwong 28,"ปากซอยจรัญสนิทวงศ์ 28 มีอุบัติเหตุ (จยย.เสียหลักล้ม) กีดขวางการจราจร เลนซ้าย
+
+Cr.@Traffic_1197","Motorcycle accident blocking the left lane at the entrance of Soi Charan Sanitwong 28.
+
+Cr.@Traffic_1197",13.750825384146,100.4698754847,3,2026-08-28 16:31:51,2026-08-28 17:31:51,itic.rattanakit
+965667,คืบหน้าอุบัติเหตุ ปากซอยอ่อนนุช 19,Accident at Soi Onnut 19,"ปากซอยอ่อนนุช 19 ก่อนหน้านี้ มีอุบัติเหตุ (รถนั่งส่วนบุคคล ชนกัน) ล่าสุด จนท.เคลื่อนย้ายพ้นกีดขวางแล้ว
+
+Cr.@Traffic_1197","Update car accident was moved out of locale at the entrance of Soi On Nut 19.
+
+Cr.@Traffic_1197",13.710080943736,100.61246439815,3,2026-08-28 16:32:39,2026-08-28 17:32:39,itic.rattanakit
+965671,อุบัติเหตุ สะพานสมเด็จพระปิ่นเกล้า ขาออก,Accident at Somdet Phra Pinklao Bridge,"สะพานสมเด็จพระปิ่นเกล้า ขาออก มีอุบัติเหตุ (รถกระบะ ชนกัน) กีดขวางการจราจร เลนซ้าย 
+
+Cr.@Traffic_1197","Cars accident blocking the left lane on outbound Somdet Phra Pin Klao Bridge. 
+
+Cr.@Traffic_1197",13.762103600163,100.49082487822,3,2026-08-28 17:10:56,2026-08-28 18:10:56,itic.rattanakit
+965672,อุบัติเหตุ,Accident at Charoen Nakhon 20,"เกิดอุบัติเหตุไม่ใช่รถจักรยานยนต์ ที่ -เจริญนคร 20  แขวงบางลำภูล่าง เขตคลองสาน กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Accident at Soi Charoen Nakhon 20, Bang Lamphu Lang, Khlong San, Bangkok.
+
+Cr.RVP",13.717307979986,100.50709784031,3,2026-08-28 16:35:00,2026-08-28 17:35:00,RVP
+965674,อุบัติเหตุ ถนนประชาธิปก,Accident at Prajadhipok Rd.,"ถนนประชาธิปก มุ่งหน้า แยกบ้านแขก เลย `สะพานพระปกเกล้า` มีอุบัติเหตุ (จยย. ชนกับ รถบรรทุก) กีดขวางการจราจร เลนขวา 
+
+Cr.@Traffic_1197","Cars accident blocking the right lane past Phra Pokklao Bridge on Prajadhipok Rd. 
+
+Cr.@Traffic_1197",13.735732202214,100.49631804228,3,2026-08-28 17:17:16,2026-08-28 18:17:16,itic.rattanakit
+965675,อุบัติเหตุ ถนนพระราม 9 ขาออก,Accident at Rama IX Rd.,"ถนนพระราม 9 ขาออก เชิงทางขึ้น `สะพานข้ามแยกรามคำแหง` มีอุบัติเหตุ (รถกระบะ ชนกับ รถนั่งส่วนบุคคล) กีดขวางการจราจร เลนขวา
+
+Cr.@Traffic_1197","Cars accident blocking the right lane on the way up to Ramkhamhaeng Overpass on outbound Rama IX Rd.
+
+Cr.@Traffic_1197",13.748623867181,100.60231357813,3,2026-08-28 17:18:11,2026-08-28 18:18:11,itic.rattanakit
+965677,อุบัติเหตุ ราษฎร์บูรณะ,Accident at Rat Burana Rd.,"เกิดอุบัติเหตุรถจักรยานยนต์ ที่ -ตรงข้ามสำนักงานเขตราษฎร์บูรณะ  แขวงราษฎร์บูรณะ เขตราษฎร์บูรณะ กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Motorcycle accident opposite Rat Burana District Office on Rat Burana Rd.  Rat Burana Rat Burana Information from The Central Accident Victims Protection Company Limited.
+
+Cr.RVP",13.681141908671,100.50671160221,3,2026-08-28 17:10:00,2026-08-28 18:10:00,RVP
+965678,อุบัติเหตุ ถนนรัชดาภิเษก,Accident at Ratchada Phisek Rd.,"เกิดอุบัติเหตุไม่ใช่รถจักรยานยนต์ ที่ ถนนรัชดาภิเษก แขวงดาวคะนอง เขตธนบุรี กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Cars accident blocking traffic lane on Ratchada Phisek Rd. Daokhanong Thon Buri Bangkok.
+
+Cr.RVP",13.711329111912,100.47906473279,3,2026-08-28 17:15:00,2026-08-28 18:15:00,RVP
+965681,อุบัติเหตุ สะพานพระปกเกล้า,Accident at Phra Pokklao Bridge,"ถนนประชาธิปก จาก สะพานพระปกเกล้า  มุ่งหน้า แยกบ้านแขก รถติด ช่วงเชิงทางลงสะพานพระปกเกล้า ขาออก มีอุบัติเหตุรถชนกัน
+
+Cr. @Traffic_1197","Cars accident blocking traffic lane on the way down from Phra Pokklao Bridge.
+
+Cr. @Traffic_1197",13.737776208939,100.49768194556,3,2026-08-28 18:26:13,2026-08-28 19:26:13,itic.pacharasrung
+965691,รถติด ถนนจักรวรรดิ,Heavy traffic at Chakkrawat Rd.,"ถนนจักรวรรดิ์ จาก แยกวัดตึก มุ่งหน้า สะพานพระปกเกล้า รถติด สาเหตุจากช่วงเชิงทางลงสะพานพระปกเกล้า มีอุบัติเหตุรถชนกัน  สน.บุปผาราม เคลื่อนย้ายรถพ้นกีดขวางแล้ว  รถติดขัด ท้ายสะสมหน้าตลาดคลองถม
+
+Cr. @Traffic_1197","Heavy traffic due to on the way down from Phra Pokklao Bridge on Chakkrawat Rd.
+
+Cr. @Traffic_1197",13.741139857426,100.50222292542,10,2026-08-28 19:14:03,2026-08-28 20:14:03,itic.pacharasrung
+965695,อุบัติเหตุ ถนนราชพฤกษ์ ขาเข้า,Accident at Ratchaphruek Rd.,"ถนนราชพฤกษ์ ขาเข้า เชิงทางขึ้นอุโมงค์ลอดวงเวียนบางขุนกอง รถปิคอัพกับรถจยย.ชนกัน มีผู้บาดเจ็บ การจราจรเคลื่อนตัวช้า
+
+Cr. JS100","Cars accident blocking traffic lane on the way up from Bang Khun Kong Circle Tunnel on inbound Ratchaphruek Rd.
+
+Cr. JS100",13.823004114108,100.44877320528,3,2026-08-28 19:38:05,2026-08-28 20:38:05,itic.pacharasrung
+965696,อุบัติเหตุ ถนนนครอินทร์ ขาออก,Accident at Nakhon In Rd.,"ถนนนครอินทร์ ขาออก บริเวณเชิงทางลงสะพานข้ามแยกบางสีทอง รถปิคอัพเสียหลักพลิกตะแคง กีดขวางช่องทางขวา ของทางหลัก จนท.กำลังดำเนินการ การจราจรติดขัด
+
+Cr. JS100","Cars accident blocking the right lane on the way down from Bang Si Thong Overpass on outbound Nakhon In Rd.
+
+Cr. JS100",13.823732078556,100.47751039267,3,2026-08-28 19:40:07,2026-08-28 20:40:07,itic.pacharasrung
+965698,อุบัติเหตุ ถนนนครอินทร์ ขาออก,Accident at Nakhon In Rd.,"ถนนนครอินทร์ ขาออก บนสะพานข้ามแยกบางสีทอง มีอุบัติเหตุ กีดขวางเลนซ้าย
+
+Cr. FM91trafficpro","Cars accident blocking the left lane on Bang Si Thong Overpass on outbound Nakhon In Rd.
+
+Cr. FM91trafficpro",13.824450924936,100.47924846411,3,2026-08-28 20:16:14,2026-08-28 21:16:14,itic.pacharasrung
+965701,อุบัติเหตุ,Accident at Onnut 27,"เกิดอุบัติเหตุรถจักรยานยนต์ ที่ -   เขตสวนหลวง กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Motorcycle accident at - Suan Luang District Information at Central Accident Victims Protection from Motorway Company Limited.
+
+Cr.RVP",13.710495263344,100.62586605549,3,2026-08-28 20:45:00,2026-08-28 21:45:00,RVP
+965702,ไฟไหม้ คลองถม,.,คลองถมเซ็นเตอร์ แขวงป้อมปราบศัตรูพ่าย เขตป้อมปราบศัตรูพ่าย กรุงเทพมหานคร 10100,Pom Prap Sattru Phai Pom Prap Sattru Phai Bangkok 10100,13.746323303512,100.50768670008,1,2026-08-28 21:19:00,2026-08-28 22:19:00,nuryka2@gmail.com
+965710,อุบัติเหตุ หัวหมาก,Accident at Ramkhamhaeng 60/1,"เกิดอุบัติเหตุไม่ใช่รถจักรยานยนต์ ที่ รามคำแหง 60/1 แขวงหัวหมาก เขตบางกะปิ กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Accident at Ramkhamhaeng 60/1 Hua Mak Bang Kapi Bangkok.
+
+Cr.RVP",13.762973737924,100.64923748374,3,2026-08-28 22:05:00,2026-08-28 23:05:00,RVP
+965714,เหตุสั่นสะเทือนระดับปานกลางในพื้นที่ แขวงบางนาใต้,Moderate Seismic Event on Bangna,"ตรวจพบเหตุสั่นสะเทือนปานกลาง (แผ่นดินไหวหรือเหตุการณ์ที่คล้ายคลึงกัน) ในพื้นที่ แขวงบางนาใต้, เขตบางนา, กรุงเทพมหานคร โดยมีค่าความเร่งสูงสุดอยู่ที่ 0.822917 m/s²
+            
+            ที่มา: RUGON","Detected a moderate shaking event (earthquake or similar) on Bangna, Tai, Bang, Na, Bangkok, with a peak acceleration of 0.822917 m/s².
+            
+            Source: RUGON",13.67,100.6,20,2026-08-28 23:10:03,2026-08-29 00:10:03,rugon
+965716,อุบัติเหตุ ถนนรามอินทรา ขาออก,Accident at Rarm Inthra Rd.,"ถนนรามอินทรา ขาออก บริเวณหน้า `ฟู้ดแลนด์ รามอินทรา` มีอุบัติเหตุ (รถชนกัน) กีดขวางการจราจร เลนกลาง 
+
+Cr.@Traffic_1197","Cars accident blocking the middle lane in front of Foodland Ram Inthra on outbound Ram Inthra Rd. 
+
+Cr.@Traffic_1197",13.859419077315,100.62423795462,3,2026-08-28 23:02:57,2026-08-29 00:02:57,itic.kittaya@gmail.com
+965717,คืบหน้าอุบัติเหตุ ถนนรามอินทรา ขาออก,Accident at Rarm Inthra Rd.,"ถนนรามอินทรา ขาออก บริเวณหน้า `ฟู้ดแลนด์ รามอินทรา` ก่อนหน้านี้ มีอุบัติเหตุ (รถชนกัน) ล่าสุด จนท.เคลื่อนย้ายพ้นกีดขวางแล้ว
+
+Cr.@Traffic_1197","Update car accident was moved out of locale in front of Foodland Ram Inthra on outbound Rarm Inthra Rd.
+
+Cr.@Traffic_1197",13.859404754653,100.62422722578,3,2026-08-28 23:49:56,2026-08-29 00:49:56,itic.kittaya@gmail.com
+965721,เหตุเพลิงไหม้ภายในอาคาร ซอยอ่อนนุช 27,Fire at Onnut 27,"เหตุเพลิงไหม้ภายในอาคาร ซอยอ่อนนุช 27 ถนนอ่อนนุช แขวงสวนหลวง เขตสวนหลวง เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยสุขุมวิท กำลังไปที่เกิดเหตุ 
+
+Cr.ศูนย์วิทยุพระราม199","Fire has broken out inside a building in Soi Onnut 27 on On Nut Rd., Suan Luang Bangkok.
+
+Cr. Radio Center Rama 199",13.710496566235,100.62578424811,15,2026-08-29 01:34:18,2026-08-29 02:34:18,itic.nirat
+965722,อุบัติเหตุ ถนนกรุงเกษม,Accident at Krungkasem Rd.,"อุบัติเหตุ ถนนกรุงเกษม ช่วงสะพานข้ามคลองแสนแสบ ไป แยกเทวกรรม บริเวณแยกสะพานขาว รถบรรทุก 2 คันชนกัน จนท.กำลังดำเนินการ รถติด
+
+Cr.JS 100","Cars accident blocking traffic lanes at Saphan Khao intersection area on Krungkasem Rd. Wat Sommanat Pom Prap Sattru Phai Bangkok.
+
+Cr.JS 100",13.756765468642,100.51600411534,3,2026-08-29 01:40:29,2026-08-29 02:40:29,itic.nirat
+965723,รถติด ถนนกรุงเกษม,Heavy traffic  at Krungkasem Rd.,"อุบัติเหตุ ถนนกรุงเกษม ช่วงสะพานข้ามคลองแสนแสบ ไป แยกเทวกรรม บริเวณแยกสะพานขาว รถบรรทุก 2 คันชนกัน จนท.กำลังดำเนินการ รถติด
+
+Cr.JS 100","Heavy traffic due to cars accident blocking traffic lanes at Saphan Khao intersection area on Krungkasem Rd. Wat Sommanat Pom Prap Sattru Phai Bangkok.
+
+Cr.JS 100",13.756791521313,100.51599338651,10,2026-08-29 01:40:43,2026-08-29 02:40:43,itic.nirat
+965724,คืบหน้าอุบัติเหตุ ถนนกรุงเกษม,Accident at Krungkasem Rd.,"คืบหน้าอุบัติเหตุ ถนนกรุงเกษม ช่วงสะพานข้ามคลองแสนแสบ ไป แยกเทวกรรม บริเวณแยกสะพานขาว รถบรรทุก 2 คันชนกัน   ล่าสุด จนท. เคลื่อนย้ายพ้นกีดขวางแล้ว
+
+Cr.JS 100","Update car accident was moved out of locale at Saphan Khao intersection area on Krungkasem Rd. Wat Sommanat Pom Prap Sattru Phai Bangkok.
+
+Cr.JS 100",13.756757652841,100.51600411534,3,2026-08-29 01:41:10,2026-08-29 02:41:10,itic.nirat
+965725,คืบหน้าเหตุเพลิงไหม้ภายในอาคาร ซอยอ่อนนุช 27,Fire at Onnut 27,"เหตุเพลิงไหม้ภายในอาคาร ซอยอ่อนนุช 27 ถนนอ่อนนุช แขวงสวนหลวง เขตสวนหลวง เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยสุขุมวิท  ถึงที่เกิดเหตุ อยู่ระหว่างใช้น้ำทำการดับ
+
+Cr.ศูนย์วิทยุพระราม199","Fire has broken out inside a building in Soi Onnut 27 on On Nut Rd., Sukhumvit Fire and Rescue Station personnel have arrived at the scene and are currently using water to extinguish the flames.
+
+Cr. Radio Center Rama 199",13.710478325765,100.62578424811,15,2026-08-29 01:47:14,2026-08-29 02:47:14,itic.nirat
+965726,เหตุเพลิงไหม้ภายในคลองถมเซ็นเตอร์ ถนนวรจักร,Fire at Worachak Rd.,"เหตุเพลิงไหม้ภายในคลองถมเซ็นเตอร์ ถนนวรจักร แขวงป้อมปราบ เขตป้อมปราบศัตรูพ่าย เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยสวนมะลิ กำลังไปที่เกิดเหตุ 
+
+Cr.ศูนย์วิทยุพระราม199","Fire has broken out inside Khlong Thom Center on Worachak Rd. Pom Prap Sattru Phai Pom Prap Sattru Phai Bangkok.
+
+Cr. Radio Center Rama 199",13.746633365387,100.50635486841,15,2026-08-29 02:01:39,2026-08-29 03:01:39,itic.nirat
+965727,คืบหน้าเหตุเพลิงไหม้ภายในคลองถมเซ็นเตอร์ ถนนวรจักร,Fire at Worachak Rd.,"เหตุเพลิงไหม้ภายในคลองถมเซ็นเตอร์ ถนนวรจักร แขวงป้อมปราบ เขตป้อมปราบศัตรูพ่าย เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยสวนมะลิ ถึงที่เกิดเหตุ เพลิงกำลังลุกไหม้ เจ้าหน้าที่อยู่ระหว่างใช้น้ำทำการดับ
+
+Cr.ศูนย์วิทยุพระราม199","Fire has broken out inside Khlong Thom Center on Worachak Rd., Firefighters from Suan Mali Fire and Rescue Station arrived at the scene. The fire was still burning, and they are currently using water to extinguish it.
+
+Cr. Radio Center Rama 199",13.746625549248,100.50634816289,15,2026-08-29 02:03:25,2026-08-29 03:03:25,itic.nirat
+965728,อุบัติเหตุ บางมด,Accident at Phuttha Bucha 38,"เกิดอุบัติเหตุรถจักรยานยนต์ ที่ พุทธบูชา 38 แขวงบางมด เขตทุ่งครุ กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Motorcycle accident at Phuttha Bucha 38, Bang Mot, Thung Khru, Bangkok.
+
+Cr.RVP",13.651427811512,100.48518419266,3,2026-08-29 01:25:00,2026-08-29 02:25:00,RVP
+965729,คืบหน้าเหตุเพลิงไหม้ภายในคลองถมเซ็นเตอร์ ถนนวรจักร,Fire at Worachak Rd.,"เหตุเพลิงไหม้ภายในคลองถมเซ็นเตอร์ ถนนวรจักร แขวงป้อมปราบ เขตป้อมปราบศัตรูพ่าย เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยสวนมะลิ ถึงที่เกิดเหตุ ขณะนี้เพลิงสงบ
+
+Cr.ศูนย์วิทยุพระราม199","Update now fireman can control fire inside Khlong Thom Center on Worachak Rd. Pom Prap Sattru Phai Pom Prap Sattru Phai Bangkok.
+
+Cr. Radio Center Rama 199",13.746633365387,100.50635352731,15,2026-08-29 02:06:07,2026-08-29 03:06:07,itic.nirat
+965730,เหตุเพลิงไหม้บ้านเรือนประชาชน ซอยนวมินทร์ 42 (ซอยสุวรรณประสิทธิ์),Fire at Soi Nawamin 42,"เหตุเพลิงไหม้บ้านเรือนประชาชน ซอยนวมินทร์ 42 ถนนนวมินทร์ แขวงคลองกุ่ม เขตบึงกุ่ม เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยบางชัน กำลังไปที่เกิดเหตุ
+
+Cr.ศูนย์วิทยุพระราม199","A fire has broken out in a residential area in  Soi Nawamin 42 on Nawamin Road, Khlong Kum Bueng Kum Bangkok.
+
+Cr. Radio Center Rama 199",13.79536192091,100.65155088902,15,2026-08-29 02:10:56,2026-08-29 03:10:56,itic.nirat
+965731,คืบหน้าเหตุเพลิงไหม้บ้านเรือนประชาชน ซอยนวมินทร์ 42 (ซอยสุวรรณประสิทธิ์),Fire at Soi Nawamin 42,"เหตุเพลิงไหม้บ้านเรือนประชาชน ซอยนวมินทร์ 42 ถนนนวมินทร์ แขวงคลองกุ่ม เขตบึงกุ่ม เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยบางชัน ถึงที่เกิดเหตุ ขณะนี้เพลิงสงบ รายละเอียดเพิ่มเติมอยู่ระหว่างการตรวจสอบ
+
+Cr.ศูนย์วิทยุพระราม199","Update now fireman can control fire  in a residential house in Soi Nawamin 42 on Nawamin Road, Khlong Kum Bueng Kum Bangkok.
+
+Cr. Radio Center Rama 199",13.795351501562,100.65153747797,15,2026-08-29 02:12:51,2026-08-29 03:12:51,itic.nirat
+965732,เหตุเพลิงไหม้บ้านเรือนประชาชน ซอยนางเลิ้ง 2,Fire at Soi Nang Loeng 2,"เหตุเพลิงไหม้บ้านเรือนประชาชน ซอยนางเลิ้ง 2 ถนนกรุงเกษม แขวงวัดโสมนัส เขตป้อมปราบศัตรูพ่าย เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยภูเขาทอง กำลังไปที่เกิดเหตุ
+
+Cr.ศูนย์วิทยุพระราม199","A fire has broken out in a residential area on Soi Nang Loeng 2 on Krung Kasem Rd. Wat Sommanat Pom Prap Sattru Phai Bangkok.
+
+Cr. Radio Center Rama 199",13.759286051044,100.51293969154,15,2026-08-29 02:19:26,2026-08-29 03:19:26,itic.nirat
+965733,คืบหน้าเหตุเพลิงไหม้บ้านเรือนประชาชน ซอยนางเลิ้ง 2,Fire at Soi Nang Loeng 2,"เหตุเพลิงไหม้บ้านเรือนประชาชน ซอยนางเลิ้ง 2 ถนนกรุงเกษม แขวงวัดโสมนัส เขตป้อมปราบศัตรูพ่าย เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยภูเขาทอง ถึงที่เกิดเหตุ ตรวจสอบแล้วไม่มีเหตุ เป็นเพียงกลุ่มควัน จากเหตุเพลิงไหม้ตลาดคลองถมเซ็นเตอร์ลอยเข้ามา
+
+Cr.ศูนย์วิทยุพระราม199","Fire has broken out in a residential area on Soi Nang Loeng 2 on Krung Kasem Rd.,  Firefighters from Phukhao Thong Fire Station arrived at the scene and found no evidence of a fire, only smoke drifting in from a fire at Khlong Thom Center Market.
+
+Cr. Radio Center Rama 199",13.759287353664,100.51293700933,15,2026-08-29 02:21:46,2026-08-29 03:21:46,itic.nirat
+965734,คืบหน้าเหตุเพลิงไหม้บ้านเรือนประชาชน ซอยนวมินทร์ 42 (ซอยสุวรรณประสิทธิ์),Fire at Soi Nawamin 42,"เหตุเพลิงไหม้บ้านเรือนประชาชน ซอยนวมินทร์ 42 ถนนนวมินทร์ แขวงคลองกุ่ม เขตบึงกุ่ม เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยบางชัน ถึงที่เกิดเหตุ เจ้าหน้าที่อยู่ระหว่างการใช้น้ำ
+
+Cr.ศูนย์วิทยุพระราม199","A fire has broken out in a residential area in  Soi Nawamin 42 on Nawamin Road, Bang Chan Fire and Rescue Station personnel have arrived at the scene and are currently using water to extinguish the flames.
+
+Cr. Radio Center Rama 199",13.795346291888,100.65153881907,15,2026-08-29 02:25:16,2026-08-29 03:25:16,itic.nirat
+965735,อุบัติเหตุ ถนนหลานหลวง,Accident at Lan Luang Rd.,"02.00 น. กรณี มีอุบัติเหตุ รถบรรทุกชนกับรถโม่ปูน แล้วพลิกคว่ำ ทำให้มีน้ำปูนไหล บริเวณกลางแยกสะพานขาว ถนนหลานหลวง 
+
+Cr.FM91trafficpro","Cars accident blocking traffic lanes at Saphan Khao intersection on Lan Luang Rd. Wat Sommanat Pom Prap Sattru Phai Bangkok.
+
+Cr.FM91trafficpro",13.756653442128,100.51591560245,3,2026-08-29 02:31:46,2026-08-29 03:31:46,itic.nirat
+965736,ถนนปิด ถนนหลานหลวง,Road Closed at Lan Luang Rd.,"กรณี มีอุบัติเหตุ รถบรรทุกชนกับรถโม่ปูน แล้วพลิกคว่ำ ทำให้มีน้ำปูนไหล บริเวณกลางแยกสะพานขาว ถนนหลานหลวง ขณะนี้เจ้าหน้าที่ ปิดการจราจร เพื่อดำเนินการเคลื่อนย้ายรถคู่กรณี
+
+Cr.FM91trafficpro","Road Closed due to cars accident blocking traffic lanes at Saphan Khao intersection on Lan Luang Rd., involving a truck colliding with a cement mixer and overturning, causing cement to spill. Authorities have closed the road to traffic to remove the vehicles involved.
+
+Cr.FM91trafficpro",13.756653442128,100.51592230797,19,2026-08-29 02:34:33,2026-08-29 03:34:33,itic.nirat
+965743,พิธีพระราชทานปริญญาบัตร มหาวิทยาลัยราชภัฏสวนสุนันทา,Graduation Ceremony at Suan Sunandha Rajabhat University,"พิธีพระราชทานปริญญาบัตร มหาวิทยาลัยราชภัฏสวนสุนันทา วันซ้อมใหญ่ : พิธีพระราชทานปริญญาบัตร ม.ราชภัฏสวนสุนันทา วันที่ 28-30 ส.ค. 2569 ณ ม.ราชภัฏสวนสุนันทา
+
+Cr.FM91trafficpro","Suan Sunandha Rajabhat University Graduation Ceremony Rehearsal: The actual graduation ceremony will be held from August 28-30, 2026 at Suan Sunandha Rajabhat University.
+
+Cr.FM91trafficpro",13.774820575889,100.50803124905,13,2026-08-29 00:00:00,2026-08-30 23:59:59,itic.nirat
+965744,พิธีพระราชทานปริญญาบัตร มหาวิทยาลัยสวนดุสิต,Graduation Ceremony at Suan Dusit University,"พิธีพระราชทานปริญญาบัตร มหาวิทยาลัยสวนดุสิต วันซ้อมย่อย พิธีพระราชทานปริญญาบัตร ม.สวนดุสิต วันที่ 29 ส.ค. 69 ณ อาคารเฉลิมพระเกียรติ 80 พรรษา มหาวชิราลงกรณ ศูนย์วิทยาศาสตร์ ถ.สิรินธร
+
+Cr.FM91trafficpro and Cr.JS 100","Suan Dusit University Graduation Ceremony Rehearsal: The actual graduation ceremony will be held from August 29, 2026 at the 80th Anniversary of His Majesty King Maha Vajiralongkorn Building, Science Center, Sirindhorn Road.
+
+Cr.FM91trafficpro and Cr.JS 100",13.776711846179,100.51105678082,13,2026-08-29 00:00:00,2026-08-29 23:59:59,itic.nirat
+965745,พิธีพระราชทานปริญญาบัตร มหาวิทยาลัยสวนดุสิต,Graduation Ceremony at Suan Dusit University,"พิธีพระราชทานปริญญาบัตร มหาวิทยาลัยสวนดุสิต วันซ้อมใหญ่ : พิธีพระราชทานปริญญาบัตร ม.สวนดุสิต วันที่ 30 ส.ค. 69 ณ อาคารรักตะกนิษฐ ม.สวนดุสิต
+
+Cr.FM91trafficpro and Cr.JS 100","Suan Dusit University Graduation Ceremony Rehearsal: Suan Dusit University Graduation Ceremony will be held on August 30, 2026, at Rakta Kanit Building, Suan Dusit University.
+
+Cr.FM91trafficpro and Cr.JS 100",13.776162181047,100.5107241869,13,2026-08-29 00:00:00,2026-08-30 23:59:59,itic.nirat
+965750,คืบหน้าเหตุเพลิงไหม้คลองถมเซ็นเตอร์ ถนนวรจักร,Fire at Worachak Rd.,"เวลา 05.32 น. เหตุเพลิงไหม้ภายในคลองถมเซ็นเตอร์ ถนนวรจักร ขณะนี้เพลิงสงบ รายละเอียดเพิ่มเติมอยู่ระหว่างการตรวจสอบ
+
+Cr.ศูนย์วิทยุพระราม199","Update now fireman can control fire inside Khlong Thom Center on Worachak Rd. Pom Prap Sattru Phai Pom Prap Sattru Phai Bangkok.
+
+Cr. Radio Center Rama 199",13.746576047022,100.50626769662,15,2026-08-29 05:41:57,2026-08-29 06:41:57,itic.nirat
+965751,รถเสีย ถนนตรีเพชร,Car breakdown at Triphet Rd.,"ถนนตรีเพชร เลย `แยกพาหุรัด` เล็กน้อย มี (รถกระบะ จอดเสีย) กีดขวางการจราจร เลนซ้าย 
+
+Cr.@Traffic_1197","Car breakdown blocking the left lane past Phahurat Intersection on Tri Phet Rd. 
+
+Cr.@Traffic_1197",13.745403622841,100.4993596673,1,2026-08-29 06:03:26,2026-08-29 07:03:26,itic.kittaya@gmail.com
+965752,รถเสีย คู่ขนานลอยฟ้าบรมราชชนนี ขาออก,Car breakdown at Elevated Borommaratchachonnani,"คู่ขนานลอยฟ้าบรมราชชนนี ขาออก เหนือ `เซ็นทรัล พลาซ่า ปิ่นเกล้า` มี (รถนั่งส่วนบุคคล จอดเสีย) กีดขวางการจราจร เลนซ้าย 
+
+Cr.@Traffic_1197","Car breakdown blocking the left lane above Central Plaza Pinklao on outbound Elevated Boromratchachonnani. 
+
+Cr.@Traffic_1197",13.778906586245,100.47660648823,1,2026-08-29 06:04:41,2026-08-29 07:04:41,itic.kittaya@gmail.com
+965753,เหตุสั่นสะเทือนระดับแรงในพื้นที่ แขวงทุ่งสองห้อง,Strong Seismic Event on Thung,"ตรวจพบเหตุสั่นสะเทือนแรง (แผ่นดินไหวหรือเหตุการณ์ที่คล้ายคลึงกัน) ในพื้นที่ แขวงทุ่งสองห้อง, เขตหลักสี่, กรุงเทพมหานคร โดยมีค่าความเร่งสูงสุดอยู่ที่ 1.399536 m/s²
+            
+            ที่มา: RUGON","Detected a strong shaking event (earthquake or similar) on Thung, Song, Hong, Lak, Si, Bangkok, with a peak acceleration of 1.399536 m/s².
+            
+            Source: RUGON",13.87,100.57,20,2026-08-29 06:10:02,2026-08-29 07:10:02,rugon
+965756,คืบหน้ารถเสีย ถนนตรีเพชร,Car breakdown at Triphet Rd.,"ถนนตรีเพชร เลย `แยกพาหุรัด` เล็กน้อย ก่อนหน้านี้ มี (รถกระบะ จอดเสีย) ล่าสุด จนท.เคลื่อนย้ายพ้นกีดขวางแล้ว
+
+Cr.@Traffic_1197","Update car breakdown was moved out of locale past Phahurat Intersection on Tri Phet Rd.
+
+Cr.@Traffic_1197",13.745412741718,100.49936369061,1,2026-08-29 07:48:24,2026-08-29 08:48:24,itic.kittaya@gmail.com
+965757,คืบหน้ารถเสีย คู่ขนานลอยฟ้าบรมราชชนนี ขาออก,Car breakdown at Elevated Boromratchachonnani.,"คู่ขนานลอยฟ้าบรมราชชนนี ขาออก เหนือ `เซ็นทรัล พลาซ่า ปิ่นเกล้า` ก่อนหน้านี้ มี (รถนั่งส่วนบุคคล จอดเสีย) ล่าสุด จนท.เคลื่อนย้ายพ้นกีดขวางแล้ว
+
+Cr.@Traffic_1197","Update car breakdown was moved out of locale above Central Plaza Pinklao on outbound Elevated Boromratchachonnani.
+
+Cr.@Traffic_1197",13.778918308836,100.47658637166,1,2026-08-29 07:49:22,2026-08-29 08:49:22,itic.kittaya@gmail.com
+965759,อุบัติเหตุ ถนนพญาไท ขาออก,Accident at Phayathai Rd.,"ถนนพญาไท ขาออก บริเวณหน้า `โรงเรียนเตรียมอุดมศึกษา` มีอุบัติเหตุ (จยย. ชนกัน) มีผู้ได้รับบาดเจ็บ 2 ราย
+
+Cr.@Traffic_1197","Cars accident blocking traffic lane in front of Triam Udom Suksa School on outbound Phaya Thai Rd.
+
+Cr.@Traffic_1197",13.740815479795,100.53004547954,3,2026-08-29 08:49:09,2026-08-29 09:49:09,itic.kittaya@gmail.com
+965760,อุบัติเหตุ ถนนสุขุมวิท ขาเข้า,Accident at Sukhumvit Rd.,"ถนนสุขุมวิท ขาเข้า ก่อนถึง `ซอยสุขุมวิท 56` มีอุบัติเหตุ รถชนกัน กีดขวางการจราจร
+
+Cr.@Traffic_1197","Cars accident blocking traffic lane before Soi Sukhumvit 56 on inbound Sukhumvit Rd.
+
+Cr.@Traffic_1197",13.701308401372,100.60299754143,3,2026-08-29 08:52:14,2026-08-29 09:52:14,itic.kittaya@gmail.com
+965761,อุบัติเหตุ,Accident at Phet Kasem Rd.,"เกิดอุบัติเหตุรถจักรยานยนต์ ที่ ถนนเพชรเกษม แขวงหนองค้างพลู เขตหนองแขม กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Motorcycle accident on Phet Kasem Rd., Nong Khang Phlu, Nong Khaem, Bangkok.
+
+Cr.RVP",13.705721423304,100.34533247352,3,2026-08-29 08:40:00,2026-08-29 09:40:00,RVP
+965762,อุบัติเหตุ แสมดำ,Accident at Bang Khun Thian-Chai Thale Rd.,"เกิดอุบัติเหตุรถจักรยานยนต์ ที่ ถนนบางขุนเทียน-ชายทะเล แขวงแสมดำ เขตบางขุนเทียน กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Motorcycle accident on Bang Khun Thian Chai Thale Rd. Samae Dam Bang Khun Thian. Information from The Central Accident Victims Protection Company Limited.
+
+Cr.RVP",13.649939532204,100.43087348342,3,2026-08-29 08:55:00,2026-08-29 09:55:00,RVP
+965763,คืบหน้าอุบัติเหตุ ถนนพญาไท ขาออก,Accident at Phayathai Rd.,"ถนนพญาไท ขาออก บริเวณหน้า `โรงเรียนเตรียมอุดมศึกษา` ก่อนหน้านี้ มีอุบัติเหตุ (จยย. ชนกัน) ล่าสุด จนท.เคลื่อนย้ายพ้นกีดขวางแล้ว
+
+Cr.@Traffic_1197","Update motorcycle accident was moved out of locale in front of Triam Udom Suksa School on outbound Phaya Thai Rd.
+
+Cr.@Traffic_1197",13.740819387962,100.53005084395,3,2026-08-29 09:25:34,2026-08-29 10:25:34,itic.kittaya@gmail.com
+965764,คืบหน้าอุบัติเหตุ ถนนสุขุมวิท ขาเข้า,Accident at Sukhumvit Rd.,"ถนนสุขุมวิท ขาเข้า ก่อนถึง `ซอยสุขุมวิท 56` ก่อนหน้านี้ มีอุบัติเหตุ รถชนกัน ล่าสุด จนท.เคลื่อนย้ายพ้นกีดขวางแล้ว
+
+Cr.@Traffic_1197","Update car accident was moved out of locale before Soi Sukhumvit 56 on inbound Sukhumvit Rd.
+
+Cr.@Traffic_1197",13.701318824905,100.60300156474,3,2026-08-29 09:26:04,2026-08-29 10:26:04,itic.kittaya@gmail.com
+965767,อุบัติเหตุ ศาลากลาง,Accident at Sala Klang,"เกิดอุบัติเหตุรถจักรยานยนต์ ที่ ต.ศาลากลาง อ.บางกรวย จ.นนทบุรี ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Motorcycle accident on Phahon Yothin Rd., Sala Klang, Bang Kruai, Nonthaburi.
+
+Cr.RVP",13.804909755196,100.39020448923,3,2026-08-29 09:28:00,2026-08-29 10:28:00,RVP
+965769,อุบัติเหตุ คลองบางพราน,Accident at Bang Bon 1 Soi 23,"เกิดอุบัติเหตุรถจักรยานยนต์ ที่ บางบอน 1 ซอย 23 แขวงคลองบางพราน เขตบางบอน กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Motorcycle accident in Soi 23 on Bang Bon 1 Rd., Khlong Bang Phran, Bang Bon, Bangkok.
+
+Cr.RVP",13.683574696749,100.42591407895,3,2026-08-29 09:40:00,2026-08-29 10:40:00,RVP
+965771,อุบัติเหตุ ถนนเจริญนคร ขาเข้า,Accident at Charoen Nakhon Rd.,"ถนนเจริญนคร ขาเข้า ก่อนถึง `สะพานข้ามคลองดาวคะนอง` มีอุบัติเหตุ (รถชนกัน 3 คัน) กีดขวางการจราจร เลนขวา 
+
+Cr.@Traffic_1197","Cars accident blocking the right lane before Khlong Dao Khanong Bridge on inbound Charoen Nakhon Rd. 
+
+Cr.@Traffic_1197",13.693626131865,100.48654139042,3,2026-08-29 10:55:17,2026-08-29 11:55:17,itic.kittaya@gmail.com
+965773,ระวัง ถนนพระราม 1,Warning at Rama I Rd.,"แยกเจริญผล ถนนพระราม1 สัญญาณไฟจราจรเสียทุกด้าน ผู้ใช้เส้นทาง โปรดเพิ่มความระมัดระวัง
+
+Cr.@Traffic_1197","Traffic light isn`t working at Charoen Phon Intersection on Rama I Rd. route user Please be careful.
+
+Cr.@Traffic_1197",13.747486625754,100.52367523313,12,2026-08-29 11:32:53,2026-08-29 12:32:53,itic.kittaya@gmail.com
+965779,อุบัติเหตุ,Accident at Puchao Saming Phrai Rd.,"เกิดอุบัติเหตุไม่ใช่รถจักรยานยนต์ ที่ ถนนปู่เจ้าสมิงพราย ต.บางหญ้าแพรก อ.พระประแดง จ.สมุทรปราการ ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Cars accident on Puchao Saming Phrai Rd. Information from The Central Accident Victims Protection Company Limited.
+
+Cr.RVP",13.654472108416,100.54219856858,3,2026-08-29 13:06:00,2026-08-29 14:06:00,RVP
+965781,อุบัติเหตุ ปากซอยสาทร 10 (ซอยศึกษาวิทยา),Accident at Soi Sathon 10,"ปากซอยสาทร 10 มีอุบัติเหตุ (จยย.เสียหลักล้ม) กีดขวางการจราจร เลนซ้าย 
+
+Cr.@Traffic_1197","Motorcycle accident blocking the left lane at the entrance of Soi Sathon 10. 
+
+Cr.@Traffic_1197",13.721285556173,100.52781388164,3,2026-08-29 13:54:42,2026-08-29 14:54:42,itic.kittaya@gmail.com
+965784,อุบัติเหตุ ปากซอยเจริญนคร 64 (ซอยร่วมพัฒนา),Accident at Soi Charoen Nakhon 64,"ปากซอยเจริญนคร 64 มีอุบัติเหตุ (จยย. ชนกับ รถกระบะ) กีดขวางการจราจร เลนกลาง 
+
+Cr.@Traffic_1197","Cars accident blocking the middle lane at the entrance of Soi Charoen Nakhon 64. 
+
+Cr.@Traffic_1197",13.701473874903,100.4877255857,3,2026-08-29 14:23:02,2026-08-29 15:23:02,itic.kittaya@gmail.com
+965790,อุบัติเหตุ ถนนงามวงศ์วาน ขาออก,Accident at Ngamwongwan Rd.,"ถนนงามวงศ์วาน ขาออก เชิงทางขึ้น `สะพานข้ามแยกแคราย` มีอุบัติเหตุ (รถนั่งส่วนบุคคล ชนกัน) กีดขวางการจราจร เลนซ้าย 
+
+Cr.@Traffic_1197","Cars accident blocking the left lane on the way up to Khae Rai Overpass on outbound Ngam Wong Wan Rd. 
+
+Cr.@Traffic_1197",13.858669089482,100.52373290062,3,2026-08-29 15:34:42,2026-08-29 16:34:42,itic.rattanakit
+965791,อุบัติเหตุ ถนนนราธิวาสราชนครินทร์ ขาเข้า,Accident at Narathiwat Ratchanakharin Rd.,"ถนนนราธิวาสราชนครินทร์ ขาเข้า เลย `ซอยนราธิวาสราชนครินทร์ 24` มีอุบัติเหตุ (จยย. ชนกับ รถนั่งส่วนบุคคล) กีดขวางการจราจร เลนซ้าย
+
+Cr.@Traffic_1197","Cars accident blocking the left lane past Soi Naradhiwas Rajanagarindra 24 on inbound Naradhiwas Rajanagarindra Rd.
+
+Cr.@Traffic_1197",13.703157268301,100.53958743811,3,2026-08-29 15:36:43,2026-08-29 16:36:43,itic.rattanakit
+965792,คืบหน้าอุบัติเหตุ ปากซอยเจริญนคร 64 (ซอยร่วมพัฒนา),Accident at Soi Charoen Nakhon 64,"ปากซอยเจริญนคร 64 ก่อนหน้านี้ มีอุบัติเหตุ (จยย. ชนกับ รถกระบะ) ล่าสุด จนท.เคลื่อนย้ายพ้นกีดขวางแล้ว
+
+Cr.@Traffic_1197","Update car accident was moved out of locale at the entrance of Soi Charoen Nakhon 64.
+
+Cr.@Traffic_1197",13.701482995488,100.48772156239,3,2026-08-29 15:39:20,2026-08-29 16:39:20,itic.rattanakit
+965793,คืบหน้าอุบัติเหตุ ปากซอยสาทร 10 (ซอยศึกษาวิทยา),Accident at Soi Sathon 10,"ปากซอยสาทร 10 ก่อนหน้านี้ มีอุบัติเหตุ (จยย.เสียหลักล้ม) ล่าสุด จนท.เคลื่อนย้ายพ้นกีดขวางแล้ว
+
+Cr.@Traffic_1197","Update motorcycle accident was moved out of locale at the entrance of Soi Sathon 10.
+
+Cr.@Traffic_1197",13.72128034485,100.52780985832,3,2026-08-29 15:39:57,2026-08-29 16:39:57,itic.rattanakit
+965794,อุบัติเหตุ แสมดำ,Accident at Bang Khun Thian-Chai Thale Rd.,"เกิดอุบัติเหตุไม่ใช่รถจักรยานยนต์ ที่ ถนนบางขุนเทียน-ชายทะเล แขวงแสมดำ เขตบางขุนเทียน กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Cars accident blocking traffic lane on Bang Khun Thian Chai Thale Rd., Samae Dam, Bang Khun Thian. Information from The Central Accident Victims Protection Company Limited.
+
+Cr.RVP",13.653541621151,100.43041080236,3,2026-08-29 15:40:00,2026-08-29 16:40:00,RVP
+965795,อุบัติเหตุ ปากซอยสุขสวัสดิ์ 17,Accident at Soi Suk Sawat 17,"ปากซอยสุขสวัสดิ์ 17 มีอุบัติเหตุ (รถโม่ปูน พลิกตะแคง) จนท.อยู่ระหว่างเคลื่อนย้าย
+
+Cr.@Traffic_1197","Cars accident blocking traffic lane at the entrance of Soi Suk Sawat 17.
+
+Cr.@Traffic_1197",13.681704827056,100.49315571785,3,2026-08-29 16:19:14,2026-08-29 17:19:14,itic.rattanakit
+965797,ึคืบหน้าอุบัติเหตุ ถนนงามวงศ์วาน ขาออก,Accident at Ngamwongwan Rd.,"ถนนงามวงศ์วาน ขาออก เชิงทางขึ้น `สะพานข้ามแยกแคราย` ก่อนหน้านี้ มีอุบัติเหตุ (รถนั่งส่วนบุคคล ชนกัน) ล่าสุด จนท.เคลื่อนย้ายพ้นกีดขวางแล้ว
+
+Cr.@Traffic_1197","Update car accident was moved out of locale on the way up to Khae Rai Overpass on outbound Ngam Wong Wan Rd.
+
+Cr.@Traffic_1197",13.858721172049,100.52372217178,3,2026-08-29 16:49:51,2026-08-29 17:49:51,itic.rattanakit
+965798,คืบหน้าอุบัติเหตุ ถนนนราธิวาสราชนครินทร์ ขาเข้า,Accident at Narathiwat Ratchanakharin Rd.,"ถนนนราธิวาสราชนครินทร์ ขาเข้า เลย `ซอยนราธิวาสราชนครินทร์ 24` ก่อนหน้านี้ มีอุบัติเหตุ (จยย. ชนกับ รถนั่งส่วนบุคคล) ล่าสุด จนท.เคลื่อนย้ายพ้นกีดขวางแล้ว
+
+Cr.@Traffic_1197","Update car accident was moved out of locale past Soi Naradhiwas Rajanagarindra 24 on inbound Naradhiwas Rajanagarindra Rd.
+
+Cr.@Traffic_1197",13.703219809,100.53954720497,3,2026-08-29 16:50:20,2026-08-29 17:50:20,itic.rattanakit
+965800,อุบัติเหตุ,Accident at Thoet Thai 32,"เกิดอุบัติเหตุรถจักรยานยนต์ ที่ เทอดไท 32 แขวงตลาดพลู เขตธนบุรี กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Motorcycle accident on Thoet Thai 32, Talat Phlu, Thon Buri, Bangkok.
+
+Cr.RVP",13.718447973501,100.47116294503,3,2026-08-29 16:53:00,2026-08-29 17:53:00,RVP
+965801,อุบัติเหตุ ถนนพระราม 3 ขาเข้า,Accident at Rama III Rd.,"ถนนพระราม 3 ขาเข้า บริเวณหน้า `ร้านหัวปลาช่องนนทรี` มีอุบัติเหตุ (จยย. ชนกับ รถนั่งส่วนบุคคล) กีดขวางการจราจร เลนขวา
+
+Cr.@Traffic_1197","Cars accident blocking the right lane in front of Hua Pla Chong Nonsi Restaurant on inbound Rama III Rd.
+
+Cr.@Traffic_1197",13.690462464875,100.54741680622,3,2026-08-29 17:43:26,2026-08-29 18:43:26,itic.rattanakit
+965803,รถเสีย ถนนพระราม 9 ขาเข้า,Car breakdown at Rama IX Rd.,"ถนนพระราม 9 ขาเข้า เลย `รพ.ปิยะเวท` เล็กน้อย มี (รถกระบะ จอดเสีย) กีดขวางการจราจร เลนซ้าย
+
+Cr.@Traffic_1197","Car breakdown blocking the left lane past Piyavate Hospital on inbound Rama IX Rd.
+
+Cr.@Traffic_1197",13.754427229687,100.57894349098,1,2026-08-29 17:45:19,2026-08-29 18:45:19,itic.rattanakit
+965804,เพลิงไหม้ ซอยเสรีไทย 2 (ซอยไชยนุชิต),Fire at Soi Seri Thai 2,"ไฟฟ้าลัดวงจรที่สายไฟฟ้า ซอยเสรีไทย 2 ถนนเสรีไทย แขวงคลองกุ่ม เขตบึงกุ่ม เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยบางชัน กำลังไปที่เกิดเหตุ 
+
+Cr.ศูนย์วิทยุพระราม199","Fire in Soi Seri Thai 2.
+
+Cr.ศูนย์วิทยุพระราม199",13.772786010459,100.65715134144,15,2026-08-29 17:45:49,2026-08-29 18:45:49,itic.rattanakit
+965806,รถเสีย ถนนรัชดาภิเษก ขาออก,Car breakdown at Ratchada Phisek Rd.,"ถนนรัชดาภิเษก ขาออก ตรงข้าม `เดอะมอลล์ท่าพระ` มี (รถประจำทาง จอดเสีย) กีดขวางการจราจร เลนซ้าย
+
+Cr.@Traffic_1197","Car breakdown blocking the left lane opposite The Mall Tha Phra on outbound Ratchadaphisek Rd.
+
+Cr.@Traffic_1197",13.71337723989,100.47860473394,1,2026-08-29 17:47:21,2026-08-29 18:47:21,itic.rattanakit
+965807,อุบัติเหตุ หนองบอน,Accident at Chaloem Phra Kiat Ratchakan Thi 9 Soi 30,"เกิดอุบัติเหตุรถจักรยานยนต์ ที่ เฉลิมพระเกิยรติ ร.9 ซอย 30 (ซอยร่วมสามัคคี) แขวงหนองบอน เขตประเวศ กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Motorcycle accident in Soi Chaloem Phrakiat Ratchakan Thi 9 Soi 30 (Soi Ruam Samakkhi) Nong Bon Prawet Bangkok.
+
+Cr.RVP",13.685165703095,100.6685949862,3,2026-08-29 17:56:00,2026-08-29 18:56:00,RVP
+965809,อุบัติเหตุ ถนนพระราม 3 ขาเข้า,Accident at Rama III Rd.,"17.24 น. อุบัติเหตุ รถจยย.กับรถเก๋งชนกัน ถนนพระราม3 จากแยกทางขึ้นลงวงแหวนอุตสาหกรรม ไป แยกนราธิวาสฯ ที่บริเวณหน้าร้านหัวปลาช่องนนทรี ขวางช่องทางขวา มีผู้บาดเจ็บ การจราจรเคลื่อนตัวช้า รถติด
+
+Cr.JS 100","Motorcycle accident blocking the right lane in front of Hua Pla Chong Nonsi restaurant on inbound Rama III Rd. Chong Nonsi Yan Nawa Bangkok.
+
+Cr.JS 100",13.689468272432,100.54745435715,3,2026-08-29 18:06:15,2026-08-29 19:06:15,itic.nirat
+965810,อุบัติเหตุ คลองบางพราน,Accident at Ekkachai 44,"เกิดอุบัติเหตุรถจักรยานยนต์ ที่ เอกชัย 44 แขวงคลองบางพราน เขตบางบอน กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Motorcycle accident at Ekkachai 44, Khlong Bang Phran, Bang Bon, Bangkok.
+
+Cr.RVP",13.682325078162,100.44011637568,3,2026-08-29 17:33:00,2026-08-29 18:33:00,RVP
+965811,รถติด ถนนพระราม 3 ขาเข้า,Heavy traffic  at Rama III Rd.,"17.24 น. อุบัติเหตุ รถจยย.กับรถเก๋งชนกัน ถนนพระราม3 จากแยกทางขึ้นลงวงแหวนอุตสาหกรรม ไป แยกนราธิวาสฯ ที่บริเวณหน้าร้านหัวปลาช่องนนทรี ขวางช่องทางขวา มีผู้บาดเจ็บ การจราจรเคลื่อนตัวช้า รถติด
+
+Cr.JS 100","Heavy traffic due to motorcycle accident blocking the right lane in front of Hua Pla Chong Nonsi restaurant on inbound Rama III Rd. Chong Nonsi Yan Nawa Bangkok.
+
+Cr.JS 100",13.689422667173,100.54745301604,10,2026-08-29 18:08:12,2026-08-29 19:08:12,itic.nirat
+965812,คืบหน้าอุบัติเหตุ ถนนพระราม 3 ขาเข้า,Accident at Rama III Rd.,"คืบหน้าอุบัติเหตุ รถจยย.กับรถเก๋งชนกัน ถนนพระราม3 จากแยกทางขึ้นลงวงแหวนอุตสาหกรรม ไป แยกนราธิวาสฯ ที่บริเวณหน้าร้านหัวปลาช่องนนทรี   ล่าสุด จนท. เคลื่อนย้ายพ้นกีดขวางแล้ว
+
+Cr.JS 100","Update motorcycle accident was moved out of locale in front of Hua Pla Chong Nonsi restaurant on inbound Rama III Rd. Chong Nonsi Yan Nawa Bangkok.
+
+Cr.JS 100",13.689465666417,100.54745301604,3,2026-08-29 18:09:23,2026-08-29 19:09:23,itic.nirat
+965815,อุบัติเหตุ ดาวคะนอง,Accident at Ratchaphruek Rd.,"เกิดอุบัติเหตุรถจักรยานยนต์ ที่ ถนนราชพฤกษ์ แขวงดาวคะนอง เขตธนบุรี กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Motorcycle accident on Ratchaphruek Rd., Dao Khanong, Thon Buri, Bangkok.
+
+Cr.RVP",13.714304884851,100.47648847103,3,2026-08-29 17:57:00,2026-08-29 18:57:00,RVP
+965817,อุบัติเหตุ ดาวคะนอง,Accident at Thoet Thai 33,"เกิดอุบัติเหตุรถจักรยานยนต์ ที่ เทอดไท 33 แขวงดาวคะนอง เขตธนบุรี กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Motorcycle accident at Thoet Thai 33, Dao Khanong, Thon Buri, Bangkok.
+
+Cr.RVP",13.714556338542,100.47656491399,3,2026-08-29 17:57:00,2026-08-29 18:57:00,RVP
+965818,รถติด ทางพิเศษเฉลิมมหานคร,Heavy traffic  at Chaloem Mahanakhon Exp.,"ทางพิเศษเฉลิมมหานคร จากต่างระดับท่าเรือ ไปโค้งอาจณรงค์ ท้ายอยู่ต่างระดับมักกะสัน
+
+Cr.JS 100","Heavy traffic at Tha Ruea interchange to At Narong curve on Chaloem Mahanakhon Exp. Khlong Toei Khlong Toei Bangkok.
+
+Cr.JS 100",13.715459224446,100.55805444717,10,2026-08-29 18:43:35,2026-08-29 19:43:35,itic.nirat
+965819,เหตุไฟฟ้าลัดวงจรที่สายไฟฟ้า ซอยเสรีไทย 2 (ซอยไชยนุชิต),Short circuit at Soi Seri Thai 2,"เหตุไฟฟ้าลัดวงจรที่สายไฟฟ้า ซอยเสรีไทย 2 ถนนเสรีไทย แขวงคลองกุ่ม เขตบึงกุ่ม เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยบางชัน กำลังไปที่เกิดเหตุ 
+
+Cr.ศูนย์วิทยุพระราม199","Short circuit in the electrical wiring in Soi Seri Thai 2 on Seri Thai Rd.,  Khlong Kum Bueng Kum Bangkok.
+
+Cr. Radio Center Rama 199",13.773531064644,100.65686836839,15,2026-08-29 18:48:15,2026-08-29 19:48:15,itic.nirat
+965820,คืบหน้าเหตุไฟฟ้าลัดวงจรที่สายไฟฟ้า ซอยเสรีไทย 2 (ซอยไชยนุชิต),Short circuit at Soi Seri Thai 2,"เหตุไฟฟ้าลัดวงจรที่สายไฟฟ้า ซอยเสรีไทย 2 ถนนเสรีไทย แขวงคลองกุ่ม เขตบึงกุ่ม เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยบางชัน ถึงที่เกิดเหตุ อยู่ระหว่างใช้น้ำทำการดับ
+
+Cr.ศูนย์วิทยุพระราม199","Short circuit in the electrical wiring in Soi Seri Thai 2 on Seri Thai Rd., Bang Chan Fire and Rescue Station personnel have arrived at the scene and are currently using water to extinguish the fire.
+
+Cr. Radio Center Rama 199",13.773523249402,100.65688714385,15,2026-08-29 18:51:48,2026-08-29 19:51:48,itic.nirat
+965821,คืบหน้าเหตุไฟฟ้าลัดวงจรที่สายไฟฟ้า ซอยเสรีไทย 2 (ซอยไชยนุชิต),Short circuit at Soi Seri Thai 2,"เหตุไฟฟ้าลัดวงจรที่สายไฟฟ้า ซอยเสรีไทย 2 ถนนเสรีไทย แขวงคลองกุ่ม เขตบึงกุ่ม เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยบางชัน ขณะนี้เพลิงสงบ ประสานเจ้าหน้าที่การไฟฟ้านครหลวงเข้ารับดำเนินการแก้ไขต่อไป
+
+Cr.ศูนย์วิทยุพระราม199","Update now fireman can control electrical short circuit in an electrical  wiring in Soi Seri Thai 2 on Seri Thai Rd.,  Khlong Kum Bueng Kum Bangkok.
+
+Cr. Radio Center Rama 199",13.773520644322,100.65687373281,15,2026-08-29 18:52:35,2026-08-29 19:52:35,itic.nirat
+965824,เหตุเพลิงไหม้กองไม้ ซอยพระราม 9 ซอย 59,Fire at Rama IX Soi 59,"วันที่ 29 สิงหาคม 2569 เวลา 18.56 น. รับแจ้งจากสายด่วน 199 เหตุเพลิงไหม้กองไม้ ซอยพระราม 9 ซอย 59 ถนนพระราม 9 แขวงสวนหลวง เขต สวนหลวง เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยหัวหมาก กำลังไปที่เกิดเหตุ 
+
+Cr.ศูนย์วิทยุพระราม199","A fire has broken out in a pile of wood in Soi Rama IX Soi 59 on Rama IX Rd., Phatthanakan Suan Luang Bangkok.
+
+Cr. Radio Center Rama 199",13.746635970767,100.63751488924,15,2026-08-29 19:06:17,2026-08-29 20:06:17,itic.nirat
+965825,คืบหน้าเหตุเพลิงไหม้กองไม้ ซอยพระราม 9 ซอย 59,Fire at Rama IX Soi 59,"เวลา 19.04 น.เหตุเพลิงไหม้กองไม้ ซอยพระราม 9 ซอย 59 เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยหัวหมาก ถึงที่เกิดเหตุ อยู่ระหว่างใช้น้ำทำการดับ
+
+Cr.ศูนย์วิทยุพระราม199","A fire has broken out in a pile of wood in Soi Rama IX Soi 59 on Rama IX Rd., Huamark Fire and Rescue Station personnel arrived at the scene and are currently using water to extinguish the flames.
+
+Cr. Radio Center Rama 199",13.746609916967,100.63752025366,15,2026-08-29 19:10:09,2026-08-29 20:10:09,itic.nirat
+965828,อุบัติเหตุ สะพานยกระดับถนนรามคำแหง ขาเข้า,Accident at Ramkhamhaeng Overpass,"19.04 น. อุบัติเหตุ รถสองแถวรับ-ส่งคนงาน เสียหลักหมุน สะพานข้ามแยกรามคำแหง ขาเข้า จากทางขึ้นถ.พระราม9 ไป ที่บริเวณเหนือแยกรามคำแหง ขวางช่องทางขวา การจราจรเคลื่อนตัวช้า รถติด
+
+Cr.JS 100","Motorcycle accident blocking the right lane on inbound Ramkhamhaeng Overpass Hua Mak Bang Kapi Bangkok.
+
+Cr.JS 100",13.747477506958,100.60534313321,3,2026-08-29 19:17:56,2026-08-29 20:17:56,itic.nirat
+965829,รถติด สะพานยกระดับถนนรามคำแหง ขาเข้า,Heavy traffic  at Ramkhamhaeng Overpass,"19.04 น. อุบัติเหตุ รถสองแถวรับ-ส่งคนงาน เสียหลักหมุน สะพานข้ามแยกรามคำแหง ขาเข้า จากทางขึ้นถ.พระราม9 ไป ที่บริเวณเหนือแยกรามคำแหง ขวางช่องทางขวา การจราจรเคลื่อนตัวช้า รถติด
+
+Cr.JS 100","Heavy traffic due to motorcycle accident blocking the right lane on inbound Ramkhamhaeng Overpass Hua Mak Bang Kapi Bangkok.
+
+Cr.JS 100",13.747482717699,100.60529485345,10,2026-08-29 19:20:22,2026-08-29 20:20:22,itic.nirat
+965830,คืบหน้าอุบัติเหตุ สะพานยกระดับถนนรามคำแหง ขาเข้า,Accident at Ramkhamhaeng Overpass,"คืบหน้าอุบัติเหตุ รถสองแถวรับ-ส่งคนงาน เสียหลักหมุน สะพานข้ามแยกรามคำแหง ขาเข้า จากทางขึ้นถ.พระราม9 ไป ที่บริเวณเหนือแยกรามคำแหง  ล่าสุด จนท.เคลื่อนย้ายพ้นกีดขวางแล้ว
+
+Cr.JS 100","Update car accident was moved out of locale on inbound Ramkhamhaeng Overpass Hua Mak Bang Kapi Bangkok.
+
+Cr.JS 100",13.747482717699,100.60528948903,3,2026-08-29 19:22:01,2026-08-29 20:22:01,itic.nirat
+965835,คืบหน้าเหตุเพลิงไหม้กองไม้ ซอยพระราม 9 ซอย 59,Fire at Rama IX Soi 59,"เหตุเพลิงไหม้กองไม้ ซอยพระราม 9 ซอย 59 เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยหัวหมาก ถึงที่เกิดเหตุ ขณะนี้เพลิงสงบ
+
+Cr.ศูนย์วิทยุพระราม199","Update now fireman can control fire  in a pile of wood in Soi Rama IX Soi 59 on Rama IX Rd., Phatthanakan Suan Luang Bangkok.
+
+Cr. Radio Center Rama 199",13.746625549248,100.63752025366,15,2026-08-29 19:58:39,2026-08-29 20:58:39,itic.nirat
+965837,อุบัติเหตุ ถนนประชาธิปไตย,Accident at Prachathippatai Rd.,"ถ.ประชาธิปไตย แยกวิสุทธิกษัตริย์ มุ่งหน้า แยกประชาเกษม หน้า 7-11 ใกล้ซอยทหารบก รถกระบะเสียหลักชนรถเก๋ง และรถจยย. รถติด
+
+Cr.FM91trafficpro","Cars accident blocking traffic lanes in front of 7-Eleven near Soi Thahan Bok on Prachathippatai Rd. Bang Khun Phrom Phra Nakhon Bangkok.
+
+Cr.FM91trafficpro",13.763407502994,100.50484076142,3,2026-08-29 20:20:49,2026-08-29 21:20:49,itic.nirat
+965838,รถติด ถนนประชาธิปไตย,Heavy traffic  at Prachathippatai Rd.,"ถ.ประชาธิปไตย แยกวิสุทธิกษัตริย์ มุ่งหน้า แยกประชาเกษม หน้า 7-11 ใกล้ซอยทหารบก รถกระบะเสียหลักชนรถเก๋ง และรถจยย. รถติด
+
+Cr.FM91trafficpro","Heavy traffic due to car accident blocking traffic lanes in front of 7-Eleven near Soi Thahan Bok on Prachathippatai Rd. Bang Khun Phrom Phra Nakhon Bangkok.
+
+Cr.FM91trafficpro",13.763337162767,100.5048032105,10,2026-08-29 20:24:40,2026-08-29 21:24:40,itic.nirat
+965839,คืบหน้าอุบัติเหตุ ถนนประชาธิปไตย,Accident at Prachathippatai Rd.,"คืบหน้าอุบัติเหตุ ถ.ประชาธิปไตย แยกวิสุทธิกษัตริย์ มุ่งหน้า แยกประชาเกษม หน้า 7-11 ใกล้ซอยทหารบก รถกระบะเสียหลักชนรถเก๋ง และรถจยย. ล่าสุด จนท. เคลื่อนย้ายพ้นกีดขวางแล้ว
+
+Cr.FM91trafficpro","Update car accident was moved out of locale in front of 7-Eleven near Soi Thahan Bok on Prachathippatai Rd. Bang Khun Phrom Phra Nakhon Bangkok.
+
+Cr.FM91trafficpro",13.76341271338,100.50483539701,3,2026-08-29 20:25:50,2026-08-29 21:25:50,itic.nirat
+965840,อุบัติเหตุ ถนนกาญจนาภิเษก ขาออก (ถนนวงแหวนรอบนอกด้านตะวันตก),Accident at Kanchana Phisek Rd.,"20.18 น. อุบัติเหตุ รถชนกัน 3 คัน ถนนกาญจนาภิเษก ขาออก จากต่างระดับเอกชัย ไป ต่างระดับบางโคลัด ที่บริเวณตรงข้ามแม็คโคร บางบอน ขวางช่องทางซ้าย ของทางขนาน จนท.อยู่ระหว่างเคลื่อนย้าย การจราจรเคลื่อนตัวช้า  รถติด
+
+Cr.JS 100","Cars accident blocking the left lane opposite Makro Bang Bon on outbound Kanchana Phisek Rd. Bang Bon Nuea Bang Bon Bangkok.
+
+Cr.JS 100",13.670293739404,100.40589272976,3,2026-08-29 20:31:20,2026-08-29 21:31:20,itic.nirat
+965841,รถติด ถนนกาญจนาภิเษก ขาออก (ถนนวงแหวนรอบนอกด้านตะวันตก),Heavy traffic  at Kanchana Phisek Rd.,"อุบัติเหตุ รถชนกัน 3 คัน ถนนกาญจนาภิเษก ขาออก จากต่างระดับเอกชัย ไป ต่างระดับบางโคลัด ที่บริเวณตรงข้ามแม็คโคร บางบอน ขวางช่องทางซ้าย ของทางขนาน จนท.อยู่ระหว่างเคลื่อนย้าย การจราจรเคลื่อนตัวช้า  รถติด
+
+Cr.JS 100","Heavy traffic due to cars accident blocking the left lane opposite Makro Bang Bon on outbound Kanchana Phisek Rd. Bang Bon Nuea Bang Bon Bangkok.
+
+Cr.JS 100",13.670048753956,100.40585249662,10,2026-08-29 20:32:56,2026-08-29 21:32:56,itic.nirat
+965842,คืบหน้าอุบัติเหตุ ถนนกาญจนาภิเษก ขาออก (ถนนวงแหวนรอบนอกด้านตะวันตก),Accident at Kanchana Phisek Rd.,"คืบหน้าอุบัติเหตุ รถชนกัน 3 คัน ถนนกาญจนาภิเษก ขาออก จากต่างระดับเอกชัย ไป ต่างระดับบางโคลัด ที่บริเวณตรงข้ามแม็คโคร บางบอน ล่าสุด จนท. เคลื่อนย้ายพ้นกีดขวางแล้ว
+
+Cr.JS 100","Update car accident was moved out of locale opposite Makro Bang Bon on outbound Kanchana Phisek Rd. Bang Bon Nuea Bang Bon Bangkok.
+
+Cr.JS 100",13.670293739404,100.40589272976,3,2026-08-29 20:34:21,2026-08-29 21:34:21,itic.nirat
+965849,อุบัติเหตุ ถนนพหลโยธิน ขาออก,Accident at Phahon Yothin Rd.,"20.51 น. อุบัติเหตุ รถแท็กซี่กับรถจยย.ชนกัน แล้วรถแท็กซี่หลบหนี  ถนนพหลโยธิน ขาออก จากแยกซ.เสนานิคม ที่บริเวณแยกเกษตร บาดเจ็บ 2 คน การจราจรเคลื่อนตัวช้า รถติด
+
+Cr.JS 100","Motorcycle accident blocking traffic lanes at Kaset Intersection area on outbound Phahon Yothin Rd. Lat Yao Chatuchak Bangkok.
+
+Cr.JS 100",13.840001945662,100.57560682297,3,2026-08-29 20:54:36,2026-08-29 21:54:36,itic.nirat
+965850,รถติด ถนนพหลโยธิน ขาออก,Heavy traffic  at Phahon Yothin Rd.,"อุบัติเหตุ รถแท็กซี่กับรถจยย.ชนกัน แล้วรถแท็กซี่หลบหนี  ถนนพหลโยธิน ขาออก จากแยกซ.เสนานิคม ที่บริเวณแยกเกษตร บาดเจ็บ 2 คน การจราจรเคลื่อนตัวช้า รถติด
+
+Cr.JS 100","Heavy traffic due to motorcycle accident blocking traffic lanes at Kaset Intersection area on outbound Phahon Yothin Rd. Lat Yao Chatuchak Bangkok.
+
+Cr.JS 100",13.839382112439,100.57525277138,10,2026-08-29 20:54:52,2026-08-29 21:54:52,itic.nirat
+965851,คืบหน้าอุบัติเหตุ ถนนพหลโยธิน ขาออก,Accident at Phahon Yothin Rd.,"คืบหน้าอุบัติเหตุ รถแท็กซี่กับรถจยย.ชนกัน แล้วรถแท็กซี่หลบหนี  ถนนพหลโยธิน ขาออก จากแยกซ.เสนานิคม ที่บริเวณแยกเกษตร  ล่าสุด จนท. เคลื่อนย้ายพ้นกีดขวางแล้ว
+
+Cr.JS 100","Update motorcycle accident was moved out of locale at Kaset Intersection area on outbound Phahon Yothin Rd. Lat Yao Chatuchak Bangkok.
+
+Cr.JS 100",13.839996736986,100.57561218739,3,2026-08-29 20:55:02,2026-08-29 21:55:02,itic.nirat
+965856,อุบัติเหตุ ถนนพหลโยธิน ขาออก,Accident at Phahon Yothin Rd.,"ถนนพหลโยธิน ขาออก บริเวณแยกเกษตร  รถแท็กซี่กับรถจยย.ชนกัน มีผู้ได้รับบาดเจ็บ 2 ราย การจราจรเคลื่อนตัวช้า
+
+Cr. JS100","Cars accident blocking traffic lane at Kaset Intersection area on outbound Phahon Yothin Rd.
+
+Cr. JS100",13.839353464645,100.57524472475,3,2026-08-29 21:25:35,2026-08-29 22:25:35,itic.pacharasrung
+965858,เหตุไฟฟ้าลัดวงจร ซอยสุขุมวิท 33 (ซอยแดงอุดม),Short circuit at Soi Sukhumvit 33,"เหตุไฟฟ้าลัดวงจรที่หม้อแปลงไฟฟ้า ซอยสุขุมวิท 33 ถนนสุขุมวิท แขวงคลองตันเหนือ เขตวัฒนา เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยคลองเตย กำลังไปที่เกิดเหตุ
+
+Cr. ศูนย์วิทยุพระราม199","Short circuit in Soi Sukhumvit 33., Khlong Tan Nuea, Vadhana, Bangkok.
+
+Cr. ศูนย์วิทยุพระราม199",13.735398697832,100.56776806712,15,2026-08-29 21:35:42,2026-08-29 22:35:42,itic.pacharasrung
+965863,คืบหน้าเหตุไฟฟ้าลัดวงจร ซอยสุขุมวิท 33 (ซอยแดงอุดม),Fire at Soi Sukhumvit 33,"เหตุไฟฟ้าลัดวงจรที่หม้อแปลงไฟฟ้า ซอยสุขุมวิท 33 เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยคลองเตย ถึงที่เกิดเหตุ ขณะนี้เพลิงสงบ ประสานเจ้าหน้าที่การไฟฟ้านครหลวงเข้ารับดำเนินการแก้ไขต่อไป 
+
+Cr. ศูนย์วิทยุพระราม199","Update now fireman can control fire in Soi Sukhumvit 33., Khlong Tan Nuea, Vadhana, Bangkok.
+
+Cr. ศูนย์วิทยุพระราม199",13.735304899639,100.5677627027,15,2026-08-29 22:16:56,2026-08-29 23:16:56,itic.pacharasrung
+965866,อุบัติเหตุ ถนนนวมินทร์,Accident at Nawamin Rd.,"เกิดอุบัติเหตุไม่ใช่รถจักรยานยนต์ ที่ ถนนนวมินทร์ แขวงคลองจั่น เขตบางกะปิ กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Cars accident blocking traffic lane on Nawamin Rd. Khlong Chan Bang Kapi Bangkok.
+
+Cr.RVP",13.780456568291,100.64505591989,3,2026-08-29 22:28:00,2026-08-29 23:28:00,RVP
+965868,เพลิงไหม้ ซอยรามคำแหง 65 (ซอยมหาดไทย 1),Fire at Soi Ramkhamhaeng 65,"เหตุเพลิงไหม้ภายในอาคารร้าง ซอยรามคำแหง 65 เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยหัวหมาก ถึงที่เกิดเหตุ ลักษณะที่เกิดเหตุเป็นอาคารร้าง สูง 4 ชั้น เพลิงกำลังลุกไหม้ชั้นที่ 4 เจ้าหน้าที่อยู่ระหว่างดำเนินการ
+
+Cr.ศูนย์วิทยุพระราม199","Fire on Soi Ramkhamhaeng 65., Phlapphla, Wang Thonglang, Bangkok.
+
+Cr.ศูนย์วิทยุพระราม199",13.763169127695,100.623934865,15,2026-08-29 23:55:21,2026-08-30 00:55:21,itic.pacharasrung
+965869,อุบัติเหตุ ถนนวิภาวดีรังสิต ขาเข้า,Accident at Vibhavadi Rangsit Rd.,"ถนนวิภาวดีรังสิต ขาเข้า จากแยกสุทธิสาร มุ่งหน้า ใต้ทางด่วนดินแดง บริเวณหน้าสวนป่าวิภาวดี อุบัติเหตุ รถจยย. ไม่ทราบคู่กรณี มีผู้บาดเจ็บ จนท.กำลังดำเนินการ 
+
+Cr.มูลนิธิร่วมกตัญญู","Motorcycle accident blocking traffic lane in front of Vibhavadi Forest Park on inbound Vibhavadi Rangsit Rd.
+
+Cr.มูลนิธิร่วมกตัญญู",13.771585061478,100.55246338248,3,2026-08-29 23:57:29,2026-08-30 00:57:29,itic.pacharasrung
+965871,การจัดงาน“วิ่งด้วยกัน...Run กับหมอศิริราช - รามาธิบดี ประจำปี 2569” (SIRA RUN 2026)  ถนนกำแพงเพชร 5,Event at Ramathibodi Hospital Kamphaengphet 5 Rd.,"30 ส.ค.69 เวลา 03:00-08:00 น. คณะแพทยศาสตร์โรงพยาบาลรามาธิบดี ร่วมกับคณะแพทยศาสตร์ศิริราชพยาบาล มหาวิทยาลัยมหิดล จัดกิจกรรม “วิ่งด้วยกัน...Run กับหมอศิริราช - รามาธิบดี ประจำปี 2569” (SIRA RUN 2026) โดยใช้เส้นทางจาก รพ.รามาธิบดี ไปยัง รพ.ศิริราช
+
+Cr.JS 100","On August 30, 2026, from 3:00 AM to 8:00 AM, the Faculty of Medicine, Ramathibodi Hospital, in collaboration with the Faculty of Medicine, Siriraj Hospital, Mahidol University, will organize the “Run Together…Run with Siriraj-Ramathibodi Doctors 2026” (SIRA RUN 2026) event. The route will be from Ramathibodi Hospital to Siriraj Hospital.
+
+Cr.JS 100",13.767954823521,100.52563861012,13,2026-08-30 00:01:48,2026-08-30 08:01:48,itic.nirat
+965872,อุบัติเหตุ ปากซอยวิภาวดีรังสิต 16 (ซอยโชคชัยร่วมมิตร),Accident at Soi Vibhavadi Rangsit 16,"23.59 น. อุบัติเหตุ รถเก๋ง เสียหลักปีนขอบทาง ถนนวิภาวดีรังสิต ขาเข้า จากแยกลาดพร้าว ไป แยกสุทธิสาร ที่บริเวณปากซอยวิภาวดี 16 จนท.กำลังดำเนินการ รถติด
+
+Cr.JS 100","Car accident blocking traffic lanes at the entrance of Soi Vibhavadi Rangsit 16 Chomphon Chatuchak Bangkok.
+
+Cr.JS 100",13.796868814192,100.56127175689,3,2026-08-30 00:15:49,2026-08-30 01:15:49,itic.nirat
+965873,รถติด ถนนวิภาวดีรังสิต ขาเข้า,Heavy traffic  at Vibhavadi Rangsit Rd.,"23.59 น. อุบัติเหตุ รถเก๋ง เสียหลักปีนขอบทาง ถนนวิภาวดีรังสิต ขาเข้า จากแยกลาดพร้าว ไป แยกสุทธิสาร ที่บริเวณปากซอยวิภาวดี 16 จนท.กำลังดำเนินการ รถติด
+
+Cr.JS 100","Heavy traffic due to car accident blocking traffic lanes at the entrance of Soi Vibhavadi Rangsit 16 on inbound Vibhavadi Rangsit Rd. Chomphon Chatuchak Bangkok.
+ 
+Cr.JS 100",13.797157949042,100.56117251515,10,2026-08-30 00:17:29,2026-08-30 01:17:29,itic.nirat
+965874,คืบหน้าอุบัติเหตุ ปากซอยวิภาวดีรังสิต 16 (ซอยโชคชัยร่วมมิตร),Accident at Soi Vibhavadi Rangsit 16,"คืบหน้าอุบัติเหตุ รถเก๋ง เสียหลักปีนขอบทาง ถนนวิภาวดีรังสิต ขาเข้า จากแยกลาดพร้าว ไป แยกสุทธิสาร ที่บริเวณปากซอยวิภาวดี 16   ล่าสุด จนท.เคลื่อนย้ายพ้นกีดขวางแล้ว
+
+Cr.JS 100","Update car accident was moved out of locale at the entrance of Soi Vibhavadi Rangsit 16 Chomphon Chatuchak Bangkok.
+
+Cr.JS 100",13.796870116602,100.56126907468,3,2026-08-30 00:20:39,2026-08-30 01:20:39,itic.nirat
+965875,เหตุเพลิงไหม้ภายในอาคารร้าง ซอยรามคำแหง 65,Fire at Ramkhamhaeng 65,"วันที่ 29 สิงหาคม 2569 เวลา 23.35 น. รับแจ้งจากสายด่วน 199 เหตุเพลิงไหม้บ้านเรือนประชาชน ซอยรามคำแหง 65 ถนนรามคำแหง แขวงหัวหมาก เขตบางกะปิ เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยหัวหมาก กำลังไปที่เกิดเหตุ 
+
+Cr.ศูนย์วิทยุพระราม199","Fire has broken out inside an abandoned building in Soi Ramkhamhaeng 65 on Ramkhamhaeng Road,  Phlapphla Wang Thonglang Bangkok 
+
+Cr. Radio Center Rama 199",13.763454396467,100.62387853861,15,2026-08-30 00:25:02,2026-08-30 01:25:02,itic.nirat
+965877,คืบหน้าเหตุเพลิงไหม้ภายในอาคารร้าง ซอยรามคำแหง 65,Fire at Ramkhamhaeng 65,"เหตุเพลิงไหม้ภายในอาคารร้าง ซอยรามคำแหง 65 ถนนรามคำแหง แขวงหัวหมาก เขตบางกะปิ เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยหัวหมาก  ถึงที่เกิดเหตุ เจ้าหน้าที่อยู่ระหว่างดำเนินการ
+
+Cr.ศูนย์วิทยุพระราม199","Fire has broken out inside an abandoned building in Soi Ramkhamhaeng 65 on Ramkhamhaeng Road, Huamark Fire and Rescue Station personnel have arrived at the scene and are currently working to extinguish the blaze.
+
+Cr. Radio Center Rama 199",13.763443975696,100.62387317419,15,2026-08-30 00:31:50,2026-08-30 01:31:50,itic.nirat
+965878,คืบหน้าเหตุเพลิงไหม้ภายในอาคารร้าง ซอยรามคำแหง 65,Fire at Ramkhamhaeng 65,"เหตุเพลิงไหม้ภายในอาคารร้าง ซอยรามคำแหง 65 ถนนรามคำแหง แขวงหัวหมาก เขตบางกะปิ เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยหัวหมาก  ถึงที่เกิดเหตุ ขณะนี้เพลิงสงบ รายละเอียดเพิ่มเติมอยู่ระหว่างการตรวจสอบ
+
+Cr.ศูนย์วิทยุพระราม199","Update now fireman can control fire inside an abandoned building in Soi Ramkhamhaeng 65 on Ramkhamhaeng Road,  Phlapphla Wang Thonglang Bangkok 
+
+Cr. Radio Center Rama 199",13.76343876531,100.62386244535,15,2026-08-30 00:34:14,2026-08-30 01:34:14,itic.nirat
+965879,อุบัติเหตุ ถนนวิภาวดีรังสิต ขาเข้า,Accident at Vibhavadi Rangsit Rd.,"อุบัติเหตุ รถจยย. ไม่ทราบคู่กรณี ถนนวิภาวดีรังสิต ขาเข้า จากแยกสุทธิสาร ไป ใต้ทางด่วนดินแดง ที่บริเวณหน้าสวนป่าวิภาวดี มีผู้บาดเจ็บ จนท.กำลังดำเนินการ 
+
+Cr.JS 100","Motorcycle accident blocking traffic lanes in front of Vibhavadi Forest Park on inbound Vibhavadi Rangsit Rd. Samsen Nai Phaya Thai Bangkok.
+
+Cr.JS 100",13.77169317319,100.55253177881,3,2026-08-30 00:38:02,2026-08-30 01:38:02,itic.nirat
+965880,คืบหน้าอุบัติเหตุ ถนนวิภาวดีรังสิต ขาเข้า,Accident at Vibhavadi Rangsit Rd.,"คืบหน้าอุบัติเหตุ รถจยย. ไม่ทราบคู่กรณี ถนนวิภาวดีรังสิต ขาเข้า จากแยกสุทธิสาร ไป ใต้ทางด่วนดินแดง ที่บริเวณหน้าสวนป่าวิภาวดี   ล่าสุด จนท.เคลื่อนย้ายพ้นกีดขวางแล้ว
+
+Cr.JS 100","Update motorcycle accident was moved out of locale in front of Vibhavadi Forest Park on inbound Vibhavadi Rangsit Rd. Samsen Nai Phaya Thai Bangkok.
+
+Cr.JS 100",13.771633255861,100.5525290966,3,2026-08-30 00:40:18,2026-08-30 01:40:18,itic.nirat
+965882,เหตุไฟฟ้าลัดวงจรที่หม้อแปลงไฟฟ้า ซอยสุขุมวิท 33 (ซอยแดงอุดม),Short circuit at Soi Sukhumvit 33,"เหตุไฟฟ้าลัดวงจรที่หม้อแปลงไฟฟ้า ซอยสุขุมวิท 33 ถนนสุขุมวิท แขวงคลองตันเหนือ เขตวัฒนา เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยคลองเตย กำลังไปที่เกิดเหตุ
+
+Cr.ศูนย์วิทยุพระราม199","Short circuit at an electrical transformer in Soi Sukhumvit 33 on Sukhumvit Road, Khlong Tan Nuea Vadhana Bangkok.
+
+Cr. Radio Center Rama 199",13.733017254313,100.5672571063,15,2026-08-30 01:36:38,2026-08-30 02:36:38,itic.nirat
+965883,คืบหน้าเหตุไฟฟ้าลัดวงจรที่หม้อแปลงไฟฟ้า ซอยสุขุมวิท 33 (ซอยแดงอุดม),Short circuit at Soi Sukhumvit 33,"เหตุไฟฟ้าลัดวงจรที่หม้อแปลงไฟฟ้า ซอยสุขุมวิท 33 ถนนสุขุมวิท แขวงคลองตันเหนือ เขตวัฒนา เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยคลองเตย ถึงที่เกิดเหตุ ขณะนี้เพลิงสงบ ประสานเจ้าหน้าที่การไฟฟ้านครหลวงเข้ารับดำเนินการแก้ไขต่อไป
+
+Cr.ศูนย์วิทยุพระราม199","Update now fireman can control electrical short circuit at an electrical transformer in Soi Sukhumvit 33 on Sukhumvit Road, Khlong Tan Nuea Vadhana Bangkok.
+
+Cr. Radio Center Rama 199",13.73301204325,100.5672544241,15,2026-08-30 01:38:50,2026-08-30 02:38:50,itic.nirat
+965887,อุบัติเหตุ ถนนกาญจนาภิเษก ขาออก (ถนนวงแหวนรอบนอกด้านตะวันตก),Accident at Kanchana Phisek Rd.,"อุบัติเหตุ ถนนกาญจนาภิเษก ช่วงสะพานข้ามคลองมหาสวัสดิ์ ไป ต่างระดับบางคูเวียง ตรงข้ามโรงเรียนเทพศิรินทร์นนทบุรี รถจักรยานยนต์ชนกับรถปิคอัพ มีผู้เสียชีวิต 1 คน จนท.กำลังดำเนินการ รถติด
+
+Cr.JS 100","Motorcycle accident blocking traffic lanes opposite Thepsirin Nonthaburi School on outbound Kanchana Phisek Rd. Bang Khu Wiang Bang Kruai Nonthaburi.
+
+Cr.JS 100",13.813660182366,100.41158571839,3,2026-08-30 05:07:16,2026-08-30 06:07:16,itic.nirat
+965888,รถติด ถนนกาญจนาภิเษก ขาออก(ถนนวงแหวนรอบนอกด้านตะวันตก),Heavy traffic  at Kanchana Phisek Rd.,"อุบัติเหตุ ถนนกาญจนาภิเษก ช่วงสะพานข้ามคลองมหาสวัสดิ์ ไป ต่างระดับบางคูเวียง ตรงข้ามโรงเรียนเทพศิรินทร์นนทบุรี รถจักรยานยนต์ชนกับรถปิคอัพ มีผู้เสียชีวิต 1 คน จนท.กำลังดำเนินการ รถติด
+
+Cr.JS 100","Heavy traffic due to motorcycle accident blocking traffic lanes opposite Thepsirin Nonthaburi School on outbound Kanchana Phisek Rd. Bang Khu Wiang Bang Kruai Nonthaburi.
+
+Cr.JS 100",13.813399718969,100.4115588963,10,2026-08-30 05:07:26,2026-08-30 06:07:26,itic.nirat
+965889,คืบหน้าอุบัติเหตุ ถนนกาญจนาภิเษก ขาออก (ถนนวงแหวนรอบนอกด้านตะวันตก),Accident at Kanchana Phisek Rd.,"คืบหน้าอุบัติเหตุ ถนนกาญจนาภิเษก ช่วงสะพานข้ามคลองมหาสวัสดิ์ ไป ต่างระดับบางคูเวียง ตรงข้ามโรงเรียนเทพศิรินทร์นนทบุรี รถจักรยานยนต์ชนกับรถปิคอัพ  ล่าสุด จนท.เคลื่อนย้ายพ้นกีดขวางแล้ว
+
+Cr.JS 100","Update motorcycle accident was moved out of locale opposite Thepsirin Nonthaburi School on outbound Kanchana Phisek Rd. Bang Khu Wiang Bang Kruai Nonthaburi.
+
+Cr.JS 100",13.813602880444,100.41158035398,3,2026-08-30 05:07:37,2026-08-30 06:07:37,itic.nirat
+965890,อุบัติเหตุ ถนนเทพรัตน ขาเข้า,Accident at Debaratna Rd.,"อุบัติเหตุ ถนนเทพรัตน ช่วงต่างระดับวัดสลุด ไป โรงพยาบาลดับเบิลยูไอเฮชอินเตอร์เนชั่นแนล หน้าตึกเนชั่น รถจักรยานยนต์ชนกัน 3 คัน มีผู้บาดเจ็บ 6 คน จนท.กำลังดำเนินการ รถติด
+
+Cr.JS 100","Motorcycle accident blocking traffic lanes in front of the Nation Building on inbound Debaratna Rd. Bangna Tai Bang Na Bangkok.
+
+Cr.JS 100",13.664202908603,100.65161123872,3,2026-08-30 05:14:49,2026-08-30 06:14:49,itic.nirat
+965891,รถติด ถนนเทพรัตน ขาเข้า,Heavy traffic  at Debaratna Rd.,"อุบัติเหตุ ถนนเทพรัตน ช่วงต่างระดับวัดสลุด ไป โรงพยาบาลดับเบิลยูไอเฮชอินเตอร์เนชั่นแนล หน้าตึกเนชั่น รถจักรยานยนต์ชนกัน 3 คัน มีผู้บาดเจ็บ 6 คน จนท.กำลังดำเนินการ รถติด
+
+Cr.JS 100","Heavy traffic due to motorcycle accident blocking traffic lanes in front of the Nation Building on inbound Debaratna Rd. Bangna Tai Bang Na Bangkok.
+
+Cr.JS 100",13.664197696015,100.65162733197,10,2026-08-30 05:15:18,2026-08-30 06:15:18,itic.nirat
+965892,คืบหน้าอุบัติเหตุ ถนนเทพรัตน ขาเข้า,Accident at Debaratna Rd.,"คืบหน้าอุบัติเหตุ ถนนเทพรัตน ช่วงต่างระดับวัดสลุด ไป โรงพยาบาลดับเบิลยูไอเฮชอินเตอร์เนชั่นแนล หน้าตึกเนชั่น รถจักรยานยนต์ชนกัน 3 คัน  ล่าสุด จนท.เคลื่อนย้ายพ้นกีดขวางแล้ว
+
+Cr.JS 100","Update motorcycle accident was moved out of locale in front of the Nation Building on inbound Debaratna Rd. Bangna Tai Bang Na Bangkok.
+
+Cr.JS 100",13.664210727486,100.65153077245,3,2026-08-30 05:15:30,2026-08-30 06:15:30,itic.nirat
+965896,เหตุเพลิงไหม้รถจักรยานยนต์ ซอยพระราม 9 ซอย 60,Fire on motorcycle at Rama IX Soi 60,"วันที่ 30 สิงหาคม 2569 เวลา 05.09 น. รับแจ้งจากสายด่วน 199 เหตุเพลิงไหม้รถจักรยานยนต์ ซอยพระราม 9 ซอย 60 ถนนพระราม 9 เขตสวนหลวง แขวงพัฒนาการ เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยหัวหมาก กำลังไปที่เกิดเหตุ
+
+Cr.ศูนย์วิทยุพระราม199","Fire on motorcycle in Soi Rama IX Soi 60 on Rama IX Rd.,  Phatthanakan Suan Luang Bangkok.
+
+Cr. Radio Center Rama 199",13.741492894417,100.6324441731,15,2026-08-30 05:27:56,2026-08-30 06:27:56,itic.nirat
+965897,คืบหน้าเหตุเพลิงไหม้รถจักรยานยนต์ ซอยพระราม 9 ซอย 60,Fire on motorcycle at Rama IX Soi 60,"เหตุเพลิงไหม้รถจักรยานยนต์ ซอยพระราม 9 ซอย 60 ถนนพระราม 9 เขตสวนหลวง แขวงพัฒนาการ เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยหัวหมาก ถึงที่เกิดเหตุ อยู่ระหว่างตรวจสอบ
+
+Cr.ศูนย์วิทยุพระราม199","Fire on motorcycle in Soi Rama IX Soi 60 on Rama IX Rd., Hua Mak Fire and Rescue Station personnel have arrived at the scene and are currently investigating.
+
+Cr. Radio Center Rama 199",13.741503316165,100.63243344426,15,2026-08-30 05:30:47,2026-08-30 06:30:47,itic.nirat
+965898,คืบหน้าเหตุเพลิงไหม้รถจักรยานยนต์ ซอยพระราม 9 ซอย 60,Fire on motorcycle at Rama IX Soi 60,"เวลา 05.26 น. เหตุเพลิงไหม้รถจักรยานยนต์ ซอยพระราม 9 ซอย 60 ขณะนี้เพลิงสงบ เป็นรถจักรยานยนต์ ยี่ห้อฮอนด้าเวฟ รายละเอียดเพิ่มเติมอยู่ระหว่างการตรวจสอบ
+
+Cr.ศูนย์วิทยุพระราม199","Update now fireman can control fire on motorcycle in Soi Rama IX Soi 60 on Rama IX Rd.,  Phatthanakan Suan Luang Bangkok.
+
+Cr. Radio Center Rama 199",13.741500710728,100.63243880868,15,2026-08-30 05:33:08,2026-08-30 06:33:08,itic.nirat
+965899,อุบัติเหตุ ถนนเทพรัตน ขาออก,Accident at Debaratna Rd.,"ถนนเทพรัตน ขาออก ก่อนถึง `เซ็นทรัล พลาซ่า บางนา` มีอุบัติเหตุ (จยย. ชนกับ รถแท็กซี่) กีดขวางการจราจร เลนซ้าย ในช่องคู่ขนาน 
+
+Cr.@Traffic_1197","Cars accident blocking the left lane before Central Bang Na on outbound Debaratana Rd. 
+
+Cr.@Traffic_1197",13.668401611136,100.63308656216,3,2026-08-30 06:27:03,2026-08-30 07:27:03,itic.kittaya@gmail.com
+965900,อุบัติเหตุ ถนนสุขุมวิท ขาเข้า,Accident at Sukhumvit Rd.,"ถนนสุขุมวิท ขาเข้า เชิงทางลง `สะพานข้ามคลองพระโขนง` มีอุบัติเหตุ (จยย.เสียหลักล้ม) กีดขวางการจราจร เลนขวา
+
+Cr.@Traffic_1197","Car accident blocking the right lane on the way down from Khlong Phra Khanong Bridge on inbound Sukhumvit Rd.
+
+Cr.@Traffic_1197",13.711283510895,100.59658974409,3,2026-08-30 06:28:27,2026-08-30 07:28:27,itic.kittaya@gmail.com
+965901,คืบหน้าอุบัติเหตุ ถนนสุขุมวิท ขาเข้า,Accident at Sukhumvit Rd.,"ถนนสุขุมวิท ขาเข้า เชิงทางลง `สะพานข้ามคลองพระโขนง` ก่อนหน้านี้ มีอุบัติเหตุ (จยย.เสียหลักล้ม) ล่าสุด จนท.เคลื่อนย้ายพ้นกีดขวางแล้ว
+
+Cr.@Traffic_1197","Update motorcycle accident was moved out of locale on the way down from Khlong Phra Khanong Bridge on inbound Sukhumvit Rd.
+
+Cr.@Traffic_1197",13.711293933986,100.59657633305,3,2026-08-30 07:47:49,2026-08-30 08:47:49,itic.kittaya@gmail.com
+965902,คืบหน้าอุบัติเหตุ ถนนเทพรัตน ขาออก,Accident at Debaratna Rd.,"ถนนเทพรัตน ขาออก ก่อนถึง `เซ็นทรัล พลาซ่า บางนา` ก่อนหน้านี้ มีอุบัติเหตุ (จยย. ชนกับ รถแท็กซี่) ล่าสุด จนท.เคลื่อนย้ายพ้นกีดขวางแล้ว
+
+Cr.@Traffic_1197","Update car accident was moved out of locale before Central Bang Na on outbound Debaratana Rd.
+
+Cr.@Traffic_1197",13.668417248622,100.63306108117,3,2026-08-30 07:48:23,2026-08-30 08:48:23,itic.kittaya@gmail.com
+965903,ประกาศ แนะเลี่ยงเส้นทาง โรงเรียนบดินทรเดชา (สิงห์ สิงหเสนี),Information Bodindecha (Sing Singhaseni) School,"ประกาศ แนะเลี่ยงเส้นทาง โรงเรียนบดินทรเดชา (สิงห์ สิงหเสนี)
+เป็นสนามสอบคัดเลือกนักเรียนเข้าโครงการโอลิมปิกวิชาการ สอวน. ประจำปี 2569
+ในวันอาทิตย์ที่ 30 สิงหาคม 2569 
+แนะเผื่อเวลาให้มาถึงสนามสอบล่วงหน้า
+
+Cr.JS100","Announcement: Motorists are advised to avoid the Bodindecha (Sing Singhaseni) School area.
+This school is the examination venue for the 2026 Science Olympiad in Academic Excellence Program (SOWAN) selection exam on Sunday, August 30, 2026.
+Motorists are advised to arrive at the examination venue in advance.
+
+Cr.JS100",13.768208824781,100.61490520835,8,2026-08-30 08:51:53,2026-08-30 16:00:00,itic.adisak
+965904,อุบัติเหตุ พระโขนงใต้,Accident at Soi Sukhumvit 62,"เกิดอุบัติเหตุรถจักรยานยนต์ ที่ ซอยสุขุมวิท 62 (ซอยสามภพนฤมิตร) แขวงพระโขนงใต้ เขตพระโขนง กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Motorcycle accident in Soi Sukhumvit 62 (Soi Sam Phop Naruemit) Phra Khanong Tai, Phra Khanong, Bangkok.
+
+Cr.RVP",13.694807935592,100.60531362891,3,2026-08-30 08:47:00,2026-08-30 09:47:00,RVP
+965906,ประกาศ เลี่ยงเส้นทาง โรงเรียนเตรียมอุดมศึกษา พัฒนาการ,Information at Triamudom Suksa Phatthanakan,"ประกาศ เลี่ยงเส้นทาง! รถติดหนัก โรงเรียนเตรียมอุดมศึกษา พัฒนาการ มีจัดสอบคัดเลือกนักเรียนเข้าค่าย สอวน. ค่าย 1 ขณะนี้การจราจรถนนพัฒนาการ ขาออก ติดหนัก ท้ายแถวสะสมอยู่ที่เชิงทางขึ้นสะพานข้ามแยกศรีพัฒน์ ส่วนขาเข้า ก็ติดรถเลี้ยวเข้าซอยพัฒนาการ 58
+
+Cr.FM91","Announcement: Avoid this route. Heavy traffic is expected due to a selection exam for the first camp of the Science Olympiad in Pattanakarn School. Currently, outbound traffic on Pattanakarn Road is heavily congested, with queues extending back to the base of the Sripat intersection overpass. Inbound traffic is also congested due to vehicles turning into Soi Pattanakarn 58.
+
+Cr.FM91",13.729230083974,100.64634472132,8,2026-08-30 08:59:21,2026-08-30 09:59:21,itic.adisak
+965908,อุบัติเหตุ ทางพิเศษศรีรัช,Accident at Sri Rat Exp.,"อุบัติเหตุ ทางพิเศษศรีรัช จากด่านสุรวงศ์ มุ่งหน้าด่านหัวลำโพง ที่ก่อนถึงทางลงหัวลำโพง เล็กน้อย ล่าสุด จนท.เปิดการจราจรได้ 1 ช่องทางขวา
+
+Cr.JS100","Car accident blocking traffic the lane at before the way down Hua Lamphong exit on Sri Rat Exp.
+
+Cr.JS100",13.732191299434,100.51760941744,3,2026-08-30 10:00:55,2026-08-30 11:00:55,itic.adisak
+965909,รถติด ถนนศรีนครินทร์,Heavy traffic  at Srinagarindra Rd.,"ถนนศรีนครินทร์ ขาเข้า แยกบางกะปิ ขึ้นสะพานข้ามคลองแสนแสบ เข้าแยกบางกะปิ รถหนาแน่น
+
+Cr.itic.adisak","Heavy traffic heading to Bangkapi Intersection on inbound Srinagarindra Rd.
+
+Cr.itic.adisak",13.765753467707,100.64529061317,10,2026-08-30 10:03:37,2026-08-30 11:03:37,itic.adisak
+965911,อุบัติเหตุ ถนนรามอินทรา,Accident at Rarm Inthra Rd.,"อุบัติเหตุ ถนนรามอินทรา ขาเข้า ช่วงตรงข้ามห้างแฟชั่นไอส์แลนด์ รถปิคอัพพลิกตะแคง บาดเจ็บ 2 คน จนท.นำส่ง รพ.อินทรารัตน์ อยู่ระหว่างรอรถยก
+
+Cr.JS 100","Car accident blocking the lane opposite Fashion Island on inbound Ram Inthra Rd.
+
+Cr.JS 100",13.82460328883,100.67684143782,3,2026-08-30 10:32:55,2026-08-30 11:32:55,itic.adisak
+965912,รถติด ถนนสุขุมวิท,Heavy traffic  at Sukhumvit Rd.,"รถติด ถนนสุขุมวิท ขาเข้า-ออก ผ่านอิมพีเรียลเวิลด์ สำโรง
+
+Cr.itic.adisak","Heavy traffic past in front of Imperial World Samrong area on inbound-outbound Sukhumvit Rd.
+
+Cr.itic.adisak",13.649801390215,100.59717714787,10,2026-08-30 10:51:21,2026-08-30 11:51:21,itic.adisak
+965913,รถติด ถนนเพชรบุรี,Heavy traffic  at Phetchaburi Rd.,"รถติด ถนนเพชรบุรี ขาออก แยกราชเทวี มุ่งหน้า แยกประตูน้ำ รถหนาแน่นเคลื่อนตัวช้า
+
+Cr.itic.adisak","Heavy traffic due to road closures and diversions at Ratchathewi Intersection on Phetchaburi Rd.
+
+Cr.itic.adisak",13.750241788765,100.5404470861,10,2026-08-30 10:53:06,2026-08-30 11:53:06,itic.adisak
+965918,รถติด ถนนพญาไท,Heavy traffic  at Phayathai Rd.,"รถติด ถนนพญาไท จาก แยกพญาไท มุ่งหน้า แยกปทุมวัน รถติดขัด
+
+Cr.itic.adisak","19 ก.ค. 69 12:47โดย itic.adisak
+[ แก้ไขข้อมูล | ลบ ]
+รถติด ถนนพญาไท จาก แยกพญาไท มุ่งหน้า แยกปทุมวัน รถติดขัด
+
+Cr.itic.adisak
+
+Heavy traffic heading to Pathum Wan Intersection on Phaya Thai Rd.
+
+Cr.itic.adisak",13.747577813701,100.53095072508,10,2026-08-30 12:30:02,2026-08-30 13:30:02,itic.adisak
+965921,รถติด ถนนราชวิถี,Heavy traffic  at Ratchawithi Rd.,"รถติด ถนนราชวิถี ขาออก แยกการเรือน มุ่งหน้าแยกซังฮี้ รถติดขัดมากท้ายสะสมแยกราชวิถี วันนี้ที่ ม.ราชภัฏสวนสุนันทา มีกำหนดการฝึกซ้อมใหญ่พิธีพระราชทานปริญญาบัตร
+
+Cr.FM91","Heavy traffic from the Klong Ruean intersection, head towards the Sang Hi intersection on outbound Ratchawithi Rd.
+
+Cr.FM91",13.776939787501,100.51153555512,10,2026-08-30 13:43:52,2026-08-30 14:43:52,itic.adisak
+965924,รถติด ถนนเจริญนคร,Heavy traffic  at Charoen Nakhon Rd.,"รถติด ถนนเจริญนคร หน้า ไอคอนสยาม ปริมาณรถเยอะ เคลื่อนตัวช้าปริมาณรถที่เข้าห้างมีจำนวนมาก
+
+Cr.JS100","Heavy traffic front of Icon Siam on outbound Charoen Nakhon Rd.
+
+Cr.JS100",13.726947590578,100.50909742713,10,2026-08-30 14:35:18,2026-08-30 15:35:18,itic.adisak
+965925,รถติด ถนนงามวงศ์วาน,Heavy traffic  at Ngamwongwan Rd.,"รถติด ถนนงามวงศ์วาน ขาออก จากหน้าเดอะมอลล์ ไปแคราย 
+
+Cr.FM91","Heavy traffic in front of The Mall Ngamwongwan on outbound Ngamwongwan Rd.
+
+Cr.FM91",13.856399580299,100.54236754775,10,2026-08-30 14:36:26,2026-08-30 15:36:26,itic.adisak
+965927,รถติด ถนนลาดพร้าว,Heavy traffic  at Lad Phrao Rd.,"รถติด ถนนลาดพร้าว มุ่งหน่า แยกบางกะปิ รถหนาแน่น
+
+Cr.itic.adisak","Heavy traffic heading to Bangkapi Intersection on Lad Phrao Rd.
+
+Cr.itic.adisak",13.76627319796,100.64493387938,10,2026-08-30 15:49:51,2026-08-30 16:49:51,itic.adisak
+965931,อุบัติเหตุ แสมดำ,Accident at Tha Kham Rd.,"เกิดอุบัติเหตุรถจักรยานยนต์ ที่ ถนนท่าข้าม แขวงแสมดำ เขตบางขุนเทียน กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Motorcycle accident on Tha Kham Rd. Samae Dam Bang Khun Thian. Information from The Central Accident Victims Protection Company Limited.
+
+Cr.RVP",13.651989497672,100.44344097376,3,2026-08-30 15:31:00,2026-08-30 16:31:00,RVP
+965934,รถเสีย สะพานพระราม 3,Car breakdown at Rama III Bridge,"รถเสีย สะพานพระราม3 ขาเข้า รถแท็กซี่จอดเสีย เลนซ้าย มุ่งหน้าถนน
+
+Cr. JS100","Car breakdown blocking the left lane on inbound Rama III Bridge.
+
+Cr. JS100",13.701460845496,100.49244895577,1,2026-08-30 17:05:13,2026-08-30 18:05:13,itic.adisak
+965935,รถติด ทางพิเศษศรีรัช,Heavy traffic  at Sri Rat Exp.,"รถติด ทางพิเศษศรีรัช ขาเข้า มาจากโค้ง บขส. มุ่งหน้าพระราม 6 ไปต่างระดับพญาไท รถหนาแน่น ปัญหา เบี่ยงซ้ายไปทางร่วมมักกะสัน ถ้าตรงไปบางโคล่ ไม่ติด กลับกัน จากบางโคล่ ไปพระราม 6 ท้ายสะสมเหนือวัดดวงแข 
+
+Cr.FM91","Heavy traffic  coming from the bus terminal curve, head towards Rama VI Road and then to the Phaya Thai interchange on inbound Sri Rat Exp.
+
+Cr.FM91",13.795072783834,100.53949356079,10,2026-08-30 17:07:11,2026-08-30 18:07:11,itic.adisak
+965938,อุบัติเหตุ บางโพงพาง,Accident at Rama III Rd.,"เกิดอุบัติเหตุรถจักรยานยนต์ ที่ ถนนพระราม 3 แขวงบางโพงพาง เขตยานนาวา กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Motorcycle accident on Rama III Rd., Bang Phongphang, Yan Nawa, Bangkok.
+
+Cr.RVP",13.693149239153,100.54731622338,3,2026-08-30 17:20:00,2026-08-30 18:20:00,RVP
+965940,ฝนตก ถนนติวานนท์,Raining at Tiwanon Rd.,"ฝนตก ถนนติวานนท์ ต.บางกระสอ อ.เมืองนนทบุรี จ.นนทบุรี 
+
+Cr.FM91trafficpro","Raining at Tiwanon Rd. Bang Kraso Mueang Nonthaburi Nonthaburi. ., so drivers should be careful.
+
+Cr.FM91trafficpro",13.858898252688,100.52156031132,5,2026-08-30 18:04:48,2026-08-30 19:04:48,itic.nirat
+965941,น้ำท่วม ถนนติวานนท์,Flood at Tiwanon Rd.,"น้ำท่วม ถนนติวานนท์ ต.บางกระสอ อ.เมืองนนทบุรี จ.นนทบุรี 
+
+Cr.FM91trafficpro","Flooding on Tiwanon Rd. Bang Kraso Mueang Nonthaburi Nonthaburi.
+
+Cr.FM91trafficpro",13.872669764849,100.51699653268,6,2026-08-30 18:08:41,2026-08-30 19:08:41,itic.nirat
+965947,รถติด ถนนจรัญสนิทวงศ์ ขาเข้า,Heavy traffic  at Charan Sanitwong Rd.,"18.34 น. ถนนจรัญสนิทวงศ์ ช่วงแยกบางขุนนนท์ มุ่งหน้าแยกไฟฉาย การจราจรเคลื่อนตัวช้า
+
+Cr.JS 100","Heavy traffic at Bang Khun Non intersection heading towards Fai Chai intersection on inbound Charan Sanitwong Rd. Ban Chang Lor Bangkok Noi Bangkok.
+
+Cr.JS 100",13.76204758819,100.47232702374,10,2026-08-30 18:42:54,2026-08-30 19:42:54,itic.nirat
+965948,รถติด ทางพิเศษเฉลิมมหานคร,Heavy traffic at Chaloem Mahanakhon Exp.,"18.12 น. (30 ส.ค.69) ทางพิเศษเฉลิมมหานคร (ด่วนขั้น 1) ท่าเรือ โค้งอาจณรงค์ มุ่งหน้าบางนา ฝนตก รถหนาแน่น 
+
+Cr.FM91trafficpro","Heavy traffic at At Narong curve heading towards Bang Na on Chaloem Mahanakhon Exp. Khlong Toei Khlong Toei Bangkok.
+
+Cr.FM91trafficpro",13.713017646194,100.57489603758,10,2026-08-30 18:47:05,2026-08-30 19:47:05,itic.nirat
+965949,ฝนตก ทางพิเศษเฉลิมมหานคร,Raining at Chaloem Mahanakhon Exp.,"18.12 น. (30 ส.ค.69) ทางพิเศษเฉลิมมหานคร (ด่วนขั้น 1) ท่าเรือ โค้งอาจณรงค์ มุ่งหน้าบางนา ฝนตก รถหนาแน่น 
+
+Cr.FM91trafficpro","Raining at  Chaloem Mahanakhon Exp. Khlong Toei Khlong Toei Bangkok., so drivers should be careful.
+
+Cr.FM91trafficpro",13.712944685087,100.57505697012,5,2026-08-30 18:49:14,2026-08-30 19:49:14,itic.nirat
+965950,เหตุไฟฟ้าลัดวงจรที่มิเตอร์ไฟฟ้านอกตัวบ้าน ถนนอาจณรงค์,Short circuit at Atnarong Rd.,"วันที่ 30 สิงหาคม 2569 เวลา 18.35 น. รับแจ้งจากสายด่วน 199 เหตุไฟฟ้าลัดวงจรที่มิเตอร์ไฟฟ้านอกตัวบ้าน ชุมชนร่มเกล้า ถนนอาจณรงค์ แขวงคลองเตย เขตคลองเตย เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยคลองเตย กำลังไปที่เกิดเหตุ 
+
+Cr.ศูนย์วิทยุพระราม199","Short circuit at the outdoor electricity meter in Rom Klao community on Atnarong Rd. Khlong Toei Khlong Toei Bangkok.
+
+Cr. Radio Center Rama 199",13.713391571511,100.56822806597,15,2026-08-30 18:53:03,2026-08-30 19:53:03,itic.nirat
+965951,คืบหน้าเหตุไฟฟ้าลัดวงจรที่มิเตอร์ไฟฟ้านอกตัวบ้าน ถนนอาจณรงค์,Short circuit at Atnarong Rd.,"เหตุไฟฟ้าลัดวงจรที่มิเตอร์ไฟฟ้านอกตัวบ้าน ชุมชนร่มเกล้า ถนนอาจณรงค์ แขวงคลองเตย เขตคลองเตย เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยคลองเตย ถึงที่เกิดเหตุ ประสานเจ้าหน้าที่การไฟฟ้านครหลวงเข้ารับดำเนินการแก้ไขต่อไป
+
+Cr.ศูนย์วิทยุพระราม199","Short circuit at the outdoor electricity meter in Rom Klao community on Atnarong Rd., Khlong Toei Fire and Rescue Station personnel arrived at the scene and coordinated with the Metropolitan Electricity Authority to resolve the issue.
+
+Cr. Radio Center Rama 199",13.713412417504,100.56821733713,15,2026-08-30 18:53:27,2026-08-30 19:53:27,itic.nirat
+965957,อุบัติเหตุ บางมด,Accident at Rama II Soi 33,"เกิดอุบัติเหตุรถจักรยานยนต์ ที่ พระราม 2 ซอย 33 แขวงบางมด เขตจอมทอง กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Motorcycle accident in Soi 33 on Rama II Rd., Bang Mot, Chom Thong, Bangkok.
+
+Cr.RVP",13.677206654584,100.46448424459,3,2026-08-30 19:10:00,2026-08-30 20:10:00,RVP
+965959,อุบัติเหตุ ราษฎร์บูรณะ,Accident at Suk Sawat Rd.,"เกิดอุบัติเหตุไม่ใช่รถจักรยานยนต์ ที่ ถนนสุขสวัสดิ์ แขวงราษฎร์บูรณะ เขตราษฎร์บูรณะ กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Cars accident blocking traffic lane on Suk Sawat Rd. Rat Burana Rat Burana Information from The Central Accident Victims Protection Company Limited.
+
+Cr.RVP",13.668659629522,100.51364645362,3,2026-08-30 19:00:00,2026-08-30 20:00:00,RVP
+965962,เหตุตรวจสอบกลุ่มควัน ซอยประชาอุทิศ 27 (ซอยทัศน์เอี่ยม 2),Fire at Pracha Uthit 27,"วันที่ 30 สิงหาคม 2569 เวลา 19.49 น. รับแจ้งจากสายด่วน 199 เหตุตรวจสอบกลุ่มควันภายในชุมชนหลังวัดกลางนา ซอยประชาอุทิศ 27 ถนนประชาอุทิศ แขวงบางมด เขตทุ่งครุ เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยทุ่งครุ กำลังไปที่เกิดเหตุ
+
+Cr.ศูนย์วิทยุพระราม199","A report of smoke being detected in a community behind Wat Klang Na in Soi Pracha Uthit 27 on Pracha Uthit Road, Bang Mot Thung Khru Bangkok.
+
+Cr. Radio Center Rama 199",13.657008123695,100.50897270441,15,2026-08-30 19:54:00,2026-08-30 20:54:00,itic.nirat
+965963,รถเสีย ถนนนราธิวาสราชนครินทร์,Car break down at Narathiwat Ratchanakharin Rd.,ถนนนราธิวาสราชนครินทร์ แขวงสีลม เขตบางรัก กรุงเทพมหานคร รายงานโดย Sagoolchai,Narathiwat Ratchanakharin Rd. Silom Bang Rak Bangkok Report by Sagoolchai,13.722824061827,100.52930652618,1,2026-08-30 19:57:00,2026-08-30 20:57:00,itic_user
+965964,คืบหน้าเหตุตรวจสอบกลุ่มควัน ซอยประชาอุทิศ 27 (ซอยทัศน์เอี่ยม 2),Fire at Pracha Uthit 27,"เหตุตรวจสอบกลุ่มควันภายในชุมชนหลังวัดกลางนา ซอยประชาอุทิศ 27 ถนนประชาอุทิศ แขวงบางมด เขตทุ่งครุ เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยทุ่งครุ ถึงที่เกิดเหตุ อยู่ระหว่างการตรวจสอบ
+
+Cr.ศูนย์วิทยุพระราม199","A report of smoke being detected in a community behind Wat Klang Na in Soi Pracha Uthit 27 on Pracha Uthit Road, Firefighters from Thung Khru Fire and Rescue Station have arrived at the scene and are currently investigating.
+
+Cr. Radio Center Rama 199",13.65702636831,100.5089700222,15,2026-08-30 19:57:34,2026-08-30 20:57:34,itic.nirat
+965965,คืบหน้าเหตุตรวจสอบกลุ่มควัน ซอยประชาอุทิศ 27 (ซอยทัศน์เอี่ยม 2),Fire at Pracha Uthit 27,"เวลา 20.07 น. เหตุตรวจสอบกลุ่มควันภายในชุมชนหลังวัดกลางนา ซอยประชาอุทิศ 27 เพิ่มเติมเจ้าหน้าที่สถานีดับเพลิงและกู้ภัยราษฎร์บูรณะ โทรหาผู้แจ้งไม่สามารถติดต่อได้ และตรวจสอบโดยรอบแล้วไม่มีเหตุดังกล่าว
+
+Cr.ศูนย์วิทยุพระราม199","A report of smoke being detected in a community behind Wat Klang Na in Soi Pracha Uthit 27 on Pracha Uthit Road, Further investigation by the Rat Burana Fire and Rescue Station revealed no such incident by attempting to contact the caller.
+
+Cr. Radio Center Rama 199",13.657043309737,100.50896599889,15,2026-08-30 20:16:42,2026-08-30 21:16:42,itic.nirat
+965974,เพลิงไหม้ ถนนศาลธนบุรี,Fire at San Thonburi Rd.,"เหตุเพลิงบ้านเรือนประชาชน ซอยศาลธนบุรี 37 ถนนศาลธนบุรี แขวงบางหว้า เขตภาษีเจริญ เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยบางแคไปที่เกิดเหตุ
+
+Cr. ศูนย์วิทยุพระราม199","Fire on Soi San Thonburi 37 on San Thonburi Rd., Bang Wa, Phasi Charoen, Bangkok.
+
+Cr. ศูนย์วิทยุพระราม199",13.705437387187,100.42838439345,15,2026-08-30 21:18:19,2026-08-30 22:18:19,itic.pacharasrung
+965975,รถเสีย ถนนเพชรบุรี ขาเข้า,Car breakdown at Phetchaburi Rd.,"ถนนเพชรบุรี ขาเข้า ช่วงแยกประตูน้ำ รถเมล์จอดเสีย ช่างกำลังแก้ไข รถติด
+
+Cr. FM91trafficpro","Car breakdown blocking traffic lane at Pratu Nam Intersection on inbound Phetchaburi Rd.
+
+Cr. FM91trafficpro",13.749834052737,100.54138049483,1,2026-08-30 21:29:47,2026-08-30 22:29:47,itic.pacharasrung
+965977,เพลิงไหม้ ถนนศาลธนบุรี,Fire at San Thonburi Rd.,"เหตุเพลิงบ้านเรือนประชาชน ซอยศาลธนบุรี 37 เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยบางแค ถึงที่เกิดเหตุ ลักษณะที่เกิดเหตุ เป็นทาวน์เฮ้าส์ 2 ชั้น มีกลุ่มควันที่ชั้นบน เจ้าหน้าที่อยู่ระหว่างการใช้น้ำ 
+
+Cr. ศูนย์วิทยุพระราม199","Fire on Soi San Thonburi 37 on San Thonburi Rd., Bang Wa, Phasi Charoen, Bangkok.
+
+Cr. ศูนย์วิทยุพระราม199",13.705291460241,100.42841657996,15,2026-08-30 21:40:37,2026-08-30 22:40:37,itic.pacharasrung
+965978,อุบัติเหตุ สะพานข้ามแยกพญาไท,Accident at Phayathai Overpass,"เกิดอุบัติเหตุรถจักรยานยนต์ ที่ ใกล้เคียง กลางแยกพญาไท ถนนศรีอยุธยา 
+แขวงทุ่งพญาไท เขตราชเทวี กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Motorcycle accident blocking traffic lane on Phayathai Overpass. Thanon Phaya Thai Ratchathewi Bangkok.
+
+Cr.RVP",13.757949559571,100.53438395262,3,2026-08-30 21:45:00,2026-08-30 22:45:00,RVP
+965983,คืบหน้าเพลิงไหม้ ถนนศาลธนบุรี,Fire at San Thonburi Rd.,"เหตุเพลิงบ้านเรือนประชาชน ซอยศาลธนบุรี 37 ขณะนี้เพลิงสงบ รายละเอียดเพิ่มเติมอยู่ระหว่างการตรวจสอบ
+
+Cr. ศูนย์วิทยุพระราม199","Update now fireman can control fire on Soi San Thonburi 37 on San Thonburi Rd., Bang Wa, Phasi Charoen, Bangkok.
+
+Cr. ศูนย์วิทยุพระราม199",13.705155956567,100.42849168181,15,2026-08-30 22:35:03,2026-08-30 23:35:03,itic.pacharasrung
+965984,เหตุไฟฟ้าลัดวงจร ถนนเย็นอากาศ,Short circuit at Yen Akat Rd.,"เหตุไฟฟ้าลัดวงจรที่สายไฟฟ้า ถนนเย็นอากาศ แขวงทุ่งมหาเมฆ เขตสาทร เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยทุ่งมหาเมฆ กำลังไปที่เกิดเหตุ
+
+Cr. ศูนย์วิทยุพระราม199","Short circuit on the power line on Yen Akat Rd., Chong Nonsi, Yan Nawa, Bangkok.
+
+Cr. ศูนย์วิทยุพระราม199",13.714441686115,100.54570555687,15,2026-08-30 22:39:16,2026-08-30 23:39:16,itic.pacharasrung
+965985,คืบหน้าเหตุไฟฟ้าลัดวงจร ถนนเย็นอากาศ,Fire at Yen Akat Rd.,"เหตุไฟฟ้าลัดวงจรที่สายไฟฟ้า ถนนเย็นอากาศ ขณะนี้เพลิงสงบ ประสานการไฟฟ้านครหลวงเข้าดำเนินการแก้ไขต่อไป
+
+Cr. ศูนย์วิทยุพระราม199","Update now fireman can control fire on Yen Akat Rd., Chong Nonsi, Yan Nawa, Bangkok.
+
+Cr. ศูนย์วิทยุพระราม199",13.714358302497,100.54564118385,15,2026-08-30 23:16:36,2026-08-31 00:16:36,itic.pacharasrung
+965987,เหตุไฟฟ้าลัดวงจร ซอยอิสรภาพ 39 (ซอยวัดดงมูลเหล็ก),Short circuit at Soi Itsaraphap 39,"เหตุไฟฟ้าลัดวงจรที่หม้อแปลงไฟฟ้า ซอยอิสรภาพ 39 เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยบางขุนนนท์ ถึงที่เกิดเหตุ มีประกายไฟเล็กน้อย ประสานเจ้าหน้าที่การไฟฟ้านครหลวงเข้าดำเนินการต่อไป
+
+Cr. ศูนย์วิทยุพระราม199","Short circuit in Soi Itsaraphap 39., Ban Chang Lor, Bangkok Noi, Bangkok.
+
+Cr. ศูนย์วิทยุพระราม199",13.752217930638,100.4779073596,15,2026-08-30 23:21:13,2026-08-31 00:21:13,itic.pacharasrung
+965988,เพลิงไหม้ ซอยนนทรี 16 (ซอยเสงี่ยม),Fire at Soi Nonsi 16,"เหตุเพลิงไหม้ภายในอาคาร ซอยนนทรี 16 ถนนนนทรี แขวงช่องนนทรี เขตยานนาวา เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยถนนจันทน์ กำลังไปที่เกิดเหตุ 
+
+Cr. ศูนย์วิทยุพระราม199","Fire on Soi Nonsi 16., Chong Nonsi, Yan Nawa, Bangkok.
+
+Cr. ศูนย์วิทยุพระราม199",13.69351537818,100.54064959288,15,2026-08-30 23:30:27,2026-08-31 00:30:27,itic.pacharasrung
+965989,เหตุเพลิงไหม้ภายในอาคาร ซอยนนทรี 16,Fire at Nonsi 16,"เหตุเพลิงไหม้ภายในอาคาร ซอยนนทรี 16 ถนนนนทรี แขวงช่องนนทรี เขตยานนาวา เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยถนนจันทน์ กำลังไปที่เกิดเหตุ
+
+Cr.ศูนย์วิทยุพระราม199","A fire has broken out inside a building in Soi Nonsi 16 on Nonthri Rd., Chong Nonsi Yan Nawa Bangkok.
+
+ Cr. Radio Center Rama 199",13.693447622958,100.54060935974,15,2026-08-31 00:34:05,2026-08-31 01:34:05,itic.nirat
+965990,คืบหน้าเหตุเพลิงไหม้ภายในอาคาร ซอยนนทรี 16,Fire at Nonsi 16,"เหตุเพลิงไหม้ภายในอาคาร ซอยนนทรี 16 ถนนนนทรี แขวงช่องนนทรี เขตยานนาวา เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยถนนจันทน์ ถึงที่เกิดเหตุ เพลิงกำลังลุกไหม้ เจ้าหน้าที่อยู่ระหว่างใช้น้ำทำการดับ
+
+Cr.ศูนย์วิทยุพระราม199","A fire has broken out inside a building in Soi Nonsi 16 on Nonthri Rd., Firefighters from the Chan Road Fire and Rescue Station arrived at the scene. The fire was still burning, and they are currently using water to extinguish it.
+
+Cr. Radio Center Rama 199",13.693437199076,100.540625453,15,2026-08-31 00:34:34,2026-08-31 01:34:34,itic.nirat
+965991,คืบหน้าเหตุเพลิงไหม้ภายในอาคาร ซอยนนทรี 16,Fire at Nonsi 16,"เหตุเพลิงไหม้ภายในอาคาร ซอยนนทรี 16 ถนนนนทรี แขวงช่องนนทรี เขตยานนาวา เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยถนนจันทน์ ถึงที่เกิดเหตุ ขณะนี้เพลิงสงบ เบื้องต้นในที่เกิดเหตุไม่มีผู้ได้รับบาดเจ็บและไม่มีผู้ติดค้าง รายละเอียดเพิ่มเติมอยู่ระหว่างการตรวจสอบ
+
+Cr.ศูนย์วิทยุพระราม199","Update now fireman can control fire inside a building in Soi Nonsi 16 on Nonthri Rd., Chong Nonsi Yan Nawa Bangkok.
+
+ Cr. Radio Center Rama 199",13.693455440869,100.54062277079,15,2026-08-31 00:34:50,2026-08-31 01:34:50,itic.nirat
+965992,พิธีพระราชทานปริญญาบัตร  สถาบันบัณฑิตพัฒนศิลป์  ศูนย์วัฒนธรรมแห่งประเทศ,Event at Sun Watthanatham Haeng Prathet Thai,"พิธีพระราชทานปริญญาบัตร  สถาบันบัณฑิตพัฒนศิลป์ วันจันทร์ที่ 31 สิงหาคม 2569 :  พิธีพระราชทานปริญญาบัตร ณ หอประชุมใหญ่ ศูนย์วัฒนธรรมแห่งประเทศไทย แนะเลี่ยง ถนนวัฒนธรรม , ถนนเทียมร่วมมิตร , ถนนรัชดาภิเษก  และเส้นทางโดยรอบหากไม่จำเป็น
+
+Cr.FM91trafficpro","The Graduation Ceremony of the Graduate Institute of Fine Arts will be held on Monday, August 31, 2026, at the Main Auditorium, Thailand Cultural Centre. Please avoid Watthana Tham Road, Thiam Ruam Mit Road, Ratchadaphisek Road, and surrounding routes if unnecessary.
+
+Cr.FM91trafficpro",13.766773388391,100.57384997606,13,2026-08-31 00:00:00,2026-08-31 23:59:59,itic.nirat
+965993,รถเสีย ถนนเพชรบุรี ขาเข้า,Car breakdown at Phetchaburi Rd.,"รถเมล์จอดเสีย ถนนเพชรบุรี ขาเข้า ช่วงแยกประตูน้ำ มุ่งหน้าแยกราชเทวี ขณะช่างกำลังแก้ไข รถติด
+
+Cr.FM91trafficpro","Car breakdown blocking traffic lanes at Pratunam intersection on inbound  Phetchaburi Rd. Thanon Phetchaburi Ratchathewi Bangkok.
+
+Cr.FM91trafficpro",13.749955201216,100.54092988372,1,2026-08-31 02:21:23,2026-08-31 03:21:23,itic.nirat
+965994,รถติด ถนนเพชรบุรี ขาเข้า,Heavy traffic  at Phetchaburi Rd.,"รถเมล์จอดเสีย ถนนเพชรบุรี ขาเข้า ช่วงแยกประตูน้ำ มุ่งหน้าแยกราชเทวี ขณะช่างกำลังแก้ไข รถติด
+
+Cr.FM91trafficpro","Heavy traffic due to car breakdown blocking traffic lanes at Pratunam intersection on inbound  Phetchaburi Rd. Thanon Phetchaburi Ratchathewi Bangkok.
+
+Cr.FM91trafficpro",13.749944779844,100.5409245193,10,2026-08-31 02:24:44,2026-08-31 03:24:44,itic.nirat
+965995,คืบหน้ารถเสีย ถนนเพชรบุรี ขาเข้า,Car breakdown at Phetchaburi Rd.,"คืบหน้ารถเสีย ถนนเพชรบุรี ขาเข้า ช่วงแยกประตูน้ำ มุ่งหน้าแยกราชเทวี ล่าสุด จนท. เคลื่อนย้ายพ้นกีดขวางแล้ว
+
+Cr.FM91trafficpro","Update now car breakdown was moved out of locale at Pratunam intersection on inbound  Phetchaburi Rd. Thanon Phetchaburi Ratchathewi Bangkok.
+
+Cr.FM91trafficpro",13.749939569157,100.54091379046,1,2026-08-31 02:26:08,2026-08-31 03:26:08,itic.nirat
+966001,เหตุไฟฟ้าลัดวงจรที่หม้อแปลงไฟฟ้า ซอยอิสรภาพ 39,Short circuit at Itsaraphap 39,"เหตุไฟฟ้าลัดวงจรที่หม้อแปลงไฟฟ้า ซอยอิสรภาพ 39 ถนนอิสรภาพ แขวงบ้านช่างหล่อ เขตบางกอกน้อย เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยบางขุนนนท์ กำลังไปที่เกิดเหตุ
+
+Cr.ศูนย์วิทยุพระราม199","Short circuit at an electrical transformer in Soi Itsaraphap 39 on Issaraphap Road, Ban Chang Lor Bangkok Noi Bangkok.
+
+Cr. Radio Center Rama 199",13.752139771092,100.47678619623,15,2026-08-31 04:11:35,2026-08-31 05:11:35,itic.nirat
+966002,คืบหน้าเหตุไฟฟ้าลัดวงจรที่หม้อแปลงไฟฟ้า ซอยอิสรภาพ 39 (ซอยวัดดงมูลเหล็ก),Short circuit at Itsaraphap 39,"เหตุไฟฟ้าลัดวงจรที่หม้อแปลงไฟฟ้า ซอยอิสรภาพ 39 ถนนอิสรภาพ แขวงบ้านช่างหล่อ เขตบางกอกน้อย เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยบางขุนนนท์ ถึงที่เกิดเหตุ มีประกายไฟเล็กน้อย ประสานเจ้าหน้าที่การไฟฟ้านครหลวงเข้าดำเนินการต่อไป
+
+Cr.ศูนย์วิทยุพระราม199","Short circuit at an electrical transformer in Soi Itsaraphap 39 on Issaraphap Road, Bang Khun Non Fire and Rescue Station personnel arrived at the scene; there was a small fire. They coordinated with the Metropolitan Electricity Authority to handle the situation.
+
+Cr. Radio Center Rama 199",13.752139771092,100.47675937414,15,2026-08-31 04:14:20,2026-08-31 05:14:20,itic.nirat
+966007,เหตุเพลิงไหม้ภายในอาคาร ถนนประชาราษฎร์สาย 2,Fire at Pracharat Sai 2 Rd.,"วันที่ 31 สิงหาคม 2569 เวลา 04.27 น. รับแจ้งจากสายด่วน 199 เหตุเพลิงไหม้ภายในอาคาร ถนนประชาราษฎร์ สาย 2 แขวงบางซื่อ บางซื่อ เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยบางโพ กำลังไปที่เกิดเหตุ
+
+Cr.ศูนย์วิทยุพระราม199","A fire has broken out inside a building on Pracharat Sai 2 Rd. Bang Sue Bang Sue Bangkok.
+
+Cr. Radio Center Rama 199",13.806334538309,100.52590683103,15,2026-08-31 05:32:21,2026-08-31 06:32:21,itic.nirat
+966008,คืบหน้าเหตุเพลิงไหม้ภายในอาคาร ถนนประชาราษฎร์สาย 2,Fire at Pracharat Sai 2 Rd.,"เหตุเพลิงไหม้ภายในอาคาร ถนนประชาราษฎร์ สาย 2 แขวงบางซื่อ บางซื่อ เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยบางโพ ถึงที่เกิดเหตุ จากการสอบถามเจ้าหน้าที่รักษาความปลอดภัยของอาคารแจ้งว่าเหตุเกิดชั้นที่ 22 อยู่ระหว่างดำเนินการ
+
+Cr.ศูนย์วิทยุพระราม199","A fire has broken out inside a building on Pracharat Sai 2 Rd., Bang Pho Fire and Rescue Station personnel arrived at the scene. According to the building`s security guard, the fire occurred on the 22nd floor and is currently being extinguished.
+
+Cr. Radio Center Rama 199",13.806324119451,100.52589610219,15,2026-08-31 05:34:37,2026-08-31 06:34:37,itic.nirat
+966009,คืบหน้าเหตุเพลิงไหม้ภายในอาคาร ถนนประชาราษฎร์สาย 2,Fire at Pracharat Sai 2 Rd.,"เหตุเพลิงไหม้ภายในอาคาร ถนนประชาราษฎร์ สาย 2 ขณะนี้เพลิงสงบ เป็นเพลิงลุกไหม้หิ้งพระ เบื้องต้นที่เกิดเหตุไม่มีผู้ได้รับบาดเจ็บและไม่มีผู้ติดค้าง รายละเอียดเพิ่มเติมอยู่ระหว่างการตรวจสอบ
+
+Cr.ศูนย์วิทยุพระราม199","Update now fireman can control fire inside a building on Pracharat Sai 2 Rd. Bang Sue Bang Sue Bangkok.
+
+Cr. Radio Center Rama 199",13.806313700593,100.52590146661,15,2026-08-31 05:37:38,2026-08-31 06:37:38,itic.nirat
+966011,รถติด ถนนพิบูลสงคราม,Trafficjam at Phibun Songkhram Rd.,ถนนพิบูลสงคราม ขาเข้า การจราจรเคลื่อนตัวช้า ท้ายสะสมยาว,Slow traffic on inbound Phibun Songkhram Rd.,13.821151,100.507806,10,2026-08-31 06:50:09,2026-08-31 07:50:09,itic.iyarin
+966012,รถติด ทางพิเศษศรีรัช,Trafficjam Sri Rat Exp.,ทางพิเศษศรีรัช ขาเข้า มุ่งหน้าพระราม 6 การจราจรติดขัด ท้ายสะสมด่านประชาชื่น,Heavy traffic on inbound Si Rat Expressway.,13.809876,100.549622,10,2026-08-31 06:51:56,2026-08-31 07:51:56,itic.iyarin
+966013,เพลิงไหม้ ซอยโรงเรียนจารุณีวิทย์,Fire at Soi Rongrian Charuni Wit,"เพลิงไหม้บ้านเรือนประชาชน ซอยโรงเรียนจารุณีวิทย์ ถนนบรรทัดทอง แขวงถนนเพชรบุรี เขตราชเทวี เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยพญาไท กำลังไปที่เกิดเหตุ
+
+Cr. ศูนย์วิทยุพระราม199","Fire on Soi Rongrian Charuni Wit. Thanon Phetchaburi, Ratchathewi, Bangkok.
+
+Cr. ศูนย์วิทยุพระราม199",13.753416373747,100.52515044808,15,2026-08-31 07:22:40,2026-08-31 08:22:40,itic.pacharasrung
+966014,รถเสีย ถนนพหลโยธิน ขาเข้า,Car breakdown at Phahon Yothin Rd.,"รถจักรยานยนต์ จอดเสีย ถนนพหลโยธิน ขาเข้า บนสะพานข้ามแยกเสนานิคม ล่าสุดเจ้าหน้าที่ช่วยเหลือเคลื่อนย้ายพ้นการกีดขวางแล้ว ท้ายแถวสะสมหน้าโรงแรมมารวยการ์เด้น
+
+Cr. FM91trafficpro","Update motorcycle breakdown was moved out of locale on Sena Nikhom Overpass on inbound Phahon Yothin Rd.
+
+Cr. FM91trafficpro",13.833841303008,100.57220578194,1,2026-08-31 07:27:26,2026-08-31 08:27:26,itic.pacharasrung
+966016,อุบัติเหตุ รัชดาภิเษก 9,Accident at Ratchada Phisek 9,"เกิดอุบัติเหตุไม่ใช่รถจักรยานยนต์ ที่ รัชดาภิเษก 9 (ซอยรัชดาชัยเฮาส์) แขวงดาวคะนอง เขตธนบุรี กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Cars accident blocking traffic lane on Ratchada Phisek 9. Daokhanong Thon Buri Bangkok.
+
+Cr.RVP",13.709088137172,100.48002362251,3,2026-08-31 06:50:00,2026-08-31 07:50:00,RVP
+966018,อุบัติเหตุ เพชรเกษม 77,Accident at Phet Kasem 77,"เกิดอุบัติเหตุรถจักรยานยนต์ ที่ -  แขวงหนองค้างพลู เขตหนองแขม กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Motorcycle accident blocking traffic lane on Phet Kasem 77. Nong Khang Phlu Nong Khaem Bangkok.
+
+Cr.RVP",13.704929248323,100.36070421338,3,2026-08-31 07:20:00,2026-08-31 08:20:00,RVP
+966020,อุบัติเหตุ ถนนนวมินทร์-รามอินทรา,Accident at Nawamin-Ram Intra Rd.,"เกิดอุบัติเหตุรถจักรยานยนต์ ที่ ถนนนวมินทร์-รามอินทรา แขวงคลองกุ่ม เขตบึงกุ่ม กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Motorcycle accident blocking traffic lane on Nawamin-Ram Intra Rd. Khlong Kum Bueng Kum Bangkok.
+
+Cr.RVP",13.819106405289,100.65422102809,3,2026-08-31 08:15:00,2026-08-31 09:15:00,RVP
+966022,อุบัติเหตุ ถนนพหลโยธิน ขาเข้า,Accident at Sena Nikhom Overpass,"ถนนพหลโยธิน ขาเข้า จากแยกเกษตร มุ่งหน้า แยกรัชโยธิน บนสะพานข้ามแยกเสนานิคม จยย.ล้มไม่ทราบคู่กรณี กีดขวางช่องทางซ้าย การจราจรเคลื่อนตัวช้า
+
+Cr. JS100","Motorcycle accident blocking the left lane on Sena Nikhom Overpass on inbound Phahon Yothin Rd.
+
+Cr. JS100",13.833806143514,100.57216957211,3,2026-08-31 08:56:19,2026-08-31 09:56:19,itic.pacharasrung
+966024,คืบหน้าเพลิงไหม้ ซอยโรงเรียนจารุณีวิทย์,Fire at Soi Rongrian Charuni Wit,"เหตุเพลิงไหม้บ้านเรือนประชาชน ซอยโรงเรียนจารุณีวิทย์ ถนนบรรทัดทอง แขวงถนนเพชรบุรี เขตราชเทวี ขณะนี้เพลิงสงบ รายละเอียดเพิ่มเติมอยู่ระหว่างการตรวจสอบ
+
+Cr.ศูนย์วิทยุพระราม199","Update now fireman can control fire on Soi Rongrian Charuni Wit., Thanon Phetchaburi, Ratchathewi, Bangkok.
+
+Cr.ศูนย์วิทยุพระราม199",13.753405952529,100.52518934011,15,2026-08-31 08:57:03,2026-08-31 09:57:03,itic.pacharasrung
+966025,อุบัติเหตุ ถนนสรรพาวุธ,Accident at Sanphawut Rd.,"ถนนสรรพาวุธ ขาเข้า บริเวณจุดกลับรถไปรษณีย์ บางนา รถจักรยานยนต์ ไม่ทราบคู่กรณี บาดเจ็บสาหัส ช่องทางซ้าย รถติดหนัก ท้ายกระทบข้ามไปทางฝั่งถนนเทพรัตน (บางนา-ตราด) ช่วง กม.2 
+
+Cr. FM91trafficpro","Motorcycle accident blocking the left lane at u-turn Bang Na Post Office on inbound Sanphawut Rd. 
+
+Cr. FM91trafficpro",13.674670856672,100.59847801924,3,2026-08-31 08:58:21,2026-08-31 09:58:21,itic.pacharasrung
+966028,อุบัติเหตุ ถนนพุทธมณฑลสาย 3,Accident at Phutthamonthon Sai 3 Rd.,"เกิดอุบัติเหตุรถจักรยานยนต์ ที่ ถนนพุทธมณฑลสาย 3 แขวงทวีวัฒนา เขตทวีวัฒนา กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Motorcycle accident blocking traffic lane on Phutthamonthon Sai 3 Rd. Thawi Watthana Thawi Watthana Bangkok.
+
+Cr.RVP",13.75441811116,100.36406636238,3,2026-08-31 08:40:00,2026-08-31 09:40:00,RVP
+966034,อุบัติเหตุ ซอยสุขุมวิท 62 (ซอยสามภพนฤมิตร),Accident at Soi Sukhumvit 62,"เกิดอุบัติเหตุรถจักรยานยนต์ ที่ ซอยสุขุมวิท 62 (ซอยสามภพนฤมิตร) แขวงพระโขนงใต้ เขตพระโขนง กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Motorcycle accident blocking traffic lane on Soi Sukhumvit 62. Phra Khanong Tai Phra Khanong Bangkok.
+
+Cr.RVP",13.695445090815,100.60531631112,3,2026-08-31 09:20:00,2026-08-31 10:20:00,RVP
+966038,อุบัติเหตุ ถนนสาธุประดิษฐ์ ขาออก,Accident at Sathu Pradit Rd.,"ถนนสาธุประดิษฐ์ ขาออก บริเวณ `ปากซอยสาธุประดิษฐ์ 37` มีอุบัติเหตุ (จยย. ชนกับ รถนั่งส่วนบุคคล) กีดขวางการจราจร เลนซ้าย 
+
+Cr. JS100","Cars accident blocking the left lane at the entrance of Soi Sathu Pradit 37 on outbound Sathu Pradit Rd. 
+
+Cr. JS100",13.692187632875,100.53410232067,3,2026-08-31 10:34:42,2026-08-31 11:34:42,itic.pacharasrung
+966039,เพลิงไหม้ ถนนพิษณุโลก,Fire at Phitsanulok Rd.,"เพลิงไหม้ภายในอาคาร ใกล้เคียงโรงพยาบาลมิชชั่น ถนนพิษณุโลก แขวงสี่แยกมหานาค เขตดุสิต เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยสามเสน กำลังไปที่เกิดเหตุ
+
+Cr.ศูนย์วิทยุพระราม199","Fire near Mission Hospital on Phitsanulok Rd., Si Yaek Maha Nak, Dusit, Bangkok.
+
+Cr.ศูนย์วิทยุพระราม199",13.757828415229,100.51963716745,15,2026-08-31 10:39:28,2026-08-31 11:39:28,itic.pacharasrung
+966048,รถเสีย ถนนราชพฤกษ์ ขาเข้า,Car breakdown at Ratchaphruek Rd.,"ถนนราชพฤกษ์ ขาเข้า บน `สะพานข้ามคลองบางระมาด` มี (รถแท็กซี่ จอดเสีย) กีดขวางการจราจร เลนกลาง 
+
+Cr. JS100","Car breakdown blocking the middle lane on Khlong Bang Ramat Bridge on inbound Ratchaphruek Rd.
+
+Cr. JS100",13.773395600423,100.44379904866,1,2026-08-31 11:28:22,2026-08-31 12:28:22,itic.pacharasrung
+966055,รถเสีย ถนนบรมราชชนนี ขาเข้า,Car breakdown at Boromratchachonnani Rd.,"ถนนบรมราชชนนี ขาเข้า ก่อนถึง `ซอยทุ่งมังกร` ประมาณ 200 ม. มี (รถบรรทุก จอดเสีย) กีดขวางการจราจร เลนซ้าย ในช่องทางด่วน
+
+Cr.@Traffic_1197","Car breakdown blocking the left lane , 200 m. before Soi Thung Mangkon on inbound Borommaratchachonnani Rd.
+
+Cr.@Traffic_1197",13.781238067945,100.4281000793,1,2026-08-31 12:49:52,2026-08-31 13:49:52,itic.rattanakit
+966056,อุบัติเหตุ สวนหลวง,Accident at On Nut,เกิดอุบัติเหตุรถจักรยานยนต์ ที่ แขวงอ่อนนุช เขตสวนหลวง กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด,"Motorcycle accident at On Nut, Suan Luang, Bangkok.
+
+Cr.RVP",13.713343365145,100.61065122485,3,2026-08-31 12:49:00,2026-08-31 13:49:00,RVP
+966059,รถเสีย ซอยอารีย์สัมพันธ์ 2,Car breakdown at Soi Ari Samphan 2,"ซอยอารีย์สัมพันธ์ 2 มีรถแท็กซี่ จอดเสีย กีดขวางการจราจร เลนซ้าย
+
+Cr.FM91trafficpro","Car breakdown blocking the left lane in Soi Ari Samphan 2.
+
+Cr.FM91trafficpro",13.774095063872,100.53683683276,1,2026-08-31 13:47:24,2026-08-31 14:47:24,itic.rattanakit
+966060,รถเสีย ถนนนิคมมักกะสัน,Car breakdown at Nikhom Makkasan Rd.,"ถนนนิคมมักกะสัน หน้ากรมกิจการเด็กและเยาวชน มีรถนั่งส่วนบุคคล จอดเสีย กีดขวางการจราจร เลนซ้าย
+
+Cr.FM91trafficpro","Car breakdown blocking the left lane in front of Department of Children and Youth on Nikhom Makkasan Rd. 
+
+Cr.FM91trafficpro",13.754478032898,100.54382666945,1,2026-08-31 13:48:58,2026-08-31 14:48:58,itic.rattanakit
+966062,ฝนตก ถนนรามอินทรา,Raining at Rarm Inthra Rd.,"ถนนรามอินทรา ฝนตก
+
+Cr.FM91trafficpro","Raining on Ram Intra Rd.
+
+Cr.FM91trafficpro",13.835847989775,100.66558286548,5,2026-08-31 14:31:15,2026-08-31 15:31:15,itic.rattanakit
+966063,อุบัติเหตุ ถนนราชดำริ ขาเข้า,Accident at Ratchadamri Rd.,"ถนนราชดำริ ขาเข้า บริเวณหน้า `เซ็นทรัลเวิลด์` มีอุบัติเหตุ (รถนั่งส่วนบุคคล ชนกัน) กีดขวางการจราจร 2 เลนกลาง
+
+Cr.JS100","Cars accident blocking two middle lanes in front of Central World on inbound Ratchadamri Rd.
+
+Cr.JS100",13.746327233048,100.5404484272,3,2026-08-31 14:34:19,2026-08-31 15:34:19,itic.rattanakit
+966066,อุบัติเหตุ ปากซอยพิบูลสงคราม 14,Accident at Soi Phibunsongkhram 14,"ปากซอยพิบูลสงคราม 14 มีอุบัติเหตุ รถนั่งส่วนบุคคล ชนกับ รถจยย. กีดขวางการจราจร เลนกลาง บาดเจ็บ 1 คน
+
+Cr.JS100","Cars accident blocking the middle lane at the entrance of Soi Phibun Songkhram 14.
+
+Cr.JS100",13.82920541277,100.50193324685,3,2026-08-31 15:35:04,2026-08-31 16:35:04,itic.rattanakit
+966067,อุบัติเหตุ วัดท่าพระ,Accident at Charan Sanitwong Rd.,เกิดอุบัติเหตุรถจักรยานยนต์ ที่ ถนนจรัญสนิทวงศ์ แขวงวัดท่าพระ เขตบางกอกใหญ่ กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด,"Motorcycle accident on Charan Sanit Wong Rd.
+
+Cr.RVP",13.735076917763,100.47126084566,3,2026-08-31 15:00:00,2026-08-31 16:00:00,RVP
+966068,อุบัติเหตุ ถนนอาจณรงค์ ขาเข้า,Accident at Atnarong Rd.,"ถนนอาจณรงค์ ขาเข้า หน้าสถานีตรวจสอบสินค้า 3 มีอุบัติเหตุ รถบรรทุก ชนกับ รถจยย. กีดขวางการจราจร
+
+Cr.FM91trafficpro","Cars accident blocking traffic lane in front of Cargo Terminal 3 on inbound At Narong Rd.
+
+Cr.FM91trafficpro",13.708937000897,100.58210849762,3,2026-08-31 15:53:43,2026-08-31 16:53:43,itic.rattanakit
+966069,อุบัติเหตุ คลองต้นไทร,Accident at Somdet Phrachao Taksin Bridge,เกิดอุบัติเหตุรถจักรยานยนต์ ที่ สะพานสมเด็จพระเจ้าตากสิน แขวงคลองต้นไทร เขตคลองสาน กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด,"Motorcycle accident at Somdet Phra Chao Tak Sin Bridge.
+
+Cr.RVP",13.719643983604,100.51084756851,3,2026-08-31 15:31:00,2026-08-31 16:31:00,RVP
+966070,อุบัติเหตุ คลองต้นไทร,Accident at Somdet Phrachao Taksin Bridge,เกิดอุบัติเหตุรถจักรยานยนต์ ที่ สะพานสมเด็จพระเจ้าตากสิน แขวงคลองต้นไทร เขตคลองสาน กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด,"Motorcycle accident at Somdet Phra Chao Tak Sin Bridge.
+
+Cr.RVP",13.71947200867,100.5110219121,3,2026-08-31 15:34:00,2026-08-31 16:34:00,RVP
+966073,ฝนตก ถนนอโศกมนตรี,Raining at Asok Monti Rd.,"ถนนอโศกมนตรี ฝนตก
+
+Cr.FM91trafficpro","Raining on Asok Montri Rd.
+
+Cr.FM91trafficpro",13.740295693018,100.56196644902,5,2026-08-31 16:29:11,2026-08-31 17:29:11,itic.rattanakit
+966074,อุบัติเหตุ ถนนสาธุประดิษฐ์,Accident at Sathu Pradit Rd.,เกิดอุบัติเหตุรถจักรยานยนต์ ที่ ถนนสาธุประดิษฐ์ แขวงช่องนนทรี เขตยานนาวา กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด,"Cars accident on Sathu Pradit Rd. Chong Nonsi, Yan Nawa, Bangkok.
+
+Cr.RVP",13.688025838966,100.53340762854,3,2026-08-31 15:48:00,2026-08-31 16:48:00,RVP
+966075,อุบัติเหตุ คลองต้นไทร,Accident at Somdet Phrachao Taksin Bridge,เกิดอุบัติเหตุรถจักรยานยนต์ ที่ สะพานสมเด็จพระเจ้าตากสิน แขวงคลองต้นไทร เขตคลองสาน กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด,"Motorcycle accident at Somdet Phra Chao Tak Sin Bridge.
+
+Cr.RVP",13.719520213778,100.51157042384,3,2026-08-31 15:37:00,2026-08-31 16:37:00,RVP
+966077,ระวังสิ่งของตกหล่น ถนนประดิษฐ์มนูธรรม ขาออก,Warning at Pradit Manutham Rd.,"ถนนประดิษฐ์มนูธรรม ขาออก เชิงทางขึ้นสะพานข้ามคลองลาดพร้าว มีน้ำปูน ตกหล่น ในช่องทางขวา ผู้ใช้ทางโปรดระมัดระวัง
+
+Cr.JS100","Caution! fallen objects blocking the right lane on the way up to Khlong Lat Phrao Bridge on outbound Pradit Manutham Rd.
+
+Cr.JS100",13.760111910381,100.59613242745,12,2026-08-31 16:10:44,2026-08-31 17:10:44,itic.rattanakit
+966078,อุบัติเหตุ ถนนจตุรทิศ ขาออก,Accident at Chatura Thit.Rd,"ถนนจตุรทิศ ขาออก ก่อนลงอโศก-ดินแดง มีอุบัติเหตุ รถชนกัน กีดขวางการจราจร เลนขวา
+
+Cr.FM91trafficpro","Cars accident blocking the right lane before on the way down to Asok - Din Daeng on outbound Chaturathit Rd.
+
+Cr.FM91trafficpro",13.753309556241,100.56629016995,3,2026-08-31 17:11:02,2026-08-31 18:11:02,itic.rattanakit
+966086,อุบัติเหตุ ทางพิเศษเฉลิมมหานคร ขาออก,Accident at Chaloem Mahanakhon Exp.,"ทางพิเศษเฉลิมมหานคร (ด่วนขั้นที่ 1) ขาออก ช่วง `ทางลงสุขสวัสดิ์` มีอุบัติเหตุ (รถนั่งส่วนบุคคล ชนกัน) กีดขวางการจราจร เลนขวา
+
+Cr.JS100","Cars accident blocking the right lane on the way down to Suk Sawat on outbound Chaloem Mahanakhon Expressway.
+
+Cr.JS100",13.672846524738,100.51006838679,3,2026-08-31 17:54:35,2026-08-31 18:54:35,itic.rattanakit
+966087,ฝนตก ถนนสุรวงศ์,Raining at Surawong Rd.,"ถนนสุรวงศ์ ฝนตก
+
+Cr.FM91trafficpro","Raining on Surawong Rd.
+
+Cr.FM91trafficpro",13.728809283494,100.52792385221,5,2026-08-31 17:55:18,2026-08-31 18:55:18,itic.rattanakit
+966090,อุบัติเหตุ ถนนเพชรเกษม,Accident at Phet Kasem Rd.,"เกิดอุบัติเหตุรถจักรยานยนต์ ที่ ถนนเพชรเกษม แขวงหนองค้างพลู เขตหนองแขม กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Motorcycle accident blocking traffic lane on Phet Kasem Rd. Nong Khang Phlu Nong Khaem Bangkok.
+
+Cr.RVP",13.705713605801,100.34533381462,3,2026-08-31 17:49:00,2026-08-31 18:49:00,RVP
+966094,รถติด ถนนสุรวงศ์,Heavy traffic  at Surawong Rd.,"ถนนสุรวงศ์ ฝนตก รถติด เดินน่าจะเร็วกว่า 
+ 
+Cr. FM91trafficpro","Heavy traffic due to raining on Surawong Rd., so drivers should be careful.
+
+Cr. FM91trafficpro",13.726219324598,100.51954194903,10,2026-08-31 18:33:48,2026-08-31 19:33:48,itic.pacharasrung
+966095,รถติด ถนนพหลโยธิน ขาออก,Heavy traffic at Phahon Yothin Rd.,"ถนนพหลโยธิน ขาออก จากห้าแยกลาดพร้าว มุ่งหน้า แยกรัชโยธิน ไปแยกเกษตร รถหนาแน่น ฝนยังพรำๆ 
+
+Cr. FM91trafficpro","Heavy traffic due to raining on Phahon Yothin Rd., so drivers should be careful.
+
+Cr. FM91trafficpro",13.818233872162,100.56280061603,10,2026-08-31 18:37:12,2026-08-31 19:37:12,itic.pacharasrung
+966097,อุบัติเหตุ พระราม 2 ซอย 39,Accident at Rama II Soi 39,"เกิดอุบัติเหตุรถจักรยานยนต์ ที่ พระราม 2 ซอย 39 แขวงบางมด เขตจอมทอง กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Motorcycle accident blocking traffic lane on Rama II Soi 39. Bang Mot Chom Thong Bangkok.
+
+Cr.RVP",13.674337265603,100.45979306102,3,2026-08-31 18:10:00,2026-08-31 19:10:00,RVP
+966099,อุบัติเหตุ ถนนจอมทอง,Accident at Chom Thong Rd.,"เกิดอุบัติเหตุไม่ใช่รถจักรยานยนต์ ที่ ถนนจอมทอง แขวงบางค้อ เขตจอมทอง กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Cars accident blocking traffic lane on Chom Thong Rd. Bang Kho Chom Thong Bangkok.
+
+Cr.RVP",13.696407986741,100.47575756907,3,2026-08-31 18:28:00,2026-08-31 19:28:00,RVP
+966101,อุบัติเหตุ ถนนจอมทอง,Accident at Chom Thong Rd.,"เกิดอุบัติเหตุไม่ใช่รถจักรยานยนต์ ที่ ถนนจอมทอง แขวงจอมทอง เขตจอมทอง กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Cars accident blocking traffic lane on Chom Thong Rd. Chom Thong Chom Thong Bangkok.
+
+Cr.RVP",13.69639756299,100.47554433346,3,2026-08-31 18:28:00,2026-08-31 19:28:00,RVP
+966104,เพลิงไหม้ ซอยพหลโยธิน 40 แยก 2,Fire at Soi Phahon Yothin 40 Yaek 2,"เหตุเพลิงไหม้บ้านเรือนประชาชน ซอยพหลโยธิน 40 แยก 2 ถนนพหลโยธิน แขวงเสนานิคม เขตจตุจักร เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยบางเขน กำลังไปที่เกิดเหตุ
+
+Cr. ศูนย์วิทยุพระราม199","Fire on Soi Phahon Yothin 40 Yaek 2., Senanikom, Chatuchak, Bangkok.
+
+Cr. ศูนย์วิทยุพระราม199",13.844427975634,100.57875841856,15,2026-08-31 19:19:21,2026-08-31 20:19:21,itic.pacharasrung
+966105,รถติด ถนนพระราม 1,Heavy traffic at Rama I Rd.,"ถนนพระราม 1 จาก แยกราชประสงค์ มุ่งหน้า แยกเฉลิมเผ่า ไปแยกปทุมวัน รถหนาแน่นติดขัดหยุดนิ่ง ในเส้นทางมีฝนตก
+
+Cr. FM91trafficpro","Heavy traffic due to raining on Rama I Rd., so drivers should be careful.
+
+Cr. FM91trafficpro",13.745746231847,100.53346127272,10,2026-08-31 19:24:58,2026-08-31 20:24:58,itic.pacharasrung
+966116,ระวังปูนซีเมนต์ผสมเสร็จ ถนนประดิษฐ์มนูธรรม ขาออก,Warning at Pradit Manutham Rd.,"ถนนประดิษฐ์มนูธรรม ขาออก บริเวณเชิงทางขึ้นสะพานข้ามคลองลาดพร้าว ปูนซีเมนต์ผสมเสร็จหกราดบนถนน ในช่องทางกลาง  ถนนเปียกลื่น ขอให้ใช้ความระมัดระวัง
+
+Cr.อาสาร่วมด้วย 140","Caution cement fall on the way up to Khlong Lat Phrao Bridge on outbound Pradit Manutham Rd.
+
+Cr.อาสาร่วมด้วย 140",13.759329037486,100.59556916356,12,2026-08-31 20:30:13,2026-08-31 21:30:13,itic.pacharasrung
+966117,คืบหน้าเพลิงไหม้ ซอยพหลโยธิน 40 แยก 2,Fire at Soi Phahon Yothin 40 Yaek 2,"เหตุเพลิงไหม้บ้านเรือนประชาชน ซอยพหลโยธิน 40 แยก 2 เจ้าหน้าที่สถานีดับเพลิงและกู้ภัยบางเขน ขณะนี้เพลิงสงบ 
+
+Cr. ศูนย์วิทยุพระราม199","Update now fireman can control fire on Soi Phahon Yothin 40 Yaek 2., Senanikom, Chatuchak, Bangkok.
+
+Cr. ศูนย์วิทยุพระราม199",13.844391515596,100.57882815599,15,2026-08-31 20:32:35,2026-08-31 21:32:35,itic.pacharasrung
+966118,รถเสีย ถนนรัชดาภิเษก ขาออก,Car breakdown at Ratchada Phisek Rd.,"ถนนรัชดาภิเษก ขาออก มุ่งหน้า สะพานพระราม 7 ภายในอุโมงค์รัชโยธิน รถเก๋งจอดเสีย
+
+Cr. FM91trafficpro","Car breakdown blocking traffic lane on Ratchayothin Tunnel on outbound Ratchadaphisek Rd.
+
+Cr. FM91trafficpro",13.82664521583,100.5687135458,1,2026-08-31 20:34:39,2026-08-31 21:34:39,itic.pacharasrung
+966119,รถเสีย ถนนรัชดาภิเษก ขาออก,Car breakdown at Ratchada Phisek Rd.,"ถนนรัชดาภิเษก ขาออก บนต่างระดับรัชวิภา รถกระบะจอดเสีย จนท.เร่งเคลื่อนย้าย 
+
+Cr. FM91trafficpro","Car breakdown blocking traffic lane on Ratchawipha Interchange on outbound Ratchadaphisek Rd.
+
+Cr. FM91trafficpro",13.830635256182,100.55820465088,1,2026-08-31 20:36:45,2026-08-31 21:36:45,itic.pacharasrung
+966120,อุบัติเหตุ ถนนเอกชัย ขาออก,Accident at Ekkachai Rd.,"ถนนเอกชัยบางบอน ขาออก จากโค้งคอกม้า มุ่งหน้า วัดสิงห์ บริเวณ ซ.เอกชัย19 จยย.ล้มไม่ทราบคู่กรณี กีดขวางช่องทางซ้าย บาดเจ็บ 1 ราย การจราจรเคลื่อนตัวช้า
+
+Cr. JS100","Motorcycle accident blocking the left lane at Soi Ekkachai 19 area on outbound Ekkachai Rd. 
+
+Cr. JS100",13.692908186458,100.45546129346,3,2026-08-31 20:47:40,2026-08-31 21:47:40,itic.pacharasrung
+966122,อุบัติเหตุ หัวหมาก,Accident at Hua Mak,"เกิดอุบัติเหตุไม่ใช่รถจักรยานยนต์ ที่ แขวงหัวหมาก เขตบางกะปิ กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Cars accident blocking traffic lane in Hua Mak Bang Kapi Bangkok.
+
+Cr.RVP",13.76947231413,100.66110357642,3,2026-08-31 20:18:00,2026-08-31 21:18:00,RVP
+966126,อุบัติเหตุ ถนนศรีนครินทร์ ขาออก,Accident at Srinagarindra Rd.,"ถนนศรีนครินทร์ ขาออก เลย `ต่างระดับศรีราม` มีอุบัติเหตุ (รถนั่งส่วนบุคคล 2 คัน รถกระบะ 1 คัน ชนกัน) กีดขวางการจราจร เลนกลาง
+
+Cr.@Traffic_1197","Cars accident blocking the middle lane past Si-Ram Interchange on outbound Srinagarindra Rd.
+
+Cr.@Traffic_1197",13.74947842297,100.6445556879,3,2026-08-31 21:59:48,2026-08-31 22:59:48,itic.kittaya@gmail.com
+966127,อุบัติเหตุ ถนนรามคำแหง,Accident at Ramkhamhaeng Rd.,"ถนนรามคำแหง ขาออก หน้า `บิ๊กซี หัวหมาก` มีอุบัติเหตุ (จยย.ชนกับ รถตู้) กีดขวางการจราจร เลนขวา
+
+Cr.@Traffic_1197","Cars accident blocking the right lane in front of Big C Hua Mak on outbound Ramkhamhaeng Rd.
+
+Cr.@Traffic_1197",13.755320843544,100.61327978969,3,2026-08-31 22:01:27,2026-08-31 23:01:27,itic.kittaya@gmail.com
+966128,อุบัติเหตุ ถนนรามอินทรา ขาเข้า,Accident at Rarm Inthra Rd.,"ถนนรามอินทรา ขาเข้า ก่อนถึง `รพ.สินแพทย์` มีอุบัติเหตุ (จยย. ชนกับ รถนั่งส่วนบุคคล) กีดขวางการจราจร เลนที่ 2 จากขวา 
+
+Cr.@Traffic_1197","Cars accident blocking Channel 2 from the right lane before Synphaet Hospital on inbound Ram Inthra Rd. 
+
+Cr.@Traffic_1197",13.833967616702,100.66717877984,3,2026-08-31 22:02:18,2026-08-31 23:02:18,itic.kittaya@gmail.com
+966129,อุบัติเหตุ คู่ขนานลอยฟ้าบรมราชชนนี ขาออก,Accident at Elevated Borommaratchachonnani,"คู่ขนานลอยฟ้าบรมราชชนนี ขาออก เหนือ `เซ็นทรัลปิ่นเกล้า` มีอุบัติเหตุ (รถชนกัน 3 คัน) กีดขวางการจราจร เลนซ้าย, ขวา
+
+Cr.@Traffic_1197","Cars accident blocking the left and right lanes above Central Pinklao on outbound Elevated Borommaratchachonnani.
+
+Cr.@Traffic_1197",13.77848196752,100.47699809074,3,2026-08-31 22:02:54,2026-08-31 23:02:54,itic.kittaya@gmail.com
+966130,เหตุสั่นสะเทือนระดับปานกลางในพื้นที่ แขวงบางนาใต้,Moderate Seismic Event on Bangna,"ตรวจพบเหตุสั่นสะเทือนปานกลาง (แผ่นดินไหวหรือเหตุการณ์ที่คล้ายคลึงกัน) ในพื้นที่ แขวงบางนาใต้, เขตบางนา, กรุงเทพมหานคร โดยมีค่าความเร่งสูงสุดอยู่ที่ 0.747320 m/s²
+            
+            ที่มา: RUGON","Detected a moderate shaking event (earthquake or similar) on Bangna, Tai, Bang, Na, Bangkok, with a peak acceleration of 0.747320 m/s².
+            
+            Source: RUGON",13.67,100.6,20,2026-08-31 23:10:02,2026-09-01 00:10:02,rugon
+966131,อุบัติเหตุ ลาดพร้าว,Accident at Satri Witthaya  Rd.,"เกิดอุบัติเหตุรถจักรยานยนต์ ที่ ถนนสตรีวิทยา แขวงลาดพร้าว เขตลาดพร้าว กรุงเทพมหานคร ข้อมูลจาก บริษัท กลางคุ้มครองผู้ประสบภัยจากรถ จำกัด
+
+Cr.RVP","Motorcycle accident on Satri Witthaya Rd., Lat Phrao, Lat Phrao, Bangkok.
+
+Cr.RVP",13.821166612331,100.60899496078,3,2026-08-31 22:48:00,2026-08-31 23:48:00,RVP
+966132,คืบหน้าอุบัติเหตุ ถนนศรีนครินทร์ ขาออก,Accident at Srinagarindra Rd.,"ถนนศรีนครินทร์ ขาออก เลย `ต่างระดับศรีราม` ก่อนหน้านี้ มีอุบัติเหตุ (รถนั่งส่วนบุคคล 2 คัน รถกระบะ 1 คัน ชนกัน) ล่าสุด จนท.เคลื่อนย้ายพ้นกีดขวางแล้ว
+
+Cr.@Traffic_1197","Update car accident was moved out of locale past Si-Ram Interchange on outbound Srinagarindra Rd.
+
+Cr.@Traffic_1197",13.749483633666,100.64456105232,3,2026-08-31 23:52:40,2026-09-01 00:52:40,itic.kittaya@gmail.com
+966133,คืบหน้าอุบัติเหตุ ถนนรามคำแหง ขาออก,Accident at Ramkhamhaeng Rd.,"ถนนรามคำแหง ขาออก หน้า `บิ๊กซี หัวหมาก` ก่อนหน้านี้ มีอุบัติเหตุ (จยย.ชนกับ รถตู้) ล่าสุด จนท.เคลื่อนย้ายพ้นกีดขวางแล้ว
+
+Cr.@Traffic_1197","Update car accident was moved out of locale in front of Big C Hua Mak on outbound Ramkhamhaeng Rd.
+
+Cr.@Traffic_1197",13.75532605411,100.61328113079,3,2026-08-31 23:53:07,2026-09-01 00:53:07,itic.kittaya@gmail.com
+966134,คืบหน้าอุบัติเหตุ ถนนรามอินทรา ขาเข้า,Accident at Rarm Inthra Rd.,"ถนนรามอินทรา ขาเข้า ก่อนถึง `รพ.สินแพทย์` ก่อนหน้านี้ มีอุบัติเหตุ (จยย. ชนกับ รถนั่งส่วนบุคคล) ล่าสุด จนท.เคลื่อนย้ายพ้นกีดขวางแล้ว
+
+Cr.@Traffic_1197","Update car accident was moved out of locale before Synphaet Hospital on inbound Ram Inthra Rd.
+
+Cr.@Traffic_1197",13.833965012297,100.6671653688,3,2026-08-31 23:53:30,2026-09-01 00:53:30,itic.kittaya@gmail.com
+966135,คืบหน้าอุบัติเหตุ คู่ขนานลอยฟ้าบรมราชชนนี ขาออก,Accident at Elevated Borommaratchachonnani,"คู่ขนานลอยฟ้าบรมราชชนนี ขาออก เหนือ `เซ็นทรัลปิ่นเกล้า` ก่อนหน้านี้ มีอุบัติเหตุ (รถชนกัน 3 คัน) ล่าสุด จนท.เคลื่อนย้ายพ้นกีดขวางแล้ว
+
+Cr.@Traffic_1197","Update car accident was moved out of locale above Central Pinklao area on outbound Elevated Borommaratchachonnani.
+
+Cr.@Traffic_1197",13.778494992646,100.47699272633,3,2026-08-31 23:53:54,2026-09-01 00:53:54,itic.kittaya@gmail.com

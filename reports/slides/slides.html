@@ -144,16 +144,17 @@
 <!-- 3 Data -->
 <section class="slide">
   <div class="kicker">1 · Data</div>
-  <h2>One CCTV dataset plus three outside sources and our own labels</h2>
+  <h2>One CCTV dataset plus four outside sources (3 APIs + Playwright) &amp; labels</h2>
   <table>
-    <tr><th style="width:230px">Source</th><th style="width:210px">How we got it</th><th>What it adds</th></tr>
+    <tr><th style="width:225px">Source</th><th style="width:205px">How we got it</th><th>What it adds</th></tr>
     <tr><td>BMA CCTV images</td><td>Provided (scraped)</td><td>100 cameras, 25–31 Aug 2026, 61,319 raw → 60,053 audited snapshots (~1 / 10 min, 352×288 px)</td></tr>
+    <tr><td>Longdo Traffic</td><td>Playwright (headless)</td><td>Interactive SPA road events + 2026 archive (416 BKK study-week events, 228 accidents) &amp; 5-min Bangkok Traffic Index</td></tr>
     <tr><td>Open-Meteo archive</td><td>REST API</td><td>Hourly modelled rainfall at each camera's coordinates → rain level per snapshot (lag 0, 1 h, 2 h)</td></tr>
-    <tr><td>OpenStreetMap</td><td>Overpass API (QL)</td><td>Nearest road: class, lanes, speed limit, one-way, bridge; traffic signals (100 m / 500 m), schools, hospitals, malls, rail stations &amp; bus stops within 500 m</td></tr>
+    <tr><td>OpenStreetMap</td><td>Overpass API (QL)</td><td>Nearest road class, lanes, bridges; traffic signals (100 m / 500 m), schools, hospitals, malls &amp; rail stations within 500 m</td></tr>
     <tr><td>sunrise-sunset.org</td><td>REST API</td><td>Sunrise, sunset, civil twilight per day → day / twilight / night label per snapshot</td></tr>
     <tr><td>Team hand labels</td><td>Our labelling web app</td><td>1,000 frames counted by 5 people (199 counted twice) → ground truth for detector selection &amp; calibration</td></tr>
   </table>
-  <p style="margin-top:18px; font-size:17px">All API responses are cached in <code>data/raw/external/</code>, so the whole 12-step pipeline re-runs offline.</p>
+  <p style="margin-top:14px; font-size:16.5px">All external responses &amp; Playwright caches live in <code>data/raw/external/</code>, so the 14-step pipeline re-runs offline.</p>
   <div class="page">3</div>
 </section>
 
@@ -165,9 +166,9 @@
     <div class="lane">
       <div class="lane-t">Sources</div>
       <div class="box src"><b>CCTV images</b>61.3k JPEGs, 100 cams</div>
-      <div class="box src"><b>Open-Meteo</b>hourly rain grid</div>
+      <div class="box src"><b>Longdo Traffic</b>Playwright events &amp; index</div>
+      <div class="box src"><b>Open-Meteo &amp; sun</b>hourly rain &amp; light phase</div>
       <div class="box src"><b>OpenStreetMap</b>roads, signals, POIs</div>
-      <div class="box src"><b>sunrise-sunset</b>light phase</div>
       <div class="box src"><b>Hand labels</b>1,000 frames</div>
     </div>
     <div class="arrow">→</div>
@@ -176,20 +177,20 @@
       <div class="de-grid">
         <div class="box de"><b>inventory &amp; audit</b>timestamps, blank/whiteout &amp; watermark-frozen feed check</div>
         <div class="box de"><b>detect</b>YOLO11-L vehicle boxes &amp; counts per class</div>
-        <div class="box de"><b>weather · osm · daylight</b>fetch, cache, join to camera &amp; hour</div>
+        <div class="box de"><b>weather · osm · daylight · longdo</b>3 APIs + Playwright SPA scrape, cache &amp; join</div>
         <div class="box de"><b>mart</b>clean parquet tables for dashboard &amp; insights</div>
         <div class="box ds"><b>bake-off &amp; rain</b>calibration, excess over usual, DiD &amp; LODO checks</div>
-        <div class="box ds"><b>dna · shocks · insights</b>clustering, |z|≥2.5 shocks, tidal flow, Mantel sync</div>
+        <div class="box ds"><b>dna · shocks · insights · longdo_val</b>clustering, shocks, tidal, Mantel &amp; Longdo validation</div>
       </div>
-      <div class="orch"><b>cctv.pipeline</b> runs 12 incremental steps in order and skips any whose outputs are newer than their inputs
-        <div class="flow"><span>inventory</span><i>→</i><span>audit</span><i>→</i><span>detect</span><i>→</i><span>weather</span><i>→</i><span>osm</span><i>→</i><span>daylight</span><i>→</i><span>rain</span><i>→</i><span>dna</span><i>→</i><span>shocks</span><i>→</i><span>insights</span><i>→</i><span>charts</span><i>→</i><span>mart</span></div>
+      <div class="orch"><b>cctv.pipeline</b> runs 14 incremental steps in order and skips any whose outputs are newer than their inputs
+        <div class="flow"><span>inventory</span><i>→</i><span>audit</span><i>→</i><span>detect</span><i>→</i><span>weather</span><i>→</i><span>osm</span><i>→</i><span>daylight</span><i>→</i><span>longdo</span><i>→</i><span>rain</span><i>→</i><span>dna</span><i>→</i><span>shocks</span><i>→</i><span>insights</span><i>→</i><span>longdo_val</span><i>→</i><span>charts</span><i>→</i><span>mart</span></div>
       </div>
     </div>
     <div class="arrow">→</div>
     <div class="lane">
       <div class="lane-t">Component 3 &amp; 4</div>
       <div class="box bi" style="flex:1"><b>8-tab Streamlit dashboard</b>overview · map · rain · OSM · DNA · corridors · audit · explorer</div>
-      <div class="box bi" style="flex:1"><b>Insights</b>8 figures + report: DNA, rain DiD, tidal pairs, spillover, shocks</div>
+      <div class="box bi" style="flex:1"><b>Insights</b>9 figures + report: DNA, rain DiD, tidal, spillover, shocks &amp; Longdo</div>
     </div>
   </div>
   <div class="page">4</div>
@@ -205,13 +206,13 @@
         <li><b>Timestamps</b> parsed from the filename, then EXIF; camera/hour cells with <b>&lt; 3 snapshots</b> dropped.</li>
         <li><b>Stage-1 Feed Audit</b> removed <b>1,086 bad frames</b> from 61,319: <b>507 blank</b> (504 morning whiteouts) + <b>579 frozen</b> whose moving watermark tricked MD5 (center MAD &lt; 1.0).</li>
         <li><b>Audit payoff:</b> cleaned heavy-rain gap strengthens from <b>+3.7 → +5.6 pts</b>, DNA ARI improves <b>0.85 → 0.92</b>, and Camera 206's weekend slump corrects cleanly (95 frozen frames dropped).</li>
-        <li><b>Outside data</b> joined on camera coordinates + hour; road attributes, bridges and signal proximity from OSM.</li>
+        <li><b>Outside data</b> combines 3 REST/Overpass APIs plus a headless <b>Playwright</b> scraper for Longdo Traffic road incidents &amp; 5-min Bangkok Traffic Index.</li>
       </ul>
     </div>
     <div class="col" style="gap:14px">
-      <div class="card"><h3>Reproducible</h3><p style="font-size:16.5px"><code>uv run python -m cctv.pipeline</code> runs the 12-step DAG and rebuilds only what is out of date; <code>--dry-run</code> previews the plan.</p></div>
+      <div class="card"><h3>Reproducible</h3><p style="font-size:16.5px"><code>uv run python -m cctv.pipeline</code> runs the 14-step DAG and rebuilds only what is out of date; <code>--dry-run</code> previews the plan.</p></div>
       <div class="card"><h3>Resumable detection</h3><p style="font-size:16.5px">YOLO runs at ~10 images/s on an Apple GPU and resumes from checkpoints cleanly.</p></div>
-      <div class="card"><h3>Tested (30 tests)</h3><p style="font-size:16.5px">30 pytest tests cover timestamps, OSM, daylight, labelling, DNA stability, blank/frozen detection, shocks, DiD, tidal flips &amp; Mantel sync.</p></div>
+      <div class="card"><h3>Tested (32 tests)</h3><p style="font-size:16.5px">32 pytest tests cover timestamps, OSM, daylight, Playwright Longdo parsing, DNA stability, blank/frozen detection, shocks, DiD, tidal flips &amp; Mantel sync.</p></div>
     </div>
   </div>
   <div class="page">5</div>
@@ -422,7 +423,20 @@
   <div class="page">19</div>
 </section>
 
-<!-- 20 Dashboard -->
+<!-- 20 NEW: Finding 8 - Longdo Traffic Cross-Validation & Accident Risk -->
+<section class="slide">
+  <div class="kicker">Finding 8 · Longdo Traffic cross-validation (Playwright)</div>
+  <h2 style="font-size:31px">Longdo probes prove wet-night glare &amp; expose 3.1× accident risk on bridges</h2>
+  <div class="figbox" style="flex:1.15"><img src="../figures/longdo_validation.png" alt="CCTV vs Longdo Traffic Index and 2026 bridge accident risk"></div>
+  <div class="takeaways">
+    <div class="card"><h3>Dry vs. wet sensor proof</h3><p>CCTV tracks Longdo's GPS-probe index strongly in dry hours (<b>ρ=0.88</b>) but halves in rain (<b>ρ=0.44</b>). On Mon 31 Aug eve, Longdo rises <b>+11.1% (6.15)</b> while CCTV drops <b>−17.7%</b> — proving glare.</p></div>
+    <div class="card"><h3>Bridges = 3.1× accident risk</h3><p>Bridges average <b>64.9 accidents/yr</b> (≤500 m) vs <b>21.0</b> on surface (<b>ρ=0.34, p&lt;0.001</b>). Traffic DNA separates 2026 road events (KW <b>p=0.027</b>); Mahai Sawan (167/yr) &amp; Wat Suwan (66/yr) are also tidal corridors.</p></div>
+    <div class="card"><h3>11 shock–incident matches</h3><p><b>11 CCTV shocks (|z|≥2.5)</b> match Longdo incidents ≤1 km, ±1 h — Rama 9 (76 m, −48.8%), Phayathai (109 m, −48.5%), Phyathai 2 (671 m, +82.2%); signed means cancel (−1.1%, p=0.64).</p></div>
+  </div>
+  <div class="page">20</div>
+</section>
+
+<!-- 21 Dashboard -->
 <section class="slide">
   <div class="kicker">Component 3 · BI dashboard</div>
   <h2>Explore every camera, DNA archetype, tidal pair and snapshot yourself</h2>
@@ -435,41 +449,41 @@
     </div>
   </div>
   <p style="font-size:14.5px; margin-top:10px"><b>8 Tabs:</b> overview · map · rain vs congestion · road context (OSM) · traffic DNA · vulnerability &amp; corridors · anomalies &amp; CCTV audit · camera explorer. Filters: dates, day type, light phase, road class. <code>uv run streamlit run src/cctv/dashboard.py</code></p>
-  <div class="page">20</div>
+  <div class="page">21</div>
 </section>
 
-<!-- 21 Limitations -->
+<!-- 22 Limitations -->
 <section class="slide">
   <div class="kicker">Limits</div>
   <h2>A well-checked case study — honest about sample size &amp; power</h2>
   <div class="row">
     <div class="col">
       <ul style="font-size:18.5px">
-        <li><b>One week (445 heavy-rain snapshots):</b> sufficient for the main +5.6 pt effect and Mantel test, but widens interaction DiD CIs (signal/bridge p=0.11–0.16) and restricts per-link day-block FDR power (7 blocks).</li>
+        <li><b>One week (445 heavy-rain snapshots):</b> sufficient for the main +5.6 pt effect, Mantel test, and Longdo index validation, but widens interaction DiD CIs (p=0.11–0.16) and restricts per-link day-block FDR power.</li>
         <li><b>Area-level hourly rain:</b> Open-Meteo is gridded and averages short downpours over the full hour.</li>
-        <li><b>Counts ≠ speed:</b> more vehicles can signal slower queues or higher throughput; 10-min snapshots cannot measure speed directly.</li>
+        <li><b>Counts ≠ speed &amp; wet-night glare:</b> Longdo probes confirm YOLO loses recall in wet evening glare; 10-min snapshots cannot measure speed directly.</li>
         <li><b>Imperfect human labels &amp; lens blur:</b> human disagreement averages 2.7 vehicles/frame.</li>
       </ul>
     </div>
     <div class="col" style="flex:.85; gap:14px">
-      <div class="card"><h3>Next steps</h3><p style="font-size:16.5px">Extend scraping across a full monsoon season with TMD rain gauges to unlock per-corridor FDR power; pilot AM/PM reversible-lane &amp; signal-timing adjustments on Ratchadaphisek (224–225, 124–125) and Silom–Naradhiwas (603–604).</p></div>
+      <div class="card"><h3>Next steps</h3><p style="font-size:16.5px">Extend scraping across a full monsoon season with TMD rain gauges; fuse Longdo GPS probes with CCTV to correct wet-night glare; pilot tidal lanes on Ratchadaphisek &amp; Mahai Sawan.</p></div>
     </div>
   </div>
-  <div class="page">21</div>
+  <div class="page">22</div>
 </section>
 
-<!-- 22 Wrap-up -->
+<!-- 23 Wrap-up -->
 <section class="slide">
   <div class="kicker">Summary</div>
   <h2>What we built and what we learned</h2>
   <div class="row" style="gap:20px">
-    <div class="card col"><h3>Data engineering</h3><p style="font-size:16px">Audited 61.3k frames down to 60,053 usable snapshots (−1,086 blank/frozen), YOLO11-L + 3 APIs in a 12-step pipeline with 30 pytest tests.</p></div>
-    <div class="card col"><h3>Data science</h3><p style="font-size:16px">1,000 hand labels, cross-fitted calibration, Traffic DNA (ARI 0.92), cluster-bootstrap DiD, 5,000-perm tidal asymmetry, Mantel sync &amp; FDR.</p></div>
+    <div class="card col"><h3>Data engineering</h3><p style="font-size:16px">Audited 61.3k frames down to 60,053 usable snapshots (−1,086 blank/frozen), YOLO11-L + 3 APIs + Playwright Longdo scraper in a 14-step DAG (32 pytest tests).</p></div>
+    <div class="card col"><h3>Data science</h3><p style="font-size:16px">1,000 hand labels, cross-fitted calibration, Traffic DNA (ARI 0.92), cluster-bootstrap DiD, 5,000-perm tidal asymmetry, Mantel sync &amp; Longdo validation.</p></div>
     <div class="card col"><h3>Dashboard</h3><p style="font-size:16px">8-tab Streamlit app covering maps, OSM context, DNA clusters, tidal pairs, spatial links, shocks and raw frame inspection.</p></div>
-    <div class="card col"><h3>Key insights</h3><p style="font-size:16px"><b>Heavy rain → +5.6 pts</b> (signals +10.1, surface +6.6). <b>3 road archetypes.</b> <b>7/21 FDR tidal corridors</b> (5/5 days on Ratchada). <b>≤1 km</b> spillover. <b>262 shocks</b>.</p></div>
+    <div class="card col"><h3>Key insights</h3><p style="font-size:16px"><b>Heavy rain → +5.6 pts</b> (signals +10.1). <b>3 DNA archetypes.</b> <b>7/21 FDR tidal corridors.</b> <b>≤1 km</b> spillover. <b>Longdo:</b> dry ρ=0.88 → wet 0.44; bridges <b>3.1×</b> accidents.</p></div>
   </div>
   <p style="margin-top:28px; font-size:17px">Code, slides and video: see the Google Drive link on myCourseVille. Thank you!</p>
-  <div class="page">22</div>
+  <div class="page">23</div>
 </section>
 
 </body>
